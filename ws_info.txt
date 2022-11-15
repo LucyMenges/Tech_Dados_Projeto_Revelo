@@ -2,6 +2,7 @@
 - https://www.youtube.com/watch?v=y7OhuSGBt8o
 - https://colab.research.google.com/drive/1wmbrrfEbwvRQ7vDUSaEH4nPplTFuAPgd
 - https://realpython.com/beautiful-soup-web-scraper-python/
+- https://lazarinastoy.com/the-ultimate-guide-to-pytrends-google-trends-api-with-python/
 
 
 # bibliotecas
@@ -10,12 +11,15 @@
 - pip install --upgrade requests
 - pip install --upgrade beautifulsoup4
 
+# Programa para documentação
+https://pypi.org/project/oxygen/
+
 # sites para busca
 - https://www.vagas.com.br/
 - https://br.indeed.com/
 
-# demandas web scraping 
-- cargo
+# demandas primeiro web scraping 
+- cargo: Analista de dados
 - cidade
 - uf
 - empresa
@@ -23,3 +27,48 @@
 - habilidades
 - ferramentas
 - data de publicaÃ§Ã£o do anÃºncio
+
+
+
+# Momento1 - Qual o melhor momento para salvar o resultado? um arquivo .csv/.xmls (duas abas)
+
+
+# Fazer o tratamento das informações coletadas
+
+# Agrupamento das habilidades - Top 10
+
+# Momento2 - Qual o melhor momento para salvar o resultado? um arquivo .csv/.xmls(duas abas)
+
+
+# Conexão com a API - GOOGLE TRENDS
+
+-- Utilização da biblioteca 
+https://pypi.org/project/pytrends/
+
+-- pip install 
+
+# Demandas para o Google Trends:
+
+What data can you pull with the Google Trends API? 
+
+Related to a particular keyword you provide to the API, you can pull the following data:
+
+    Interest Over Time
+    Historical Hourly Interest
+    Interest by Region
+    Related Topics
+    Related Queries
+    Trending Searches
+    Top Charts
+    Keyword Suggestions
+
+We will explore the different methods that are available in the API for pulling this data in a bit, alongside how the syntax for each of these methods looks like.
+
+
+# Momento3 - Qual o melhor momento para salvar o resultado? um arquivo .csv/.xmls(duas abas)
+-- geração de um resultado
+
+# Conexão com o Power BI direto (?)
+
+# Visualização dos dados no Power BI, graficos, etc
+# Apresentação dos dados para o Scrum Review
