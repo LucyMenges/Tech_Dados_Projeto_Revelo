@@ -1,1 +1,3 @@
 teste git desktop
+
+Selenium (usamos o Chromedriver para Google Chrome e o Geckodriver para Firefox)
