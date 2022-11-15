@@ -1,3 +1,10 @@
 teste git desktop
 
 Selenium (usamos o Chromedriver para Google Chrome e o Geckodriver para Firefox)
+
+## olá teste
+
+# instalação do selenium
+
+pip install --upgrade selenium
+
