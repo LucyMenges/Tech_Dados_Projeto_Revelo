@@ -1,0 +1,25 @@
+# links referência
+- https://www.youtube.com/watch?v=y7OhuSGBt8o
+- https://colab.research.google.com/drive/1wmbrrfEbwvRQ7vDUSaEH4nPplTFuAPgd
+- https://realpython.com/beautiful-soup-web-scraper-python/
+
+
+# bibliotecas
+- pip install --upgrade selenium
+    selenium (usamos o Chromedriver para Google Chrome e o Geckodriver para Firefox)
+- pip install --upgrade requests
+- pip install --upgrade beautifulsoup4
+
+# sites para busca
+- https://www.vagas.com.br/
+- https://br.indeed.com/
+
+# demandas web scraping 
+- cargo
+- cidade
+- uf
+- empresa
+- salário
+- habilidades
+- ferramentas
+- data de publicação do anúncio
