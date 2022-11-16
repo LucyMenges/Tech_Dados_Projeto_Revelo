@@ -15,4 +15,5 @@ Aqui, você irá atuar em time, criar robôs em web scrapping para ler esses dad
 Estrutura no Github:
 * ws_info.txt: Informações e estrutura geral do projeto.
 * ws_script.py: Script final
+* Sprint Planing 3.pdf: backlog´s demandados pelo Product Owner e descrição dos sprints semanais.
 
