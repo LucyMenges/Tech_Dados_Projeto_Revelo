@@ -1,4 +1,4 @@
-# links refer√™ncia
+# links refer√É¬™ncia
 - https://www.youtube.com/watch?v=y7OhuSGBt8o
 - https://colab.research.google.com/drive/1wmbrrfEbwvRQ7vDUSaEH4nPplTFuAPgd
 - https://realpython.com/beautiful-soup-web-scraper-python/
@@ -11,7 +11,7 @@
 - pip install --upgrade requests
 - pip install --upgrade beautifulsoup4
 
-# Programa para documentaÁ„o
+# Programa para documenta√ß√£o
 https://pypi.org/project/oxygen/
 
 # sites para busca
@@ -23,26 +23,26 @@ https://pypi.org/project/oxygen/
 - cidade
 - uf
 - empresa
-- sal√°rio
+- sal√É¬°rio
 - habilidades
 - ferramentas
-- data de publica√ß√£o do an√∫ncio
+-- data de publica√ß√£o do an√∫ncio
 
 
 
 # Momento1 - Qual o melhor momento para salvar o resultado? um arquivo .csv/.xmls (duas abas)
 
 
-# Fazer o tratamento das informaÁıes coletadas
+# Fazer o tratamento das informa√ß√µes coletadas
 
 # Agrupamento das habilidades - Top 10
 
 # Momento2 - Qual o melhor momento para salvar o resultado? um arquivo .csv/.xmls(duas abas)
 
 
-# Conex„o com a API - GOOGLE TRENDS
+# Conex√£o com a API - GOOGLE TRENDS
 
--- UtilizaÁ„o da biblioteca 
+-- Utiliza√ß√£o da biblioteca 
 https://pypi.org/project/pytrends/
 
 -- pip install 
@@ -66,9 +66,9 @@ We will explore the different methods that are available in the API for pulling 
 
 
 # Momento3 - Qual o melhor momento para salvar o resultado? um arquivo .csv/.xmls(duas abas)
--- geraÁ„o de um resultado
+-- gera√ß√£o de um resultado
 
-# Conex„o com o Power BI direto (?)
+# Conex√£o com o Power BI direto (?)
 
-# VisualizaÁ„o dos dados no Power BI, graficos, etc
-# ApresentaÁ„o dos dados para o Scrum Review
+# Visualiza√ß√£o dos dados no Power BI, graficos, etc
+# Apresenta√ß√£o dos dados para o Scrum Review
