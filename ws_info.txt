@@ -10,6 +10,7 @@
     selenium (usamos o Chromedriver para Google Chrome e o Geckodriver para Firefox)
 - pip install --upgrade requests
 - pip install --upgrade beautifulsoup4
+- pip install pytrends
 
 # Programa para documentação
 https://www.doxygen.nl/index.html
@@ -43,11 +44,6 @@ https://pypi.org/project/oxygen/
 
 
 # Conexão com a API - GOOGLE TRENDS
-
--- Utilização da biblioteca 
-https://pypi.org/project/pytrends/
-
--- pip install 
 
 # Demandas para o Google Trends:
 
