@@ -3,6 +3,8 @@
 Created on Fri Nov 18 19:58:22 2022
 
 @author: rapha
+
+base: https://www.youtube.com/@Pythonenthusiast
 """
 
 # pytrend precisa de algumas lib para rodar:
@@ -13,28 +15,69 @@ pip install lxml # As an XML library, lxml is often used under the hood of in-ho
 pip install pandas
 '''
 
-
 from pytrends.request import TrendReq
 import pandas as pd
 
+## chamar a lib e setar os argumentos:
+# solicitar e definir a linguagem, 'en-US', 'pt-BR'.
+pytrends = TrendReq(hl='pt-BR')
 
-pytrend = TrendReq(hl='pt-BR')
+# montar lista de palavras que vamos analisar. Nomalmente o google trends limitaria em até 5 correlações entre as palavra, mas vamos expandir isso...
+all_keywords = ['SQL', 'Python',
+                'DBeaver', 'Power BI',
+                'Pandas', 'Data Analist']
 
-kw_list = []
+# palavra que vai para dentro da funcao check_trends()
+keywords = []
 
-cat = 0
+# qual o periodo de tempo que iremos buscar no passado.
+timeframe = ['all', 'today 5-y', 'today 12-m',
+             'today 3-m', 'today 1-m', 'now 7-d',
+             'now 1-d']
 
-timeframe = 'today 5-y'
+# se vamos ou nao solicitar uma categoria especial, cat = '0' All Categories; cat = '8'' Games, etc.
+cat = '0'
 
-geo = ''
+# se vamos optar em regiao do globo em especifico, .
+geo = ['', 'BR', 'US']
 
-gprop=''
+# se vamos buscar em algum lugar especifico dentro do google, como websearch (defaut), youtube, news, shopping e etc.
+gprop = ''
 
-pytrends.build_payload(kw_list,
-                       cat,
-                       timeframe,
-                       geo, 
-                       gprop)
+def check_trends():
+    # funcao para correr o interest_over_time
+    pytrends.build_payload(keywords, cat, timeframe[2], geo[1], gprop)
+    data = pytrends.interest_over_time()
+    
+    print(data)
+
+# para correr cada palavra inserida na lista em separado 
+for kw in all_keywords:
+    keywords.append(kw)
+    check_trends()
+    keywords.pop()
 
 
-df = pd.DataFrame(keywords)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
