@@ -20,7 +20,7 @@ import pandas as pd
 
 ## chamar a lib e setar os argumentos:
 # solicitar e definir a linguagem, 'en-US', 'pt-BR'.
-pytrends = TrendReq(hl='pt-BR')
+pytrends = TrendReq(hl='pt-BR', timeout=(10,25), retries=2)
 
 # montar lista de palavras que vamos analisar. Nomalmente o google trends limitaria em até 5 correlações entre as palavra, mas vamos expandir isso...
 all_keywords = ['SQL', 'Python',
