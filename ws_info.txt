@@ -51,11 +51,11 @@ What data can you pull with the Google Trends API?
 
 Related to a particular keyword you provide to the API, you can pull the following data:
 
-    Interest Over Time
+    Interest Over Time - Ok
     Historical Hourly Interest
-    Interest by Region
-    Related Topics
-    Related Queries
+    Interest by Region - Ok
+    Related Topics - Ok 
+    Related Queries - Ok 
     Trending Searches
     Top Charts
     Keyword Suggestions
