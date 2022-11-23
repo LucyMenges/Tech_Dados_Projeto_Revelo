@@ -57,7 +57,7 @@ Related to a particular keyword you provide to the API, you can pull the followi
     Related Topics - Ok 
     Related Queries - Ok 
     Trending Searches - É em realtime, valeu a pena?
-    Top Charts 
+    Top Charts - Global, independente da keyword
     Keyword Suggestions
 
 We will explore the different methods that are available in the API for pulling this data in a bit, alongside how the syntax for each of these methods looks like.
