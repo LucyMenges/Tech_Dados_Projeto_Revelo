@@ -4,14 +4,21 @@ Created on Fri Nov 18 19:58:22 2022
 
 @author: rapha
 
+"""
+## @package check_trends
+# Metodo para utilizar a lib PyTrends para analisar 
+
+# @param kw: Palavra chave coletada para ser analizada no Google Trends
+'''
 references:
     https://trends.google.com/
     https://pypi.org/project/pytrends/#api-methods
     https://www.youtube.com/@Pythonenthusiast
     https://lazarinastoy.com/the-ultimate-guide-to-pytrends-google-trends-api-with-python/
-"""
+'''
 
-# pytrend precisa das seguintes libs:
+
+# Bibliotecas que pytrend precisa das seguintes libs:
 '''
 pip install pytrends # Unofficial API for Google Trends.
 pip install requests # Requests is a simple, yet elegant, HTTP library.
@@ -24,7 +31,7 @@ from pytrends.request import TrendReq
 # vamos definir a linguagem, 'en-US', 'pt-BR' e regra de conexao.
 pytrends = TrendReq(hl='pt-BR', timeout=(30, 60), retries=2)
 
-# vamos montar lista de palavras que vamos analisar. Nomalmente o google trends limitaria de 1 até 5 palavra, mas vamos expandir isso...
+# vamos montar lista de palavras que vamos analisar. Nomalmente o google trends limitaria de 1 até 5 palavra, mas podemos expandir isso...
 keywords_list = ['SQL', 'Python',
                  'Power BI', 'Pandas']
 
@@ -57,9 +64,9 @@ inc_geo_code = [True, False]
 
 
 def check_trends(kw):
-    # o payload:
+    # carregando payload:
     pytrends.build_payload([kw], cat, timeframe[2], geo[1], gprop)
-    # definindo funcoes da lib pytrends:
+    # carregando as funcoes da lib:
     data_it = pytrends.interest_over_time()
     data_ir = pytrends.interest_by_region(resolution[0],
                                           inc_low_vol[1],
@@ -67,7 +74,7 @@ def check_trends(kw):
     data_rt = pytrends.related_topics()
     data_rq = pytrends.related_queries()
     return data_it, data_ir, data_rt, data_rq
-
+    # @return 
 
 # para ciclar cada kw inserida na keywords_list, extrair resultado como df e inserir no data_dict
 for kw in keywords_list:
