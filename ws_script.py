@@ -2,6 +2,7 @@
 
 # Created on Tue Nov 15 17:57:48 2022
 # @authors: Luciana Lanzoni Menges e Rafael Cespedes
+# -*- coding: utf-8 -*-
 
 # Projeto:
     #Coletar informações em determinado site e criar associação com API e gerar resultado para análise.
@@ -16,8 +17,6 @@
 ### https://www.vagas.com.br/
 ### https://br.indeed.com/
 
-# -*- coding: utf-8 -*-
-
 # Vamos criar uma automação web usando o selenium, para rodar o Goggle Chrome em 1º plano
 # Importante: baixar o webdriver.
 
@@ -25,6 +24,9 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 
+# Bibliotecas utilizadas:
+import pandas as pd
+        
 # Link da página a ser aberta pelo navegador
 pag1 = "https://www.vagas.com.br/"
 #pag2 = "https://br.indeed.com/"
@@ -43,62 +45,28 @@ nav.find_element(By.XPATH,'/html/body/header/section/div/form/input').send_keys(
 nav.find_element(By.XPATH,'/html/body/header/section/div/form/input').send_keys(Keys.ENTER)
 
 
-# Pegar as informações (id, título e link da vaga) dos anúncios na primeira página geral
+# Criando uma lista com as informações (id, título, nome empresa, nível e link da vaga) dos anúncios na primeira página geral
+# Informações retiradas da classe do cabeçalho do anúncio.
 
-lista_titulos_vg = nav.find_elements(By.CLASS_NAME, 'cargo')
-for elemento_titulo in lista_titulos_vg:
-    titulo_vg = elemento_titulo.text
-    print(titulo_vg)
-    
+lista_vagas = []
 
-# pegando informações na pagina de anúncios
-# nome da vaga 
-header_vg = nav.find_element(By.CLASS_NAME, 'informacoes-header').text
-print (header_vg)
+lista_geral = nav.find_elements(By.CLASS_NAME,'informacoes-header')
 
+for resultado in lista_geral:
+    id_vg = resultado.find_element(By.CLASS_NAME, 'link-detalhes-vaga').get_attribute('id')
+    tit_vg = resultado.find_element(By.CLASS_NAME, 'cargo').text
+    empresa = resultado.find_element(By.CLASS_NAME, 'emprVaga').text
+    nivel_vg = resultado.find_element(By.CLASS_NAME, 'nivelVaga').text
+    link_vg = resultado.find_element(By.CLASS_NAME, 'link-detalhes-vaga').get_attribute('href')
+    lista_vagas.append((id_vg, tit_vg, empresa, nivel_vg, link_vg))
 
-# pegando informações na pagina de anúncios
-# nome da vaga 
-titulo_vg = nav.find_element(By.CLASS_NAME, 'cargo').text
-print (titulo_vg)
+# Colocando a lista num dataFrame.
 
-link_vg = nav.find_element(By.CLASS_NAME, 'link-detalhes-vaga').get_attribute('href')
-print(link_vg)
+df = pd.DataFrame(lista_vagas, columns=['id', 'titulo',  'empresa', 'nivel_da_vaga', 'link'])
+print (df)
 
 
-# abrir primeiro anúncio da página
-nav.find_element(By.XPATH, '/html/body/div[1]/div[2]/div/div/div[2]/section/section/div/ul/li[1]/header/div[2]/h2/a').send_keys(Keys.ENTER)
 
-# Criando o dicionário para armazenar as informações
-vaga1 = {'data_publi' : [], 'titulo_vg' : [], 'empresa' : [], 'salario' : [], 'cidade_vg' : [], 'job_desc' : []}
-
-# pegar as informaçãoes necessárias:
-
-# Data da publicação do anúncio
-data_publi = nav.find_element(By.XPATH, '//*[@id="wrapper-pesquisas"]/section[1]/div/div[1]/ul/li[1]').text
-print (data_publi)
-
-# título da vaga
-titulo_vg2 = nav.find_element(By.CLASS_NAME, 'job-shortdescription__title').text
-print (titulo_vg2)
-
-#nome empresa
-empresa = nav.find_element(By.CLASS_NAME, 'job-shortdescription__company').text
-print (empresa)
-
-# faixa salarial
-salario = nav.find_element(By.XPATH, '//*[@id="JobContent"]/article/header/div/ul/li[1]/div').text
-print(salario)
-
-# localização
-cidade_vg = nav.find_element(By.CLASS_NAME, 'info-localizacao').text
-print (cidade_vg)
-
-# job description
-job_desc = nav.find_element(By.XPATH, '//*[@id="JobContent"]/article/div[3]').text
-#job_desc = nav.find_element(By.CLASS_NAME, 'job-tab-content job-description__text texto').text
-# não encontrou pela classe
-print (job_desc)
 
 
 
