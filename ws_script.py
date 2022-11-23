@@ -42,6 +42,15 @@ cargos = ['Analista de Dados']
 nav.find_element(By.XPATH,'/html/body/header/section/div/form/input').send_keys(cargos)
 nav.find_element(By.XPATH,'/html/body/header/section/div/form/input').send_keys(Keys.ENTER)
 
+
+# Pegar as informações (id, título e link da vaga) dos anúncios na primeira página geral
+
+lista_titulos_vg = nav.find_elements(By.CLASS_NAME, 'cargo')
+for elemento_titulo in lista_titulos_vg:
+    titulo_vg = elemento_titulo.text
+    print(titulo_vg)
+    
+
 # pegando informações na pagina de anúncios
 # nome da vaga 
 header_vg = nav.find_element(By.CLASS_NAME, 'informacoes-header').text
