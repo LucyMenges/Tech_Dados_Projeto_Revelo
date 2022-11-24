@@ -5,68 +5,72 @@ Created on Fri Nov 18 19:58:22 2022
 @author: rapha
 
 """
-## @package check_trends
-# Metodo para utilizar a lib PyTrends para analisar 
-'''
+
+# Metodos para utilizar a lib PyTrends para analisar palavras-chave no Google Trends
+
+"""
 references:
     https://trends.google.com/
     https://pypi.org/project/pytrends/#api-methods
     https://www.youtube.com/@Pythonenthusiast
     https://lazarinastoy.com/the-ultimate-guide-to-pytrends-google-trends-api-with-python/
-'''
+"""
 
-# Bibliotecas que pytrend precisa das seguintes libs: requests, lxml, pytrends.
+# Pytrend precisa das seguintes libs para funcionar: requests, lxml, pytrends.
 
-# @param kw: Palavra chave coletada para ser analizada no Google Trends
-
+# Preparando a TrendReq():
+# @param hl: str
+# @param timeout: int, tuple, str 
+# @param retries: int
 from pytrends.request import TrendReq
 pytrends = TrendReq(hl='pt-BR', timeout=(30, 60), retries=2)
 
-def check_trends(kw, timeframe, geo, resolution, inc_low_vol, inc_geo_code):
-    # carregando payload:
-    pytrends.build_payload([kw], cat, timeframe, geo, gprop)
-    # carregando as funcoes da lib:
+
+# Preparando o build_payload():
+# @param kw:
+    # str, é a palavra chave coletada para ser analizada no Google Trends.
+# @param cat:
+    # str, define a categoria para refinar a pesquisa, defaut é sem categoria definida 
+    # wiki para todas: https://github.com/pat310/google-trends-api/wiki/Google-Trends-Categories
+# @param timeframe:
+    # str, define periodo para busca.
+    # 'all', 'today 5-y', 'today 12-m', 'today 3-m', 'today 1-m', 'now 7-d', 'now 1-d'
+# @param geo:
+    # str, identificacao paises padrao de 2 letras, Brasil = 'BR', pode ser refinado com a regiao Parana = 'BR-PR', etc. 
+# @param gprop: 
+    # str, propriedade Google onde a busca deve ser realizada: 'images', 'news', 'youtube' or 'froogle' (para Google Shopping)
+
+
+# interest_over_time()
+def check_interest_over_time(kw, cat, timeframe, geo, gprop):
+    pytrends.build_payload(kw, cat, timeframe, geo, gprop)
     data_it = pytrends.interest_over_time()
-    data_ir = pytrends.interest_by_region(resolution, inc_low_vol, inc_geo_code)
-    data_rt = pytrends.related_topics()
-    data_rq = pytrends.related_queries()
-    return data_it, data_ir, data_rt, data_rq
-    # @return 
+    return data_it
 
-
-# para carregar os argumentos do payload, o payload vai ser usado para todas as funcoes da lib:
-# vamos definir a linguagem, 'en-US', 'pt-BR' e regra de conexao.
-
-
-# vamos montar lista de palavras que vamos analisar. Nomalmente o google trends limitaria de 1 até 5 palavra, mas podemos expandir isso...
-keywords_list = ['SQL', 'Python',
-                 'Power BI', 'Pandas']
-
-data_dict = {'df_keyword': keywords_list, 'df_it': [],
-             'df_ir': [], 'df_rt': [], 'df_rq': []}
-
-# vamos definir qual o periodo de tempo que iremos buscar no passado.
-timeframe = ['all', 'today 5-y', 'today 12-m',
-             'today 3-m', 'today 1-m', 'now 7-d',
-             'now 1-d']
-
-# se vamos ou nao solicitar uma categoria especial, cat = '0' All Categories; cat = '8'' Games, etc.
-cat = '0'
-
-# se vamos optar em regiao do globo em especifico, .
-geo = ['', 'BR', 'US']
-
-# se vamos buscar em algum lugar especifico dentro do google, como websearch (defaut), youtube, news e shopping..
-gprop = ''
-
-# para setar os agumento de interest_by_region
-# o nível que iremos buscar a informacao
+# interest_by_region()
 resolution = ['CITY', 'COUNTRY', 'REGION', 'DMA']
-
-# se vamos incluir, ou nao, volume pequenos por paises/regioes
 inc_low_vol = [True, False]
-
-# se vamos incluir, ou nao, o codigo ISO dos paises e o nome da data
 inc_geo_code = [True, False]
+
+def check_interest_by_region(kw, cat, timeframe, geo, gprop, resolution, inc_low_vol, inc_geo_code):    
+    pytrends.build_payload(kw, cat, timeframe, geo, gprop)
+    data_ir = pytrends.interest_by_region(resolution, inc_low_vol, inc_geo_code)
+    return data_ir
+
+# related_topics()
+def check_related_topics(kw, cat, timeframe, geo, gprop):
+    pytrends.build_payload(kw, cat, timeframe, geo, gprop)
+    data_rt = pytrends.related_topics()
+    return data_rt
+
+# related_queries()
+def check_trends(kw, cat, timeframe, geo, gprop):
+    pytrends.build_payload(kw, cat, timeframe, geo, gprop)
+    data_rq = pytrends.related_queries() 
+    return data_rq
+
+
+
+
 
 
