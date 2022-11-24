@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Nov 23 08:55:44 2022
-
-@author: rapha
-"""
 
 import gt_script as gt
 
@@ -19,4 +14,5 @@ for kw in keywords_list:
     data_dict['df_ir'].append(data_ir)
     data_dict['df_rt'].append(data_rt)
     data_dict['df_rq'].append(data_rq)
-    
+
+ 
