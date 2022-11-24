@@ -77,9 +77,8 @@ pag1 = "https://www.vagas.com.br/"
 # Cargo a ser pesquisado
 cargos = ['Analista de Dados']
 
-lista_vagas_vagas_com = busca_site_vagas (nav, pag1, cargos )
+lista_vagas_vagas_com = pd.DataFrame((busca_site_vagas (nav, pag1, cargos)), columns=['id', 'titulo',  'empresa', 'nivel_da_vaga', 'link'])
 print (lista_vagas_vagas_com)
-
 
 
 
