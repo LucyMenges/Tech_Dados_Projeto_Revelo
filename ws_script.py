@@ -9,22 +9,43 @@
     
 # Estrutura do Projeto
     # 1. Web Scraping
+        ## Vamos criar uma automação web usando o selenium, para rodar o Goggle Chrome em 1º plano
+    
     # 2. Conexão com API
+    
+# Pré-requisitos para execução do script, aqui faremos apenas o indicação dos itens a serem instalados, caso não os tenha já instalados.
+    
+    # Instalação do selenium
+         # Para a instalar a biblioteca do Selenium abra o prompt do anaconda e execute o comando:
+             # pip install --upgrade selenium
+             
+    # Instalação do webdriver # Importante!!!
+        # Depois execute o seguinte comando para instalar o webdriver-manager:
+            # pip install webdriver-manager
+            
+            # Vamos usar o webdriver-manager, uma outra biblioteca que faz o gerenciamento do chromedriver para você. 
+            # Em seguida, importamos o ChromeDriverManager e usamos ele no Serviço do nosso Selenium,
+            # Ou seja, faremos a atualização do webdriver de acordo com a versão que está no seu computados do Google Chrome.
+    
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+
+servico = Service(ChromeDriverManager().install())
+    
     
 # Referências :
 # https://selenium-python.readthedocs.io/index.html
+# curso Python, https://www.hashtagtreinamentos.com/
 
 
-## 1. Web Scraping site de vagas de emprego
+# 1. Web Scraping site de vagas de emprego
 
 ## Sites para busca:    
 ### https://www.vagas.com.br/
 ### https://br.indeed.com/
 
-# Vamos criar uma automação web usando o selenium, para rodar o Goggle Chrome em 1º plano
-# Importante: baixar o webdriver.
 
-from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -67,8 +88,8 @@ def busca_site_vagas(nav, pag1, cargos):
     return lista_vagas
 
 
-# Criar o navegador
-nav = webdriver.Chrome()
+# Criar o navegador, com o google Chrome atualizado.
+nav = webdriver.Chrome(service=servico)
 
 # Link da página a ser aberta pelo navegador
 pag1 = "https://www.vagas.com.br/"
