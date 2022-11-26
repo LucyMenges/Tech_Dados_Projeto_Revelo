@@ -51,6 +51,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+import time
+
 # Bibliotecas utilizadas:
 import pandas as pd
         
@@ -68,6 +70,16 @@ def busca_site_vagas(nav, pag1, cargos):
     # Tempo de espera de 20 segundos para conclusão ou até mostrar todas classes 'cargo'
     wait = WebDriverWait (nav, 20)
     element = wait.until(EC.visibility_of_element_located((By.CLASS_NAME, 'cargo')))
+    
+    # Processo para mostrar mais vagas, "abrir nova página".
+    j=0
+    while (j < 12):
+        try:
+            nav.find_element(By.CSS_SELECTOR, '#maisVagas').send_keys(Keys.ENTER)
+            time.sleep(2)
+            j = j+1
+        except:
+            break
     
     # pega o resultado da busca no site
     lista_geral = nav.find_elements(By.CLASS_NAME,'informacoes-header')
