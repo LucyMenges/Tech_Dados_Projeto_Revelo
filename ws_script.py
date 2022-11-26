@@ -73,7 +73,7 @@ def busca_site_vagas(nav, pag1, cargos):
     
     # Processo para mostrar mais vagas, "abrir nova página".
     j=0
-    while (j < 12):
+    while (j < 2):
         try:
             nav.find_element(By.CSS_SELECTOR, '#maisVagas').send_keys(Keys.ENTER)
             time.sleep(2)
@@ -99,7 +99,7 @@ def busca_site_vagas(nav, pag1, cargos):
         lista_vagas.append((id_vg, tit_vg, empresa, nivel_vg, link_vg))
     return lista_vagas
 
-
+# VARIÁVEIS
 # Criar o navegador, com o google Chrome atualizado.
 nav = webdriver.Chrome(service=servico)
 
@@ -112,6 +112,39 @@ cargos = ['Analista de Dados']
 
 lista_vagas_vagas_com = pd.DataFrame((busca_site_vagas (nav, pag1, cargos)), columns=['id', 'titulo',  'empresa', 'nivel_da_vaga', 'link'])
 print (lista_vagas_vagas_com)
+
+# SEGUNDA PARTE 
+
+
+link_anuncio = lista_vagas_vagas_com['link'].head(3)
+
+def detalhes_vagas (link_anuncio):
+
+    lista_vagas2 = []
+    n = 0
+    
+    for elemento in link_anuncio:
+        # Abre a página selecionada neste navegador
+        nav.get(elemento)
+        
+        # Tempo de espera de 10 segundos para conclusão ou até mostrar todas classes de informações
+        wait = WebDriverWait (nav, 10)
+        element = wait.until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[1]/section[2]/main/article/div[3]')))
+        
+        # Informações a serem armazenadas
+        # data publicação
+        data_publi = nav.find_element(By.XPATH, '//*[@id="wrapper-pesquisas"]/section[1]/div/div[1]/ul/li[1]').text
+        # descrição
+        descri_vg = nav.find_element(By.XPATH, '/html/body/div[1]/section[2]/main/article/div[3]').text
+        # localização
+        cidade_vg = nav.find_element(By.CLASS_NAME, 'info-localizacao').text
+    
+        lista_vagas2.append((data_publi, descri_vg, cidade_vg))
+        
+        return lista_vagas2
+
+lista_vagas_vagas_com2 = pd.DataFrame((detalhes_vagas (link_anuncio)), columns=['data_publicação', 'descrição_vg', 'cidade_vg'])
+print (lista_vagas_vagas_com2)
 
 
 
