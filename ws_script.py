@@ -116,7 +116,7 @@ print (lista_vagas_vagas_com)
 # SEGUNDA PARTE 
 
 
-link_anuncio = lista_vagas_vagas_com['link'].head(3)
+link_anuncio = lista_vagas_vagas_com['link'].head(5)
 
 def detalhes_vagas (link_anuncio):
 
@@ -144,8 +144,10 @@ def detalhes_vagas (link_anuncio):
         return lista_vagas2
 
 lista_vagas_vagas_com2 = pd.DataFrame((detalhes_vagas (link_anuncio)), columns=['data_publicação', 'descrição_vg', 'cidade_vg'])
-print (lista_vagas_vagas_com2)
 
+lista_vagas_vagas_com = lista_vagas_vagas_com.join(lista_vagas_vagas_com2)
+print(lista_vagas_vagas_com)
 
+lista_vagas_vagas_com.info()
 
 
