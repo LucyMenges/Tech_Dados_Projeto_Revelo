@@ -110,19 +110,19 @@ pag1 = "https://www.vagas.com.br/"
 # Cargo a ser pesquisado
 cargos = ['Analista de Dados']
 
+# Transformando o resultado em um DataFrame
 lista_vagas_vagas_com = pd.DataFrame((busca_site_vagas (nav, pag1, cargos)), columns=['id', 'titulo',  'empresa', 'nivel_da_vaga', 'link'])
 print (lista_vagas_vagas_com)
 
+
 # SEGUNDA PARTE 
 
-
-link_anuncio = lista_vagas_vagas_com['link'] #.head(5)
+link_anuncio = lista_vagas_vagas_com['link'].head(6)
 
 
 def detalhes_vagas (link_anuncio):
 
     lista_vagas2 = []
-    n = 0
     
     for elemento in link_anuncio:
         # Abre a página selecionada neste navegador
@@ -142,13 +142,18 @@ def detalhes_vagas (link_anuncio):
     
         lista_vagas2.append((data_publi, descri_vg, cidade_vg))
         
-        return lista_vagas2
+    return lista_vagas2
 
+# Transformando o resultado em outro DataFrame
 lista_vagas_vagas_com2 = pd.DataFrame((detalhes_vagas (link_anuncio)), columns=['data_publicação', 'descrição_vg', 'cidade_vg'])
 
+# Unindo os dois dfs
 lista_vagas_vagas_com = lista_vagas_vagas_com.join(lista_vagas_vagas_com2)
 print(lista_vagas_vagas_com)
 
 lista_vagas_vagas_com.info()
+
+# convertendo o dataFrame final para CSV file
+lista_vagas_vagas_com.to_csv("lista_vagas_vagas_com.csv")
 
 
