@@ -116,7 +116,8 @@ print (lista_vagas_vagas_com)
 # SEGUNDA PARTE 
 
 
-link_anuncio = lista_vagas_vagas_com['link'].head(5)
+link_anuncio = lista_vagas_vagas_com['link'] #.head(5)
+
 
 def detalhes_vagas (link_anuncio):
 
