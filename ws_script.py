@@ -117,7 +117,7 @@ print (lista_vagas_vagas_com)
 
 # SEGUNDA PARTE 
 
-link_anuncio = lista_vagas_vagas_com['link'].head(6)
+link_anuncio = lista_vagas_vagas_com['link']#.head(3)
 
 
 def detalhes_vagas (link_anuncio):
@@ -136,16 +136,20 @@ def detalhes_vagas (link_anuncio):
         # data publicação
         data_publi = nav.find_element(By.XPATH, '//*[@id="wrapper-pesquisas"]/section[1]/div/div[1]/ul/li[1]').text
         # descrição
-        descri_vg = nav.find_element(By.XPATH, '/html/body/div[1]/section[2]/main/article/div[3]').text
+        descri_vg = nav.find_element(By.XPATH, '//*[@id="JobContent"]/article/div[3]').text
+        
+        # descrição da empresa
+        desc_empr_vg = nav.find_element(By.XPATH, '//*[@id="JobContent"]/article/div[2]').text
+        
         # localização
         cidade_vg = nav.find_element(By.CLASS_NAME, 'info-localizacao').text
     
-        lista_vagas2.append((data_publi, descri_vg, cidade_vg))
+        lista_vagas2.append((data_publi, descri_vg, desc_empr_vg, cidade_vg))
         
     return lista_vagas2
 
 # Transformando o resultado em outro DataFrame
-lista_vagas_vagas_com2 = pd.DataFrame((detalhes_vagas (link_anuncio)), columns=['data_publicação', 'descrição_vg', 'cidade_vg'])
+lista_vagas_vagas_com2 = pd.DataFrame((detalhes_vagas (link_anuncio)), columns=['data_publicação', 'descrição_vg', 'desc_empresa_vg', 'cidade_vg'])
 
 # Unindo os dois dfs
 lista_vagas_vagas_com = lista_vagas_vagas_com.join(lista_vagas_vagas_com2)
