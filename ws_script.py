@@ -73,7 +73,7 @@ def busca_site_vagas(nav, pag1, cargos):
     
     # Processo para mostrar mais vagas, "abrir nova página".
     j=0
-    while (j < 2):
+    while (j < 1):
         try:
             nav.find_element(By.CSS_SELECTOR, '#maisVagas').send_keys(Keys.ENTER)
             time.sleep(2)
@@ -117,7 +117,7 @@ print (lista_vagas_vagas_com)
 
 # SEGUNDA PARTE 
 
-link_anuncio = lista_vagas_vagas_com['link']#.head(3)
+link_anuncio = lista_vagas_vagas_com['link'].head(45)
 
 
 def detalhes_vagas (link_anuncio):
