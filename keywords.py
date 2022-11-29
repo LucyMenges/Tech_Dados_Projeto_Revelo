@@ -117,17 +117,6 @@ nltk.download('stopwords')
 
 STOP_WORDS = stopwords.words('portuguese')
 
-# Remover emojis (Não se aplica)
-# EMOJI_PATTERN = re.compile("["
-#                            u"\U0001F600-\U0001F64F"  # emoticons
-#                            u"\U0001F300-\U0001F5FF"  # symbols & pictographs
-#                            u"\U0001F680-\U0001F6FF"  # transport & map symbols
-#                            u"\U0001F1E0-\U0001F1FF"  # flags (iOS)
-#                            u"\U00002702-\U000027B0"
-#                            u"\U000024C2-\U0001F251"
-#                            "]+", flags=re.UNICODE)
-
-
 def cleaning(text):
     """
     Converter texto para minúsculo.
@@ -141,9 +130,7 @@ def cleaning(text):
     text = re.sub('\n', '', text)
     text = re.sub('[’“”…]', '', text)
 
-    # text = EMOJI_PATTERN.sub(r'', text)
-
-    # removing the stop-words
+    # Remover stop-words
     text_tokens = word_tokenize(text)
     tokens_without_sw = [
         word for word in text_tokens if not word in STOP_WORDS]
