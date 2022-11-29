@@ -45,18 +45,23 @@ servico = Service(ChromeDriverManager().install())
 ### https://www.vagas.com.br/
 ### https://br.indeed.com/
 
-
+# Bibliotecas utilizadas do Selenium:
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-import time
 
-# Bibliotecas utilizadas:
+# Outras Bibliotecas utilizadas:
 import pandas as pd
-        
-# Função para busca de informações no site indicado
+import time 
+      
+# Função para buscar determinadas informações no site indicado
+
+# @param nav: str, navegador do Google Chrome
+# @param pag1: str, endereço do site para a busca
+# @param cargos: str, nome do cargo a ser buscado
+
 def busca_site_vagas(nav, pag1, cargos):
 
     # Abrindo a página selecionada no navegador.
@@ -73,7 +78,7 @@ def busca_site_vagas(nav, pag1, cargos):
     
     # Processo para mostrar mais vagas, "abrir nova página".
     j=0
-    while (j < 1):
+    while (j < 2):
         try:
             nav.find_element(By.CSS_SELECTOR, '#maisVagas').send_keys(Keys.ENTER)
             time.sleep(2)
@@ -81,14 +86,14 @@ def busca_site_vagas(nav, pag1, cargos):
         except:
             break
     
-    # pega o resultado da busca no site
+    # marca o cabeçalho de cada anuncio do resultado da busca.
     lista_geral = nav.find_elements(By.CLASS_NAME,'informacoes-header')
 
-    # para cada anúncio na primeira página, pegará as seguintes informações: 
-        #  id, título, nome empresa, nível e link da vaga 
-    # Informações retiradas da classe do cabeçalho do anúncio.  
-
     lista_vagas = []  #lista que a função dará como resposta
+    
+    # para cada anúncio da página completa, pegará as seguintes informações:
+        #(retiradas da classe do cabeçalho do anúncio)
+        #  id, título, nome empresa, nível e link da vaga 
 
     for anuncio in lista_geral:
         id_vg = anuncio.find_element(By.CLASS_NAME, 'link-detalhes-vaga').get_attribute('id')
@@ -114,9 +119,13 @@ cargos = ['Analista de Dados']
 lista_vagas_vagas_com = pd.DataFrame((busca_site_vagas (nav, pag1, cargos)), columns=['id', 'titulo',  'empresa', 'nivel_da_vaga', 'link'])
 print (lista_vagas_vagas_com)
 
+# Salvando o primeiro dataFrame para CSV file
+lista_vagas_vagas_com.to_csv("lista1_vagas_vagas_com.csv")
 
 # SEGUNDA PARTE 
 
+# Para facilitar os testes está limitado a 45 links incialmente
+# VALOR PODE SER ALTERADO. 
 link_anuncio = lista_vagas_vagas_com['link'].head(45)
 
 
@@ -148,7 +157,7 @@ def detalhes_vagas (link_anuncio):
         
     return lista_vagas2
 
-# Transformando o resultado em outro DataFrame
+# Transformando o resultado da função num segundo DataFrame
 lista_vagas_vagas_com2 = pd.DataFrame((detalhes_vagas (link_anuncio)), columns=['data_publicação', 'descrição_vg', 'desc_empresa_vg', 'cidade_vg'])
 
 # Unindo os dois dfs
@@ -157,7 +166,7 @@ print(lista_vagas_vagas_com)
 
 lista_vagas_vagas_com.info()
 
-# convertendo o dataFrame final para CSV file
-lista_vagas_vagas_com.to_csv("lista_vagas_vagas_com.csv")
+# Salvando o dataFrame final para CSV file
+lista_vagas_vagas_com.to_csv("lista2_vagas_vagas_com.csv")
 
 
