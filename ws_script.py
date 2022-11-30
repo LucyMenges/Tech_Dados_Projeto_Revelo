@@ -61,6 +61,7 @@ import time
 # @param nav: str, navegador do Google Chrome
 # @param pag1: str, endereço do site para a busca
 # @param cargos: str, nome do cargo a ser buscado
+# @varaviavel lista_geral
 
 def busca_site_vagas(nav, pag1, cargos):
 
@@ -152,6 +153,8 @@ def detalhes_vagas (link_anuncio):
         
         # localização
         cidade_vg = nav.find_element(By.CLASS_NAME, 'info-localizacao').text
+        
+        # 
     
         lista_vagas2.append((data_publi, descri_vg, desc_empr_vg, cidade_vg))
         
