@@ -16,3 +16,13 @@ for kw in keywords_list:
     data_dict['df_ir'].append(data_ir)
     data_dict['df_rt'].append(data_rt)
     data_dict['df_rq'].append(data_rq)
+
+
+"""
+3. e 4.  habilidades
+
+5. e 6. ferramentas
+
+7. trends
+
+"""
