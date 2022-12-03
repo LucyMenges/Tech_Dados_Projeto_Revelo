@@ -84,11 +84,10 @@ def busca_site_vagas(nav, pag1, cargos, nr_pag=2):
     lista_vagas_vagas_com = pd.DataFrame(lista_vagas, columns=['id', 'titulo',  'empresa', 'nivel_da_vaga', 'link'])
     print (len(lista_vagas_vagas_com))
     
+    
     # Segunda fase
     lista_vagas2 = []
-    
-    n=0
-    
+       
     for i, elemento in enumerate(lista_vagas_vagas_com['link']):
         
         # Abre a página selecionada neste navegador
@@ -115,14 +114,14 @@ def busca_site_vagas(nav, pag1, cargos, nr_pag=2):
         descr2_vg = nav.find_element(By.XPATH, '//*[@id="JobContent"]/article/div[2]').text
         
         time.sleep(15)  # segundos
-
+        n=0
         n +=1
         print('n= ' + str(n))
         print('i= '+ str(i))
         
         lista_vagas2.append((data_publi, salario_vg, cidade_vg, descr3_vg, descr2_vg ))
         
-        if (i == n*60):
+        if (i == n*3):
             lista_vagas2.append((data_publi, salario_vg, cidade_vg, descr3_vg, descr2_vg ))
             print('salvo')
             break
@@ -139,7 +138,7 @@ def busca_site_vagas(nav, pag1, cargos, nr_pag=2):
 # PARAMETROS 
 # Criar o navegador, com o google Chrome atualizado.
 nav = webdriver.Chrome(service=servico)
-nav.set_page_load_timeout(300)
+nav.set_page_load_timeout(10)
 
 # Link da página a ser aberta pelo navegador
 pag1 = "https://www.vagas.com.br/"
@@ -151,6 +150,7 @@ nr_pag = 2
 
 # Transformando o resultado num DataFrame
 df3 =  busca_site_vagas(nav, pag1, cargos, nr_pag=2)
+print(df3)
 
 # Salvando o dataFrame final para CSV file
 df3.to_csv("lista2_vagas_vagas_com.csv")
