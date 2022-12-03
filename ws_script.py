@@ -30,6 +30,7 @@ from selenium.webdriver.support import expected_conditions as EC
 # Outras Bibliotecas utilizadas:
 import pandas as pd
 import time 
+import numpy as np
 
 ## 1. Web Scraping site de vagas de emprego para busca:
 # https://www.vagas.com.br/
@@ -42,9 +43,11 @@ import time
 # @param cargos: str, nome do cargo a ser buscado
 # @param nr_pag: int, quantidade de páginas, que serão abertas para a consulta, caso não indicado outro valor serão abertas duas páginas.
 
-def busca_site_vagas(nav, pag1, cargos, nr_pag=2):
+def busca_site_vagas(pag1, cargos, nr_pag=2):
 
     # Abrindo a página selecionada no navegador.
+    nav = webdriver.Chrome(service=servico)
+    nav.set_page_load_timeout(10)
     nav.get(pag1)
 
     # preenche com o nome do cargo indicado, no campo para pesquisa.
@@ -83,79 +86,77 @@ def busca_site_vagas(nav, pag1, cargos, nr_pag=2):
         
     lista_vagas_vagas_com = pd.DataFrame(lista_vagas, columns=['id', 'titulo',  'empresa', 'nivel_da_vaga', 'link'])
     print (len(lista_vagas_vagas_com))
+    lista_vagas_vagas_com.to_csv('Lista_geral_links.csv')
     
+    nav.close()
     
-    # Segunda fase
-    lista_vagas2 = []
-       
-    for i, elemento in enumerate(lista_vagas_vagas_com['link']):
-        
-        # Abre a página selecionada neste navegador
-        nav.get(elemento)
-        
-        # Tempo de espera de 20 segundos para conclusão ou até mostrar todas classes de informações
-        wait = WebDriverWait (nav, 20)
-        element = wait.until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[1]/section[2]/main/article/div[3]')))
-        
-        # Informações a serem armazenadas:
-        # data publicação
-        data_publi = nav.find_element(By.XPATH, '//*[@id="wrapper-pesquisas"]/section[1]/div/div[1]/ul/li[1]').text
-        
-        # salario
-        salario_vg = nav.find_element(By.XPATH, '//*[@id="JobContent"]/article/header/div/ul/li[1]/div/span[2]').text
-        
-        # localização
-        cidade_vg = nav.find_element(By.CLASS_NAME, 'info-localizacao').text
-        
-        # descrição
-        descr3_vg = nav.find_element(By.XPATH, '//*[@id="JobContent"]/article/div[3]').text
-        
-        # descrição da empresa
-        descr2_vg = nav.find_element(By.XPATH, '//*[@id="JobContent"]/article/div[2]').text
-        
-        time.sleep(15)  # segundos
-        n=0
-        n +=1
-        print('n= ' + str(n))
-        print('i= '+ str(i))
-        
-        lista_vagas2.append((data_publi, salario_vg, cidade_vg, descr3_vg, descr2_vg ))
-        
-        if (i == n*3):
-            lista_vagas2.append((data_publi, salario_vg, cidade_vg, descr3_vg, descr2_vg ))
-            print('salvo')
-            break
-        
-    lista_vagas_vagas_com2 = pd.DataFrame(lista_vagas2, columns=['data_publicação', 'salario_vg', 'cidade_vg', 'descrição3_vg', 'descrição2_vg'])
+    return lista_vagas_vagas_com
+
+# SEGUNDA FUNÇAO
+
+def busca_descr_link (url):
     
-    #todas_vagas = lista_vagas_vagas_com.join(lista_vagas_vagas_com2)
-       
-    return lista_vagas_vagas_com2 #, lista_vagas_vagas_com, todas_vagas
+    lista2 = []
+    
+    # Abre a página selecionada neste navegador
+    nav = webdriver.Chrome(service=servico)
+    nav.set_page_load_timeout(10)
+    nav.get(url)
+    
+    # Tempo de espera de 20 segundos para conclusão ou até mostrar todas classes de informações
+    wait = WebDriverWait (nav, 20)
+    element = wait.until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[1]/section[2]/main/article/div[3]')))
+    
+    # Informações a serem armazenadas:
+    # data publicação
+    data_publi = nav.find_element(By.XPATH, '//*[@id="wrapper-pesquisas"]/section[1]/div/div[1]/ul/li[1]').text
+    
+    # salario
+    salario_vg = nav.find_element(By.XPATH, '//*[@id="JobContent"]/article/header/div/ul/li[1]/div/span[2]').text
+    
+    # localização
+    cidade_vg = nav.find_element(By.CLASS_NAME, 'info-localizacao').text
+    
+    # descrição
+    descr3_vg = nav.find_element(By.XPATH, '//*[@id="JobContent"]/article/div[3]').text
+    
+    # descrição da empresa
+    descr2_vg = nav.find_element(By.XPATH, '//*[@id="JobContent"]/article/div[2]').text
+    
+    lista2.append((data_publi, salario_vg, cidade_vg, descr3_vg, descr2_vg ))
+    
+    lista2 = pd.DataFrame(np.reshape(lista2, (1, 5)), columns = ['data_publi', 'salario_vg', 'cidade_vg', 'descr3_vg', 'descr2_vg'])
+    
+    return lista2
 
-# -------------------
-# Wil - APLICAÇÃO
+# PRIMEIRO vai ter salvo o df relacionado ao link das vagas
 
-# # PARAMETROS 
-# # Criar o navegador, com o google Chrome atualizado.
-# nav = webdriver.Chrome(service=servico)
-# nav.set_page_load_timeout(10)
+# Link da página a ser aberta pelo navegador
+pag1 = "https://www.vagas.com.br/"
 
-# # Link da página a ser aberta pelo navegador
-# pag1 = "https://www.vagas.com.br/"
+# Cargo a ser pesquisado
+cargos = ['Analista de Dados']
 
-# # Cargo a ser pesquisado
-# cargos = ['Analista de Dados']
+# Qtidade de páginas a serem abertas
+nr_pag = 2
 
-# nr_pag = 2
+# Transformando o resultado num DataFrame
+df3 =  busca_site_vagas( pag1, cargos, nr_pag=2)
+print(df3)
 
-# # Transformando o resultado num DataFrame
-# df3 =  busca_site_vagas(nav, pag1, cargos, nr_pag=2)
-# print(df3)
+# CHAMANDO A SEGUNDA FUNÇÃO
 
-# # Salvando o dataFrame final para CSV file
-# df3.to_csv("lista2_vagas_vagas_com.csv")
+df3 = pd.read_csv('Lista_geral_links.csv')
 
-
-
-
-
+for i, url in enumerate(df3['link']):
+    
+    if (i > 7):   # depois muda para >60
+        df_desc = busca_descr_link(url)
+        
+        df1 = pd.DataFrame(np.reshape(list(df3.iloc[i,:]), (1, 6)), columns = ['index', 'id', 'titulo', 'empresa', 'nivel_da_vaga', 'link'])
+        
+        df_total = pd.concat([df1, df_desc], axis= 1)
+        df_total.to_csv('Informacoes_' + str(i) + '.csv')
+        
+    print(i)
+    
