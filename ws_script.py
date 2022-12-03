@@ -116,19 +116,22 @@ def busca_site_vagas(nav, pag1, cargos, nr_pag=2):
         
         time.sleep(15)  # segundos
 
-        if (i == n*69):
-            time.sleep(900)
-            print('i= '+ str(i))
         n +=1
-        print(n)
-            
+        print('n= ' + str(n))
+        print('i= '+ str(i))
+        
         lista_vagas2.append((data_publi, salario_vg, cidade_vg, descr3_vg, descr2_vg ))
+        
+        if (i == n*60):
+            lista_vagas2.append((data_publi, salario_vg, cidade_vg, descr3_vg, descr2_vg ))
+            print('salvo')
+            break
         
     lista_vagas_vagas_com2 = pd.DataFrame(lista_vagas2, columns=['data_publicação', 'salario_vg', 'cidade_vg', 'descrição3_vg', 'descrição2_vg'])
     
-    todas_vagas = lista_vagas_vagas_com.join(lista_vagas_vagas_com2)
+    #todas_vagas = lista_vagas_vagas_com.join(lista_vagas_vagas_com2)
        
-    return lista_vagas_vagas_com, lista_vagas_vagas_com2, todas_vagas
+    return lista_vagas_vagas_com2 #, lista_vagas_vagas_com, todas_vagas
 
 # -------------------
 # Wil - APLICAÇÃO
