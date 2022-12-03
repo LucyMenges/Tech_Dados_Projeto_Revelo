@@ -18,11 +18,20 @@ for kw in keywords_list:
     data_dict['df_rq'].append(data_rq)
 
 
+
+
+
 """
 3. e 4.  habilidades
 
 5. e 6. ferramentas
 
 7. trends
+
+SQL = data_dict['df_ir'][0]
+Python = data_dict['df_ir'][1]
+Power BI = data_dict['df_ir'][2]
+Pandas = data_dict['df_ir'][3]
+
 
 """
