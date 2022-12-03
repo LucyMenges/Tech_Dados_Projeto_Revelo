@@ -150,7 +150,7 @@ df3 = pd.read_csv('Lista_geral_links.csv')
 
 for i, url in enumerate(df3['link']):
     
-    if (i < 60):   # depois muda para >60
+    if (i > 7):   # depois muda para >60
         df_desc = busca_descr_link(url)
         
         df1 = pd.DataFrame(np.reshape(list(df3.iloc[i,:]), (1, 6)), columns = ['index', 'id', 'titulo', 'empresa', 'nivel_da_vaga', 'link'])
