@@ -128,20 +128,21 @@ def busca_descr_link (url):
     lista2 = pd.DataFrame(np.reshape(lista2, (1, 5)), columns = ['data_publi', 'salario_vg', 'cidade_vg', 'descr3_vg', 'descr2_vg'])
     
     return lista2
-'''
+
 # PRIMEIRO vai ter salvo o df relacionado ao link das vagas
+
 # Link da página a ser aberta pelo navegador
 pag1 = "https://www.vagas.com.br/"
 
 # Cargo a ser pesquisado
 cargos = ['Analista de Dados']
 
+# Qtidade de páginas a serem abertas
 nr_pag = 2
 
 # Transformando o resultado num DataFrame
 df3 =  busca_site_vagas( pag1, cargos, nr_pag=2)
 print(df3)
-'''
 
 # CHAMANDO A SEGUNDA FUNÇÃO
 
@@ -159,11 +160,3 @@ for i, url in enumerate(df3['link']):
         
     print(i)
     
-
-    
-    
-
-
-
-
-

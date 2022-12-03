@@ -1,18 +1,28 @@
-import ws_script as ws
+# import ws_script as ws
 
-# Criar o navegador, com o google Chrome atualizado.
-nav = webdriver.Chrome(service=servico)
+# # PARAMETROS 
+# # Criar o navegador, com o google Chrome atualizado.
+# from selenium import webdriver
+# from selenium.webdriver.chrome.service import Service
+# from webdriver_manager.chrome import ChromeDriverManager
+# servico = Service(ChromeDriverManager().install())
+# nav = webdriver.Chrome(service=servico)
+# nav.set_page_load_timeout(300)
 
-# Link da página a ser aberta pelo navegador
-pag1 = "https://www.vagas.com.br/"
+# # Link da página a ser aberta pelo navegador
+# pag1 = "https://www.vagas.com.br/"
 
-# Cargo a ser pesquisado
-cargos = ['Analista de Dados']
+# # Cargo a ser pesquisado
+# cargos = ['Analista de Dados']
 
-nr_pag = 2
+# nr_pag = 2
 
-# Transformando o resultado num DataFrame
-df3 =  ws.busca_site_vagas(nav, pag1, cargos, nr_pag=2)
+# # Transformando o resultado num DataFrame
+# df3 =  ws.busca_site_vagas(nav, pag1, cargos, nr_pag=2)
+
+# # Salvando o dataFrame final para CSV file
+# df3.to_csv("lista2_vagas_vagas_com.csv")
+
 
 # Contando palavras que mais aparecem no dataframe
 # print(lista_vagas_vagas_com.titulo.str.split(expand=True).stack().value_counts())
@@ -27,7 +37,7 @@ nltk.download('stopwords')
 from nltk.tokenize import word_tokenize
 
 
-lista_vagas_vagas_com = pd.read_csv(r'C:\Users\Engenharia R3\Documents\GitHub\Tech_Dados_Projeto_Revelo\lista_vagas_vagas_com.csv')
+lista_vagas_vagas_com = pd.read_csv(r'C:\Users\Engenharia R3\Documents\GitHub\Tech_Dados_Projeto_Revelo\lista2_vagas_vagas_com.csv')
 lista_vagas_vagas_com=lista_vagas_vagas_com.astype(str)
 
 stop_words = stopwords.words('portuguese')
@@ -60,17 +70,16 @@ def cleaning(text):
     
     return text
 
-# Aplicar a função para limpar/filtrar as strings
-dt1 = lista_vagas_vagas_com['descrição_vg'].apply(cleaning)
+# Filtrar as linhas que contém a string 'descrição:' 
+lista_vagas_vagas_com.loc[lista_vagas_vagas_com['descrição2_vg'].str.contains('descrição:', case=False, na=False), "descrição_final"] =  lista_vagas_vagas_com['descrição2_vg']
+lista_vagas_vagas_com.loc[lista_vagas_vagas_com['descrição3_vg'].str.contains('descrição:', case=False, na=False), "descrição_final"] =  lista_vagas_vagas_com['descrição3_vg']
 
-# dt2 = lista_vagas_vagas_com['desc_empresa_vg'].apply(cleaning)
+# Aplicar a função para limpar/filtrar as strings
+dt1 = lista_vagas_vagas_com['descrição_final'].apply(cleaning)
+
 
 from collections import Counter
-p1 = Counter(" ".join(dt1).split()).most_common()
-# p2 = Counter(" ".join(dt2).split()).most_common(10)
-rslt1 = pd.DataFrame(p1, columns=['Word', 'Frequency'])
-print(rslt1)
-# rslt2 = pd.DataFrame(p2, columns=['Word', 'Frequency'])
-# print(rslt2)
+p1 = Counter(" ".join(dt1).split()).most_common(30)
 
-# rslt1.to_csv("rslt1.csv")
+rslt = pd.DataFrame(p1, columns=['Word', 'Frequency'])
+print(rslt)

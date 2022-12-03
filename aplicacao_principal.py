@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+from time import sleep
 import gt_script as gt
 
 keywords_list = ['SQL', 'Python',
@@ -16,7 +16,7 @@ for kw in keywords_list:
     data_dict['df_ir'].append(data_ir)
     data_dict['df_rt'].append(data_rt)
     data_dict['df_rq'].append(data_rq)
-
+    sleep(10)
 
 
 
