@@ -13,7 +13,7 @@
 # Pytrend depende da instalação das seguintes bibliotecas: requests, lxml, pytrends, pandas.
 #
 from pytrends.request import TrendReq
-pytrends = TrendReq(hl='en-US', timeout=(30, 60), retries=2)
+pytrends = TrendReq(hl='en-US', timeout=(10, 25), retries=2)
 
 # check_trends
 #
@@ -31,14 +31,11 @@ pytrends = TrendReq(hl='en-US', timeout=(30, 60), retries=2)
 # @return data_it: dataframe.
 # @return data_ir: dataframe.
 # @return data_rt: dicionario, com duas dataframes.
-# @return data_rq: dicionario, com duas dataframes.
 #
 def check_trends(kw, cat, timeframe, geo, gprop, resolution, inc_low_vol, inc_geo_code):
     pytrends.build_payload([kw], cat, timeframe, geo, gprop)
     data_it = pytrends.interest_over_time()
-    data_ir = pytrends.interest_by_region(
-        resolution, inc_low_vol, inc_geo_code)
+    data_ir = pytrends.interest_by_region(resolution, inc_low_vol, inc_geo_code)
     data_rt = pytrends.related_topics()
-    data_rq = pytrends.related_queries()
     
-    return data_it, data_ir, data_rt, data_rq
+    return data_it, data_ir, data_rt
