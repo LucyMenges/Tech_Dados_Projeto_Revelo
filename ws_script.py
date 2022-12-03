@@ -135,25 +135,25 @@ def busca_site_vagas(nav, pag1, cargos, nr_pag=2):
 # -------------------
 # Wil - APLICAÇÃO
 
-# PARAMETROS 
-# Criar o navegador, com o google Chrome atualizado.
-nav = webdriver.Chrome(service=servico)
-nav.set_page_load_timeout(10)
+# # PARAMETROS 
+# # Criar o navegador, com o google Chrome atualizado.
+# nav = webdriver.Chrome(service=servico)
+# nav.set_page_load_timeout(10)
 
-# Link da página a ser aberta pelo navegador
-pag1 = "https://www.vagas.com.br/"
+# # Link da página a ser aberta pelo navegador
+# pag1 = "https://www.vagas.com.br/"
 
-# Cargo a ser pesquisado
-cargos = ['Analista de Dados']
+# # Cargo a ser pesquisado
+# cargos = ['Analista de Dados']
 
-nr_pag = 2
+# nr_pag = 2
 
-# Transformando o resultado num DataFrame
-df3 =  busca_site_vagas(nav, pag1, cargos, nr_pag=2)
-print(df3)
+# # Transformando o resultado num DataFrame
+# df3 =  busca_site_vagas(nav, pag1, cargos, nr_pag=2)
+# print(df3)
 
-# Salvando o dataFrame final para CSV file
-df3.to_csv("lista2_vagas_vagas_com.csv")
+# # Salvando o dataFrame final para CSV file
+# df3.to_csv("lista2_vagas_vagas_com.csv")
 
 
 
