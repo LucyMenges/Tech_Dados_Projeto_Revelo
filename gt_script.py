@@ -13,7 +13,7 @@
 # Pytrend depende da instalação das seguintes bibliotecas: requests, lxml, pytrends, pandas.
 #
 from pytrends.request import TrendReq
-pytrends = TrendReq(hl='en-US', timeout=(10, 25), retries=1)
+pytrends = TrendReq(hl='en-US', timeout=(10, 25), retries=2)
 
 # check_trends
 #
