@@ -178,7 +178,7 @@ df3 = pd.read_csv('Lista_geral_links.csv')
 
 for i, url in enumerate(df3['link']):
     
-    if (not(i in [0,1, 2,3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,16,60, 68, 90, 114])):     # depois muda para >60
+    if (not(i in [60, 68, 90, 114])):     # depois muda para >60
         df_desc = busca_descr_link(url)
         
         df1 = pd.DataFrame(np.reshape(list(df3.iloc[i,:]), (1, 6)), columns = ['index', 'id', 'titulo', 'empresa', 'nivel_da_vaga', 'link'])
