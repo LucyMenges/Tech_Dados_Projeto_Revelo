@@ -16,10 +16,14 @@
     # Instalação do webdriver_manager
     
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.options import Options
+#from selenium.webdriver.chrome.service import Service
+#from webdriver_manager.chrome import ChromeDriverManager
+# from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
-servico = Service(ChromeDriverManager().install())
+# caps = DesiredCapabilities().CHROME
+# caps["pageLoadStrategy"] = "normal" 
+# servico = Service(ChromeDriverManager().install())
     
 # Bibliotecas utilizadas do Selenium:
 from selenium.webdriver.common.keys import Keys
@@ -46,7 +50,10 @@ import numpy as np
 def busca_site_vagas(pag1, cargos, nr_pag=2):
 
     # Abrindo a página selecionada no navegador.
-    nav = webdriver.Chrome(service=servico)
+    chrome_options = Options()
+    chrome_options.add_argument('--headless')
+    
+    nav = webdriver.Chrome(options=chrome_options)
     nav.set_page_load_timeout(10)
     nav.get(pag1)
 
@@ -99,7 +106,25 @@ def busca_descr_link (url):
     lista2 = []
     
     # Abre a página selecionada neste navegador
-    nav = webdriver.Chrome(service=servico)
+    chrome_options = Options()
+    chrome_options.add_argument("enable-automation")
+    chrome_options.add_argument("start-maximized")
+    chrome_options.add_argument('--headless')
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-gpu")
+    #chrome_options.add_argument("--disable-dev-shm-usage")
+    #chrome_options.add_argument("--disable-browser-side-navigation")
+    # chrome_options.add_argument("--disable-cache")
+    # chrome_options.add_argument("--disable-application-cache") 
+    # chrome_options.add_argument("--disable-offline-load-stale-cache") 
+    # chrome_options.add_argument("--disk-cache-size=0")
+    # chrome_options.add_argument("--dns-prefetch-disable")
+    # chrome_options.add_argument("--no-proxy-server")
+    # chrome_options.add_argument("--log-level=3")
+    # chrome_options.add_argument("--silent")
+    # chrome_options.add_argument("enable-features=NetworkServiceInProcess")
+     
+    nav = webdriver.Chrome(options=chrome_options)
     nav.set_page_load_timeout(10)
     nav.get(url)
     
@@ -127,6 +152,8 @@ def busca_descr_link (url):
     
     lista2 = pd.DataFrame(np.reshape(lista2, (1, 5)), columns = ['data_publi', 'salario_vg', 'cidade_vg', 'descr3_vg', 'descr2_vg'])
     
+    nav.close()
+    
     return lista2
 
 # PRIMEIRO vai ter salvo o df relacionado ao link das vagas
@@ -141,16 +168,17 @@ cargos = ['Analista de Dados']
 nr_pag = 2
 
 # Transformando o resultado num DataFrame
-df3 =  busca_site_vagas( pag1, cargos, nr_pag=2)
+df3 =  busca_site_vagas(pag1, cargos, nr_pag=2)
 print(df3)
 
 # CHAMANDO A SEGUNDA FUNÇÃO
 
+#Irá pegar o link da página lendo o csv criado na primeira função
 df3 = pd.read_csv('Lista_geral_links.csv')
 
 for i, url in enumerate(df3['link']):
     
-    if (i > 7):   # depois muda para >60
+    if (not(i in [60, 68, 90, 114])):     # depois muda para >60
         df_desc = busca_descr_link(url)
         
         df1 = pd.DataFrame(np.reshape(list(df3.iloc[i,:]), (1, 6)), columns = ['index', 'id', 'titulo', 'empresa', 'nivel_da_vaga', 'link'])
