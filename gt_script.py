@@ -9,6 +9,7 @@
 # https://pypi.org/project/pytrends/#api-methods : https://github.com/GeneralMills/pytrends : API não oficial Google Trends.
 # https://www.youtube.com/@Pythonenthusiast .
 # https://lazarinastoy.com/the-ultimate-guide-to-pytrends-google-trends-api-with-python/ .
+# pip install --upgrade --user git+https://github.com/GeneralMills/pytrends , para mandar atualizado a lib.
 
 # Pytrend depende da instalação das seguintes bibliotecas: requests, lxml, pytrends, pandas.
 #

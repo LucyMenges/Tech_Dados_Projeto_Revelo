@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-import time
 import gt_script as gt
 import pandas as pd
 
@@ -9,7 +8,6 @@ data_dict = {'keywords': keywords_list, 'df_it': [],
              'df_ir': [], 'df_rt': []}
 
 for kw in keywords_list:
-    time.sleep(45)
     data_it, data_ir, data_rt = gt.check_trends(
         kw, cat='0', timeframe='today 12-m', geo='BR', gprop='',
         resolution='CITY', inc_low_vol=False, inc_geo_code=True)
