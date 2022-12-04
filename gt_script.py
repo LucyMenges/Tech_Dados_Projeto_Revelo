@@ -1,23 +1,24 @@
 # -*- coding: utf-8 -*-
 
-# @packge gt_script
+# @packge gt_script .
 
 # Modulo para utilizar a lib PyTrends e agrupar metodos para analisar palavras-chave no Google Trends.
 
 # Referecias:
-# https://trends.google.com/
-# https://pypi.org/project/pytrends/#api-methods : https://github.com/GeneralMills/pytrends
-# https://www.youtube.com/@Pythonenthusiast
-# https://lazarinastoy.com/the-ultimate-guide-to-pytrends-google-trends-api-with-python/
+# https://trends.google.com/ .
+# https://pypi.org/project/pytrends/#api-methods : https://github.com/GeneralMills/pytrends : API não oficial Google Trends.
+# https://www.youtube.com/@Pythonenthusiast .
+# https://lazarinastoy.com/the-ultimate-guide-to-pytrends-google-trends-api-with-python/ .
 
 # Pytrend depende da instalação das seguintes bibliotecas: requests, lxml, pytrends, pandas.
 #
 from pytrends.request import TrendReq
-pytrends = TrendReq(hl='en-US', timeout=(10, 25), retries=2)
+pytrends = TrendReq()
+#pytrends = TrendReq(hl='en-US', timeout=(15), retries=2)
 
 # check_trends
 #
-# Esse metodo obtem aplica a pesquisa e leitura de uma lista de palavras-chaves nas funções, interest_over_time, interest_by_region, related_topics e related_queries da biblioteca PyTrends.
+# Esse metodo obtem aplica a pesquisa e leitura de uma lista de palavras-chaves nas funções, interest_over_time, interest_by_region e related_topics da biblioteca PyTrends.
 #
 # @param kw: str, a palavra-chave para ser analizada no Google Trends.
 # @param cat: str, define a categoria para refinar a pesquisa, defaut é sem categoria definida, wiki para todas: https://github.com/pat310/google-trends-api/wiki/Google-Trends-Categories
