@@ -33,22 +33,23 @@ nltk.download('stopwords')
 from nltk.tokenize import word_tokenize
 
 # UNINDO TODOS OS DF DE CADA LINK
-
+'''
 lista_df = []
 
 for i in range(120):  
     
-    if (not(i in [68, 90])):  
+    if (not(i in [31,68, 90, 113])):  
     
         df = pd.read_csv('Informacoes_' + str(i) + '.csv')
         lista_df.append(df)
 
 df_total = pd.concat(lista_df)
 
-# df_total.to_csv('df_total_descr.csv')
+df_total.to_csv('df_total_descr.csv')
+'''
 
-# df_total = pd.read_csv(r'C:\Users\Engenharia R3\Documents\GitHub\Tech_Dados_Projeto_Revelo\df_total_descr2.csv')
-# df_total = df_total.astype(str) 
+df_total = pd.read_csv('C:/Users/llanz/OneDrive/Documents/GitHub/Tech_Dados_Projeto_Revelo/df_total_descr.csv') 
+df_total = df_total.astype(str) 
 
 stop_words = stopwords.words('portuguese')
 
