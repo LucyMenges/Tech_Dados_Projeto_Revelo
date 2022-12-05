@@ -15,46 +15,31 @@ for kw in keywords_list:
     data_dict['df_ir'].append(data_ir)
     data_dict['df_rt'].append(data_rt)
 
+
+i = 0
 for kw1 in keywords_list:
-    i = 0
     if i <= len(keywords_list):
-        df = pd.DataFrame(data_dict['df_it'][i])
+        df = data_dict['df_it'][i]
         df.to_csv('data_it_' +str([kw1]), sep=',')  
         i =+ 1
     else:
         exit()
 
+
+i = 0
 for kw2 in keywords_list:
-    i = 0
     if i <= len(keywords_list):
-        df = pd.DataFrame(data_dict['df_ir'][i])
+        df = data_dict['df_ir'][i]
         df.to_csv('df_ir_' +str([kw2]), sep=',')  
         i =+ 1
     else:
         exit()
-"""
+
+i = 0
 for kw3 in keywords_list:
-    i = 0
     if i <= len(keywords_list):
         df = pd.DataFrame(data_dict['df_rt'][i][kw3]['top'])
         df.to_csv('df_rt_' +str([kw3]), sep=',')  
         i =+ 1
     else:
         exit()
-
-
-x = 1
-
-# interest_over_time
-df_it0 = pd.DataFrame(data_dict['df_it'][0])
-
-
-# interest_by_region
-df_ir0 = pd.DataFrame(data_dict['df_ir'][0])
-
-"""
-# related_topics
-df_rt0 = pd.DataFrame(data_dict['df_rt'][0]['SQL']['top'])
-df_rt0.to_csv('df_rt_'+'SQL', sep=',')  
-df_rt1 = pd.DataFrame(data_dict['df_rt'][1]['Python']['top'])
-df_rt1.to_csv('df_rt_'+'Python', sep=',')  
