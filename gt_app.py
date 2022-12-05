@@ -1,9 +1,13 @@
 # -*- coding: utf-8 -*-
+# @author: raphael_cespedes
+
 import gt_script as gt
 import pandas as pd
 
+# lista com as palavra-chave
 keywords_list = ['SQL', 'Python']
 
+# loop retorna dicionário com resultados buscados para cada palavra-chave
 data_dict = {'keywords': keywords_list, 'df_it': [],
              'df_ir': [], 'df_rt': []}
 
@@ -15,7 +19,7 @@ for kw in keywords_list:
     data_dict['df_ir'].append(data_ir)
     data_dict['df_rt'].append(data_rt)
 
-
+# loop cria e exporta (.csv) os resultados de interest_over_time() para cada palavra-chave
 i = 0
 for kw1 in keywords_list:
     if i <= len(keywords_list):
@@ -24,8 +28,8 @@ for kw1 in keywords_list:
         i =+ 1
     else:
         exit()
-
-
+        
+# loop cria e exporta (.csv) os resultados de interest_by_region() para cada palavra-chave
 i = 0
 for kw2 in keywords_list:
     if i <= len(keywords_list):
@@ -35,6 +39,7 @@ for kw2 in keywords_list:
     else:
         exit()
 
+# loop cria e exporta (.csv) os resultados de related_topics() para cada palavra-chave
 i = 0
 for kw3 in keywords_list:
     if i <= len(keywords_list):
