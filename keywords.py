@@ -23,10 +23,6 @@
 # # Salvando o dataFrame final para CSV file
 # df3.to_csv("lista2_vagas_vagas_com.csv")
 
-
-# Contando palavras que mais aparecem no dataframe
-# print(lista_vagas_vagas_com.titulo.str.split(expand=True).stack().value_counts())
-
 import pandas as pd
 import nltk
 import re
@@ -36,13 +32,27 @@ nltk.download('punkt')
 nltk.download('stopwords')
 from nltk.tokenize import word_tokenize
 
+# UNINDO TODOS OS DF DE CADA LINK
 
-lista_vagas_vagas_com = pd.read_csv(r'C:\Users\Engenharia R3\Documents\GitHub\Tech_Dados_Projeto_Revelo\lista2_vagas_vagas_com.csv')
-lista_vagas_vagas_com=lista_vagas_vagas_com.astype(str)
+lista_df = []
+
+for i in range(120):  
+    
+    if (not(i in [68, 90])):  
+    
+        df = pd.read_csv('Informacoes_' + str(i) + '.csv')
+        lista_df.append(df)
+
+df_total = pd.concat(lista_df)
+
+# df_total.to_csv('df_total_descr.csv')
+
+# df_total = pd.read_csv(r'C:\Users\Engenharia R3\Documents\GitHub\Tech_Dados_Projeto_Revelo\df_total_descr2.csv')
+# df_total = df_total.astype(str) 
 
 stop_words = stopwords.words('portuguese')
 
-def cleaning(text):        
+def cleaning(text):   
     # Converter para letra minúscula, Remover links URL, caracteres especiais, pontuações...
     text = text.lower()
     text = re.sub('https?://S+|www.S+', '', text)
@@ -71,12 +81,13 @@ def cleaning(text):
     return text
 
 # Filtrar as linhas que contém a string 'descrição:' 
-lista_vagas_vagas_com.loc[lista_vagas_vagas_com['descrição2_vg'].str.contains('descrição:', case=False, na=False), "descrição_final"] =  lista_vagas_vagas_com['descrição2_vg']
-lista_vagas_vagas_com.loc[lista_vagas_vagas_com['descrição3_vg'].str.contains('descrição:', case=False, na=False), "descrição_final"] =  lista_vagas_vagas_com['descrição3_vg']
+df_total.loc[df_total['descr2_vg'].str.contains('descrição:', case=False, na=False), "descrição_final"] =  df_total['descr2_vg']
+df_total.loc[df_total['descr3_vg'].str.contains('descrição:', case=False, na=False), "descrição_final"] =  df_total['descr3_vg']
 
 # Aplicar a função para limpar/filtrar as strings
-dt1 = lista_vagas_vagas_com['descrição_final'].apply(cleaning)
+dt1 = df_total['descrição_final'].apply(cleaning)
 
+# Contar as palavras que mais aparecem na coluna "descrição_final"
 
 from collections import Counter
 p1 = Counter(" ".join(dt1).split()).most_common(30)
