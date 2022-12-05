@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# @author: raphael_cespedes
 
 # @packge gt_script .
 
@@ -14,8 +15,8 @@
 # Pytrend depende da instalação das seguintes bibliotecas: requests, lxml, pytrends, pandas.
 #
 from pytrends.request import TrendReq
-pytrends = TrendReq()
-#pytrends = TrendReq(hl='en-US', timeout=(15), retries=2)
+#pytrends = TrendReq(hl='pt-BR', timeout=(15, 30), retries=2)
+pytrends = TrendReq(hl='en-US', timeout=(15, 30), retries=2)
 
 # check_trends
 #
