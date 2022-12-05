@@ -1,0 +1,26 @@
+,value,formattedValue,hasData,link,topic_mid,topic_title,topic_type
+0,100,100,True,/trends/explore?q=/m/05z1_&date=today+12-m&geo=BR,/m/05z1_,Python,Programming language
+1,7,7,True,/trends/explore?q=/m/01dlmc&date=today+12-m&geo=BR,/m/01dlmc,List,Abstract data type
+2,6,6,True,/trends/explore?q=/m/06x16&date=today+12-m&geo=BR,/m/06x16,String,Computer science
+3,4,4,True,/trends/explore?q=/m/0rphppq&date=today+12-m&geo=BR,/m/0rphppq,pandas,Software
+4,3,3,True,/trends/explore?q=/m/026sq&date=today+12-m&geo=BR,/m/026sq,Data,Topic
+5,3,3,True,/trends/explore?q=/m/020s1&date=today+12-m&geo=BR,/m/020s1,Computer file,Topic
+6,3,3,True,/trends/explore?q=/m/02v_93z&date=today+12-m&geo=BR,/m/02v_93z,Function,Mathematics
+7,2,2,True,/trends/explore?q=/m/0wcx&date=today+12-m&geo=BR,/m/0wcx,Array,Data structure
+8,2,2,True,/trends/explore?q=/m/0nk18&date=today+12-m&geo=BR,/m/0nk18,Associative array,Topic
+9,2,2,True,/trends/explore?q=/m/0z5n&date=today+12-m&geo=BR,/m/0z5n,Application programming interface,Type of software
+10,2,2,True,/trends/explore?q=/m/01mf_&date=today+12-m&geo=BR,/m/01mf_,Computer programming,Topic
+11,2,2,True,/trends/explore?q=/m/05q4tvx&date=today+12-m&geo=BR,/m/05q4tvx,Variable,Computer science
+12,2,2,True,/trends/explore?q=/m/04r_8&date=today+12-m&geo=BR,/m/04r_8,Microsoft Windows,Operating system
+13,2,2,True,/trends/explore?q=/m/0134xwrk&date=today+12-m&geo=BR,/m/0134xwrk,Visual Studio Code,Computer program
+14,2,2,True,/trends/explore?q=/m/05r20&date=today+12-m&geo=BR,/m/05r20,Programming language,Kind of software
+15,2,2,True,/trends/explore?q=/m/05cntt&date=today+12-m&geo=BR,/m/05cntt,JSON,File format
+16,1,1,True,/trends/explore?q=/m/01tygv&date=today+12-m&geo=BR,/m/01tygv,Archive,Organization type
+17,1,1,True,/trends/explore?q=/m/02y_sk&date=today+12-m&geo=BR,/m/02y_sk,Installation,Computer programs
+18,1,1,True,/trends/explore?q=/m/0hzm844&date=today+12-m&geo=BR,/m/0hzm844,pip,Package manager
+19,1,1,True,/trends/explore?q=/m/016r48&date=today+12-m&geo=BR,/m/016r48,Object,Computer science
+20,1,1,True,/trends/explore?q=/m/01fk53&date=today+12-m&geo=BR,/m/01fk53,Command,Computing
+21,1,1,True,/trends/explore?q=/m/0c828v&date=today+12-m&geo=BR,/m/0c828v,Selenium,Software
+22,1,1,True,/trends/explore?q=/m/040t7h&date=today+12-m&geo=BR,/m/040t7h,Column,Database
+23,1,1,True,/trends/explore?q=/m/02d6dm&date=today+12-m&geo=BR,/m/02d6dm,For loop,Topic
+24,1,1,True,/trends/explore?q=/m/04yclrg&date=today+12-m&geo=BR,/m/04yclrg,Reading,Topic

@@ -2,7 +2,7 @@
 import gt_script as gt
 import pandas as pd
 
-keywords_list = ['SQL', 'Python', 'Pandas']
+keywords_list = ['SQL', 'Python']
 
 data_dict = {'keywords': keywords_list, 'df_it': [],
              'df_ir': [], 'df_rt': []}
@@ -32,7 +32,7 @@ for kw2 in keywords_list:
         i =+ 1
     else:
         exit()
-'''
+"""
 for kw3 in keywords_list:
     i = 0
     if i <= len(keywords_list):
@@ -41,11 +41,10 @@ for kw3 in keywords_list:
         i =+ 1
     else:
         exit()
-'''
+
 
 x = 1
 
-"""
 # interest_over_time
 df_it0 = pd.DataFrame(data_dict['df_it'][0])
 
@@ -53,8 +52,9 @@ df_it0 = pd.DataFrame(data_dict['df_it'][0])
 # interest_by_region
 df_ir0 = pd.DataFrame(data_dict['df_ir'][0])
 
-
+"""
 # related_topics
 df_rt0 = pd.DataFrame(data_dict['df_rt'][0]['SQL']['top'])
-
-"""
+df_rt0.to_csv('df_rt_'+'SQL', sep=',')  
+df_rt1 = pd.DataFrame(data_dict['df_rt'][1]['Python']['top'])
+df_rt1.to_csv('df_rt_'+'Python', sep=',')  
