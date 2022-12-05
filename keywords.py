@@ -38,19 +38,21 @@ lista_df = []
 
 for i in range(120):  
     
-    if (not(i in [68, 90])):  
+    if (not(i in [31, 68, 90, 113])):  
     
         df = pd.read_csv('Informacoes_' + str(i) + '.csv')
         lista_df.append(df)
 
 df_total = pd.concat(lista_df)
 
-# df_total.to_csv('df_total_descr.csv')
+df_total.to_csv('df_total_descr.csv')
 
-# df_total = pd.read_csv(r'C:\Users\Engenharia R3\Documents\GitHub\Tech_Dados_Projeto_Revelo\df_total_descr2.csv')
-# df_total = df_total.astype(str) 
+df_total = pd.read_csv(r'C:\Users\Engenharia R3\Documents\GitHub\Tech_Dados_Projeto_Revelo\df_total_descr.csv')
+df_total = df_total.astype(str) 
 
 stop_words = stopwords.words('portuguese')
+
+removal_words = []
 
 def cleaning(text):   
     # Converter para letra minúscula, Remover links URL, caracteres especiais, pontuações...
@@ -59,7 +61,12 @@ def cleaning(text):
     text = re.sub('<.*?>+', '', text)
     text = re.sub('[%s]' % re.escape(string.punctuation), '', text)
     text = re.sub('/n','', text)
-    text = re.sub('[’“”…]', '', text)     
+    text = re.sub('[’“”…]', '', text)
+    text = re.sub('•','', text)
+
+    for word in removal_words:
+     text = re.sub(word,'', text) 
+
 
     # Remover emojis (não será necessário) 
     # emoji_pattern = re.compile("["
@@ -88,9 +95,11 @@ df_total.loc[df_total['descr3_vg'].str.contains('descrição:', case=False, na=F
 dt1 = df_total['descrição_final'].apply(cleaning)
 
 # Contar as palavras que mais aparecem na coluna "descrição_final"
-
 from collections import Counter
-p1 = Counter(" ".join(dt1).split()).most_common(30)
+p1 = Counter(" ".join(dt1).split()).most_common(100)
 
 rslt = pd.DataFrame(p1, columns=['Word', 'Frequency'])
 print(rslt)
+
+# Salvando o dataFrame final para CSV file
+rslt.to_csv("rslt1.csv")
