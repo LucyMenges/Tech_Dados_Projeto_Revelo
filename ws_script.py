@@ -40,7 +40,7 @@ import numpy as np
 # https://www.vagas.com.br/
 
 ## busca_site_vagas
-# Função que fará a coleta dos anúncios de vagas resultantes da pesquisa 
+# Função que fará a coleta dos anúncios de vagas resultantes da pesquisa ao cargo indicado.
 
 # @param nav: str, navegador do Google Chrome
 # @param pag1: str, endereço do site para a busca
