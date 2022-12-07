@@ -1,0 +1,26 @@
+,value,formattedValue,hasData,link,topic_mid,topic_title,topic_type
+0,100,100,True,/trends/explore?q=/m/01jr1p&date=today+12-m&geo=BR,/m/01jr1p,"Extract, transform, load",Assunto
+1,22,22,True,/trends/explore?q=/m/026sq&date=today+12-m&geo=BR,/m/026sq,Dados,Assunto
+2,8,8,True,/trends/explore?q=/m/016jq3&date=today+12-m&geo=BR,/m/016jq3,Inteligência empresarial,Assunto
+3,7,7,True,/trends/explore?q=/m/07k1x&date=today+12-m&geo=BR,/m/07k1x,Ferramenta,Assunto
+4,6,6,True,/trends/explore?q=/g/1tdknb0g&date=today+12-m&geo=BR,/g/1tdknb0g,ETL de Lins,"Instituição educacional em Lins, São Paulo"
+5,6,6,True,/trends/explore?q=/m/05z1_&date=today+12-m&geo=BR,/m/05z1_,Python,Linguagem de programação
+6,5,5,True,/trends/explore?q=/g/11clr_l6ft&date=today+12-m&geo=BR,/g/11clr_l6ft,Power BI,Assunto
+7,5,5,True,/trends/explore?q=/g/1pycv1ktq&date=today+12-m&geo=BR,/g/1pycv1ktq,Lins,Cidade em São Paulo
+8,5,5,True,/trends/explore?q=/m/075st&date=today+12-m&geo=BR,/m/075st,SQL,Linguagem de programação
+9,4,4,True,/trends/explore?q=/m/0274f&date=today+12-m&geo=BR,/m/0274f,Armazém de dados,Assunto
+10,4,4,True,/trends/explore?q=/m/08hbfh&date=today+12-m&geo=BR,/m/08hbfh,Pentaho,Assunto
+11,3,3,True,/trends/explore?q=/m/02bc6&date=today+12-m&geo=BR,/m/02bc6,Banco de dados,Gênero do formato do arquivo
+12,3,3,True,/trends/explore?q=/g/120hndy9&date=today+12-m&geo=BR,/g/120hndy9,Processos da gerência de projetos,Assunto
+13,3,3,True,/trends/explore?q=/m/05nrgx&date=today+12-m&geo=BR,/m/05nrgx,Amazon Web Services,Assunto
+14,2,2,True,/trends/explore?q=/g/11cs5fz1y4&date=today+12-m&geo=BR,/g/11cs5fz1y4,Talend,Assunto
+15,2,2,True,/trends/explore?q=/m/0c909&date=today+12-m&geo=BR,/m/0c909,Processo,Informática
+16,2,2,True,/trends/explore?q=/m/01mf0&date=today+12-m&geo=BR,/m/01mf0,Software,Assunto
+17,2,2,True,/trends/explore?q=/m/09l5h3&date=today+12-m&geo=BR,/m/09l5h3,SQL Server Integration Services,Software
+18,2,2,True,/trends/explore?q=/m/0136zzks&date=today+12-m&geo=BR,/m/0136zzks,Data Lake,Assunto
+19,2,2,True,/trends/explore?q=/m/0bs2j8q&date=today+12-m&geo=BR,/m/0bs2j8q,Big data,Assunto
+20,2,2,True,/trends/explore?q=/m/03y39&date=today+12-m&geo=BR,/m/03y39,Informação,Assunto
+21,2,2,True,/trends/explore?q=/m/04y7lrx&date=today+12-m&geo=BR,/m/04y7lrx,Microsoft Azure,Software
+22,2,2,True,/trends/explore?q=/m/0jt3_q3&date=today+12-m&geo=BR,/m/0jt3_q3,Ciência de dados,Assunto
+23,2,2,True,/trends/explore?q=/m/02kwz2&date=today+12-m&geo=BR,/m/02kwz2,Inteligência,Assunto
+24,2,2,True,/trends/explore?q=/g/11fj327scc&date=today+12-m&geo=BR,/g/11fj327scc,Apache Airflow,Software
