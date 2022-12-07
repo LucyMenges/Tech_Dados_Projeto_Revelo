@@ -7,15 +7,17 @@ import pandas as pd
 # lista com as palavra-chave.
 """
 Ferramentas
-keywords_list = ['Excel', 'Power BI', 'Indicadores', 'Banco de Dados', 'Pacote Office',
-                 'SQL', 'Dashboards', 'SAP', 'Python', 'Cloud', 'CRM', 'Machine Learning', 
-                 'Protheus', 'Analytics', 'Oracle', 'R', 'Azure', 'Salesforce', 'Linux', 
-                 'Inteligência Artificial']  
+keywords_list = ['Excel', 'Power BI',  'Banco de Dados', 'Pacote Office',
+                 'SQL', 'SAP', 'Python', 'Cloud', 'CRM', 'Protheus', 'Analytics',
+                 'Oracle', 'R', 'Azure', 'Salesforce', 'Linux']  
+
+                ['Inglês', 'Equipe', 'Responsável', 'Comunicação', 'Planejamento', 'Modelagem', 'Foco', 'Apresentações de Dados'
+                 'Estatística', 'Documentação', 'Inovação', 'Metodologias Ágeis', 'Decisão', 'Prazos', 'Extração de Dados', 'Rotinas Automação', 
+                 'Machine Learning','Indicadores', 'Dashboards', 'Logística', 'Marketing', 'Implementação',  
+                 'ETL', 'Visão', 'Inteligência Artificial', 'Inteligência de Negócio', 'TI', 'Coleta de Dados', 'Fluxos']
 """
 
-keywords_list = ['Inglês', 'Equipe', 'Rotinas', 'Responsável', 'Comunicação', 'Planejamento', 'Modelagem', 'Foco', 'Apresentações de Dados'
-                 'Estatística', 'Documentação', 'Inovação', 'Metodologias Ágeis', 'Automação', 'Decisão', 'Prazos', 'Extração de Dados', 
-                 'ETL', 'Visão', 'Logística', 'Marketing', 'Implementação', 'TI', 'Coleta de Dados', 'Fluxos', 'Inteligência Artificial', 'Inteligência de Negócio']
+keywords_list = []
 
 
 # loop retorna dicionário com resultados buscados para cada palavra-chave.
