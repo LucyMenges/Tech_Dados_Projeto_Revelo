@@ -22,7 +22,7 @@ date,SQL,isPartial
 2022-05-01,99,False
 2022-05-08,100,False
 2022-05-15,92,False
-2022-05-22,95,False
+2022-05-22,94,False
 2022-05-29,95,False
 2022-06-05,95,False
 2022-06-12,79,False
@@ -30,7 +30,7 @@ date,SQL,isPartial
 2022-06-26,94,False
 2022-07-03,93,False
 2022-07-10,94,False
-2022-07-17,93,False
+2022-07-17,91,False
 2022-07-24,92,False
 2022-07-31,91,False
 2022-08-07,95,False
@@ -49,4 +49,4 @@ date,SQL,isPartial
 2022-11-06,91,False
 2022-11-13,88,False
 2022-11-20,87,False
-2022-11-27,88,False
+2022-11-27,87,False

@@ -22,7 +22,7 @@ date,Banco de Dados,isPartial
 2022-05-01,86,False
 2022-05-08,89,False
 2022-05-15,85,False
-2022-05-22,90,False
+2022-05-22,89,False
 2022-05-29,90,False
 2022-06-05,79,False
 2022-06-12,79,False
@@ -30,7 +30,7 @@ date,Banco de Dados,isPartial
 2022-06-26,77,False
 2022-07-03,66,False
 2022-07-10,68,False
-2022-07-17,70,False
+2022-07-17,69,False
 2022-07-24,69,False
 2022-07-31,72,False
 2022-08-07,68,False
@@ -49,4 +49,4 @@ date,Banco de Dados,isPartial
 2022-11-06,90,False
 2022-11-13,87,False
 2022-11-20,77,False
-2022-11-27,85,False
+2022-11-27,86,False

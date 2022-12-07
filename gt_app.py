@@ -38,7 +38,7 @@ for kw1 in keywords_list:
     if i <= len(keywords_list):
         df = data_dict['df_it'][i]
         df.to_csv('data_it_' +str([kw1]), sep=',')  
-        i =+ 1
+        i += 1
     else:
         exit()
         
@@ -48,7 +48,7 @@ for kw2 in keywords_list:
     if i <= len(keywords_list):
         df = data_dict['df_ir'][i]
         df.to_csv('data_ir_' +str([kw2]), sep=',')  
-        i =+ 1
+        i += 1
     else:
         exit()
 
@@ -58,6 +58,6 @@ for kw3 in keywords_list:
     if i <= len(keywords_list):
         df = pd.DataFrame(data_dict['df_rt'][i][kw3]['top'])
         df.to_csv('data_rt_' +str([kw3]), sep=',')  
-        i =+ 1
+        i += 1
     else:
         exit()
