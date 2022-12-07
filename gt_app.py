@@ -5,6 +5,7 @@ import gt_script as gt
 import pandas as pd
 
 # lista com as palavra-chave.
+
 keywords_list = ['Excel', 'Power BI', 'Indicadores', 'Banco de Dados', 'Pacote Office',
                  'SQL', 'Dashboards', 'SAP', 'Python', 'Cloud',
                  'CRM', 'Machine Learning', 'Protheus', 'Analytics', 'Oracle',
