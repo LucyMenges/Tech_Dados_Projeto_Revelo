@@ -1,28 +1,28 @@
-geoName,geoCode,SQL
-Federal District,BR-DF,100
-State of Acre,BR-AC,18
-State of Alagoas,BR-AL,33
-State of Amapá,BR-AP,13
-State of Amazonas,BR-AM,33
-State of Bahia,BR-BA,24
-State of Ceará,BR-CE,42
-State of Espírito Santo,BR-ES,54
-State of Goiás,BR-GO,36
-State of Maranhão,BR-MA,22
-State of Mato Grosso,BR-MT,31
-State of Mato Grosso do Sul,BR-MS,35
-State of Minas Gerais,BR-MG,57
-State of Paraná,BR-PR,60
-State of Paraíba,BR-PB,42
-State of Pará,BR-PA,23
-State of Pernambuco,BR-PE,40
-State of Piauí,BR-PI,21
-State of Rio Grande do Norte,BR-RN,36
-State of Rio Grande do Sul,BR-RS,51
-State of Rio de Janeiro,BR-RJ,51
-State of Rondônia,BR-RO,29
-State of Roraima,BR-RR,17
-State of Santa Catarina,BR-SC,75
-State of Sergipe,BR-SE,36
-State of São Paulo,BR-SP,90
-State of Tocantins,BR-TO,40
+geoName,geoCode,Power BI
+Acre,BR-AC,36
+Alagoas,BR-AL,31
+Amapá,BR-AP,19
+Amazonas,BR-AM,50
+Bahia,BR-BA,30
+Ceará,BR-CE,58
+Distrito Federal,BR-DF,99
+Espírito Santo,BR-ES,75
+Goiás,BR-GO,49
+Maranhão,BR-MA,42
+Mato Grosso,BR-MT,45
+Mato Grosso do Sul,BR-MS,39
+Minas Gerais,BR-MG,71
+Paraná,BR-PR,81
+Paraíba,BR-PB,37
+Pará,BR-PA,36
+Pernambuco,BR-PE,42
+Piauí,BR-PI,28
+Rio Grande do Norte,BR-RN,39
+Rio Grande do Sul,BR-RS,44
+Rio de Janeiro,BR-RJ,72
+Rondônia,BR-RO,34
+Roraima,BR-RR,0
+Santa Catarina,BR-SC,50
+Sergipe,BR-SE,34
+São Paulo,BR-SP,100
+Tocantins,BR-TO,32

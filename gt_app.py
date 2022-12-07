@@ -5,7 +5,10 @@ import gt_script as gt
 import pandas as pd
 
 # lista com as palavra-chave.
-keywords_list = ['SQL', 'Python']
+keywords_list = ['Excel', 'Power BI', 'Indicadores', 'Banco de Dados', 'Pacote Office',
+                 'SQL', 'Dashboards', 'SAP', 'Python', 'Cloud',
+                 'CRM', 'Machine Learning', 'Protheus', 'Analytics', 'Oracle',
+                 'R', 'Azure', 'Salesforce', 'Linux', 'Inteligência Artificial',]
 
 # loop retorna dicionário com resultados buscados para cada palavra-chave.
 data_dict = {'keywords': keywords_list, 'df_it': [],
