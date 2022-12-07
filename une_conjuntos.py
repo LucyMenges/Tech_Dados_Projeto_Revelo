@@ -36,8 +36,8 @@ for kw in keywords_list:
     
     
 df_ir_total = pd.concat(lista_data_ir, axis = 0)
-df_ir_total.to_csv('df_ir_total.csv')
+df_ir_total.to_csv('df_ir_total_ferram.csv')
 df_it_total = pd.concat(lista_data_it, axis = 0)
-df_it_total.to_csv('df_it_total.csv')
+df_it_total.to_csv('df_it_total_ferram..csv')
 df_rt_total = pd.concat(lista_data_rt, axis = 0)
-df_rt_total.to_csv('df_rt_total.csv')
+df_rt_total.to_csv('df_rt_total_ferram..csv')
