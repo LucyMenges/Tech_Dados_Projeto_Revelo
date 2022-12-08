@@ -1,0 +1,1378 @@
+,date,quantidade,isPartial,habilidades
+0,2021-12-12,75,False,Inglês
+1,2021-12-19,76,False,Inglês
+2,2021-12-26,81,False,Inglês
+3,2022-01-02,74,False,Inglês
+4,2022-01-09,73,False,Inglês
+5,2022-01-16,70,False,Inglês
+6,2022-01-23,67,False,Inglês
+7,2022-01-30,75,False,Inglês
+8,2022-02-06,82,False,Inglês
+9,2022-02-13,90,False,Inglês
+10,2022-02-20,92,False,Inglês
+11,2022-02-27,87,False,Inglês
+12,2022-03-06,97,False,Inglês
+13,2022-03-13,98,False,Inglês
+14,2022-03-20,94,False,Inglês
+15,2022-03-27,100,False,Inglês
+16,2022-04-03,95,False,Inglês
+17,2022-04-10,94,False,Inglês
+18,2022-04-17,94,False,Inglês
+19,2022-04-24,99,False,Inglês
+20,2022-05-01,95,False,Inglês
+21,2022-05-08,98,False,Inglês
+22,2022-05-15,92,False,Inglês
+23,2022-05-22,98,False,Inglês
+24,2022-05-29,93,False,Inglês
+25,2022-06-05,91,False,Inglês
+26,2022-06-12,90,False,Inglês
+27,2022-06-19,89,False,Inglês
+28,2022-06-26,84,False,Inglês
+29,2022-07-03,82,False,Inglês
+30,2022-07-10,80,False,Inglês
+31,2022-07-17,78,False,Inglês
+32,2022-07-24,82,False,Inglês
+33,2022-07-31,85,False,Inglês
+34,2022-08-07,84,False,Inglês
+35,2022-08-14,89,False,Inglês
+36,2022-08-21,94,False,Inglês
+37,2022-08-28,92,False,Inglês
+38,2022-09-04,85,False,Inglês
+39,2022-09-11,88,False,Inglês
+40,2022-09-18,91,False,Inglês
+41,2022-09-25,82,False,Inglês
+42,2022-10-02,76,False,Inglês
+43,2022-10-09,80,False,Inglês
+44,2022-10-16,83,False,Inglês
+45,2022-10-23,86,False,Inglês
+46,2022-10-30,81,False,Inglês
+47,2022-11-06,82,False,Inglês
+48,2022-11-13,85,False,Inglês
+49,2022-11-20,75,False,Inglês
+50,2022-11-27,77,False,Inglês
+0,2021-12-12,73,False,Equipe
+1,2021-12-19,73,False,Equipe
+2,2021-12-26,50,False,Equipe
+3,2022-01-02,51,False,Equipe
+4,2022-01-09,55,False,Equipe
+5,2022-01-16,52,False,Equipe
+6,2022-01-23,53,False,Equipe
+7,2022-01-30,61,False,Equipe
+8,2022-02-06,65,False,Equipe
+9,2022-02-13,69,False,Equipe
+10,2022-02-20,63,False,Equipe
+11,2022-02-27,64,False,Equipe
+12,2022-03-06,60,False,Equipe
+13,2022-03-13,71,False,Equipe
+14,2022-03-20,73,False,Equipe
+15,2022-03-27,80,False,Equipe
+16,2022-04-03,79,False,Equipe
+17,2022-04-10,70,False,Equipe
+18,2022-04-17,71,False,Equipe
+19,2022-04-24,84,False,Equipe
+20,2022-05-01,72,False,Equipe
+21,2022-05-08,75,False,Equipe
+22,2022-05-15,70,False,Equipe
+23,2022-05-22,87,False,Equipe
+24,2022-05-29,87,False,Equipe
+25,2022-06-05,79,False,Equipe
+26,2022-06-12,70,False,Equipe
+27,2022-06-19,72,False,Equipe
+28,2022-06-26,73,False,Equipe
+29,2022-07-03,66,False,Equipe
+30,2022-07-10,64,False,Equipe
+31,2022-07-17,60,False,Equipe
+32,2022-07-24,71,False,Equipe
+33,2022-07-31,70,False,Equipe
+34,2022-08-07,77,False,Equipe
+35,2022-08-14,75,False,Equipe
+36,2022-08-21,81,False,Equipe
+37,2022-08-28,88,False,Equipe
+38,2022-09-04,76,False,Equipe
+39,2022-09-11,76,False,Equipe
+40,2022-09-18,85,False,Equipe
+41,2022-09-25,79,False,Equipe
+42,2022-10-02,69,False,Equipe
+43,2022-10-09,72,False,Equipe
+44,2022-10-16,73,False,Equipe
+45,2022-10-23,85,False,Equipe
+46,2022-10-30,82,False,Equipe
+47,2022-11-06,95,False,Equipe
+48,2022-11-13,100,False,Equipe
+49,2022-11-20,96,False,Equipe
+50,2022-11-27,89,False,Equipe
+0,2021-12-12,46,False,Responsável
+1,2021-12-19,25,False,Responsável
+2,2021-12-26,18,False,Responsável
+3,2022-01-02,25,False,Responsável
+4,2022-01-09,27,False,Responsável
+5,2022-01-16,26,False,Responsável
+6,2022-01-23,28,False,Responsável
+7,2022-01-30,29,False,Responsável
+8,2022-02-06,35,False,Responsável
+9,2022-02-13,51,False,Responsável
+10,2022-02-20,52,False,Responsável
+11,2022-02-27,43,False,Responsável
+12,2022-03-06,65,False,Responsável
+13,2022-03-13,69,False,Responsável
+14,2022-03-20,68,False,Responsável
+15,2022-03-27,74,False,Responsável
+16,2022-04-03,83,False,Responsável
+17,2022-04-10,55,False,Responsável
+18,2022-04-17,69,False,Responsável
+19,2022-04-24,69,False,Responsável
+20,2022-05-01,67,False,Responsável
+21,2022-05-08,63,False,Responsável
+22,2022-05-15,60,False,Responsável
+23,2022-05-22,66,False,Responsável
+24,2022-05-29,73,False,Responsável
+25,2022-06-05,71,False,Responsável
+26,2022-06-12,60,False,Responsável
+27,2022-06-19,70,False,Responsável
+28,2022-06-26,61,False,Responsável
+29,2022-07-03,45,False,Responsável
+30,2022-07-10,34,False,Responsável
+31,2022-07-17,35,False,Responsável
+32,2022-07-24,34,False,Responsável
+33,2022-07-31,47,False,Responsável
+34,2022-08-07,50,False,Responsável
+35,2022-08-14,58,False,Responsável
+36,2022-08-21,65,False,Responsável
+37,2022-08-28,68,False,Responsável
+38,2022-09-04,55,False,Responsável
+39,2022-09-11,64,False,Responsável
+40,2022-09-18,69,False,Responsável
+41,2022-09-25,73,False,Responsável
+42,2022-10-02,58,False,Responsável
+43,2022-10-09,47,False,Responsável
+44,2022-10-16,100,False,Responsável
+45,2022-10-23,71,False,Responsável
+46,2022-10-30,57,False,Responsável
+47,2022-11-06,74,False,Responsável
+48,2022-11-13,64,False,Responsável
+49,2022-11-20,67,False,Responsável
+50,2022-11-27,66,False,Responsável
+0,2021-12-12,25,False,Comunicação
+1,2021-12-19,14,False,Comunicação
+2,2021-12-26,100,False,Comunicação
+3,2022-01-02,20,False,Comunicação
+4,2022-01-09,22,False,Comunicação
+5,2022-01-16,20,False,Comunicação
+6,2022-01-23,23,False,Comunicação
+7,2022-01-30,27,False,Comunicação
+8,2022-02-06,32,False,Comunicação
+9,2022-02-13,41,False,Comunicação
+10,2022-02-20,37,False,Comunicação
+11,2022-02-27,31,False,Comunicação
+12,2022-03-06,40,False,Comunicação
+13,2022-03-13,42,False,Comunicação
+14,2022-03-20,40,False,Comunicação
+15,2022-03-27,43,False,Comunicação
+16,2022-04-03,44,False,Comunicação
+17,2022-04-10,33,False,Comunicação
+18,2022-04-17,38,False,Comunicação
+19,2022-04-24,42,False,Comunicação
+20,2022-05-01,43,False,Comunicação
+21,2022-05-08,40,False,Comunicação
+22,2022-05-15,38,False,Comunicação
+23,2022-05-22,41,False,Comunicação
+24,2022-05-29,41,False,Comunicação
+25,2022-06-05,40,False,Comunicação
+26,2022-06-12,38,False,Comunicação
+27,2022-06-19,37,False,Comunicação
+28,2022-06-26,35,False,Comunicação
+29,2022-07-03,31,False,Comunicação
+30,2022-07-10,29,False,Comunicação
+31,2022-07-17,27,False,Comunicação
+32,2022-07-24,29,False,Comunicação
+33,2022-07-31,33,False,Comunicação
+34,2022-08-07,34,False,Comunicação
+35,2022-08-14,40,False,Comunicação
+36,2022-08-21,38,False,Comunicação
+37,2022-08-28,44,False,Comunicação
+38,2022-09-04,35,False,Comunicação
+39,2022-09-11,39,False,Comunicação
+40,2022-09-18,43,False,Comunicação
+41,2022-09-25,37,False,Comunicação
+42,2022-10-02,31,False,Comunicação
+43,2022-10-09,33,False,Comunicação
+44,2022-10-16,36,False,Comunicação
+45,2022-10-23,38,False,Comunicação
+46,2022-10-30,31,False,Comunicação
+47,2022-11-06,40,False,Comunicação
+48,2022-11-13,40,False,Comunicação
+49,2022-11-20,36,False,Comunicação
+50,2022-11-27,36,False,Comunicação
+0,2021-12-12,53,False,Planejamento
+1,2021-12-19,33,False,Planejamento
+2,2021-12-26,36,False,Planejamento
+3,2022-01-02,55,False,Planejamento
+4,2022-01-09,53,False,Planejamento
+5,2022-01-16,49,False,Planejamento
+6,2022-01-23,55,False,Planejamento
+7,2022-01-30,72,False,Planejamento
+8,2022-02-06,76,False,Planejamento
+9,2022-02-13,86,False,Planejamento
+10,2022-02-20,75,False,Planejamento
+11,2022-02-27,76,False,Planejamento
+12,2022-03-06,91,False,Planejamento
+13,2022-03-13,86,False,Planejamento
+14,2022-03-20,91,False,Planejamento
+15,2022-03-27,86,False,Planejamento
+16,2022-04-03,99,False,Planejamento
+17,2022-04-10,74,False,Planejamento
+18,2022-04-17,85,False,Planejamento
+19,2022-04-24,69,False,Planejamento
+20,2022-05-01,89,False,Planejamento
+21,2022-05-08,75,False,Planejamento
+22,2022-05-15,81,False,Planejamento
+23,2022-05-22,83,False,Planejamento
+24,2022-05-29,100,False,Planejamento
+25,2022-06-05,83,False,Planejamento
+26,2022-06-12,64,False,Planejamento
+27,2022-06-19,68,False,Planejamento
+28,2022-06-26,65,False,Planejamento
+29,2022-07-03,56,False,Planejamento
+30,2022-07-10,48,False,Planejamento
+31,2022-07-17,48,False,Planejamento
+32,2022-07-24,55,False,Planejamento
+33,2022-07-31,58,False,Planejamento
+34,2022-08-07,59,False,Planejamento
+35,2022-08-14,66,False,Planejamento
+36,2022-08-21,67,False,Planejamento
+37,2022-08-28,76,False,Planejamento
+38,2022-09-04,64,False,Planejamento
+39,2022-09-11,73,False,Planejamento
+40,2022-09-18,76,False,Planejamento
+41,2022-09-25,83,False,Planejamento
+42,2022-10-02,59,False,Planejamento
+43,2022-10-09,61,False,Planejamento
+44,2022-10-16,67,False,Planejamento
+45,2022-10-23,77,False,Planejamento
+46,2022-10-30,63,False,Planejamento
+47,2022-11-06,77,False,Planejamento
+48,2022-11-13,74,False,Planejamento
+49,2022-11-20,76,False,Planejamento
+50,2022-11-27,73,False,Planejamento
+0,2021-12-12,52,False,Modelagem
+1,2021-12-19,41,False,Modelagem
+2,2021-12-26,40,False,Modelagem
+3,2022-01-02,47,False,Modelagem
+4,2022-01-09,52,False,Modelagem
+5,2022-01-16,48,False,Modelagem
+6,2022-01-23,54,False,Modelagem
+7,2022-01-30,56,False,Modelagem
+8,2022-02-06,60,False,Modelagem
+9,2022-02-13,69,False,Modelagem
+10,2022-02-20,64,False,Modelagem
+11,2022-02-27,58,False,Modelagem
+12,2022-03-06,100,False,Modelagem
+13,2022-03-13,79,False,Modelagem
+14,2022-03-20,83,False,Modelagem
+15,2022-03-27,75,False,Modelagem
+16,2022-04-03,80,False,Modelagem
+17,2022-04-10,75,False,Modelagem
+18,2022-04-17,70,False,Modelagem
+19,2022-04-24,79,False,Modelagem
+20,2022-05-01,84,False,Modelagem
+21,2022-05-08,76,False,Modelagem
+22,2022-05-15,70,False,Modelagem
+23,2022-05-22,89,False,Modelagem
+24,2022-05-29,81,False,Modelagem
+25,2022-06-05,83,False,Modelagem
+26,2022-06-12,72,False,Modelagem
+27,2022-06-19,82,False,Modelagem
+28,2022-06-26,62,False,Modelagem
+29,2022-07-03,67,False,Modelagem
+30,2022-07-10,64,False,Modelagem
+31,2022-07-17,58,False,Modelagem
+32,2022-07-24,63,False,Modelagem
+33,2022-07-31,64,False,Modelagem
+34,2022-08-07,67,False,Modelagem
+35,2022-08-14,66,False,Modelagem
+36,2022-08-21,69,False,Modelagem
+37,2022-08-28,63,False,Modelagem
+38,2022-09-04,69,False,Modelagem
+39,2022-09-11,75,False,Modelagem
+40,2022-09-18,81,False,Modelagem
+41,2022-09-25,78,False,Modelagem
+42,2022-10-02,59,False,Modelagem
+43,2022-10-09,61,False,Modelagem
+44,2022-10-16,68,False,Modelagem
+45,2022-10-23,84,False,Modelagem
+46,2022-10-30,66,False,Modelagem
+47,2022-11-06,73,False,Modelagem
+48,2022-11-13,73,False,Modelagem
+49,2022-11-20,73,False,Modelagem
+50,2022-11-27,66,False,Modelagem
+0,2021-12-12,81,False,Foco
+1,2021-12-19,98,False,Foco
+2,2021-12-26,83,False,Foco
+3,2022-01-02,85,False,Foco
+4,2022-01-09,81,False,Foco
+5,2022-01-16,76,False,Foco
+6,2022-01-23,73,False,Foco
+7,2022-01-30,79,False,Foco
+8,2022-02-06,81,False,Foco
+9,2022-02-13,85,False,Foco
+10,2022-02-20,83,False,Foco
+11,2022-02-27,79,False,Foco
+12,2022-03-06,93,False,Foco
+13,2022-03-13,86,False,Foco
+14,2022-03-20,86,False,Foco
+15,2022-03-27,89,False,Foco
+16,2022-04-03,89,False,Foco
+17,2022-04-10,87,False,Foco
+18,2022-04-17,79,False,Foco
+19,2022-04-24,85,False,Foco
+20,2022-05-01,94,False,Foco
+21,2022-05-08,83,False,Foco
+22,2022-05-15,89,False,Foco
+23,2022-05-22,87,False,Foco
+24,2022-05-29,100,False,Foco
+25,2022-06-05,88,False,Foco
+26,2022-06-12,85,False,Foco
+27,2022-06-19,83,False,Foco
+28,2022-06-26,83,False,Foco
+29,2022-07-03,83,False,Foco
+30,2022-07-10,82,False,Foco
+31,2022-07-17,78,False,Foco
+32,2022-07-24,83,False,Foco
+33,2022-07-31,80,False,Foco
+34,2022-08-07,78,False,Foco
+35,2022-08-14,79,False,Foco
+36,2022-08-21,83,False,Foco
+37,2022-08-28,86,False,Foco
+38,2022-09-04,77,False,Foco
+39,2022-09-11,82,False,Foco
+40,2022-09-18,89,False,Foco
+41,2022-09-25,86,False,Foco
+42,2022-10-02,68,False,Foco
+43,2022-10-09,75,False,Foco
+44,2022-10-16,79,False,Foco
+45,2022-10-23,85,False,Foco
+46,2022-10-30,73,False,Foco
+47,2022-11-06,85,False,Foco
+48,2022-11-13,84,False,Foco
+49,2022-11-20,81,False,Foco
+50,2022-11-27,80,False,Foco
+0,2021-12-12,41,False,Estatística
+1,2021-12-19,30,False,Estatística
+2,2021-12-26,31,False,Estatística
+3,2022-01-02,37,False,Estatística
+4,2022-01-09,47,False,Estatística
+5,2022-01-16,33,False,Estatística
+6,2022-01-23,39,False,Estatística
+7,2022-01-30,51,False,Estatística
+8,2022-02-06,58,False,Estatística
+9,2022-02-13,82,False,Estatística
+10,2022-02-20,66,False,Estatística
+11,2022-02-27,61,False,Estatística
+12,2022-03-06,81,False,Estatística
+13,2022-03-13,76,False,Estatística
+14,2022-03-20,75,False,Estatística
+15,2022-03-27,82,False,Estatística
+16,2022-04-03,86,False,Estatística
+17,2022-04-10,70,False,Estatística
+18,2022-04-17,69,False,Estatística
+19,2022-04-24,82,False,Estatística
+20,2022-05-01,85,False,Estatística
+21,2022-05-08,78,False,Estatística
+22,2022-05-15,80,False,Estatística
+23,2022-05-22,73,False,Estatística
+24,2022-05-29,80,False,Estatística
+25,2022-06-05,79,False,Estatística
+26,2022-06-12,73,False,Estatística
+27,2022-06-19,80,False,Estatística
+28,2022-06-26,70,False,Estatística
+29,2022-07-03,59,False,Estatística
+30,2022-07-10,58,False,Estatística
+31,2022-07-17,50,False,Estatística
+32,2022-07-24,51,False,Estatística
+33,2022-07-31,62,False,Estatística
+34,2022-08-07,67,False,Estatística
+35,2022-08-14,70,False,Estatística
+36,2022-08-21,81,False,Estatística
+37,2022-08-28,78,False,Estatística
+38,2022-09-04,67,False,Estatística
+39,2022-09-11,78,False,Estatística
+40,2022-09-18,77,False,Estatística
+41,2022-09-25,84,False,Estatística
+42,2022-10-02,91,False,Estatística
+43,2022-10-09,70,False,Estatística
+44,2022-10-16,88,False,Estatística
+45,2022-10-23,82,False,Estatística
+46,2022-10-30,76,False,Estatística
+47,2022-11-06,88,False,Estatística
+48,2022-11-13,85,False,Estatística
+49,2022-11-20,100,False,Estatística
+50,2022-11-27,98,False,Estatística
+0,2021-12-12,75,False,Documentação
+1,2021-12-19,50,False,Documentação
+2,2021-12-26,42,False,Documentação
+3,2022-01-02,81,False,Documentação
+4,2022-01-09,83,False,Documentação
+5,2022-01-16,75,False,Documentação
+6,2022-01-23,79,False,Documentação
+7,2022-01-30,87,False,Documentação
+8,2022-02-06,95,False,Documentação
+9,2022-02-13,91,False,Documentação
+10,2022-02-20,97,False,Documentação
+11,2022-02-27,97,False,Documentação
+12,2022-03-06,97,False,Documentação
+13,2022-03-13,100,False,Documentação
+14,2022-03-20,99,False,Documentação
+15,2022-03-27,96,False,Documentação
+16,2022-04-03,93,False,Documentação
+17,2022-04-10,85,False,Documentação
+18,2022-04-17,76,False,Documentação
+19,2022-04-24,94,False,Documentação
+20,2022-05-01,85,False,Documentação
+21,2022-05-08,79,False,Documentação
+22,2022-05-15,89,False,Documentação
+23,2022-05-22,91,False,Documentação
+24,2022-05-29,89,False,Documentação
+25,2022-06-05,85,False,Documentação
+26,2022-06-12,73,False,Documentação
+27,2022-06-19,86,False,Documentação
+28,2022-06-26,88,False,Documentação
+29,2022-07-03,83,False,Documentação
+30,2022-07-10,85,False,Documentação
+31,2022-07-17,78,False,Documentação
+32,2022-07-24,83,False,Documentação
+33,2022-07-31,81,False,Documentação
+34,2022-08-07,84,False,Documentação
+35,2022-08-14,86,False,Documentação
+36,2022-08-21,85,False,Documentação
+37,2022-08-28,84,False,Documentação
+38,2022-09-04,71,False,Documentação
+39,2022-09-11,81,False,Documentação
+40,2022-09-18,83,False,Documentação
+41,2022-09-25,82,False,Documentação
+42,2022-10-02,69,False,Documentação
+43,2022-10-09,71,False,Documentação
+44,2022-10-16,76,False,Documentação
+45,2022-10-23,80,False,Documentação
+46,2022-10-30,62,False,Documentação
+47,2022-11-06,70,False,Documentação
+48,2022-11-13,65,False,Documentação
+49,2022-11-20,70,False,Documentação
+50,2022-11-27,62,False,Documentação
+0,2021-12-12,44,False,Inovação
+1,2021-12-19,29,False,Inovação
+2,2021-12-26,23,False,Inovação
+3,2022-01-02,36,False,Inovação
+4,2022-01-09,42,False,Inovação
+5,2022-01-16,37,False,Inovação
+6,2022-01-23,46,False,Inovação
+7,2022-01-30,46,False,Inovação
+8,2022-02-06,59,False,Inovação
+9,2022-02-13,67,False,Inovação
+10,2022-02-20,67,False,Inovação
+11,2022-02-27,58,False,Inovação
+12,2022-03-06,84,False,Inovação
+13,2022-03-13,83,False,Inovação
+14,2022-03-20,81,False,Inovação
+15,2022-03-27,85,False,Inovação
+16,2022-04-03,86,False,Inovação
+17,2022-04-10,64,False,Inovação
+18,2022-04-17,77,False,Inovação
+19,2022-04-24,83,False,Inovação
+20,2022-05-01,100,False,Inovação
+21,2022-05-08,73,False,Inovação
+22,2022-05-15,72,False,Inovação
+23,2022-05-22,80,False,Inovação
+24,2022-05-29,96,False,Inovação
+25,2022-06-05,81,False,Inovação
+26,2022-06-12,64,False,Inovação
+27,2022-06-19,70,False,Inovação
+28,2022-06-26,66,False,Inovação
+29,2022-07-03,57,False,Inovação
+30,2022-07-10,51,False,Inovação
+31,2022-07-17,48,False,Inovação
+32,2022-07-24,58,False,Inovação
+33,2022-07-31,60,False,Inovação
+34,2022-08-07,66,False,Inovação
+35,2022-08-14,69,False,Inovação
+36,2022-08-21,73,False,Inovação
+37,2022-08-28,81,False,Inovação
+38,2022-09-04,65,False,Inovação
+39,2022-09-11,70,False,Inovação
+40,2022-09-18,72,False,Inovação
+41,2022-09-25,71,False,Inovação
+42,2022-10-02,58,False,Inovação
+43,2022-10-09,57,False,Inovação
+44,2022-10-16,73,False,Inovação
+45,2022-10-23,62,False,Inovação
+46,2022-10-30,63,False,Inovação
+47,2022-11-06,77,False,Inovação
+48,2022-11-13,70,False,Inovação
+49,2022-11-20,76,False,Inovação
+50,2022-11-27,67,False,Inovação
+0,2021-12-12,0,False,Metodologias Ágeis
+1,2021-12-19,25,False,Metodologias Ágeis
+2,2021-12-26,18,False,Metodologias Ágeis
+3,2022-01-02,0,False,Metodologias Ágeis
+4,2022-01-09,58,False,Metodologias Ágeis
+5,2022-01-16,17,False,Metodologias Ágeis
+6,2022-01-23,36,False,Metodologias Ágeis
+7,2022-01-30,48,False,Metodologias Ágeis
+8,2022-02-06,0,False,Metodologias Ágeis
+9,2022-02-13,34,False,Metodologias Ágeis
+10,2022-02-20,42,False,Metodologias Ágeis
+11,2022-02-27,35,False,Metodologias Ágeis
+12,2022-03-06,0,False,Metodologias Ágeis
+13,2022-03-13,51,False,Metodologias Ágeis
+14,2022-03-20,52,False,Metodologias Ágeis
+15,2022-03-27,50,False,Metodologias Ágeis
+16,2022-04-03,45,False,Metodologias Ágeis
+17,2022-04-10,54,False,Metodologias Ágeis
+18,2022-04-17,40,False,Metodologias Ágeis
+19,2022-04-24,39,False,Metodologias Ágeis
+20,2022-05-01,53,False,Metodologias Ágeis
+21,2022-05-08,51,False,Metodologias Ágeis
+22,2022-05-15,27,False,Metodologias Ágeis
+23,2022-05-22,100,False,Metodologias Ágeis
+24,2022-05-29,63,False,Metodologias Ágeis
+25,2022-06-05,26,False,Metodologias Ágeis
+26,2022-06-12,44,False,Metodologias Ágeis
+27,2022-06-19,86,False,Metodologias Ágeis
+28,2022-06-26,45,False,Metodologias Ágeis
+29,2022-07-03,60,False,Metodologias Ágeis
+30,2022-07-10,36,False,Metodologias Ágeis
+31,2022-07-17,24,False,Metodologias Ágeis
+32,2022-07-24,26,False,Metodologias Ágeis
+33,2022-07-31,29,False,Metodologias Ágeis
+34,2022-08-07,56,False,Metodologias Ágeis
+35,2022-08-14,41,False,Metodologias Ágeis
+36,2022-08-21,66,False,Metodologias Ágeis
+37,2022-08-28,34,False,Metodologias Ágeis
+38,2022-09-04,36,False,Metodologias Ágeis
+39,2022-09-11,34,False,Metodologias Ágeis
+40,2022-09-18,34,False,Metodologias Ágeis
+41,2022-09-25,47,False,Metodologias Ágeis
+42,2022-10-02,32,False,Metodologias Ágeis
+43,2022-10-09,14,False,Metodologias Ágeis
+44,2022-10-16,44,False,Metodologias Ágeis
+45,2022-10-23,47,False,Metodologias Ágeis
+46,2022-10-30,37,False,Metodologias Ágeis
+47,2022-11-06,50,False,Metodologias Ágeis
+48,2022-11-13,25,False,Metodologias Ágeis
+49,2022-11-20,32,False,Metodologias Ágeis
+50,2022-11-27,25,False,Metodologias Ágeis
+0,2021-12-12,66,False,Decisão
+1,2021-12-19,35,False,Decisão
+2,2021-12-26,24,False,Decisão
+3,2022-01-02,33,False,Decisão
+4,2022-01-09,39,False,Decisão
+5,2022-01-16,46,False,Decisão
+6,2022-01-23,58,False,Decisão
+7,2022-01-30,57,False,Decisão
+8,2022-02-06,68,False,Decisão
+9,2022-02-13,73,False,Decisão
+10,2022-02-20,71,False,Decisão
+11,2022-02-27,57,False,Decisão
+12,2022-03-06,64,False,Decisão
+13,2022-03-13,76,False,Decisão
+14,2022-03-20,81,False,Decisão
+15,2022-03-27,100,False,Decisão
+16,2022-04-03,83,False,Decisão
+17,2022-04-10,65,False,Decisão
+18,2022-04-17,74,False,Decisão
+19,2022-04-24,84,False,Decisão
+20,2022-05-01,81,False,Decisão
+21,2022-05-08,71,False,Decisão
+22,2022-05-15,75,False,Decisão
+23,2022-05-22,80,False,Decisão
+24,2022-05-29,92,False,Decisão
+25,2022-06-05,86,False,Decisão
+26,2022-06-12,67,False,Decisão
+27,2022-06-19,75,False,Decisão
+28,2022-06-26,66,False,Decisão
+29,2022-07-03,58,False,Decisão
+30,2022-07-10,59,False,Decisão
+31,2022-07-17,55,False,Decisão
+32,2022-07-24,54,False,Decisão
+33,2022-07-31,59,False,Decisão
+34,2022-08-07,58,False,Decisão
+35,2022-08-14,60,False,Decisão
+36,2022-08-21,67,False,Decisão
+37,2022-08-28,77,False,Decisão
+38,2022-09-04,74,False,Decisão
+39,2022-09-11,70,False,Decisão
+40,2022-09-18,84,False,Decisão
+41,2022-09-25,86,False,Decisão
+42,2022-10-02,71,False,Decisão
+43,2022-10-09,64,False,Decisão
+44,2022-10-16,86,False,Decisão
+45,2022-10-23,96,False,Decisão
+46,2022-10-30,75,False,Decisão
+47,2022-11-06,78,False,Decisão
+48,2022-11-13,76,False,Decisão
+49,2022-11-20,72,False,Decisão
+50,2022-11-27,72,False,Decisão
+0,2021-12-12,88,False,Prazos
+1,2021-12-19,58,False,Prazos
+2,2021-12-26,40,False,Prazos
+3,2022-01-02,73,False,Prazos
+4,2022-01-09,100,False,Prazos
+5,2022-01-16,97,False,Prazos
+6,2022-01-23,81,False,Prazos
+7,2022-01-30,98,False,Prazos
+8,2022-02-06,80,False,Prazos
+9,2022-02-13,76,False,Prazos
+10,2022-02-20,78,False,Prazos
+11,2022-02-27,73,False,Prazos
+12,2022-03-06,68,False,Prazos
+13,2022-03-13,68,False,Prazos
+14,2022-03-20,68,False,Prazos
+15,2022-03-27,71,False,Prazos
+16,2022-04-03,74,False,Prazos
+17,2022-04-10,69,False,Prazos
+18,2022-04-17,65,False,Prazos
+19,2022-04-24,80,False,Prazos
+20,2022-05-01,77,False,Prazos
+21,2022-05-08,69,False,Prazos
+22,2022-05-15,70,False,Prazos
+23,2022-05-22,70,False,Prazos
+24,2022-05-29,72,False,Prazos
+25,2022-06-05,77,False,Prazos
+26,2022-06-12,66,False,Prazos
+27,2022-06-19,80,False,Prazos
+28,2022-06-26,70,False,Prazos
+29,2022-07-03,71,False,Prazos
+30,2022-07-10,56,False,Prazos
+31,2022-07-17,67,False,Prazos
+32,2022-07-24,65,False,Prazos
+33,2022-07-31,63,False,Prazos
+34,2022-08-07,58,False,Prazos
+35,2022-08-14,67,False,Prazos
+36,2022-08-21,66,False,Prazos
+37,2022-08-28,59,False,Prazos
+38,2022-09-04,57,False,Prazos
+39,2022-09-11,63,False,Prazos
+40,2022-09-18,65,False,Prazos
+41,2022-09-25,61,False,Prazos
+42,2022-10-02,51,False,Prazos
+43,2022-10-09,63,False,Prazos
+44,2022-10-16,66,False,Prazos
+45,2022-10-23,65,False,Prazos
+46,2022-10-30,66,False,Prazos
+47,2022-11-06,77,False,Prazos
+48,2022-11-13,79,False,Prazos
+49,2022-11-20,79,False,Prazos
+50,2022-11-27,80,False,Prazos
+0,2021-12-12,0,False,Extração de Dados
+1,2021-12-19,0,False,Extração de Dados
+2,2021-12-26,24,False,Extração de Dados
+3,2022-01-02,0,False,Extração de Dados
+4,2022-01-09,100,False,Extração de Dados
+5,2022-01-16,0,False,Extração de Dados
+6,2022-01-23,0,False,Extração de Dados
+7,2022-01-30,0,False,Extração de Dados
+8,2022-02-06,26,False,Extração de Dados
+9,2022-02-13,27,False,Extração de Dados
+10,2022-02-20,24,False,Extração de Dados
+11,2022-02-27,0,False,Extração de Dados
+12,2022-03-06,0,False,Extração de Dados
+13,2022-03-13,0,False,Extração de Dados
+14,2022-03-20,40,False,Extração de Dados
+15,2022-03-27,26,False,Extração de Dados
+16,2022-04-03,35,False,Extração de Dados
+17,2022-04-10,0,False,Extração de Dados
+18,2022-04-17,15,False,Extração de Dados
+19,2022-04-24,33,False,Extração de Dados
+20,2022-05-01,58,False,Extração de Dados
+21,2022-05-08,49,False,Extração de Dados
+22,2022-05-15,35,False,Extração de Dados
+23,2022-05-22,32,False,Extração de Dados
+24,2022-05-29,29,False,Extração de Dados
+25,2022-06-05,36,False,Extração de Dados
+26,2022-06-12,0,False,Extração de Dados
+27,2022-06-19,97,False,Extração de Dados
+28,2022-06-26,60,False,Extração de Dados
+29,2022-07-03,0,False,Extração de Dados
+30,2022-07-10,36,False,Extração de Dados
+31,2022-07-17,26,False,Extração de Dados
+32,2022-07-24,44,False,Extração de Dados
+33,2022-07-31,52,False,Extração de Dados
+34,2022-08-07,24,False,Extração de Dados
+35,2022-08-14,57,False,Extração de Dados
+36,2022-08-21,33,False,Extração de Dados
+37,2022-08-28,28,False,Extração de Dados
+38,2022-09-04,49,False,Extração de Dados
+39,2022-09-11,29,False,Extração de Dados
+40,2022-09-18,74,False,Extração de Dados
+41,2022-09-25,22,False,Extração de Dados
+42,2022-10-02,31,False,Extração de Dados
+43,2022-10-09,0,False,Extração de Dados
+44,2022-10-16,43,False,Extração de Dados
+45,2022-10-23,50,False,Extração de Dados
+46,2022-10-30,78,False,Extração de Dados
+47,2022-11-06,30,False,Extração de Dados
+48,2022-11-13,48,False,Extração de Dados
+49,2022-11-20,10,False,Extração de Dados
+50,2022-11-27,20,False,Extração de Dados
+0,2021-12-12,55,False,Machine Learning
+1,2021-12-19,43,False,Machine Learning
+2,2021-12-26,46,False,Machine Learning
+3,2022-01-02,55,False,Machine Learning
+4,2022-01-09,66,False,Machine Learning
+5,2022-01-16,75,False,Machine Learning
+6,2022-01-23,68,False,Machine Learning
+7,2022-01-30,89,False,Machine Learning
+8,2022-02-06,79,False,Machine Learning
+9,2022-02-13,96,False,Machine Learning
+10,2022-02-20,79,False,Machine Learning
+11,2022-02-27,77,False,Machine Learning
+12,2022-03-06,74,False,Machine Learning
+13,2022-03-13,84,False,Machine Learning
+14,2022-03-20,87,False,Machine Learning
+15,2022-03-27,96,False,Machine Learning
+16,2022-04-03,100,False,Machine Learning
+17,2022-04-10,77,False,Machine Learning
+18,2022-04-17,90,False,Machine Learning
+19,2022-04-24,99,False,Machine Learning
+20,2022-05-01,82,False,Machine Learning
+21,2022-05-08,83,False,Machine Learning
+22,2022-05-15,94,False,Machine Learning
+23,2022-05-22,95,False,Machine Learning
+24,2022-05-29,91,False,Machine Learning
+25,2022-06-05,84,False,Machine Learning
+26,2022-06-12,95,False,Machine Learning
+27,2022-06-19,95,False,Machine Learning
+28,2022-06-26,99,False,Machine Learning
+29,2022-07-03,85,False,Machine Learning
+30,2022-07-10,91,False,Machine Learning
+31,2022-07-17,76,False,Machine Learning
+32,2022-07-24,81,False,Machine Learning
+33,2022-07-31,72,False,Machine Learning
+34,2022-08-07,73,False,Machine Learning
+35,2022-08-14,90,False,Machine Learning
+36,2022-08-21,74,False,Machine Learning
+37,2022-08-28,79,False,Machine Learning
+38,2022-09-04,73,False,Machine Learning
+39,2022-09-11,86,False,Machine Learning
+40,2022-09-18,81,False,Machine Learning
+41,2022-09-25,80,False,Machine Learning
+42,2022-10-02,77,False,Machine Learning
+43,2022-10-09,68,False,Machine Learning
+44,2022-10-16,98,False,Machine Learning
+45,2022-10-23,96,False,Machine Learning
+46,2022-10-30,80,False,Machine Learning
+47,2022-11-06,82,False,Machine Learning
+48,2022-11-13,90,False,Machine Learning
+49,2022-11-20,78,False,Machine Learning
+50,2022-11-27,74,False,Machine Learning
+0,2021-12-12,46,False,Indicadores
+1,2021-12-19,28,False,Indicadores
+2,2021-12-26,27,False,Indicadores
+3,2022-01-02,38,False,Indicadores
+4,2022-01-09,42,False,Indicadores
+5,2022-01-16,41,False,Indicadores
+6,2022-01-23,42,False,Indicadores
+7,2022-01-30,45,False,Indicadores
+8,2022-02-06,52,False,Indicadores
+9,2022-02-13,64,False,Indicadores
+10,2022-02-20,62,False,Indicadores
+11,2022-02-27,54,False,Indicadores
+12,2022-03-06,69,False,Indicadores
+13,2022-03-13,71,False,Indicadores
+14,2022-03-20,77,False,Indicadores
+15,2022-03-27,87,False,Indicadores
+16,2022-04-03,93,False,Indicadores
+17,2022-04-10,69,False,Indicadores
+18,2022-04-17,69,False,Indicadores
+19,2022-04-24,91,False,Indicadores
+20,2022-05-01,100,False,Indicadores
+21,2022-05-08,89,False,Indicadores
+22,2022-05-15,83,False,Indicadores
+23,2022-05-22,84,False,Indicadores
+24,2022-05-29,100,False,Indicadores
+25,2022-06-05,94,False,Indicadores
+26,2022-06-12,73,False,Indicadores
+27,2022-06-19,77,False,Indicadores
+28,2022-06-26,69,False,Indicadores
+29,2022-07-03,61,False,Indicadores
+30,2022-07-10,48,False,Indicadores
+31,2022-07-17,53,False,Indicadores
+32,2022-07-24,51,False,Indicadores
+33,2022-07-31,56,False,Indicadores
+34,2022-08-07,77,False,Indicadores
+35,2022-08-14,71,False,Indicadores
+36,2022-08-21,78,False,Indicadores
+37,2022-08-28,85,False,Indicadores
+38,2022-09-04,66,False,Indicadores
+39,2022-09-11,72,False,Indicadores
+40,2022-09-18,79,False,Indicadores
+41,2022-09-25,89,False,Indicadores
+42,2022-10-02,61,False,Indicadores
+43,2022-10-09,64,False,Indicadores
+44,2022-10-16,75,False,Indicadores
+45,2022-10-23,77,False,Indicadores
+46,2022-10-30,76,False,Indicadores
+47,2022-11-06,98,False,Indicadores
+48,2022-11-13,86,False,Indicadores
+49,2022-11-20,85,False,Indicadores
+50,2022-11-27,81,False,Indicadores
+0,2021-12-12,80,False,Dashboards
+1,2021-12-19,37,False,Dashboards
+2,2021-12-26,27,False,Dashboards
+3,2022-01-02,98,False,Dashboards
+4,2022-01-09,64,False,Dashboards
+5,2022-01-16,80,False,Dashboards
+6,2022-01-23,56,False,Dashboards
+7,2022-01-30,86,False,Dashboards
+8,2022-02-06,61,False,Dashboards
+9,2022-02-13,62,False,Dashboards
+10,2022-02-20,75,False,Dashboards
+11,2022-02-27,54,False,Dashboards
+12,2022-03-06,78,False,Dashboards
+13,2022-03-13,59,False,Dashboards
+14,2022-03-20,100,False,Dashboards
+15,2022-03-27,95,False,Dashboards
+16,2022-04-03,84,False,Dashboards
+17,2022-04-10,82,False,Dashboards
+18,2022-04-17,76,False,Dashboards
+19,2022-04-24,83,False,Dashboards
+20,2022-05-01,76,False,Dashboards
+21,2022-05-08,82,False,Dashboards
+22,2022-05-15,87,False,Dashboards
+23,2022-05-22,81,False,Dashboards
+24,2022-05-29,78,False,Dashboards
+25,2022-06-05,92,False,Dashboards
+26,2022-06-12,90,False,Dashboards
+27,2022-06-19,64,False,Dashboards
+28,2022-06-26,79,False,Dashboards
+29,2022-07-03,89,False,Dashboards
+30,2022-07-10,91,False,Dashboards
+31,2022-07-17,60,False,Dashboards
+32,2022-07-24,87,False,Dashboards
+33,2022-07-31,56,False,Dashboards
+34,2022-08-07,84,False,Dashboards
+35,2022-08-14,71,False,Dashboards
+36,2022-08-21,78,False,Dashboards
+37,2022-08-28,57,False,Dashboards
+38,2022-09-04,67,False,Dashboards
+39,2022-09-11,89,False,Dashboards
+40,2022-09-18,84,False,Dashboards
+41,2022-09-25,80,False,Dashboards
+42,2022-10-02,90,False,Dashboards
+43,2022-10-09,67,False,Dashboards
+44,2022-10-16,69,False,Dashboards
+45,2022-10-23,85,False,Dashboards
+46,2022-10-30,24,False,Dashboards
+47,2022-11-06,80,False,Dashboards
+48,2022-11-13,68,False,Dashboards
+49,2022-11-20,58,False,Dashboards
+50,2022-11-27,59,False,Dashboards
+0,2021-12-12,60,False,Logística
+1,2021-12-19,49,False,Logística
+2,2021-12-26,47,False,Logística
+3,2022-01-02,71,False,Logística
+4,2022-01-09,75,False,Logística
+5,2022-01-16,66,False,Logística
+6,2022-01-23,70,False,Logística
+7,2022-01-30,71,False,Logística
+8,2022-02-06,82,False,Logística
+9,2022-02-13,95,False,Logística
+10,2022-02-20,97,False,Logística
+11,2022-02-27,77,False,Logística
+12,2022-03-06,91,False,Logística
+13,2022-03-13,97,False,Logística
+14,2022-03-20,100,False,Logística
+15,2022-03-27,100,False,Logística
+16,2022-04-03,98,False,Logística
+17,2022-04-10,83,False,Logística
+18,2022-04-17,85,False,Logística
+19,2022-04-24,96,False,Logística
+20,2022-05-01,94,False,Logística
+21,2022-05-08,89,False,Logística
+22,2022-05-15,90,False,Logística
+23,2022-05-22,94,False,Logística
+24,2022-05-29,92,False,Logística
+25,2022-06-05,97,False,Logística
+26,2022-06-12,83,False,Logística
+27,2022-06-19,88,False,Logística
+28,2022-06-26,86,False,Logística
+29,2022-07-03,84,False,Logística
+30,2022-07-10,85,False,Logística
+31,2022-07-17,86,False,Logística
+32,2022-07-24,84,False,Logística
+33,2022-07-31,91,False,Logística
+34,2022-08-07,90,False,Logística
+35,2022-08-14,88,False,Logística
+36,2022-08-21,91,False,Logística
+37,2022-08-28,93,False,Logística
+38,2022-09-04,71,False,Logística
+39,2022-09-11,86,False,Logística
+40,2022-09-18,86,False,Logística
+41,2022-09-25,82,False,Logística
+42,2022-10-02,74,False,Logística
+43,2022-10-09,71,False,Logística
+44,2022-10-16,82,False,Logística
+45,2022-10-23,92,False,Logística
+46,2022-10-30,76,False,Logística
+47,2022-11-06,86,False,Logística
+48,2022-11-13,81,False,Logística
+49,2022-11-20,81,False,Logística
+50,2022-11-27,79,False,Logística
+0,2021-12-12,72,False,Marketing
+1,2021-12-19,57,False,Marketing
+2,2021-12-26,54,False,Marketing
+3,2022-01-02,82,False,Marketing
+4,2022-01-09,87,False,Marketing
+5,2022-01-16,79,False,Marketing
+6,2022-01-23,80,False,Marketing
+7,2022-01-30,85,False,Marketing
+8,2022-02-06,81,False,Marketing
+9,2022-02-13,98,False,Marketing
+10,2022-02-20,88,False,Marketing
+11,2022-02-27,78,False,Marketing
+12,2022-03-06,95,False,Marketing
+13,2022-03-13,95,False,Marketing
+14,2022-03-20,100,False,Marketing
+15,2022-03-27,97,False,Marketing
+16,2022-04-03,96,False,Marketing
+17,2022-04-10,80,False,Marketing
+18,2022-04-17,86,False,Marketing
+19,2022-04-24,91,False,Marketing
+20,2022-05-01,98,False,Marketing
+21,2022-05-08,89,False,Marketing
+22,2022-05-15,80,False,Marketing
+23,2022-05-22,78,False,Marketing
+24,2022-05-29,82,False,Marketing
+25,2022-06-05,79,False,Marketing
+26,2022-06-12,72,False,Marketing
+27,2022-06-19,81,False,Marketing
+28,2022-06-26,74,False,Marketing
+29,2022-07-03,71,False,Marketing
+30,2022-07-10,71,False,Marketing
+31,2022-07-17,65,False,Marketing
+32,2022-07-24,75,False,Marketing
+33,2022-07-31,69,False,Marketing
+34,2022-08-07,67,False,Marketing
+35,2022-08-14,72,False,Marketing
+36,2022-08-21,74,False,Marketing
+37,2022-08-28,80,False,Marketing
+38,2022-09-04,60,False,Marketing
+39,2022-09-11,70,False,Marketing
+40,2022-09-18,72,False,Marketing
+41,2022-09-25,71,False,Marketing
+42,2022-10-02,63,False,Marketing
+43,2022-10-09,68,False,Marketing
+44,2022-10-16,72,False,Marketing
+45,2022-10-23,73,False,Marketing
+46,2022-10-30,64,False,Marketing
+47,2022-11-06,66,False,Marketing
+48,2022-11-13,71,False,Marketing
+49,2022-11-20,67,False,Marketing
+50,2022-11-27,69,False,Marketing
+0,2021-12-12,55,False,Implementação
+1,2021-12-19,26,False,Implementação
+2,2021-12-26,15,False,Implementação
+3,2022-01-02,24,False,Implementação
+4,2022-01-09,27,False,Implementação
+5,2022-01-16,30,False,Implementação
+6,2022-01-23,29,False,Implementação
+7,2022-01-30,41,False,Implementação
+8,2022-02-06,36,False,Implementação
+9,2022-02-13,53,False,Implementação
+10,2022-02-20,52,False,Implementação
+11,2022-02-27,48,False,Implementação
+12,2022-03-06,64,False,Implementação
+13,2022-03-13,74,False,Implementação
+14,2022-03-20,80,False,Implementação
+15,2022-03-27,80,False,Implementação
+16,2022-04-03,92,False,Implementação
+17,2022-04-10,72,False,Implementação
+18,2022-04-17,82,False,Implementação
+19,2022-04-24,93,False,Implementação
+20,2022-05-01,90,False,Implementação
+21,2022-05-08,79,False,Implementação
+22,2022-05-15,72,False,Implementação
+23,2022-05-22,89,False,Implementação
+24,2022-05-29,96,False,Implementação
+25,2022-06-05,90,False,Implementação
+26,2022-06-12,76,False,Implementação
+27,2022-06-19,80,False,Implementação
+28,2022-06-26,69,False,Implementação
+29,2022-07-03,48,False,Implementação
+30,2022-07-10,43,False,Implementação
+31,2022-07-17,46,False,Implementação
+32,2022-07-24,52,False,Implementação
+33,2022-07-31,57,False,Implementação
+34,2022-08-07,54,False,Implementação
+35,2022-08-14,63,False,Implementação
+36,2022-08-21,69,False,Implementação
+37,2022-08-28,92,False,Implementação
+38,2022-09-04,55,False,Implementação
+39,2022-09-11,70,False,Implementação
+40,2022-09-18,79,False,Implementação
+41,2022-09-25,78,False,Implementação
+42,2022-10-02,58,False,Implementação
+43,2022-10-09,50,False,Implementação
+44,2022-10-16,70,False,Implementação
+45,2022-10-23,77,False,Implementação
+46,2022-10-30,69,False,Implementação
+47,2022-11-06,100,False,Implementação
+48,2022-11-13,89,False,Implementação
+49,2022-11-20,83,False,Implementação
+50,2022-11-27,77,False,Implementação
+0,2021-12-12,52,False,ETL
+1,2021-12-19,44,False,ETL
+2,2021-12-26,23,False,ETL
+3,2022-01-02,44,False,ETL
+4,2022-01-09,72,False,ETL
+5,2022-01-16,70,False,ETL
+6,2022-01-23,64,False,ETL
+7,2022-01-30,46,False,ETL
+8,2022-02-06,54,False,ETL
+9,2022-02-13,65,False,ETL
+10,2022-02-20,81,False,ETL
+11,2022-02-27,72,False,ETL
+12,2022-03-06,72,False,ETL
+13,2022-03-13,61,False,ETL
+14,2022-03-20,85,False,ETL
+15,2022-03-27,69,False,ETL
+16,2022-04-03,70,False,ETL
+17,2022-04-10,61,False,ETL
+18,2022-04-17,54,False,ETL
+19,2022-04-24,74,False,ETL
+20,2022-05-01,66,False,ETL
+21,2022-05-08,72,False,ETL
+22,2022-05-15,48,False,ETL
+23,2022-05-22,67,False,ETL
+24,2022-05-29,67,False,ETL
+25,2022-06-05,64,False,ETL
+26,2022-06-12,60,False,ETL
+27,2022-06-19,67,False,ETL
+28,2022-06-26,68,False,ETL
+29,2022-07-03,64,False,ETL
+30,2022-07-10,68,False,ETL
+31,2022-07-17,68,False,ETL
+32,2022-07-24,62,False,ETL
+33,2022-07-31,50,False,ETL
+34,2022-08-07,95,False,ETL
+35,2022-08-14,58,False,ETL
+36,2022-08-21,89,False,ETL
+37,2022-08-28,63,False,ETL
+38,2022-09-04,58,False,ETL
+39,2022-09-11,66,False,ETL
+40,2022-09-18,45,False,ETL
+41,2022-09-25,56,False,ETL
+42,2022-10-02,63,False,ETL
+43,2022-10-09,42,False,ETL
+44,2022-10-16,70,False,ETL
+45,2022-10-23,88,False,ETL
+46,2022-10-30,52,False,ETL
+47,2022-11-06,58,False,ETL
+48,2022-11-13,92,False,ETL
+49,2022-11-20,100,False,ETL
+50,2022-11-27,68,False,ETL
+0,2021-12-12,68,False,Visão
+1,2021-12-19,50,False,Visão
+2,2021-12-26,49,False,Visão
+3,2022-01-02,63,False,Visão
+4,2022-01-09,61,False,Visão
+5,2022-01-16,57,False,Visão
+6,2022-01-23,61,False,Visão
+7,2022-01-30,66,False,Visão
+8,2022-02-06,69,False,Visão
+9,2022-02-13,80,False,Visão
+10,2022-02-20,80,False,Visão
+11,2022-02-27,75,False,Visão
+12,2022-03-06,79,False,Visão
+13,2022-03-13,90,False,Visão
+14,2022-03-20,88,False,Visão
+15,2022-03-27,87,False,Visão
+16,2022-04-03,91,False,Visão
+17,2022-04-10,89,False,Visão
+18,2022-04-17,86,False,Visão
+19,2022-04-24,89,False,Visão
+20,2022-05-01,87,False,Visão
+21,2022-05-08,90,False,Visão
+22,2022-05-15,100,False,Visão
+23,2022-05-22,96,False,Visão
+24,2022-05-29,92,False,Visão
+25,2022-06-05,88,False,Visão
+26,2022-06-12,80,False,Visão
+27,2022-06-19,87,False,Visão
+28,2022-06-26,73,False,Visão
+29,2022-07-03,76,False,Visão
+30,2022-07-10,73,False,Visão
+31,2022-07-17,69,False,Visão
+32,2022-07-24,74,False,Visão
+33,2022-07-31,75,False,Visão
+34,2022-08-07,77,False,Visão
+35,2022-08-14,89,False,Visão
+36,2022-08-21,78,False,Visão
+37,2022-08-28,90,False,Visão
+38,2022-09-04,77,False,Visão
+39,2022-09-11,87,False,Visão
+40,2022-09-18,84,False,Visão
+41,2022-09-25,86,False,Visão
+42,2022-10-02,75,False,Visão
+43,2022-10-09,79,False,Visão
+44,2022-10-16,83,False,Visão
+45,2022-10-23,88,False,Visão
+46,2022-10-30,74,False,Visão
+47,2022-11-06,85,False,Visão
+48,2022-11-13,79,False,Visão
+49,2022-11-20,76,False,Visão
+50,2022-11-27,72,False,Visão
+0,2021-12-12,13,False,Inteligência Artificial
+1,2021-12-19,16,False,Inteligência Artificial
+2,2021-12-26,15,False,Inteligência Artificial
+3,2022-01-02,19,False,Inteligência Artificial
+4,2022-01-09,22,False,Inteligência Artificial
+5,2022-01-16,14,False,Inteligência Artificial
+6,2022-01-23,16,False,Inteligência Artificial
+7,2022-01-30,17,False,Inteligência Artificial
+8,2022-02-06,23,False,Inteligência Artificial
+9,2022-02-13,25,False,Inteligência Artificial
+10,2022-02-20,23,False,Inteligência Artificial
+11,2022-02-27,19,False,Inteligência Artificial
+12,2022-03-06,25,False,Inteligência Artificial
+13,2022-03-13,27,False,Inteligência Artificial
+14,2022-03-20,27,False,Inteligência Artificial
+15,2022-03-27,29,False,Inteligência Artificial
+16,2022-04-03,27,False,Inteligência Artificial
+17,2022-04-10,24,False,Inteligência Artificial
+18,2022-04-17,28,False,Inteligência Artificial
+19,2022-04-24,29,False,Inteligência Artificial
+20,2022-05-01,33,False,Inteligência Artificial
+21,2022-05-08,32,False,Inteligência Artificial
+22,2022-05-15,28,False,Inteligência Artificial
+23,2022-05-22,30,False,Inteligência Artificial
+24,2022-05-29,35,False,Inteligência Artificial
+25,2022-06-05,31,False,Inteligência Artificial
+26,2022-06-12,33,False,Inteligência Artificial
+27,2022-06-19,38,False,Inteligência Artificial
+28,2022-06-26,26,False,Inteligência Artificial
+29,2022-07-03,20,False,Inteligência Artificial
+30,2022-07-10,20,False,Inteligência Artificial
+31,2022-07-17,20,False,Inteligência Artificial
+32,2022-07-24,19,False,Inteligência Artificial
+33,2022-07-31,22,False,Inteligência Artificial
+34,2022-08-07,27,False,Inteligência Artificial
+35,2022-08-14,40,False,Inteligência Artificial
+36,2022-08-21,34,False,Inteligência Artificial
+37,2022-08-28,31,False,Inteligência Artificial
+38,2022-09-04,31,False,Inteligência Artificial
+39,2022-09-11,27,False,Inteligência Artificial
+40,2022-09-18,32,False,Inteligência Artificial
+41,2022-09-25,27,False,Inteligência Artificial
+42,2022-10-02,23,False,Inteligência Artificial
+43,2022-10-09,25,False,Inteligência Artificial
+44,2022-10-16,31,False,Inteligência Artificial
+45,2022-10-23,27,False,Inteligência Artificial
+46,2022-10-30,26,False,Inteligência Artificial
+47,2022-11-06,28,False,Inteligência Artificial
+48,2022-11-13,28,False,Inteligência Artificial
+49,2022-11-20,30,False,Inteligência Artificial
+50,2022-11-27,100,False,Inteligência Artificial
+0,2021-12-12,0,False,Inteligência de Negócio
+1,2021-12-19,23,False,Inteligência de Negócio
+2,2021-12-26,100,False,Inteligência de Negócio
+3,2022-01-02,0,False,Inteligência de Negócio
+4,2022-01-09,28,False,Inteligência de Negócio
+5,2022-01-16,0,False,Inteligência de Negócio
+6,2022-01-23,0,False,Inteligência de Negócio
+7,2022-01-30,0,False,Inteligência de Negócio
+8,2022-02-06,0,False,Inteligência de Negócio
+9,2022-02-13,63,False,Inteligência de Negócio
+10,2022-02-20,54,False,Inteligência de Negócio
+11,2022-02-27,0,False,Inteligência de Negócio
+12,2022-03-06,16,False,Inteligência de Negócio
+13,2022-03-13,0,False,Inteligência de Negócio
+14,2022-03-20,19,False,Inteligência de Negócio
+15,2022-03-27,15,False,Inteligência de Negócio
+16,2022-04-03,0,False,Inteligência de Negócio
+17,2022-04-10,13,False,Inteligência de Negócio
+18,2022-04-17,18,False,Inteligência de Negócio
+19,2022-04-24,0,False,Inteligência de Negócio
+20,2022-05-01,12,False,Inteligência de Negócio
+21,2022-05-08,25,False,Inteligência de Negócio
+22,2022-05-15,0,False,Inteligência de Negócio
+23,2022-05-22,20,False,Inteligência de Negócio
+24,2022-05-29,83,False,Inteligência de Negócio
+25,2022-06-05,0,False,Inteligência de Negócio
+26,2022-06-12,0,False,Inteligência de Negócio
+27,2022-06-19,0,False,Inteligência de Negócio
+28,2022-06-26,16,False,Inteligência de Negócio
+29,2022-07-03,0,False,Inteligência de Negócio
+30,2022-07-10,0,False,Inteligência de Negócio
+31,2022-07-17,0,False,Inteligência de Negócio
+32,2022-07-24,0,False,Inteligência de Negócio
+33,2022-07-31,0,False,Inteligência de Negócio
+34,2022-08-07,47,False,Inteligência de Negócio
+35,2022-08-14,0,False,Inteligência de Negócio
+36,2022-08-21,0,False,Inteligência de Negócio
+37,2022-08-28,0,False,Inteligência de Negócio
+38,2022-09-04,28,False,Inteligência de Negócio
+39,2022-09-11,0,False,Inteligência de Negócio
+40,2022-09-18,15,False,Inteligência de Negócio
+41,2022-09-25,24,False,Inteligência de Negócio
+42,2022-10-02,0,False,Inteligência de Negócio
+43,2022-10-09,0,False,Inteligência de Negócio
+44,2022-10-16,0,False,Inteligência de Negócio
+45,2022-10-23,34,False,Inteligência de Negócio
+46,2022-10-30,0,False,Inteligência de Negócio
+47,2022-11-06,0,False,Inteligência de Negócio
+48,2022-11-13,0,False,Inteligência de Negócio
+49,2022-11-20,22,False,Inteligência de Negócio
+50,2022-11-27,0,False,Inteligência de Negócio
+0,2021-12-12,76,False,TI
+1,2021-12-19,72,False,TI
+2,2021-12-26,78,False,TI
+3,2022-01-02,95,False,TI
+4,2022-01-09,85,False,TI
+5,2022-01-16,82,False,TI
+6,2022-01-23,82,False,TI
+7,2022-01-30,88,False,TI
+8,2022-02-06,86,False,TI
+9,2022-02-13,98,False,TI
+10,2022-02-20,94,False,TI
+11,2022-02-27,96,False,TI
+12,2022-03-06,90,False,TI
+13,2022-03-13,96,False,TI
+14,2022-03-20,95,False,TI
+15,2022-03-27,98,False,TI
+16,2022-04-03,97,False,TI
+17,2022-04-10,92,False,TI
+18,2022-04-17,91,False,TI
+19,2022-04-24,95,False,TI
+20,2022-05-01,89,False,TI
+21,2022-05-08,94,False,TI
+22,2022-05-15,80,False,TI
+23,2022-05-22,86,False,TI
+24,2022-05-29,84,False,TI
+25,2022-06-05,85,False,TI
+26,2022-06-12,84,False,TI
+27,2022-06-19,89,False,TI
+28,2022-06-26,88,False,TI
+29,2022-07-03,85,False,TI
+30,2022-07-10,88,False,TI
+31,2022-07-17,88,False,TI
+32,2022-07-24,88,False,TI
+33,2022-07-31,92,False,TI
+34,2022-08-07,92,False,TI
+35,2022-08-14,86,False,TI
+36,2022-08-21,91,False,TI
+37,2022-08-28,81,False,TI
+38,2022-09-04,79,False,TI
+39,2022-09-11,81,False,TI
+40,2022-09-18,84,False,TI
+41,2022-09-25,86,False,TI
+42,2022-10-02,69,False,TI
+43,2022-10-09,83,False,TI
+44,2022-10-16,100,False,TI
+45,2022-10-23,82,False,TI
+46,2022-10-30,73,False,TI
+47,2022-11-06,78,False,TI
+48,2022-11-13,85,False,TI
+49,2022-11-20,78,False,TI
+50,2022-11-27,73,False,TI
+0,2021-12-12,36,False,Coleta de Dados
+1,2021-12-19,18,False,Coleta de Dados
+2,2021-12-26,3,False,Coleta de Dados
+3,2022-01-02,13,False,Coleta de Dados
+4,2022-01-09,13,False,Coleta de Dados
+5,2022-01-16,26,False,Coleta de Dados
+6,2022-01-23,20,False,Coleta de Dados
+7,2022-01-30,21,False,Coleta de Dados
+8,2022-02-06,31,False,Coleta de Dados
+9,2022-02-13,36,False,Coleta de Dados
+10,2022-02-20,49,False,Coleta de Dados
+11,2022-02-27,34,False,Coleta de Dados
+12,2022-03-06,57,False,Coleta de Dados
+13,2022-03-13,59,False,Coleta de Dados
+14,2022-03-20,73,False,Coleta de Dados
+15,2022-03-27,72,False,Coleta de Dados
+16,2022-04-03,82,False,Coleta de Dados
+17,2022-04-10,67,False,Coleta de Dados
+18,2022-04-17,68,False,Coleta de Dados
+19,2022-04-24,66,False,Coleta de Dados
+20,2022-05-01,82,False,Coleta de Dados
+21,2022-05-08,44,False,Coleta de Dados
+22,2022-05-15,57,False,Coleta de Dados
+23,2022-05-22,61,False,Coleta de Dados
+24,2022-05-29,67,False,Coleta de Dados
+25,2022-06-05,82,False,Coleta de Dados
+26,2022-06-12,56,False,Coleta de Dados
+27,2022-06-19,52,False,Coleta de Dados
+28,2022-06-26,40,False,Coleta de Dados
+29,2022-07-03,37,False,Coleta de Dados
+30,2022-07-10,32,False,Coleta de Dados
+31,2022-07-17,26,False,Coleta de Dados
+32,2022-07-24,27,False,Coleta de Dados
+33,2022-07-31,33,False,Coleta de Dados
+34,2022-08-07,40,False,Coleta de Dados
+35,2022-08-14,64,False,Coleta de Dados
+36,2022-08-21,74,False,Coleta de Dados
+37,2022-08-28,76,False,Coleta de Dados
+38,2022-09-04,69,False,Coleta de Dados
+39,2022-09-11,57,False,Coleta de Dados
+40,2022-09-18,64,False,Coleta de Dados
+41,2022-09-25,94,False,Coleta de Dados
+42,2022-10-02,57,False,Coleta de Dados
+43,2022-10-09,42,False,Coleta de Dados
+44,2022-10-16,60,False,Coleta de Dados
+45,2022-10-23,74,False,Coleta de Dados
+46,2022-10-30,72,False,Coleta de Dados
+47,2022-11-06,100,False,Coleta de Dados
+48,2022-11-13,100,False,Coleta de Dados
+49,2022-11-20,74,False,Coleta de Dados
+50,2022-11-27,63,False,Coleta de Dados
+0,2021-12-12,36,False,Fluxos
+1,2021-12-19,13,False,Fluxos
+2,2021-12-26,14,False,Fluxos
+3,2022-01-02,16,False,Fluxos
+4,2022-01-09,14,False,Fluxos
+5,2022-01-16,12,False,Fluxos
+6,2022-01-23,26,False,Fluxos
+7,2022-01-30,20,False,Fluxos
+8,2022-02-06,28,False,Fluxos
+9,2022-02-13,46,False,Fluxos
+10,2022-02-20,49,False,Fluxos
+11,2022-02-27,34,False,Fluxos
+12,2022-03-06,59,False,Fluxos
+13,2022-03-13,76,False,Fluxos
+14,2022-03-20,79,False,Fluxos
+15,2022-03-27,100,False,Fluxos
+16,2022-04-03,96,False,Fluxos
+17,2022-04-10,56,False,Fluxos
+18,2022-04-17,64,False,Fluxos
+19,2022-04-24,91,False,Fluxos
+20,2022-05-01,83,False,Fluxos
+21,2022-05-08,83,False,Fluxos
+22,2022-05-15,78,False,Fluxos
+23,2022-05-22,73,False,Fluxos
+24,2022-05-29,78,False,Fluxos
+25,2022-06-05,84,False,Fluxos
+26,2022-06-12,63,False,Fluxos
+27,2022-06-19,70,False,Fluxos
+28,2022-06-26,54,False,Fluxos
+29,2022-07-03,41,False,Fluxos
+30,2022-07-10,31,False,Fluxos
+31,2022-07-17,25,False,Fluxos
+32,2022-07-24,34,False,Fluxos
+33,2022-07-31,46,False,Fluxos
+34,2022-08-07,50,False,Fluxos
+35,2022-08-14,58,False,Fluxos
+36,2022-08-21,69,False,Fluxos
+37,2022-08-28,62,False,Fluxos
+38,2022-09-04,50,False,Fluxos
+39,2022-09-11,63,False,Fluxos
+40,2022-09-18,69,False,Fluxos
+41,2022-09-25,68,False,Fluxos
+42,2022-10-02,39,False,Fluxos
+43,2022-10-09,37,False,Fluxos
+44,2022-10-16,56,False,Fluxos
+45,2022-10-23,55,False,Fluxos
+46,2022-10-30,51,False,Fluxos
+47,2022-11-06,68,False,Fluxos
+48,2022-11-13,63,False,Fluxos
+49,2022-11-20,69,False,Fluxos
+50,2022-11-27,55,False,Fluxos

@@ -1,0 +1,730 @@
+,geoname,geocode,quantidade,habilidades
+0,Acre,BR-AC,87,Inglês
+1,Alagoas,BR-AL,71,Inglês
+2,Amapá,BR-AP,89,Inglês
+3,Amazonas,BR-AM,94,Inglês
+4,Bahia,BR-BA,73,Inglês
+5,Ceará,BR-CE,78,Inglês
+6,Distrito Federal,BR-DF,45,Inglês
+7,Espírito Santo,BR-ES,54,Inglês
+8,Goiás,BR-GO,64,Inglês
+9,Maranhão,BR-MA,100,Inglês
+10,Mato Grosso,BR-MT,60,Inglês
+11,Mato Grosso do Sul,BR-MS,62,Inglês
+12,Minas Gerais,BR-MG,57,Inglês
+13,Paraná,BR-PR,74,Inglês
+14,Paraíba,BR-PB,71,Inglês
+15,Pará,BR-PA,97,Inglês
+16,Pernambuco,BR-PE,82,Inglês
+17,Piauí,BR-PI,85,Inglês
+18,Rio Grande do Norte,BR-RN,65,Inglês
+19,Rio Grande do Sul,BR-RS,46,Inglês
+20,Rio de Janeiro,BR-RJ,52,Inglês
+21,Rondônia,BR-RO,69,Inglês
+22,Roraima,BR-RR,83,Inglês
+23,Santa Catarina,BR-SC,52,Inglês
+24,Sergipe,BR-SE,71,Inglês
+25,São Paulo,BR-SP,46,Inglês
+26,Tocantins,BR-TO,84,Inglês
+0,Acre,BR-AC,100,Equipe
+1,Alagoas,BR-AL,71,Equipe
+2,Amapá,BR-AP,97,Equipe
+3,Amazonas,BR-AM,76,Equipe
+4,Bahia,BR-BA,75,Equipe
+5,Ceará,BR-CE,80,Equipe
+6,Distrito Federal,BR-DF,68,Equipe
+7,Espírito Santo,BR-ES,61,Equipe
+8,Goiás,BR-GO,73,Equipe
+9,Maranhão,BR-MA,84,Equipe
+10,Mato Grosso,BR-MT,66,Equipe
+11,Mato Grosso do Sul,BR-MS,63,Equipe
+12,Minas Gerais,BR-MG,99,Equipe
+13,Paraná,BR-PR,59,Equipe
+14,Paraíba,BR-PB,69,Equipe
+15,Pará,BR-PA,98,Equipe
+16,Pernambuco,BR-PE,79,Equipe
+17,Piauí,BR-PI,84,Equipe
+18,Rio Grande do Norte,BR-RN,69,Equipe
+19,Rio Grande do Sul,BR-RS,63,Equipe
+20,Rio de Janeiro,BR-RJ,69,Equipe
+21,Rondônia,BR-RO,77,Equipe
+22,Roraima,BR-RR,94,Equipe
+23,Santa Catarina,BR-SC,73,Equipe
+24,Sergipe,BR-SE,74,Equipe
+25,São Paulo,BR-SP,63,Equipe
+26,Tocantins,BR-TO,94,Equipe
+0,Acre,BR-AC,100,Responsável
+1,Alagoas,BR-AL,64,Responsável
+2,Amapá,BR-AP,94,Responsável
+3,Amazonas,BR-AM,72,Responsável
+4,Bahia,BR-BA,71,Responsável
+5,Ceará,BR-CE,61,Responsável
+6,Distrito Federal,BR-DF,48,Responsável
+7,Espírito Santo,BR-ES,51,Responsável
+8,Goiás,BR-GO,55,Responsável
+9,Maranhão,BR-MA,74,Responsável
+10,Mato Grosso,BR-MT,60,Responsável
+11,Mato Grosso do Sul,BR-MS,50,Responsável
+12,Minas Gerais,BR-MG,51,Responsável
+13,Paraná,BR-PR,41,Responsável
+14,Paraíba,BR-PB,63,Responsável
+15,Pará,BR-PA,74,Responsável
+16,Pernambuco,BR-PE,66,Responsável
+17,Piauí,BR-PI,74,Responsável
+18,Rio Grande do Norte,BR-RN,58,Responsável
+19,Rio Grande do Sul,BR-RS,40,Responsável
+20,Rio de Janeiro,BR-RJ,48,Responsável
+21,Rondônia,BR-RO,84,Responsável
+22,Roraima,BR-RR,88,Responsável
+23,Santa Catarina,BR-SC,42,Responsável
+24,Sergipe,BR-SE,66,Responsável
+25,São Paulo,BR-SP,38,Responsável
+26,Tocantins,BR-TO,76,Responsável
+0,Acre,BR-AC,81,Comunicação
+1,Alagoas,BR-AL,63,Comunicação
+2,Amapá,BR-AP,90,Comunicação
+3,Amazonas,BR-AM,82,Comunicação
+4,Bahia,BR-BA,74,Comunicação
+5,Ceará,BR-CE,69,Comunicação
+6,Distrito Federal,BR-DF,76,Comunicação
+7,Espírito Santo,BR-ES,57,Comunicação
+8,Goiás,BR-GO,68,Comunicação
+9,Maranhão,BR-MA,87,Comunicação
+10,Mato Grosso,BR-MT,65,Comunicação
+11,Mato Grosso do Sul,BR-MS,58,Comunicação
+12,Minas Gerais,BR-MG,76,Comunicação
+13,Paraná,BR-PR,59,Comunicação
+14,Paraíba,BR-PB,70,Comunicação
+15,Pará,BR-PA,78,Comunicação
+16,Pernambuco,BR-PE,69,Comunicação
+17,Piauí,BR-PI,77,Comunicação
+18,Rio Grande do Norte,BR-RN,52,Comunicação
+19,Rio Grande do Sul,BR-RS,63,Comunicação
+20,Rio de Janeiro,BR-RJ,58,Comunicação
+21,Rondônia,BR-RO,81,Comunicação
+22,Roraima,BR-RR,100,Comunicação
+23,Santa Catarina,BR-SC,67,Comunicação
+24,Sergipe,BR-SE,72,Comunicação
+25,São Paulo,BR-SP,59,Comunicação
+26,Tocantins,BR-TO,83,Comunicação
+0,Acre,BR-AC,80,Planejamento
+1,Alagoas,BR-AL,70,Planejamento
+2,Amapá,BR-AP,99,Planejamento
+3,Amazonas,BR-AM,69,Planejamento
+4,Bahia,BR-BA,67,Planejamento
+5,Ceará,BR-CE,62,Planejamento
+6,Distrito Federal,BR-DF,69,Planejamento
+7,Espírito Santo,BR-ES,50,Planejamento
+8,Goiás,BR-GO,60,Planejamento
+9,Maranhão,BR-MA,100,Planejamento
+10,Mato Grosso,BR-MT,66,Planejamento
+11,Mato Grosso do Sul,BR-MS,81,Planejamento
+12,Minas Gerais,BR-MG,62,Planejamento
+13,Paraná,BR-PR,55,Planejamento
+14,Paraíba,BR-PB,57,Planejamento
+15,Pará,BR-PA,76,Planejamento
+16,Pernambuco,BR-PE,63,Planejamento
+17,Piauí,BR-PI,75,Planejamento
+18,Rio Grande do Norte,BR-RN,58,Planejamento
+19,Rio Grande do Sul,BR-RS,52,Planejamento
+20,Rio de Janeiro,BR-RJ,51,Planejamento
+21,Rondônia,BR-RO,75,Planejamento
+22,Roraima,BR-RR,90,Planejamento
+23,Santa Catarina,BR-SC,60,Planejamento
+24,Sergipe,BR-SE,67,Planejamento
+25,São Paulo,BR-SP,49,Planejamento
+26,Tocantins,BR-TO,92,Planejamento
+0,Acre,BR-AC,79,Modelagem
+1,Alagoas,BR-AL,81,Modelagem
+2,Amapá,BR-AP,100,Modelagem
+3,Amazonas,BR-AM,88,Modelagem
+4,Bahia,BR-BA,69,Modelagem
+5,Ceará,BR-CE,87,Modelagem
+6,Distrito Federal,BR-DF,99,Modelagem
+7,Espírito Santo,BR-ES,84,Modelagem
+8,Goiás,BR-GO,74,Modelagem
+9,Maranhão,BR-MA,67,Modelagem
+10,Mato Grosso,BR-MT,64,Modelagem
+11,Mato Grosso do Sul,BR-MS,74,Modelagem
+12,Minas Gerais,BR-MG,70,Modelagem
+13,Paraná,BR-PR,72,Modelagem
+14,Paraíba,BR-PB,73,Modelagem
+15,Pará,BR-PA,75,Modelagem
+16,Pernambuco,BR-PE,88,Modelagem
+17,Piauí,BR-PI,81,Modelagem
+18,Rio Grande do Norte,BR-RN,88,Modelagem
+19,Rio Grande do Sul,BR-RS,71,Modelagem
+20,Rio de Janeiro,BR-RJ,76,Modelagem
+21,Rondônia,BR-RO,56,Modelagem
+22,Roraima,BR-RR,77,Modelagem
+23,Santa Catarina,BR-SC,83,Modelagem
+24,Sergipe,BR-SE,84,Modelagem
+25,São Paulo,BR-SP,81,Modelagem
+26,Tocantins,BR-TO,79,Modelagem
+0,Acre,BR-AC,25,Foco
+1,Alagoas,BR-AL,30,Foco
+2,Amapá,BR-AP,20,Foco
+3,Amazonas,BR-AM,22,Foco
+4,Bahia,BR-BA,25,Foco
+5,Ceará,BR-CE,25,Foco
+6,Distrito Federal,BR-DF,23,Foco
+7,Espírito Santo,BR-ES,29,Foco
+8,Goiás,BR-GO,21,Foco
+9,Maranhão,BR-MA,23,Foco
+10,Mato Grosso,BR-MT,42,Foco
+11,Mato Grosso do Sul,BR-MS,31,Foco
+12,Minas Gerais,BR-MG,25,Foco
+13,Paraná,BR-PR,24,Foco
+14,Paraíba,BR-PB,37,Foco
+15,Pará,BR-PA,19,Foco
+16,Pernambuco,BR-PE,30,Foco
+17,Piauí,BR-PI,100,Foco
+18,Rio Grande do Norte,BR-RN,34,Foco
+19,Rio Grande do Sul,BR-RS,28,Foco
+20,Rio de Janeiro,BR-RJ,47,Foco
+21,Rondônia,BR-RO,24,Foco
+22,Roraima,BR-RR,27,Foco
+23,Santa Catarina,BR-SC,30,Foco
+24,Sergipe,BR-SE,23,Foco
+25,São Paulo,BR-SP,22,Foco
+26,Tocantins,BR-TO,26,Foco
+0,Acre,BR-AC,62,Estatística
+1,Alagoas,BR-AL,58,Estatística
+2,Amapá,BR-AP,100,Estatística
+3,Amazonas,BR-AM,80,Estatística
+4,Bahia,BR-BA,59,Estatística
+5,Ceará,BR-CE,59,Estatística
+6,Distrito Federal,BR-DF,62,Estatística
+7,Espírito Santo,BR-ES,58,Estatística
+8,Goiás,BR-GO,51,Estatística
+9,Maranhão,BR-MA,77,Estatística
+10,Mato Grosso,BR-MT,54,Estatística
+11,Mato Grosso do Sul,BR-MS,45,Estatística
+12,Minas Gerais,BR-MG,44,Estatística
+13,Paraná,BR-PR,41,Estatística
+14,Paraíba,BR-PB,68,Estatística
+15,Pará,BR-PA,80,Estatística
+16,Pernambuco,BR-PE,61,Estatística
+17,Piauí,BR-PI,86,Estatística
+18,Rio Grande do Norte,BR-RN,61,Estatística
+19,Rio Grande do Sul,BR-RS,41,Estatística
+20,Rio de Janeiro,BR-RJ,46,Estatística
+21,Rondônia,BR-RO,57,Estatística
+22,Roraima,BR-RR,79,Estatística
+23,Santa Catarina,BR-SC,38,Estatística
+24,Sergipe,BR-SE,64,Estatística
+25,São Paulo,BR-SP,41,Estatística
+26,Tocantins,BR-TO,68,Estatística
+0,Acre,BR-AC,65,Documentação
+1,Alagoas,BR-AL,70,Documentação
+2,Amapá,BR-AP,66,Documentação
+3,Amazonas,BR-AM,68,Documentação
+4,Bahia,BR-BA,61,Documentação
+5,Ceará,BR-CE,75,Documentação
+6,Distrito Federal,BR-DF,100,Documentação
+7,Espírito Santo,BR-ES,68,Documentação
+8,Goiás,BR-GO,77,Documentação
+9,Maranhão,BR-MA,70,Documentação
+10,Mato Grosso,BR-MT,65,Documentação
+11,Mato Grosso do Sul,BR-MS,59,Documentação
+12,Minas Gerais,BR-MG,64,Documentação
+13,Paraná,BR-PR,62,Documentação
+14,Paraíba,BR-PB,76,Documentação
+15,Pará,BR-PA,66,Documentação
+16,Pernambuco,BR-PE,68,Documentação
+17,Piauí,BR-PI,82,Documentação
+18,Rio Grande do Norte,BR-RN,80,Documentação
+19,Rio Grande do Sul,BR-RS,57,Documentação
+20,Rio de Janeiro,BR-RJ,61,Documentação
+21,Rondônia,BR-RO,75,Documentação
+22,Roraima,BR-RR,87,Documentação
+23,Santa Catarina,BR-SC,67,Documentação
+24,Sergipe,BR-SE,71,Documentação
+25,São Paulo,BR-SP,70,Documentação
+26,Tocantins,BR-TO,80,Documentação
+0,Acre,BR-AC,67,Inovação
+1,Alagoas,BR-AL,62,Inovação
+2,Amapá,BR-AP,65,Inovação
+3,Amazonas,BR-AM,69,Inovação
+4,Bahia,BR-BA,53,Inovação
+5,Ceará,BR-CE,55,Inovação
+6,Distrito Federal,BR-DF,100,Inovação
+7,Espírito Santo,BR-ES,80,Inovação
+8,Goiás,BR-GO,54,Inovação
+9,Maranhão,BR-MA,63,Inovação
+10,Mato Grosso,BR-MT,62,Inovação
+11,Mato Grosso do Sul,BR-MS,65,Inovação
+12,Minas Gerais,BR-MG,72,Inovação
+13,Paraná,BR-PR,60,Inovação
+14,Paraíba,BR-PB,62,Inovação
+15,Pará,BR-PA,56,Inovação
+16,Pernambuco,BR-PE,68,Inovação
+17,Piauí,BR-PI,68,Inovação
+18,Rio Grande do Norte,BR-RN,55,Inovação
+19,Rio Grande do Sul,BR-RS,72,Inovação
+20,Rio de Janeiro,BR-RJ,45,Inovação
+21,Rondônia,BR-RO,68,Inovação
+22,Roraima,BR-RR,78,Inovação
+23,Santa Catarina,BR-SC,78,Inovação
+24,Sergipe,BR-SE,52,Inovação
+25,São Paulo,BR-SP,64,Inovação
+26,Tocantins,BR-TO,72,Inovação
+0,Acre,BR-AC,0,Metodologias Ágeis
+1,Alagoas,BR-AL,0,Metodologias Ágeis
+2,Amapá,BR-AP,0,Metodologias Ágeis
+3,Amazonas,BR-AM,0,Metodologias Ágeis
+4,Bahia,BR-BA,52,Metodologias Ágeis
+5,Ceará,BR-CE,35,Metodologias Ágeis
+6,Distrito Federal,BR-DF,100,Metodologias Ágeis
+7,Espírito Santo,BR-ES,0,Metodologias Ágeis
+8,Goiás,BR-GO,24,Metodologias Ágeis
+9,Maranhão,BR-MA,0,Metodologias Ágeis
+10,Mato Grosso,BR-MT,0,Metodologias Ágeis
+11,Mato Grosso do Sul,BR-MS,0,Metodologias Ágeis
+12,Minas Gerais,BR-MG,59,Metodologias Ágeis
+13,Paraná,BR-PR,89,Metodologias Ágeis
+14,Paraíba,BR-PB,0,Metodologias Ágeis
+15,Pará,BR-PA,0,Metodologias Ágeis
+16,Pernambuco,BR-PE,0,Metodologias Ágeis
+17,Piauí,BR-PI,0,Metodologias Ágeis
+18,Rio Grande do Norte,BR-RN,0,Metodologias Ágeis
+19,Rio Grande do Sul,BR-RS,71,Metodologias Ágeis
+20,Rio de Janeiro,BR-RJ,87,Metodologias Ágeis
+21,Rondônia,BR-RO,0,Metodologias Ágeis
+22,Roraima,BR-RR,0,Metodologias Ágeis
+23,Santa Catarina,BR-SC,0,Metodologias Ágeis
+24,Sergipe,BR-SE,0,Metodologias Ágeis
+25,São Paulo,BR-SP,61,Metodologias Ágeis
+26,Tocantins,BR-TO,0,Metodologias Ágeis
+0,Acre,BR-AC,95,Decisão
+1,Alagoas,BR-AL,76,Decisão
+2,Amapá,BR-AP,94,Decisão
+3,Amazonas,BR-AM,83,Decisão
+4,Bahia,BR-BA,79,Decisão
+5,Ceará,BR-CE,65,Decisão
+6,Distrito Federal,BR-DF,97,Decisão
+7,Espírito Santo,BR-ES,68,Decisão
+8,Goiás,BR-GO,73,Decisão
+9,Maranhão,BR-MA,76,Decisão
+10,Mato Grosso,BR-MT,84,Decisão
+11,Mato Grosso do Sul,BR-MS,75,Decisão
+12,Minas Gerais,BR-MG,81,Decisão
+13,Paraná,BR-PR,66,Decisão
+14,Paraíba,BR-PB,77,Decisão
+15,Pará,BR-PA,71,Decisão
+16,Pernambuco,BR-PE,65,Decisão
+17,Piauí,BR-PI,74,Decisão
+18,Rio Grande do Norte,BR-RN,77,Decisão
+19,Rio Grande do Sul,BR-RS,69,Decisão
+20,Rio de Janeiro,BR-RJ,64,Decisão
+21,Rondônia,BR-RO,100,Decisão
+22,Roraima,BR-RR,97,Decisão
+23,Santa Catarina,BR-SC,69,Decisão
+24,Sergipe,BR-SE,74,Decisão
+25,São Paulo,BR-SP,61,Decisão
+26,Tocantins,BR-TO,88,Decisão
+0,Acre,BR-AC,46,Prazos
+1,Alagoas,BR-AL,38,Prazos
+2,Amapá,BR-AP,43,Prazos
+3,Amazonas,BR-AM,43,Prazos
+4,Bahia,BR-BA,46,Prazos
+5,Ceará,BR-CE,58,Prazos
+6,Distrito Federal,BR-DF,100,Prazos
+7,Espírito Santo,BR-ES,63,Prazos
+8,Goiás,BR-GO,90,Prazos
+9,Maranhão,BR-MA,41,Prazos
+10,Mato Grosso,BR-MT,56,Prazos
+11,Mato Grosso do Sul,BR-MS,65,Prazos
+12,Minas Gerais,BR-MG,55,Prazos
+13,Paraná,BR-PR,65,Prazos
+14,Paraíba,BR-PB,48,Prazos
+15,Pará,BR-PA,40,Prazos
+16,Pernambuco,BR-PE,49,Prazos
+17,Piauí,BR-PI,53,Prazos
+18,Rio Grande do Norte,BR-RN,49,Prazos
+19,Rio Grande do Sul,BR-RS,65,Prazos
+20,Rio de Janeiro,BR-RJ,61,Prazos
+21,Rondônia,BR-RO,62,Prazos
+22,Roraima,BR-RR,44,Prazos
+23,Santa Catarina,BR-SC,63,Prazos
+24,Sergipe,BR-SE,49,Prazos
+25,São Paulo,BR-SP,83,Prazos
+26,Tocantins,BR-TO,60,Prazos
+0,Acre,BR-AC,0,Extração de Dados
+1,Alagoas,BR-AL,0,Extração de Dados
+2,Amapá,BR-AP,0,Extração de Dados
+3,Amazonas,BR-AM,0,Extração de Dados
+4,Bahia,BR-BA,0,Extração de Dados
+5,Ceará,BR-CE,75,Extração de Dados
+6,Distrito Federal,BR-DF,0,Extração de Dados
+7,Espírito Santo,BR-ES,0,Extração de Dados
+8,Goiás,BR-GO,100,Extração de Dados
+9,Maranhão,BR-MA,0,Extração de Dados
+10,Mato Grosso,BR-MT,0,Extração de Dados
+11,Mato Grosso do Sul,BR-MS,0,Extração de Dados
+12,Minas Gerais,BR-MG,69,Extração de Dados
+13,Paraná,BR-PR,57,Extração de Dados
+14,Paraíba,BR-PB,0,Extração de Dados
+15,Pará,BR-PA,0,Extração de Dados
+16,Pernambuco,BR-PE,0,Extração de Dados
+17,Piauí,BR-PI,0,Extração de Dados
+18,Rio Grande do Norte,BR-RN,0,Extração de Dados
+19,Rio Grande do Sul,BR-RS,0,Extração de Dados
+20,Rio de Janeiro,BR-RJ,0,Extração de Dados
+21,Rondônia,BR-RO,0,Extração de Dados
+22,Roraima,BR-RR,0,Extração de Dados
+23,Santa Catarina,BR-SC,0,Extração de Dados
+24,Sergipe,BR-SE,0,Extração de Dados
+25,São Paulo,BR-SP,76,Extração de Dados
+26,Tocantins,BR-TO,0,Extração de Dados
+0,Acre,BR-AC,0,Machine Learning
+1,Alagoas,BR-AL,47,Machine Learning
+2,Amapá,BR-AP,0,Machine Learning
+3,Amazonas,BR-AM,56,Machine Learning
+4,Bahia,BR-BA,30,Machine Learning
+5,Ceará,BR-CE,50,Machine Learning
+6,Distrito Federal,BR-DF,100,Machine Learning
+7,Espírito Santo,BR-ES,45,Machine Learning
+8,Goiás,BR-GO,35,Machine Learning
+9,Maranhão,BR-MA,33,Machine Learning
+10,Mato Grosso,BR-MT,33,Machine Learning
+11,Mato Grosso do Sul,BR-MS,41,Machine Learning
+12,Minas Gerais,BR-MG,49,Machine Learning
+13,Paraná,BR-PR,62,Machine Learning
+14,Paraíba,BR-PB,62,Machine Learning
+15,Pará,BR-PA,35,Machine Learning
+16,Pernambuco,BR-PE,65,Machine Learning
+17,Piauí,BR-PI,41,Machine Learning
+18,Rio Grande do Norte,BR-RN,47,Machine Learning
+19,Rio Grande do Sul,BR-RS,53,Machine Learning
+20,Rio de Janeiro,BR-RJ,54,Machine Learning
+21,Rondônia,BR-RO,14,Machine Learning
+22,Roraima,BR-RR,0,Machine Learning
+23,Santa Catarina,BR-SC,61,Machine Learning
+24,Sergipe,BR-SE,43,Machine Learning
+25,São Paulo,BR-SP,70,Machine Learning
+26,Tocantins,BR-TO,0,Machine Learning
+0,Acre,BR-AC,82,Indicadores
+1,Alagoas,BR-AL,59,Indicadores
+2,Amapá,BR-AP,74,Indicadores
+3,Amazonas,BR-AM,78,Indicadores
+4,Bahia,BR-BA,56,Indicadores
+5,Ceará,BR-CE,62,Indicadores
+6,Distrito Federal,BR-DF,68,Indicadores
+7,Espírito Santo,BR-ES,58,Indicadores
+8,Goiás,BR-GO,56,Indicadores
+9,Maranhão,BR-MA,70,Indicadores
+10,Mato Grosso,BR-MT,74,Indicadores
+11,Mato Grosso do Sul,BR-MS,57,Indicadores
+12,Minas Gerais,BR-MG,58,Indicadores
+13,Paraná,BR-PR,52,Indicadores
+14,Paraíba,BR-PB,63,Indicadores
+15,Pará,BR-PA,71,Indicadores
+16,Pernambuco,BR-PE,60,Indicadores
+17,Piauí,BR-PI,70,Indicadores
+18,Rio Grande do Norte,BR-RN,63,Indicadores
+19,Rio Grande do Sul,BR-RS,51,Indicadores
+20,Rio de Janeiro,BR-RJ,44,Indicadores
+21,Rondônia,BR-RO,72,Indicadores
+22,Roraima,BR-RR,100,Indicadores
+23,Santa Catarina,BR-SC,55,Indicadores
+24,Sergipe,BR-SE,59,Indicadores
+25,São Paulo,BR-SP,57,Indicadores
+26,Tocantins,BR-TO,76,Indicadores
+0,Acre,BR-AC,0,Dashboards
+1,Alagoas,BR-AL,0,Dashboards
+2,Amapá,BR-AP,0,Dashboards
+3,Amazonas,BR-AM,0,Dashboards
+4,Bahia,BR-BA,33,Dashboards
+5,Ceará,BR-CE,53,Dashboards
+6,Distrito Federal,BR-DF,100,Dashboards
+7,Espírito Santo,BR-ES,0,Dashboards
+8,Goiás,BR-GO,47,Dashboards
+9,Maranhão,BR-MA,0,Dashboards
+10,Mato Grosso,BR-MT,0,Dashboards
+11,Mato Grosso do Sul,BR-MS,0,Dashboards
+12,Minas Gerais,BR-MG,55,Dashboards
+13,Paraná,BR-PR,59,Dashboards
+14,Paraíba,BR-PB,0,Dashboards
+15,Pará,BR-PA,0,Dashboards
+16,Pernambuco,BR-PE,50,Dashboards
+17,Piauí,BR-PI,0,Dashboards
+18,Rio Grande do Norte,BR-RN,0,Dashboards
+19,Rio Grande do Sul,BR-RS,57,Dashboards
+20,Rio de Janeiro,BR-RJ,61,Dashboards
+21,Rondônia,BR-RO,0,Dashboards
+22,Roraima,BR-RR,0,Dashboards
+23,Santa Catarina,BR-SC,62,Dashboards
+24,Sergipe,BR-SE,0,Dashboards
+25,São Paulo,BR-SP,85,Dashboards
+26,Tocantins,BR-TO,0,Dashboards
+0,Acre,BR-AC,47,Logística
+1,Alagoas,BR-AL,75,Logística
+2,Amapá,BR-AP,64,Logística
+3,Amazonas,BR-AM,100,Logística
+4,Bahia,BR-BA,72,Logística
+5,Ceará,BR-CE,58,Logística
+6,Distrito Federal,BR-DF,49,Logística
+7,Espírito Santo,BR-ES,95,Logística
+8,Goiás,BR-GO,62,Logística
+9,Maranhão,BR-MA,67,Logística
+10,Mato Grosso,BR-MT,72,Logística
+11,Mato Grosso do Sul,BR-MS,50,Logística
+12,Minas Gerais,BR-MG,79,Logística
+13,Paraná,BR-PR,64,Logística
+14,Paraíba,BR-PB,44,Logística
+15,Pará,BR-PA,75,Logística
+16,Pernambuco,BR-PE,73,Logística
+17,Piauí,BR-PI,49,Logística
+18,Rio Grande do Norte,BR-RN,45,Logística
+19,Rio Grande do Sul,BR-RS,57,Logística
+20,Rio de Janeiro,BR-RJ,72,Logística
+21,Rondônia,BR-RO,44,Logística
+22,Roraima,BR-RR,47,Logística
+23,Santa Catarina,BR-SC,67,Logística
+24,Sergipe,BR-SE,49,Logística
+25,São Paulo,BR-SP,91,Logística
+26,Tocantins,BR-TO,61,Logística
+0,Acre,BR-AC,73,Marketing
+1,Alagoas,BR-AL,59,Marketing
+2,Amapá,BR-AP,68,Marketing
+3,Amazonas,BR-AM,67,Marketing
+4,Bahia,BR-BA,70,Marketing
+5,Ceará,BR-CE,75,Marketing
+6,Distrito Federal,BR-DF,82,Marketing
+7,Espírito Santo,BR-ES,64,Marketing
+8,Goiás,BR-GO,75,Marketing
+9,Maranhão,BR-MA,63,Marketing
+10,Mato Grosso,BR-MT,65,Marketing
+11,Mato Grosso do Sul,BR-MS,58,Marketing
+12,Minas Gerais,BR-MG,80,Marketing
+13,Paraná,BR-PR,88,Marketing
+14,Paraíba,BR-PB,62,Marketing
+15,Pará,BR-PA,66,Marketing
+16,Pernambuco,BR-PE,73,Marketing
+17,Piauí,BR-PI,66,Marketing
+18,Rio Grande do Norte,BR-RN,55,Marketing
+19,Rio Grande do Sul,BR-RS,85,Marketing
+20,Rio de Janeiro,BR-RJ,79,Marketing
+21,Rondônia,BR-RO,77,Marketing
+22,Roraima,BR-RR,72,Marketing
+23,Santa Catarina,BR-SC,94,Marketing
+24,Sergipe,BR-SE,63,Marketing
+25,São Paulo,BR-SP,100,Marketing
+26,Tocantins,BR-TO,61,Marketing
+0,Acre,BR-AC,81,Implementação
+1,Alagoas,BR-AL,56,Implementação
+2,Amapá,BR-AP,100,Implementação
+3,Amazonas,BR-AM,69,Implementação
+4,Bahia,BR-BA,55,Implementação
+5,Ceará,BR-CE,56,Implementação
+6,Distrito Federal,BR-DF,77,Implementação
+7,Espírito Santo,BR-ES,53,Implementação
+8,Goiás,BR-GO,58,Implementação
+9,Maranhão,BR-MA,68,Implementação
+10,Mato Grosso,BR-MT,60,Implementação
+11,Mato Grosso do Sul,BR-MS,53,Implementação
+12,Minas Gerais,BR-MG,51,Implementação
+13,Paraná,BR-PR,55,Implementação
+14,Paraíba,BR-PB,59,Implementação
+15,Pará,BR-PA,70,Implementação
+16,Pernambuco,BR-PE,56,Implementação
+17,Piauí,BR-PI,81,Implementação
+18,Rio Grande do Norte,BR-RN,50,Implementação
+19,Rio Grande do Sul,BR-RS,48,Implementação
+20,Rio de Janeiro,BR-RJ,44,Implementação
+21,Rondônia,BR-RO,72,Implementação
+22,Roraima,BR-RR,87,Implementação
+23,Santa Catarina,BR-SC,47,Implementação
+24,Sergipe,BR-SE,56,Implementação
+25,São Paulo,BR-SP,47,Implementação
+26,Tocantins,BR-TO,78,Implementação
+0,Acre,BR-AC,0,ETL
+1,Alagoas,BR-AL,0,ETL
+2,Amapá,BR-AP,0,ETL
+3,Amazonas,BR-AM,0,ETL
+4,Bahia,BR-BA,21,ETL
+5,Ceará,BR-CE,40,ETL
+6,Distrito Federal,BR-DF,100,ETL
+7,Espírito Santo,BR-ES,39,ETL
+8,Goiás,BR-GO,22,ETL
+9,Maranhão,BR-MA,0,ETL
+10,Mato Grosso,BR-MT,0,ETL
+11,Mato Grosso do Sul,BR-MS,0,ETL
+12,Minas Gerais,BR-MG,40,ETL
+13,Paraná,BR-PR,48,ETL
+14,Paraíba,BR-PB,9,ETL
+15,Pará,BR-PA,0,ETL
+16,Pernambuco,BR-PE,36,ETL
+17,Piauí,BR-PI,0,ETL
+18,Rio Grande do Norte,BR-RN,0,ETL
+19,Rio Grande do Sul,BR-RS,31,ETL
+20,Rio de Janeiro,BR-RJ,39,ETL
+21,Rondônia,BR-RO,0,ETL
+22,Roraima,BR-RR,0,ETL
+23,Santa Catarina,BR-SC,48,ETL
+24,Sergipe,BR-SE,0,ETL
+25,São Paulo,BR-SP,76,ETL
+26,Tocantins,BR-TO,0,ETL
+0,Acre,BR-AC,93,Visão
+1,Alagoas,BR-AL,74,Visão
+2,Amapá,BR-AP,98,Visão
+3,Amazonas,BR-AM,76,Visão
+4,Bahia,BR-BA,74,Visão
+5,Ceará,BR-CE,75,Visão
+6,Distrito Federal,BR-DF,80,Visão
+7,Espírito Santo,BR-ES,57,Visão
+8,Goiás,BR-GO,83,Visão
+9,Maranhão,BR-MA,100,Visão
+10,Mato Grosso,BR-MT,79,Visão
+11,Mato Grosso do Sul,BR-MS,69,Visão
+12,Minas Gerais,BR-MG,71,Visão
+13,Paraná,BR-PR,68,Visão
+14,Paraíba,BR-PB,80,Visão
+15,Pará,BR-PA,83,Visão
+16,Pernambuco,BR-PE,76,Visão
+17,Piauí,BR-PI,83,Visão
+18,Rio Grande do Norte,BR-RN,86,Visão
+19,Rio Grande do Sul,BR-RS,64,Visão
+20,Rio de Janeiro,BR-RJ,60,Visão
+21,Rondônia,BR-RO,83,Visão
+22,Roraima,BR-RR,83,Visão
+23,Santa Catarina,BR-SC,67,Visão
+24,Sergipe,BR-SE,64,Visão
+25,São Paulo,BR-SP,61,Visão
+26,Tocantins,BR-TO,91,Visão
+0,Acre,BR-AC,50,Inteligência Artificial
+1,Alagoas,BR-AL,60,Inteligência Artificial
+2,Amapá,BR-AP,100,Inteligência Artificial
+3,Amazonas,BR-AM,80,Inteligência Artificial
+4,Bahia,BR-BA,67,Inteligência Artificial
+5,Ceará,BR-CE,63,Inteligência Artificial
+6,Distrito Federal,BR-DF,81,Inteligência Artificial
+7,Espírito Santo,BR-ES,61,Inteligência Artificial
+8,Goiás,BR-GO,70,Inteligência Artificial
+9,Maranhão,BR-MA,70,Inteligência Artificial
+10,Mato Grosso,BR-MT,57,Inteligência Artificial
+11,Mato Grosso do Sul,BR-MS,81,Inteligência Artificial
+12,Minas Gerais,BR-MG,69,Inteligência Artificial
+13,Paraná,BR-PR,66,Inteligência Artificial
+14,Paraíba,BR-PB,88,Inteligência Artificial
+15,Pará,BR-PA,76,Inteligência Artificial
+16,Pernambuco,BR-PE,74,Inteligência Artificial
+17,Piauí,BR-PI,72,Inteligência Artificial
+18,Rio Grande do Norte,BR-RN,66,Inteligência Artificial
+19,Rio Grande do Sul,BR-RS,69,Inteligência Artificial
+20,Rio de Janeiro,BR-RJ,63,Inteligência Artificial
+21,Rondônia,BR-RO,62,Inteligência Artificial
+22,Roraima,BR-RR,53,Inteligência Artificial
+23,Santa Catarina,BR-SC,74,Inteligência Artificial
+24,Sergipe,BR-SE,67,Inteligência Artificial
+25,São Paulo,BR-SP,76,Inteligência Artificial
+26,Tocantins,BR-TO,57,Inteligência Artificial
+0,Acre,BR-AC,0,Inteligência de Negócio
+1,Alagoas,BR-AL,0,Inteligência de Negócio
+2,Amapá,BR-AP,0,Inteligência de Negócio
+3,Amazonas,BR-AM,0,Inteligência de Negócio
+4,Bahia,BR-BA,0,Inteligência de Negócio
+5,Ceará,BR-CE,0,Inteligência de Negócio
+6,Distrito Federal,BR-DF,0,Inteligência de Negócio
+7,Espírito Santo,BR-ES,0,Inteligência de Negócio
+8,Goiás,BR-GO,0,Inteligência de Negócio
+9,Maranhão,BR-MA,0,Inteligência de Negócio
+10,Mato Grosso,BR-MT,0,Inteligência de Negócio
+11,Mato Grosso do Sul,BR-MS,0,Inteligência de Negócio
+12,Minas Gerais,BR-MG,100,Inteligência de Negócio
+13,Paraná,BR-PR,0,Inteligência de Negócio
+14,Paraíba,BR-PB,0,Inteligência de Negócio
+15,Pará,BR-PA,0,Inteligência de Negócio
+16,Pernambuco,BR-PE,0,Inteligência de Negócio
+17,Piauí,BR-PI,0,Inteligência de Negócio
+18,Rio Grande do Norte,BR-RN,0,Inteligência de Negócio
+19,Rio Grande do Sul,BR-RS,0,Inteligência de Negócio
+20,Rio de Janeiro,BR-RJ,0,Inteligência de Negócio
+21,Rondônia,BR-RO,0,Inteligência de Negócio
+22,Roraima,BR-RR,0,Inteligência de Negócio
+23,Santa Catarina,BR-SC,0,Inteligência de Negócio
+24,Sergipe,BR-SE,0,Inteligência de Negócio
+25,São Paulo,BR-SP,84,Inteligência de Negócio
+26,Tocantins,BR-TO,0,Inteligência de Negócio
+0,Acre,BR-AC,82,TI
+1,Alagoas,BR-AL,67,TI
+2,Amapá,BR-AP,81,TI
+3,Amazonas,BR-AM,81,TI
+4,Bahia,BR-BA,70,TI
+5,Ceará,BR-CE,71,TI
+6,Distrito Federal,BR-DF,92,TI
+7,Espírito Santo,BR-ES,82,TI
+8,Goiás,BR-GO,67,TI
+9,Maranhão,BR-MA,82,TI
+10,Mato Grosso,BR-MT,70,TI
+11,Mato Grosso do Sul,BR-MS,65,TI
+12,Minas Gerais,BR-MG,71,TI
+13,Paraná,BR-PR,68,TI
+14,Paraíba,BR-PB,79,TI
+15,Pará,BR-PA,78,TI
+16,Pernambuco,BR-PE,100,TI
+17,Piauí,BR-PI,61,TI
+18,Rio Grande do Norte,BR-RN,71,TI
+19,Rio Grande do Sul,BR-RS,69,TI
+20,Rio de Janeiro,BR-RJ,81,TI
+21,Rondônia,BR-RO,73,TI
+22,Roraima,BR-RR,90,TI
+23,Santa Catarina,BR-SC,68,TI
+24,Sergipe,BR-SE,62,TI
+25,São Paulo,BR-SP,76,TI
+26,Tocantins,BR-TO,72,TI
+0,Acre,BR-AC,0,Coleta de Dados
+1,Alagoas,BR-AL,74,Coleta de Dados
+2,Amapá,BR-AP,99,Coleta de Dados
+3,Amazonas,BR-AM,100,Coleta de Dados
+4,Bahia,BR-BA,69,Coleta de Dados
+5,Ceará,BR-CE,54,Coleta de Dados
+6,Distrito Federal,BR-DF,54,Coleta de Dados
+7,Espírito Santo,BR-ES,46,Coleta de Dados
+8,Goiás,BR-GO,59,Coleta de Dados
+9,Maranhão,BR-MA,74,Coleta de Dados
+10,Mato Grosso,BR-MT,67,Coleta de Dados
+11,Mato Grosso do Sul,BR-MS,56,Coleta de Dados
+12,Minas Gerais,BR-MG,45,Coleta de Dados
+13,Paraná,BR-PR,38,Coleta de Dados
+14,Paraíba,BR-PB,51,Coleta de Dados
+15,Pará,BR-PA,85,Coleta de Dados
+16,Pernambuco,BR-PE,51,Coleta de Dados
+17,Piauí,BR-PI,74,Coleta de Dados
+18,Rio Grande do Norte,BR-RN,48,Coleta de Dados
+19,Rio Grande do Sul,BR-RS,52,Coleta de Dados
+20,Rio de Janeiro,BR-RJ,33,Coleta de Dados
+21,Rondônia,BR-RO,77,Coleta de Dados
+22,Roraima,BR-RR,0,Coleta de Dados
+23,Santa Catarina,BR-SC,50,Coleta de Dados
+24,Sergipe,BR-SE,40,Coleta de Dados
+25,São Paulo,BR-SP,35,Coleta de Dados
+26,Tocantins,BR-TO,60,Coleta de Dados
+0,Acre,BR-AC,100,Fluxos
+1,Alagoas,BR-AL,46,Fluxos
+2,Amapá,BR-AP,89,Fluxos
+3,Amazonas,BR-AM,69,Fluxos
+4,Bahia,BR-BA,61,Fluxos
+5,Ceará,BR-CE,57,Fluxos
+6,Distrito Federal,BR-DF,46,Fluxos
+7,Espírito Santo,BR-ES,57,Fluxos
+8,Goiás,BR-GO,64,Fluxos
+9,Maranhão,BR-MA,82,Fluxos
+10,Mato Grosso,BR-MT,60,Fluxos
+11,Mato Grosso do Sul,BR-MS,50,Fluxos
+12,Minas Gerais,BR-MG,51,Fluxos
+13,Paraná,BR-PR,42,Fluxos
+14,Paraíba,BR-PB,71,Fluxos
+15,Pará,BR-PA,60,Fluxos
+16,Pernambuco,BR-PE,60,Fluxos
+17,Piauí,BR-PI,72,Fluxos
+18,Rio Grande do Norte,BR-RN,59,Fluxos
+19,Rio Grande do Sul,BR-RS,41,Fluxos
+20,Rio de Janeiro,BR-RJ,34,Fluxos
+21,Rondônia,BR-RO,79,Fluxos
+22,Roraima,BR-RR,68,Fluxos
+23,Santa Catarina,BR-SC,45,Fluxos
+24,Sergipe,BR-SE,59,Fluxos
+25,São Paulo,BR-SP,44,Fluxos
+26,Tocantins,BR-TO,99,Fluxos
