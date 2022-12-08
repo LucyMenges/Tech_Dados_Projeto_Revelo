@@ -1,20 +1,20 @@
 ,Unnamed: 0,value,formattedValue,hasData,link,topic_mid,topic_title,topic_type,ferramenta
 0,0,100,100,True,/trends/explore?q=/m/052tr&date=today+12-m&geo=BR,/m/052tr,Microsoft Excel,Programa de computador,Excel
 1,1,11,11,True,/trends/explore?q=/m/06wxc&date=today+12-m&geo=BR,/m/06wxc,Planilha eletrônica,Gênero do formato do arquivo,Excel
-2,2,8,8,True,/trends/explore?q=/m/015tl8&date=today+12-m&geo=BR,/m/015tl8,Fórmula,Assunto,Excel
-3,3,8,8,True,/trends/explore?q=/m/0600q&date=today+12-m&geo=BR,/m/0600q,Portable Document Format,Formato de arquivo,Excel
+2,2,9,9,True,/trends/explore?q=/m/015tl8&date=today+12-m&geo=BR,/m/015tl8,Fórmula,Assunto,Excel
+3,3,7,7,True,/trends/explore?q=/m/0600q&date=today+12-m&geo=BR,/m/0600q,Portable Document Format,Formato de arquivo,Excel
 4,4,6,6,True,/trends/explore?q=/m/01cbd&date=today+12-m&geo=BR,/m/01cbd,Célula,Assunto,Excel
-5,5,4,4,True,/trends/explore?q=/m/06c_5&date=today+12-m&geo=BR,/m/06c_5,Conversão,Religião,Excel
+5,5,5,5,True,/trends/explore?q=/m/06c_5&date=today+12-m&geo=BR,/m/06c_5,Conversão,Religião,Excel
 6,6,4,4,True,/trends/explore?q=/m/01lgy&date=today+12-m&geo=BR,/m/01lgy,Cálculo infinitesimal,Campo de estudo,Excel
 7,7,3,3,True,/trends/explore?q=/m/02v_93z&date=today+12-m&geo=BR,/m/02v_93z,Função,Matemática,Excel
-8,8,3,3,True,/trends/explore?q=/m/01_m7&date=today+12-m&geo=BR,/m/01_m7,Coluna,Assunto,Excel
-9,9,3,3,True,/trends/explore?q=/m/026sq&date=today+12-m&geo=BR,/m/026sq,Dados,Assunto,Excel
+8,8,3,3,True,/trends/explore?q=/m/026sq&date=today+12-m&geo=BR,/m/026sq,Dados,Assunto,Excel
+9,9,3,3,True,/trends/explore?q=/m/01_m7&date=today+12-m&geo=BR,/m/01_m7,Coluna,Assunto,Excel
 10,10,3,3,True,/trends/explore?q=/m/052yv&date=today+12-m&geo=BR,/m/052yv,Microsoft Word,Software,Excel
 11,11,3,3,True,/trends/explore?q=/m/04q347y&date=today+12-m&geo=BR,/m/04q347y,Gráfico,Assunto,Excel
-12,12,2,2,True,/trends/explore?q=/m/020_g&date=today+12-m&geo=BR,/m/020_g,Data,Assunto,Excel
+12,12,3,3,True,/trends/explore?q=/m/020_g&date=today+12-m&geo=BR,/m/020_g,Data,Assunto,Excel
 13,13,2,2,True,/trends/explore?q=/m/0h6zk&date=today+12-m&geo=BR,/m/0h6zk,Porcentagem,Unidade de medida,Excel
-14,14,2,2,True,/trends/explore?q=/m/01tygv&date=today+12-m&geo=BR,/m/01tygv,Arquivo,Tipo de organização,Excel
-15,15,2,2,True,/trends/explore?q=/m/01km84&date=today+12-m&geo=BR,/m/01km84,Somatório,Assunto,Excel
+14,14,2,2,True,/trends/explore?q=/m/01km84&date=today+12-m&geo=BR,/m/01km84,Somatório,Assunto,Excel
+15,15,2,2,True,/trends/explore?q=/m/01tygv&date=today+12-m&geo=BR,/m/01tygv,Arquivo,Tipo de organização,Excel
 16,16,2,2,True,/trends/explore?q=/m/080_2&date=today+12-m&geo=BR,/m/080_2,Visual Basic for Applications,Linguagem de programação,Excel
 17,17,2,2,True,/trends/explore?q=/m/01dlmc&date=today+12-m&geo=BR,/m/01dlmc,Lista,Assunto,Excel
 18,18,1,1,True,/trends/explore?q=/m/01shfc&date=today+12-m&geo=BR,/m/01shfc,Formatação de disco,Assunto,Excel
@@ -25,39 +25,39 @@
 23,23,0,<1,True,/trends/explore?q=/m/040t7h&date=today+12-m&geo=BR,/m/040t7h,Column,Assunto,Excel
 24,24,0,<1,True,/trends/explore?q=/m/03krjh&date=today+12-m&geo=BR,/m/03krjh,Financista,Tipo de organização,Excel
 0,0,100,100,True,/trends/explore?q=/m/016jq3&date=today+12-m&geo=BR,/m/016jq3,Inteligência empresarial,Assunto,Power BI
-1,1,97,97,True,/trends/explore?q=/g/11clr_l6ft&date=today+12-m&geo=BR,/g/11clr_l6ft,Power BI,Assunto,Power BI
+1,1,100,100,True,/trends/explore?q=/g/11clr_l6ft&date=today+12-m&geo=BR,/g/11clr_l6ft,Power BI,Assunto,Power BI
 2,2,6,6,True,/trends/explore?q=/m/026sq&date=today+12-m&geo=BR,/m/026sq,Dados,Assunto,Power BI
 3,3,6,6,True,/trends/explore?q=/m/07hs4p&date=today+12-m&geo=BR,/m/07hs4p,Disciplina,Assunto,Power BI
 4,4,3,3,True,/trends/explore?q=/m/052tr&date=today+12-m&geo=BR,/m/052tr,Microsoft Excel,Programa de computador,Power BI
 5,5,3,3,True,/trends/explore?q=/m/0bmrb3&date=today+12-m&geo=BR,/m/0bmrb3,Tableau de bord,Assunto,Power BI
-6,6,2,2,True,/trends/explore?q=/m/04sv4&date=today+12-m&geo=BR,/m/04sv4,Microsoft,Empresa,Power BI
+6,6,3,3,True,/trends/explore?q=/m/04sv4&date=today+12-m&geo=BR,/m/04sv4,Microsoft,Empresa,Power BI
 7,7,2,2,True,/trends/explore?q=/m/04q347y&date=today+12-m&geo=BR,/m/04q347y,Gráfico,Assunto,Power BI
-8,8,2,2,True,/trends/explore?q=/m/01_m7&date=today+12-m&geo=BR,/m/01_m7,Coluna,Assunto,Power BI
-9,9,2,2,True,/trends/explore?q=/m/0hwf2&date=today+12-m&geo=BR,/m/0hwf2,Ambiente de área de trabalho,Assunto,Power BI
+8,8,2,2,True,/trends/explore?q=/m/0hwf2&date=today+12-m&geo=BR,/m/0hwf2,Ambiente de área de trabalho,Assunto,Power BI
+9,9,2,2,True,/trends/explore?q=/m/01_m7&date=today+12-m&geo=BR,/m/01_m7,Coluna,Assunto,Power BI
 10,10,2,2,True,/trends/explore?q=/m/0nhjqxq&date=today+12-m&geo=BR,/m/0nhjqxq,Data Analysis Expressions,Assunto,Power BI
 11,11,2,2,True,/trends/explore?q=/m/0chln1&date=today+12-m&geo=BR,/m/0chln1,Relatório,Assunto,Power BI
 12,12,2,2,True,/trends/explore?q=/m/02v_93z&date=today+12-m&geo=BR,/m/02v_93z,Função,Matemática,Power BI
 13,13,1,1,True,/trends/explore?q=/m/0dvvc&date=today+12-m&geo=BR,/m/0dvvc,computador de secretária,Assunto,Power BI
 14,14,1,1,True,/trends/explore?q=/m/0cz920h&date=today+12-m&geo=BR,/m/0cz920h,PowerPivot,Software,Power BI
 15,15,1,1,True,/trends/explore?q=/m/015tl8&date=today+12-m&geo=BR,/m/015tl8,Fórmula,Assunto,Power BI
-16,16,1,1,True,/trends/explore?q=/m/075st&date=today+12-m&geo=BR,/m/075st,SQL,Linguagem de programação,Power BI
-17,17,1,1,True,/trends/explore?q=/m/015wzt&date=today+12-m&geo=BR,/m/015wzt,Gráfico,Estatística,Power BI
+16,16,1,1,True,/trends/explore?q=/m/015wzt&date=today+12-m&geo=BR,/m/015wzt,Gráfico,Estatística,Power BI
+17,17,1,1,True,/trends/explore?q=/m/075st&date=today+12-m&geo=BR,/m/075st,SQL,Linguagem de programação,Power BI
 18,18,1,1,True,/trends/explore?q=/m/06wxc&date=today+12-m&geo=BR,/m/06wxc,Planilha eletrônica,Gênero do formato do arquivo,Power BI
 19,19,1,1,True,/trends/explore?q=/m/05z1_&date=today+12-m&geo=BR,/m/05z1_,Python,Linguagem de programação,Power BI
-20,20,1,1,True,/trends/explore?q=/m/04_sb&date=today+12-m&geo=BR,/m/04_sb,Medida,Matemática,Power BI
-21,21,1,1,True,/trends/explore?q=/m/0z5n&date=today+12-m&geo=BR,/m/0z5n,Interface de programação de aplicações,Assunto,Power BI
-22,22,0,<1,True,/trends/explore?q=/m/04y3k&date=today+12-m&geo=BR,/m/04y3k,MySQL,Software baixável,Power BI
-23,23,0,<1,True,/trends/explore?q=/g/11fmgy30gx&date=today+12-m&geo=BR,/g/11fmgy30gx,Google Data Studio,Assunto,Power BI
-24,24,0,<1,True,/trends/explore?q=/m/06x16&date=today+12-m&geo=BR,/m/06x16,Cadeia de caracteres,Assunto,Power BI
+20,20,1,1,True,/trends/explore?q=/m/0z5n&date=today+12-m&geo=BR,/m/0z5n,Interface de programação de aplicações,Assunto,Power BI
+21,21,0,<1,True,/trends/explore?q=/m/04y3k&date=today+12-m&geo=BR,/m/04y3k,MySQL,Software baixável,Power BI
+22,22,0,<1,True,/trends/explore?q=/m/06x16&date=today+12-m&geo=BR,/m/06x16,Cadeia de caracteres,Assunto,Power BI
+23,23,0,<1,True,/trends/explore?q=/m/016lcf&date=today+12-m&geo=BR,/m/016lcf,ODBC,Assunto,Power BI
+24,24,0,<1,True,/trends/explore?q=/m/05_gc6&date=today+12-m&geo=BR,/m/05_gc6,Switch,Assunto,Power BI
 0,0,100,100,True,/trends/explore?q=/m/026sq&date=today+12-m&geo=BR,/m/026sq,Dados,Assunto,Banco de Dados
-1,1,92,92,True,/trends/explore?q=/m/02bc6&date=today+12-m&geo=BR,/m/02bc6,Banco de dados,Gênero do formato do arquivo,Banco de Dados
+1,1,93,93,True,/trends/explore?q=/m/02bc6&date=today+12-m&geo=BR,/m/02bc6,Banco de dados,Gênero do formato do arquivo,Banco de Dados
 2,2,14,14,True,/trends/explore?q=/m/017ql&date=today+12-m&geo=BR,/m/017ql,Banco,Assunto,Banco de Dados
 3,3,8,8,True,/trends/explore?q=/m/075st&date=today+12-m&geo=BR,/m/075st,SQL,Linguagem de programação,Banco de Dados
 4,4,6,6,True,/trends/explore?q=/m/0bj6r&date=today+12-m&geo=BR,/m/0bj6r,Sistema,Assunto,Banco de Dados
 5,5,6,6,True,/trends/explore?q=/m/04y3k&date=today+12-m&geo=BR,/m/04y3k,MySQL,Software baixável,Banco de Dados
 6,6,4,4,True,/trends/explore?q=/m/03y39&date=today+12-m&geo=BR,/m/03y39,Informação,Assunto,Banco de Dados
 7,7,4,4,True,/trends/explore?q=/m/0119v3m2&date=today+12-m&geo=BR,/m/0119v3m2,Banco de dados relacional,Assunto,Banco de Dados
-8,8,3,3,True,/trends/explore?q=/m/06jpb&date=today+12-m&geo=BR,/m/06jpb,Modelo relacional,Assunto,Banco de Dados
+8,8,4,4,True,/trends/explore?q=/m/06jpb&date=today+12-m&geo=BR,/m/06jpb,Modelo relacional,Assunto,Banco de Dados
 9,9,3,3,True,/trends/explore?q=/m/02chm&date=today+12-m&geo=BR,/m/02chm,Sistema de gerenciamento de banco de dados,Assunto,Banco de Dados
 10,10,3,3,True,/trends/explore?q=/m/0120vr&date=today+12-m&geo=BR,/m/0120vr,Microsoft SQL Server,Software,Banco de Dados
 11,11,2,2,True,/trends/explore?q=/m/05ynw&date=today+12-m&geo=BR,/m/05ynw,PostgreSQL,Software,Banco de Dados
@@ -66,16 +66,16 @@
 14,14,2,2,True,/trends/explore?q=/m/060kv&date=today+12-m&geo=BR,/m/060kv,PHP,Linguagem de programação,Banco de Dados
 15,15,2,2,True,/trends/explore?q=/m/05njw&date=today+12-m&geo=BR,/m/05njw,Oracle Corporation,Empresa,Banco de Dados
 16,16,2,2,True,/trends/explore?q=/m/038_nf&date=today+12-m&geo=BR,/m/038_nf,Modelagem de dados,Assunto,Banco de Dados
-17,17,2,2,True,/trends/explore?q=/g/120x72xh&date=today+12-m&geo=BR,/g/120x72xh,Servidor,Natureza de software,Banco de Dados
-18,18,2,2,True,/trends/explore?q=/m/05ph_c&date=today+12-m&geo=BR,/m/05ph_c,Tabela,Banco de dados,Banco de Dados
+17,17,2,2,True,/trends/explore?q=/m/05ph_c&date=today+12-m&geo=BR,/m/05ph_c,Tabela,Banco de dados,Banco de Dados
+18,18,2,2,True,/trends/explore?q=/g/120x72xh&date=today+12-m&geo=BR,/g/120x72xh,Servidor,Natureza de software,Banco de Dados
 19,19,2,2,True,/trends/explore?q=/m/02v_93z&date=today+12-m&geo=BR,/m/02v_93z,Função,Matemática,Banco de Dados
-20,20,2,2,True,/trends/explore?q=/m/01mf0&date=today+12-m&geo=BR,/m/01mf0,Software,Assunto,Banco de Dados
-21,21,2,2,True,/trends/explore?q=/g/11x1nzwby&date=today+12-m&geo=BR,/g/11x1nzwby,Erro,Assunto,Banco de Dados
+20,20,2,2,True,/trends/explore?q=/g/11x1nzwby&date=today+12-m&geo=BR,/g/11x1nzwby,Erro,Assunto,Banco de Dados
+21,21,2,2,True,/trends/explore?q=/m/01mf0&date=today+12-m&geo=BR,/m/01mf0,Software,Assunto,Banco de Dados
 22,22,2,2,True,/trends/explore?q=/m/01tygv&date=today+12-m&geo=BR,/m/01tygv,Arquivo,Tipo de organização,Banco de Dados
-23,23,2,2,True,/trends/explore?q=/m/05z1_&date=today+12-m&geo=BR,/m/05z1_,Python,Linguagem de programação,Banco de Dados
-24,24,2,2,True,/trends/explore?q=/g/121c4vmj&date=today+12-m&geo=BR,/g/121c4vmj,Administração,Campo de estudo,Banco de Dados
+23,23,2,2,True,/trends/explore?q=/g/121c4vmj&date=today+12-m&geo=BR,/g/121c4vmj,Administração,Campo de estudo,Banco de Dados
+24,24,2,2,True,/trends/explore?q=/m/05z1_&date=today+12-m&geo=BR,/m/05z1_,Python,Linguagem de programação,Banco de Dados
 0,0,100,100,True,/trends/explore?q=/m/052zb&date=today+12-m&geo=BR,/m/052zb,Microsoft Office,Software,Pacote Office
-1,1,46,46,True,/trends/explore?q=/m/0bytz&date=today+12-m&geo=BR,/m/0bytz,Pacote,Assunto,Pacote Office
+1,1,47,47,True,/trends/explore?q=/m/0bytz&date=today+12-m&geo=BR,/m/0bytz,Pacote,Assunto,Pacote Office
 2,2,10,10,True,/trends/explore?q=/m/0bm3b&date=today+12-m&geo=BR,/m/0bm3b,Download,Assunto,Pacote Office
 3,3,9,9,True,/trends/explore?q=/m/07hs4p&date=today+12-m&geo=BR,/m/07hs4p,Disciplina,Assunto,Pacote Office
 4,4,8,8,True,/trends/explore?q=/m/0drzplk&date=today+12-m&geo=BR,/m/0drzplk,Microsoft 365,Software,Pacote Office
@@ -89,24 +89,24 @@
 12,12,3,3,True,/trends/explore?q=/m/02fk8v&date=today+12-m&geo=BR,/m/02fk8v,Currículo,Assunto,Pacote Office
 13,13,3,3,True,/trends/explore?q=/m/01c648&date=today+12-m&geo=BR,/m/01c648,Notebook,Assunto,Pacote Office
 14,14,2,2,True,/trends/explore?q=/g/11f146bdc_&date=today+12-m&geo=BR,/g/11f146bdc_,Microsoft Office 2019,Software,Pacote Office
-15,15,2,2,True,/trends/explore?q=/m/0qt178q&date=today+12-m&geo=BR,/m/0qt178q,Microsoft,Assunto,Pacote Office
-16,16,2,2,True,/trends/explore?q=/g/11b6_kb__6&date=today+12-m&geo=BR,/g/11b6_kb__6,Microsoft Office 2016,Software,Pacote Office
-17,17,2,2,True,/trends/explore?q=/g/112yfb7cw&date=today+12-m&geo=BR,/g/112yfb7cw,Suíte de escritório,Gênero do formato do arquivo,Pacote Office
+15,15,2,2,True,/trends/explore?q=/g/112yfb7cw&date=today+12-m&geo=BR,/g/112yfb7cw,Suíte de escritório,Gênero do formato do arquivo,Pacote Office
+16,16,2,2,True,/trends/explore?q=/m/0qt178q&date=today+12-m&geo=BR,/m/0qt178q,Microsoft,Assunto,Pacote Office
+17,17,2,2,True,/trends/explore?q=/g/11b6_kb__6&date=today+12-m&geo=BR,/g/11b6_kb__6,Microsoft Office 2016,Software,Pacote Office
 18,18,2,2,True,/trends/explore?q=/m/01m3v&date=today+12-m&geo=BR,/m/01m3v,Computador,Assunto,Pacote Office
 19,19,2,2,True,/trends/explore?q=/m/01r9v&date=today+12-m&geo=BR,/m/01r9v,Programa de computador,Assunto,Pacote Office
 20,20,2,2,True,/trends/explore?q=/m/06_vc07&date=today+12-m&geo=BR,/m/06_vc07,Informática,Assunto,Pacote Office
-21,21,1,1,True,/trends/explore?q=/g/11bc5fdx8c&date=today+12-m&geo=BR,/g/11bc5fdx8c,Office Online,Assunto,Pacote Office
-22,22,1,1,True,/trends/explore?q=/m/01k8wb&date=today+12-m&geo=BR,/m/01k8wb,Conhecimento,Assunto,Pacote Office
-23,23,1,1,True,/trends/explore?q=/m/080fyws&date=today+12-m&geo=BR,/m/080fyws,Arquivo torrent,Formato de arquivo,Pacote Office
+21,21,2,2,True,/trends/explore?q=/m/01k8wb&date=today+12-m&geo=BR,/m/01k8wb,Conhecimento,Assunto,Pacote Office
+22,22,1,1,True,/trends/explore?q=/m/080fyws&date=today+12-m&geo=BR,/m/080fyws,Arquivo torrent,Formato de arquivo,Pacote Office
+23,23,1,1,True,/trends/explore?q=/g/11bc5fdx8c&date=today+12-m&geo=BR,/g/11bc5fdx8c,Office Online,Assunto,Pacote Office
 24,24,1,1,True,/trends/explore?q=/g/11pbfz4r6g&date=today+12-m&geo=BR,/g/11pbfz4r6g,Microsoft Office 2021,Software,Pacote Office
 0,0,100,100,True,/trends/explore?q=/m/075st&date=today+12-m&geo=BR,/m/075st,SQL,Linguagem de programação,SQL
-1,1,29,29,True,/trends/explore?q=/m/0120vr&date=today+12-m&geo=BR,/m/0120vr,Microsoft SQL Server,Software,SQL
-2,2,9,9,True,/trends/explore?q=/m/026sq&date=today+12-m&geo=BR,/m/026sq,Dados,Assunto,SQL
+1,1,31,31,True,/trends/explore?q=/m/0120vr&date=today+12-m&geo=BR,/m/0120vr,Microsoft SQL Server,Software,SQL
+2,2,10,10,True,/trends/explore?q=/m/026sq&date=today+12-m&geo=BR,/m/026sq,Dados,Assunto,SQL
 3,3,7,7,True,/trends/explore?q=/m/05ph_c&date=today+12-m&geo=BR,/m/05ph_c,Tabela,Banco de dados,SQL
 4,4,6,6,True,/trends/explore?q=/m/02bc6&date=today+12-m&geo=BR,/m/02bc6,Banco de dados,Gênero do formato do arquivo,SQL
 5,5,5,5,True,/trends/explore?q=/m/0310xh&date=today+12-m&geo=BR,/m/0310xh,Select,SQL,SQL
-6,6,4,4,True,/trends/explore?q=/m/05njw&date=today+12-m&geo=BR,/m/05njw,Oracle Corporation,Empresa,SQL
-7,7,4,4,True,/trends/explore?q=/m/04y3k&date=today+12-m&geo=BR,/m/04y3k,MySQL,Software baixável,SQL
+6,6,5,5,True,/trends/explore?q=/m/04y3k&date=today+12-m&geo=BR,/m/04y3k,MySQL,Software baixável,SQL
+7,7,4,4,True,/trends/explore?q=/m/05njw&date=today+12-m&geo=BR,/m/05njw,Oracle Corporation,Empresa,SQL
 8,8,3,3,True,/trends/explore?q=/m/020_g&date=today+12-m&geo=BR,/m/020_g,Data,Assunto,SQL
 9,9,3,3,True,/trends/explore?q=/m/040t7h&date=today+12-m&geo=BR,/m/040t7h,Column,Assunto,SQL
 10,10,3,3,True,/trends/explore?q=/m/0310kj&date=today+12-m&geo=BR,/m/0310kj,Join,SQL,SQL
@@ -121,11 +121,11 @@
 19,19,2,2,True,/trends/explore?q=/m/02qxwy1&date=today+12-m&geo=BR,/m/02qxwy1,SQL Server Management Studio,Software,SQL
 20,20,2,2,True,/trends/explore?q=/m/040t4z&date=today+12-m&geo=BR,/m/040t4z,Registro,Banco de dados,SQL
 21,21,2,2,True,/trends/explore?q=/m/05z1_&date=today+12-m&geo=BR,/m/05z1_,Python,Linguagem de programação,SQL
-22,22,2,2,True,/trends/explore?q=/m/01fk53&date=today+12-m&geo=BR,/m/01fk53,Comando,Assunto,SQL
-23,23,2,2,True,/trends/explore?q=/m/0b2y0_&date=today+12-m&geo=BR,/m/0b2y0_,Where,SQL,SQL
-24,24,2,2,True,/trends/explore?q=/m/047ms16&date=today+12-m&geo=BR,/m/047ms16,Oracle SQL Developer,Software,SQL
+22,22,2,2,True,/trends/explore?q=/m/0b2y0_&date=today+12-m&geo=BR,/m/0b2y0_,Where,SQL,SQL
+23,23,2,2,True,/trends/explore?q=/m/047ms16&date=today+12-m&geo=BR,/m/047ms16,Oracle SQL Developer,Software,SQL
+24,24,2,2,True,/trends/explore?q=/m/01fk53&date=today+12-m&geo=BR,/m/01fk53,Comando,Assunto,SQL
 0,0,100,100,True,/trends/explore?q=/m/047w8w&date=today+12-m&geo=BR,/m/047w8w,Business Objects,Empresa,SAP
-1,1,93,93,True,/trends/explore?q=/m/01pf4l&date=today+12-m&geo=BR,/m/01pf4l,SAP SE,Empresa,SAP
+1,1,95,95,True,/trends/explore?q=/m/01pf4l&date=today+12-m&geo=BR,/m/01pf4l,SAP SE,Empresa,SAP
 2,2,37,37,True,/trends/explore?q=/g/1tmqmxs9&date=today+12-m&geo=BR,/g/1tmqmxs9,Secretaria da Administração Penitenciária,Secretaria de segurança pública em São Paulo,SAP
 3,3,17,17,True,/trends/explore?q=/m/0dvl8x&date=today+12-m&geo=BR,/m/0dvl8x,SAP ERP,Software,SAP
 4,4,7,7,True,/trends/explore?q=/m/0bj6r&date=today+12-m&geo=BR,/m/0bj6r,Sistema,Assunto,SAP
@@ -139,68 +139,68 @@
 12,12,3,3,True,/trends/explore?q=/g/11btwt3yf3&date=today+12-m&geo=BR,/g/11btwt3yf3,Secretaria de Estado da Administração Prisional e Socioeducativa,Assunto,SAP
 13,13,2,2,True,/trends/explore?q=/m/02jv7&date=today+12-m&geo=BR,/m/02jv7,Sistema integrado de gestão empresarial,Assunto,SAP
 14,14,2,2,True,/trends/explore?q=/m/0d1w9&date=today+12-m&geo=BR,/m/0d1w9,Penitenciária,Assunto,SAP
-15,15,1,1,True,/trends/explore?q=/m/05b4npb&date=today+12-m&geo=BR,/m/05b4npb,T-code,Assunto,SAP
-16,16,1,1,True,/trends/explore?q=/m/04115t2&date=today+12-m&geo=BR,/m/04115t2,Emprego,Assunto,SAP
-17,17,1,1,True,/trends/explore?q=/m/075st&date=today+12-m&geo=BR,/m/075st,SQL,Linguagem de programação,SAP
+15,15,2,2,True,/trends/explore?q=/m/02rtvpw&date=today+12-m&geo=BR,/m/02rtvpw,Concur Technologies,Corporação,SAP
+16,16,2,2,True,/trends/explore?q=/m/05b4npb&date=today+12-m&geo=BR,/m/05b4npb,T-code,Assunto,SAP
+17,17,1,1,True,/trends/explore?q=/m/04115t2&date=today+12-m&geo=BR,/m/04115t2,Emprego,Assunto,SAP
 18,18,1,1,True,/trends/explore?q=/m/0z5n&date=today+12-m&geo=BR,/m/0z5n,Interface de programação de aplicações,Assunto,SAP
-19,19,1,1,True,/trends/explore?q=/g/121_jr4j&date=today+12-m&geo=BR,/g/121_jr4j,Totvs,Empresa,SAP
-20,20,0,<1,True,/trends/explore?q=/m/03g5mh&date=today+12-m&geo=BR,/m/03g5mh,ordem de compra,Assunto,SAP
+19,19,1,1,True,/trends/explore?q=/m/075st&date=today+12-m&geo=BR,/m/075st,SQL,Linguagem de programação,SAP
+20,20,1,1,True,/trends/explore?q=/g/121_jr4j&date=today+12-m&geo=BR,/g/121_jr4j,Totvs,Empresa,SAP
 21,21,0,<1,True,/trends/explore?q=/m/01qbmz&date=today+12-m&geo=BR,/m/01qbmz,ordem,Assunto,SAP
-22,22,0,<1,True,/trends/explore?q=/m/02gcn9&date=today+12-m&geo=BR,/m/02gcn9,Inteligência analítica,Campo de estudo,SAP
+22,22,0,<1,True,/trends/explore?q=/m/03g5mh&date=today+12-m&geo=BR,/m/03g5mh,ordem de compra,Assunto,SAP
 23,23,0,<1,True,/trends/explore?q=/m/076gwp&date=today+12-m&geo=BR,/m/076gwp,Layout gráfico,Assunto,SAP
-24,24,0,<1,True,/trends/explore?q=/m/07btr5&date=today+12-m&geo=BR,/m/07btr5,Salesforce,Empresa,SAP
+24,24,0,<1,True,/trends/explore?q=/m/04crkrr&date=today+12-m&geo=BR,/m/04crkrr,Integrated business planning,Assunto,SAP
 0,0,100,100,True,/trends/explore?q=/m/05z1_&date=today+12-m&geo=BR,/m/05z1_,Python,Linguagem de programação,Python
 1,1,7,7,True,/trends/explore?q=/m/01dlmc&date=today+12-m&geo=BR,/m/01dlmc,Lista,Assunto,Python
-2,2,5,5,True,/trends/explore?q=/m/06x16&date=today+12-m&geo=BR,/m/06x16,Cadeia de caracteres,Assunto,Python
-3,3,4,4,True,/trends/explore?q=/m/0rphppq&date=today+12-m&geo=BR,/m/0rphppq,pandas,Software,Python
-4,4,4,4,True,/trends/explore?q=/m/026sq&date=today+12-m&geo=BR,/m/026sq,Dados,Assunto,Python
+2,2,6,6,True,/trends/explore?q=/m/06x16&date=today+12-m&geo=BR,/m/06x16,Cadeia de caracteres,Assunto,Python
+3,3,4,4,True,/trends/explore?q=/m/026sq&date=today+12-m&geo=BR,/m/026sq,Dados,Assunto,Python
+4,4,4,4,True,/trends/explore?q=/m/0rphppq&date=today+12-m&geo=BR,/m/0rphppq,pandas,Software,Python
 5,5,3,3,True,/trends/explore?q=/m/02v_93z&date=today+12-m&geo=BR,/m/02v_93z,Função,Matemática,Python
 6,6,3,3,True,/trends/explore?q=/m/020s1&date=today+12-m&geo=BR,/m/020s1,Arquivo de computador,Assunto,Python
 7,7,2,2,True,/trends/explore?q=/m/0wcx&date=today+12-m&geo=BR,/m/0wcx,Arranjo,Assunto,Python
 8,8,2,2,True,/trends/explore?q=/m/0nk18&date=today+12-m&geo=BR,/m/0nk18,Vetor associativo,Assunto,Python
-9,9,2,2,True,/trends/explore?q=/m/01mf_&date=today+12-m&geo=BR,/m/01mf_,Programação de computadores,Campo profissional,Python
+9,9,2,2,True,/trends/explore?q=/m/0z5n&date=today+12-m&geo=BR,/m/0z5n,Interface de programação de aplicações,Assunto,Python
 10,10,2,2,True,/trends/explore?q=/m/05q4tvx&date=today+12-m&geo=BR,/m/05q4tvx,Variável,Programação,Python
-11,11,2,2,True,/trends/explore?q=/m/0z5n&date=today+12-m&geo=BR,/m/0z5n,Interface de programação de aplicações,Assunto,Python
-12,12,2,2,True,/trends/explore?q=/m/04r_8&date=today+12-m&geo=BR,/m/04r_8,Microsoft Windows,Software,Python
-13,13,2,2,True,/trends/explore?q=/m/05cntt&date=today+12-m&geo=BR,/m/05cntt,JSON,Formato de arquivo,Python
-14,14,2,2,True,/trends/explore?q=/m/05r20&date=today+12-m&geo=BR,/m/05r20,Linguagem de programação,Assunto,Python
-15,15,2,2,True,/trends/explore?q=/m/0134xwrk&date=today+12-m&geo=BR,/m/0134xwrk,Visual Studio Code,Software,Python
-16,16,1,1,True,/trends/explore?q=/m/01tygv&date=today+12-m&geo=BR,/m/01tygv,Arquivo,Tipo de organização,Python
+11,11,2,2,True,/trends/explore?q=/m/01mf_&date=today+12-m&geo=BR,/m/01mf_,Programação de computadores,Campo profissional,Python
+12,12,2,2,True,/trends/explore?q=/m/05cntt&date=today+12-m&geo=BR,/m/05cntt,JSON,Formato de arquivo,Python
+13,13,2,2,True,/trends/explore?q=/m/04r_8&date=today+12-m&geo=BR,/m/04r_8,Microsoft Windows,Software,Python
+14,14,2,2,True,/trends/explore?q=/m/0134xwrk&date=today+12-m&geo=BR,/m/0134xwrk,Visual Studio Code,Software,Python
+15,15,2,2,True,/trends/explore?q=/m/05r20&date=today+12-m&geo=BR,/m/05r20,Linguagem de programação,Assunto,Python
+16,16,2,2,True,/trends/explore?q=/m/01tygv&date=today+12-m&geo=BR,/m/01tygv,Arquivo,Tipo de organização,Python
 17,17,1,1,True,/trends/explore?q=/m/02y_sk&date=today+12-m&geo=BR,/m/02y_sk,Instalação,Computação,Python
 18,18,1,1,True,/trends/explore?q=/m/0hzm844&date=today+12-m&geo=BR,/m/0hzm844,pip,Gerenciador de pacotes,Python
 19,19,1,1,True,/trends/explore?q=/m/016r48&date=today+12-m&geo=BR,/m/016r48,Objeto,Assunto,Python
-20,20,1,1,True,/trends/explore?q=/m/0c828v&date=today+12-m&geo=BR,/m/0c828v,Selenium,Software,Python
-21,21,1,1,True,/trends/explore?q=/m/01fk53&date=today+12-m&geo=BR,/m/01fk53,Comando,Assunto,Python
+20,20,1,1,True,/trends/explore?q=/m/01fk53&date=today+12-m&geo=BR,/m/01fk53,Comando,Assunto,Python
+21,21,1,1,True,/trends/explore?q=/m/0c828v&date=today+12-m&geo=BR,/m/0c828v,Selenium,Software,Python
 22,22,1,1,True,/trends/explore?q=/m/040t7h&date=today+12-m&geo=BR,/m/040t7h,Column,Assunto,Python
 23,23,1,1,True,/trends/explore?q=/m/02d6dm&date=today+12-m&geo=BR,/m/02d6dm,For loop,Assunto,Python
 24,24,1,1,True,/trends/explore?q=/m/052tr&date=today+12-m&geo=BR,/m/052tr,Microsoft Excel,Programa de computador,Python
 0,0,100,100,True,/trends/explore?q=/m/02y_9m3&date=today+12-m&geo=BR,/m/02y_9m3,Computação em nuvem,Assunto,Cloud
-1,1,33,33,True,/trends/explore?q=/m/0vphbfj&date=today+12-m&geo=BR,/m/0vphbfj,Xbox One,Console xbox,Cloud
-2,2,33,33,True,/trends/explore?q=/m/0t_fv9h&date=today+12-m&geo=BR,/m/0t_fv9h,Xbox,Console portátil,Cloud
-3,3,31,31,True,/trends/explore?q=/g/11flpjc1r4&date=today+12-m&geo=BR,/g/11flpjc1r4,Xbox Cloud Gaming,Assunto,Cloud
-4,4,29,29,True,/trends/explore?q=/m/01mw1&date=today+12-m&geo=BR,/m/01mw1,Jogo eletrônico,Assunto,Cloud
-5,5,27,27,True,/trends/explore?q=/g/11flpjdym5&date=today+12-m&geo=BR,/g/11flpjdym5,Xbox Series X e Series S,Console xbox,Cloud
+1,1,33,33,True,/trends/explore?q=/m/0t_fv9h&date=today+12-m&geo=BR,/m/0t_fv9h,Xbox,Console portátil,Cloud
+2,2,32,32,True,/trends/explore?q=/g/11flpjc1r4&date=today+12-m&geo=BR,/g/11flpjc1r4,Xbox Cloud Gaming,Assunto,Cloud
+3,3,30,30,True,/trends/explore?q=/m/0vphbfj&date=today+12-m&geo=BR,/m/0vphbfj,Xbox One,Console xbox,Cloud
+4,4,30,30,True,/trends/explore?q=/m/01mw1&date=today+12-m&geo=BR,/m/01mw1,Jogo eletrônico,Assunto,Cloud
+5,5,28,28,True,/trends/explore?q=/g/11flpjdym5&date=today+12-m&geo=BR,/g/11flpjdym5,Xbox Series X e Series S,Console xbox,Cloud
 6,6,20,20,True,/trends/explore?q=/m/0dllsf1&date=today+12-m&geo=BR,/m/0dllsf1,Jogo em nuvem,Assunto,Cloud
 7,7,17,17,True,/trends/explore?q=/m/0k9bc90&date=today+12-m&geo=BR,/m/0k9bc90,Fortnite,Jogo eletrônico,Cloud
 8,8,10,10,True,/trends/explore?q=/g/11g98zpg14&date=today+12-m&geo=BR,/g/11g98zpg14,Kingston HyperX,Unidade de disco rígido,Cloud
-9,9,10,10,True,/trends/explore?q=/m/0105pbj4&date=today+12-m&geo=BR,/m/0105pbj4,Google Cloud Platform,Software,Cloud
-10,10,7,7,True,/trends/explore?q=/g/11d_pz0ytb&date=today+12-m&geo=BR,/g/11d_pz0ytb,HyperX série Cloud,Headset para computadores,Cloud
-11,11,6,6,True,/trends/explore?q=/g/120_975s&date=today+12-m&geo=BR,/g/120_975s,Betha Sistemas,Assunto,Cloud
-12,12,6,6,True,/trends/explore?q=/m/0wjd1gh&date=today+12-m&geo=BR,/m/0wjd1gh,Adobe Creative Cloud,Software,Cloud
-13,13,6,6,True,/trends/explore?q=/g/1q69kwnpp&date=today+12-m&geo=BR,/g/1q69kwnpp,HyperX Cloud,Headset para computadores,Cloud
+9,9,9,9,True,/trends/explore?q=/m/0105pbj4&date=today+12-m&geo=BR,/m/0105pbj4,Google Cloud Platform,Software,Cloud
+10,10,7,7,True,/trends/explore?q=/m/0wjd1gh&date=today+12-m&geo=BR,/m/0wjd1gh,Adobe Creative Cloud,Software,Cloud
+11,11,6,6,True,/trends/explore?q=/g/11d_pz0ytb&date=today+12-m&geo=BR,/g/11d_pz0ytb,HyperX série Cloud,Headset para computadores,Cloud
+12,12,6,6,True,/trends/explore?q=/g/120_975s&date=today+12-m&geo=BR,/g/120_975s,Betha Sistemas,Assunto,Cloud
+13,13,5,5,True,/trends/explore?q=/g/1q69kwnpp&date=today+12-m&geo=BR,/g/1q69kwnpp,HyperX Cloud,Headset para computadores,Cloud
 14,14,4,4,True,/trends/explore?q=/m/01b7fy&date=today+12-m&geo=BR,/m/01b7fy,Fone de ouvido,Assunto,Cloud
 15,15,4,4,True,/trends/explore?q=/m/0vlf&date=today+12-m&geo=BR,/m/0vlf,Adobe Inc.,Companhia,Cloud
-16,16,4,4,True,/trends/explore?q=/m/03mb156&date=today+12-m&geo=BR,/m/03mb156,Headset,Assunto,Cloud
+16,16,3,3,True,/trends/explore?q=/m/03mb156&date=today+12-m&geo=BR,/m/03mb156,Headset,Assunto,Cloud
 17,17,3,3,True,/trends/explore?q=/m/05njw&date=today+12-m&geo=BR,/m/05njw,Oracle Corporation,Empresa,Cloud
 18,18,3,3,True,/trends/explore?q=/m/0h6955b&date=today+12-m&geo=BR,/m/0h6955b,Xiaomi,Empresa,Cloud
 19,19,3,3,True,/trends/explore?q=/g/11c5bgdkt3&date=today+12-m&geo=BR,/g/11c5bgdkt3,Kingston HyperX Cloud Stinger,Headset para computadores,Cloud
 20,20,3,3,True,/trends/explore?q=/g/11c3tsbdl9&date=today+12-m&geo=BR,/g/11c3tsbdl9,Kingston HyperX Cloud II,Headset para computadores,Cloud
 21,21,3,3,True,/trends/explore?q=/m/05nrgx&date=today+12-m&geo=BR,/m/05nrgx,Amazon Web Services,Assunto,Cloud
 22,22,3,3,True,/trends/explore?q=/g/11h9q1kdd2&date=today+12-m&geo=BR,/g/11h9q1kdd2,Oracle Cloud,Assunto,Cloud
-23,23,3,3,True,/trends/explore?q=/m/0csby&date=today+12-m&geo=BR,/m/0csby,Nuvem,Assunto,Cloud
+23,23,2,2,True,/trends/explore?q=/m/0csby&date=today+12-m&geo=BR,/m/0csby,Nuvem,Assunto,Cloud
 24,24,2,2,True,/trends/explore?q=/m/01lps&date=today+12-m&geo=BR,/m/01lps,Computar,Campo de estudo,Cloud
 0,0,100,100,True,/trends/explore?q=/m/02016&date=today+12-m&geo=BR,/m/02016,Gestão de relacionamento com o cliente,Assunto,CRM
-1,1,10,10,True,/trends/explore?q=/m/05t4q&date=today+12-m&geo=BR,/m/05t4q,Médico,Ocupação,CRM
+1,1,11,11,True,/trends/explore?q=/m/05t4q&date=today+12-m&geo=BR,/m/05t4q,Médico,Ocupação,CRM
 2,2,6,6,True,/trends/explore?q=/m/02g9n&date=today+12-m&geo=BR,/m/02g9n,Doutor,Grau,CRM
 3,3,4,4,True,/trends/explore?q=/g/1tdzh3ys&date=today+12-m&geo=BR,/g/1tdzh3ys,Conselho Regional de Medicina do Paraná (CRM-PR),"Repartição pública federal em Curitiba, Paraná",CRM
 4,4,3,3,True,/trends/explore?q=/g/11c3x0b6vp&date=today+12-m&geo=BR,/g/11c3x0b6vp,Conselho Regional de Medicina do Estado de Minas Gerais,Assunto,CRM
@@ -216,44 +216,44 @@
 14,14,1,1,True,/trends/explore?q=/g/11fwjzykdm&date=today+12-m&geo=BR,/g/11fwjzykdm,CRM Bônus,Consultoria em São Paulo,CRM
 15,15,1,1,True,/trends/explore?q=/g/11g9n07c2v&date=today+12-m&geo=BR,/g/11g9n07c2v,RD Gestão e Sistemas S.A.,Empresa,CRM
 16,16,1,1,True,/trends/explore?q=/g/11g_cbn0j&date=today+12-m&geo=BR,/g/11g_cbn0j,RD Station,"Empresa de software em Florianópolis, Santa Catarina",CRM
-17,17,0,<1,True,/trends/explore?q=/g/1thgh73s&date=today+12-m&geo=BR,/g/1thgh73s,Conselho Regional de Medicina do Estado do Piauí,Assunto,CRM
+17,17,1,1,True,/trends/explore?q=/g/1thgh73s&date=today+12-m&geo=BR,/g/1thgh73s,Conselho Regional de Medicina do Estado do Piauí,Assunto,CRM
 18,18,0,<1,True,/trends/explore?q=/g/120mnmn8&date=today+12-m&geo=BR,/g/120mnmn8,Sistemas de CRM,Assunto,CRM
 19,19,0,<1,True,/trends/explore?q=/m/07btr5&date=today+12-m&geo=BR,/m/07btr5,Salesforce,Empresa,CRM
 20,20,0,<1,True,/trends/explore?q=/m/06842y&date=today+12-m&geo=BR,/m/06842y,Geração de leads,Assunto,CRM
 21,21,0,<1,True,/trends/explore?q=/g/11cn5kvgkn&date=today+12-m&geo=BR,/g/11cn5kvgkn,Pipedrive,Desenvolvedor do software,CRM
-22,22,0,<1,True,/trends/explore?q=/m/07zkzm3&date=today+12-m&geo=BR,/m/07zkzm3,NYSE:CRM,Assunto,CRM
+22,22,0,<1,True,/trends/explore?q=/g/11cst24p5j&date=today+12-m&geo=BR,/g/11cst24p5j,CRM-RR,Assunto,CRM
 23,23,0,<1,True,/trends/explore?q=/m/01s92x&date=today+12-m&geo=BR,/m/01s92x,Prescrição médica,Assunto,CRM
-0,0,100,100,True,/trends/explore?q=/g/121_jr4j&date=today+12-m&geo=BR,/g/121_jr4j,Totvs,Empresa,Protheus
-1,1,42,42,True,/trends/explore?q=/m/0bj6r&date=today+12-m&geo=BR,/m/0bj6r,Sistema,Assunto,Protheus
-2,2,35,35,True,/trends/explore?q=/m/04gcl9&date=today+12-m&geo=BR,/m/04gcl9,Recibo,Assunto,Protheus
-3,3,34,34,True,/trends/explore?q=/m/077l_l&date=today+12-m&geo=BR,/m/077l_l,Cadastro,Assunto,Protheus
-4,4,31,31,True,/trends/explore?q=/m/0z8953h&date=today+12-m&geo=BR,/m/0z8953h,AdvPL,Linguagem de programação,Protheus
-5,5,27,27,True,/trends/explore?q=/g/11x1nzwby&date=today+12-m&geo=BR,/g/11x1nzwby,Erro,Assunto,Protheus
-6,6,27,27,True,/trends/explore?q=/m/0chln1&date=today+12-m&geo=BR,/m/0chln1,Relatório,Assunto,Protheus
-7,7,26,26,True,/trends/explore?q=/m/025rt4t&date=today+12-m&geo=BR,/m/025rt4t,Gestão de compras,Assunto,Protheus
-8,8,25,25,True,/trends/explore?q=/g/121hg6b7&date=today+12-m&geo=BR,/g/121hg6b7,Imposto sobre Circulação de Mercadorias e Serviços,Assunto,Protheus
-9,9,21,21,True,/trends/explore?q=/m/05jcn&date=today+12-m&geo=BR,/m/05jcn,Nota musical,Assunto,Protheus
-10,10,20,20,True,/trends/explore?q=/m/01dl3j&date=today+12-m&geo=BR,/m/01dl3j,Papel-moeda,Assunto,Protheus
-11,11,19,19,True,/trends/explore?q=/g/121dw62d&date=today+12-m&geo=BR,/g/121dw62d,Nota fiscal eletrônica,Assunto,Protheus
-12,12,18,18,True,/trends/explore?q=/m/07dymh&date=today+12-m&geo=BR,/m/07dymh,Saldo,Assunto,Protheus
-13,13,18,18,True,/trends/explore?q=/m/0168hv&date=today+12-m&geo=BR,/m/0168hv,Custo,Assunto,Protheus
-14,14,18,18,True,/trends/explore?q=/g/122z2dzt&date=today+12-m&geo=BR,/g/122z2dzt,Usuário,Assunto,Protheus
-15,15,17,17,True,/trends/explore?q=/m/0_jm&date=today+12-m&geo=BR,/m/0_jm,Contabilidade,Campo de estudo,Protheus
-16,16,17,17,True,/trends/explore?q=/m/01tygv&date=today+12-m&geo=BR,/m/01tygv,Arquivo,Tipo de organização,Protheus
-17,17,17,17,True,/trends/explore?q=/g/11b6snzkb7&date=today+12-m&geo=BR,/g/11b6snzkb7,Estoque,Assunto,Protheus
-18,18,17,17,True,/trends/explore?q=/g/122zvynh&date=today+12-m&geo=BR,/g/122zvynh,Sistema Público de Escrituração Digital,Assunto,Protheus
-19,19,16,16,True,/trends/explore?q=/m/02640pc&date=today+12-m&geo=BR,/m/02640pc,Importação,Assunto,Protheus
-20,20,15,15,True,/trends/explore?q=/m/02jv7&date=today+12-m&geo=BR,/m/02jv7,Sistema integrado de gestão empresarial,Assunto,Protheus
-21,21,15,15,True,/trends/explore?q=/m/08745&date=today+12-m&geo=BR,/m/08745,XML,Protocolo de internet,Protheus
-22,22,13,13,True,/trends/explore?q=/m/03_499&date=today+12-m&geo=BR,/m/03_499,Gestão de recursos humanos,Assunto,Protheus
-23,23,5,5,True,/trends/explore?q=/g/12389nrh&date=today+12-m&geo=BR,/g/12389nrh,Nomenclatura Comum do Mercosul,Assunto,Protheus
-24,24,4,4,True,/trends/explore?q=/g/122h5gw1&date=today+12-m&geo=BR,/g/122h5gw1,Analista,Emprego,Protheus
+0,0,100,100,True,/trends/explore?q=/m/01xqp7&date=today+12-m&geo=BR,/m/01xqp7,Tabela,Assunto,Protheus
+1,1,85,85,True,/trends/explore?q=/g/121_jr4j&date=today+12-m&geo=BR,/g/121_jr4j,Totvs,Empresa,Protheus
+2,2,35,35,True,/trends/explore?q=/m/0bj6r&date=today+12-m&geo=BR,/m/0bj6r,Sistema,Assunto,Protheus
+3,3,29,29,True,/trends/explore?q=/m/04gcl9&date=today+12-m&geo=BR,/m/04gcl9,Recibo,Assunto,Protheus
+4,4,29,29,True,/trends/explore?q=/m/077l_l&date=today+12-m&geo=BR,/m/077l_l,Cadastro,Assunto,Protheus
+5,5,26,26,True,/trends/explore?q=/m/0z8953h&date=today+12-m&geo=BR,/m/0z8953h,AdvPL,Linguagem de programação,Protheus
+6,6,23,23,True,/trends/explore?q=/g/11x1nzwby&date=today+12-m&geo=BR,/g/11x1nzwby,Erro,Assunto,Protheus
+7,7,23,23,True,/trends/explore?q=/m/0chln1&date=today+12-m&geo=BR,/m/0chln1,Relatório,Assunto,Protheus
+8,8,23,23,True,/trends/explore?q=/m/025rt4t&date=today+12-m&geo=BR,/m/025rt4t,Gestão de compras,Assunto,Protheus
+9,9,22,22,True,/trends/explore?q=/g/121hg6b7&date=today+12-m&geo=BR,/g/121hg6b7,Imposto sobre Circulação de Mercadorias e Serviços,Assunto,Protheus
+10,10,18,18,True,/trends/explore?q=/m/05jcn&date=today+12-m&geo=BR,/m/05jcn,Nota musical,Assunto,Protheus
+11,11,17,17,True,/trends/explore?q=/m/01dl3j&date=today+12-m&geo=BR,/m/01dl3j,Papel-moeda,Assunto,Protheus
+12,12,16,16,True,/trends/explore?q=/g/121dw62d&date=today+12-m&geo=BR,/g/121dw62d,Nota fiscal eletrônica,Assunto,Protheus
+13,13,15,15,True,/trends/explore?q=/g/122z2dzt&date=today+12-m&geo=BR,/g/122z2dzt,Usuário,Assunto,Protheus
+14,14,15,15,True,/trends/explore?q=/m/07dymh&date=today+12-m&geo=BR,/m/07dymh,Saldo,Assunto,Protheus
+15,15,15,15,True,/trends/explore?q=/m/0_jm&date=today+12-m&geo=BR,/m/0_jm,Contabilidade,Campo de estudo,Protheus
+16,16,15,15,True,/trends/explore?q=/m/0168hv&date=today+12-m&geo=BR,/m/0168hv,Custo,Assunto,Protheus
+17,17,15,15,True,/trends/explore?q=/m/01tygv&date=today+12-m&geo=BR,/m/01tygv,Arquivo,Tipo de organização,Protheus
+18,18,15,15,True,/trends/explore?q=/g/11b6snzkb7&date=today+12-m&geo=BR,/g/11b6snzkb7,Estoque,Assunto,Protheus
+19,19,14,14,True,/trends/explore?q=/g/122zvynh&date=today+12-m&geo=BR,/g/122zvynh,Sistema Público de Escrituração Digital,Assunto,Protheus
+20,20,14,14,True,/trends/explore?q=/m/02640pc&date=today+12-m&geo=BR,/m/02640pc,Importação,Assunto,Protheus
+21,21,13,13,True,/trends/explore?q=/m/02jv7&date=today+12-m&geo=BR,/m/02jv7,Sistema integrado de gestão empresarial,Assunto,Protheus
+22,22,12,12,True,/trends/explore?q=/m/08745&date=today+12-m&geo=BR,/m/08745,XML,Protocolo de internet,Protheus
+23,23,11,11,True,/trends/explore?q=/m/03_499&date=today+12-m&geo=BR,/m/03_499,Gestão de recursos humanos,Assunto,Protheus
+24,24,9,9,True,/trends/explore?q=/m/0hwky&date=today+12-m&geo=BR,/m/0hwky,Padrão,Assunto,Protheus
 0,0,100,100,True,/trends/explore?q=/m/08w9_f&date=today+12-m&geo=BR,/m/08w9_f,Google Analytics,Site,Analytics
-1,1,78,78,True,/trends/explore?q=/m/045c7b&date=today+12-m&geo=BR,/m/045c7b,Google,Empresa,Analytics
+1,1,77,77,True,/trends/explore?q=/m/045c7b&date=today+12-m&geo=BR,/m/045c7b,Google,Empresa,Analytics
 2,2,45,45,True,/trends/explore?q=/m/02gcn9&date=today+12-m&geo=BR,/m/02gcn9,Inteligência analítica,Campo de estudo,Analytics
 3,3,14,14,True,/trends/explore?q=/m/026sq&date=today+12-m&geo=BR,/m/026sq,Dados,Assunto,Analytics
 4,4,7,7,True,/trends/explore?q=/m/07zy4y&date=today+12-m&geo=BR,/m/07zy4y,Análise de dados,Assunto,Analytics
-5,5,7,7,True,/trends/explore?q=/m/03l68z&date=today+12-m&geo=BR,/m/03l68z,Google Ads,Assunto,Analytics
+5,5,6,6,True,/trends/explore?q=/m/03l68z&date=today+12-m&geo=BR,/m/03l68z,Google Ads,Assunto,Analytics
 6,6,6,6,True,/trends/explore?q=/g/121jnq1m&date=today+12-m&geo=BR,/g/121jnq1m,Negócios,Assunto,Analytics
 7,7,5,5,True,/trends/explore?q=/m/085n4&date=today+12-m&geo=BR,/m/085n4,Site,Assunto,Analytics
 8,8,4,4,True,/trends/explore?q=/g/125_f6l68&date=today+12-m&geo=BR,/g/125_f6l68,Google Tag Manager,Software,Analytics
@@ -265,8 +265,8 @@
 14,14,2,2,True,/trends/explore?q=/g/121vr6rm&date=today+12-m&geo=BR,/g/121vr6rm,Análise,Assunto,Analytics
 15,15,2,2,True,/trends/explore?q=/m/016jq3&date=today+12-m&geo=BR,/m/016jq3,Inteligência empresarial,Assunto,Analytics
 16,16,2,2,True,/trends/explore?q=/m/02q3c56&date=today+12-m&geo=BR,/m/02q3c56,business analytics,Assunto,Analytics
-17,17,2,2,True,/trends/explore?q=/m/06mq7&date=today+12-m&geo=BR,/m/06mq7,Ciência,Categoria de escola,Analytics
-18,18,2,2,True,/trends/explore?q=/m/0jt3_q3&date=today+12-m&geo=BR,/m/0jt3_q3,Ciência de dados,Assunto,Analytics
+17,17,2,2,True,/trends/explore?q=/m/0jt3_q3&date=today+12-m&geo=BR,/m/0jt3_q3,Ciência de dados,Assunto,Analytics
+18,18,2,2,True,/trends/explore?q=/m/06mq7&date=today+12-m&geo=BR,/m/06mq7,Ciência,Categoria de escola,Analytics
 19,19,2,2,True,/trends/explore?q=/m/07k1x&date=today+12-m&geo=BR,/m/07k1x,Ferramenta,Assunto,Analytics
 20,20,2,2,True,/trends/explore?q=/m/05h5pjx&date=today+12-m&geo=BR,/m/05h5pjx,Google Search Console,Site,Analytics
 21,21,2,2,True,/trends/explore?q=/m/02kwz2&date=today+12-m&geo=BR,/m/02kwz2,Inteligência,Assunto,Analytics
@@ -274,13 +274,13 @@
 23,23,1,1,True,/trends/explore?q=/m/011c5yl3&date=today+12-m&geo=BR,/m/011c5yl3,Firebase,Empresa,Analytics
 24,24,1,1,True,/trends/explore?q=/g/11fmgy30gx&date=today+12-m&geo=BR,/g/11fmgy30gx,Google Data Studio,Assunto,Analytics
 0,0,100,100,True,/trends/explore?q=/m/05njw&date=today+12-m&geo=BR,/m/05njw,Oracle Corporation,Empresa,Oracle
-1,1,30,30,True,/trends/explore?q=/m/01vw9z&date=today+12-m&geo=BR,/m/01vw9z,Oracle,Banco de dados,Oracle
+1,1,27,27,True,/trends/explore?q=/m/01vw9z&date=today+12-m&geo=BR,/m/01vw9z,Oracle,Banco de dados,Oracle
 2,2,10,10,True,/trends/explore?q=/m/075st&date=today+12-m&geo=BR,/m/075st,SQL,Linguagem de programação,Oracle
 3,3,6,6,True,/trends/explore?q=/m/02y_9m3&date=today+12-m&geo=BR,/m/02y_9m3,Computação em nuvem,Assunto,Oracle
 4,4,5,5,True,/trends/explore?q=/m/02bc6&date=today+12-m&geo=BR,/m/02bc6,Banco de dados,Gênero do formato do arquivo,Oracle
 5,5,5,5,True,/trends/explore?q=/g/11h9q1kdd2&date=today+12-m&geo=BR,/g/11h9q1kdd2,Oracle Cloud,Assunto,Oracle
 6,6,4,4,True,/trends/explore?q=/m/026sq&date=today+12-m&geo=BR,/m/026sq,Dados,Assunto,Oracle
-7,7,4,4,True,/trends/explore?q=/m/05ph_c&date=today+12-m&geo=BR,/m/05ph_c,Tabela,Banco de dados,Oracle
+7,7,3,3,True,/trends/explore?q=/m/05ph_c&date=today+12-m&geo=BR,/m/05ph_c,Tabela,Banco de dados,Oracle
 8,8,3,3,True,/trends/explore?q=/m/0310xh&date=today+12-m&geo=BR,/m/0310xh,Select,SQL,Oracle
 9,9,3,3,True,/trends/explore?q=/m/07sbkfb&date=today+12-m&geo=BR,/m/07sbkfb,Java,Linguagem de programação,Oracle
 10,10,3,3,True,/trends/explore?q=/m/0268jgk&date=today+12-m&geo=BR,/m/0268jgk,Oracle Linux,Sistema operacional,Oracle
@@ -292,17 +292,17 @@
 16,16,2,2,True,/trends/explore?q=/m/03ts00&date=today+12-m&geo=BR,/m/03ts00,Oracle Application Express,Software,Oracle
 17,17,2,2,True,/trends/explore?q=/m/040t7h&date=today+12-m&geo=BR,/m/040t7h,Column,Assunto,Oracle
 18,18,2,2,True,/trends/explore?q=/m/0609p&date=today+12-m&geo=BR,/m/0609p,PL/SQL,Linguagem de programação,Oracle
-19,19,2,2,True,/trends/explore?q=/m/04r_8&date=today+12-m&geo=BR,/m/04r_8,Microsoft Windows,Software,Oracle
-20,20,2,2,True,/trends/explore?q=/m/03190p&date=today+12-m&geo=BR,/m/03190p,Cliente,Computação,Oracle
-21,21,2,2,True,/trends/explore?q=/m/06x16&date=today+12-m&geo=BR,/m/06x16,Cadeia de caracteres,Assunto,Oracle
+19,19,2,2,True,/trends/explore?q=/m/03190p&date=today+12-m&geo=BR,/m/03190p,Cliente,Computação,Oracle
+20,20,1,1,True,/trends/explore?q=/m/06x16&date=today+12-m&geo=BR,/m/06x16,Cadeia de caracteres,Assunto,Oracle
+21,21,1,1,True,/trends/explore?q=/m/02v_93z&date=today+12-m&geo=BR,/m/02v_93z,Função,Matemática,Oracle
 22,22,1,1,True,/trends/explore?q=/m/05njj&date=today+12-m&geo=BR,/m/05njj,Oráculo,Assunto,Oracle
 23,23,1,1,True,/trends/explore?q=/m/02y_sk&date=today+12-m&geo=BR,/m/02y_sk,Instalação,Computação,Oracle
 24,24,1,1,True,/trends/explore?q=/m/0b750&date=today+12-m&geo=BR,/m/0b750,Sub-rotina,Assunto,Oracle
 0,0,100,100,True,/trends/explore?q=/m/0212jm&date=today+12-m&geo=BR,/m/0212jm,R,Linguagem de programação,R
-1,1,60,60,True,/trends/explore?q=/m/03385m&date=today+12-m&geo=BR,/m/03385m,Real brasileiro,Moeda brasileira,R
-2,2,55,55,True,/trends/explore?q=/m/09ttms&date=today+12-m&geo=BR,/m/09ttms,Letra,Assunto,R
+1,1,57,57,True,/trends/explore?q=/m/03385m&date=today+12-m&geo=BR,/m/03385m,Real brasileiro,Moeda brasileira,R
+2,2,52,52,True,/trends/explore?q=/m/09ttms&date=today+12-m&geo=BR,/m/09ttms,Letra,Assunto,R
 3,3,31,31,True,/trends/explore?q=/m/0195mc&date=today+12-m&geo=BR,/m/0195mc,Å,Assunto,R
-4,4,11,11,True,/trends/explore?q=/m/03scnj&date=today+12-m&geo=BR,/m/03scnj,Reta,Assunto,R
+4,4,10,10,True,/trends/explore?q=/m/03scnj&date=today+12-m&geo=BR,/m/03scnj,Reta,Assunto,R
 5,5,9,9,True,/trends/explore?q=/m/02y_gnz&date=today+12-m&geo=BR,/m/02y_gnz,Honda Civic Type R,Carro esportivo,R
 6,6,8,8,True,/trends/explore?q=/m/01_pxf&date=today+12-m&geo=BR,/m/01_pxf,Honda Civic,Automóvel desportivo,R
 7,7,4,4,True,/trends/explore?q=/m/0j3yh6q&date=today+12-m&geo=BR,/m/0j3yh6q,RStudio,Software,R
@@ -317,10 +317,9 @@
 16,16,2,2,True,/trends/explore?q=/g/11fctqkwx6&date=today+12-m&geo=BR,/g/11fctqkwx6,Canon EOS R,Câmera reflex monobjetiva digital,R
 17,17,2,2,True,/trends/explore?q=/m/088yy&date=today+12-m&geo=BR,/m/088yy,Z,Assunto,R
 18,18,2,2,True,/trends/explore?q=/m/040t7h&date=today+12-m&geo=BR,/m/040t7h,Column,Assunto,R
-19,19,2,2,True,/trends/explore?q=/g/122k5n9v&date=today+12-m&geo=BR,/g/122k5n9v,Elogio,Oração,R
 0,0,100,100,True,/trends/explore?q=/m/04y7lrx&date=today+12-m&geo=BR,/m/04y7lrx,Microsoft Azure,Software,Azure
-1,1,11,11,True,/trends/explore?q=/m/04sv4&date=today+12-m&geo=BR,/m/04sv4,Microsoft,Empresa,Azure
-2,2,10,10,True,/trends/explore?q=/m/02rvgkm&date=today+12-m&geo=BR,/m/02rvgkm,Azure DevOps Server,Software,Azure
+1,1,12,12,True,/trends/explore?q=/m/04sv4&date=today+12-m&geo=BR,/m/04sv4,Microsoft,Empresa,Azure
+2,2,11,11,True,/trends/explore?q=/m/02rvgkm&date=today+12-m&geo=BR,/m/02rvgkm,Azure DevOps Server,Software,Azure
 3,3,9,9,True,/trends/explore?q=/m/0c3tq11&date=today+12-m&geo=BR,/m/0c3tq11,DevOps,Assunto,Azure
 4,4,4,4,True,/trends/explore?q=/m/026sq&date=today+12-m&geo=BR,/m/026sq,Dados,Assunto,Azure
 5,5,4,4,True,/trends/explore?q=/m/011bm&date=today+12-m&geo=BR,/m/011bm,Active Directory,Software,Azure
@@ -328,21 +327,21 @@
 7,7,3,3,True,/trends/explore?q=/m/05nrgx&date=today+12-m&geo=BR,/m/05nrgx,Amazon Web Services,Assunto,Azure
 8,8,3,3,True,/trends/explore?q=/m/09l8g&date=today+12-m&geo=BR,/m/09l8g,Voz humana,Assunto,Azure
 9,9,3,3,True,/trends/explore?q=/m/075st&date=today+12-m&geo=BR,/m/075st,SQL,Linguagem de programação,Azure
-10,10,2,2,True,/trends/explore?q=/m/02bj4k&date=today+12-m&geo=BR,/m/02bj4k,Software aplicativo,Assunto,Azure
-11,11,2,2,True,/trends/explore?q=/m/07yf2&date=today+12-m&geo=BR,/m/07yf2,Máquina virtual,Assunto,Azure
+10,10,2,2,True,/trends/explore?q=/m/07yf2&date=today+12-m&geo=BR,/m/07yf2,Máquina virtual,Assunto,Azure
+11,11,2,2,True,/trends/explore?q=/m/02bj4k&date=today+12-m&geo=BR,/m/02bj4k,Software aplicativo,Assunto,Azure
 12,12,2,2,True,/trends/explore?q=/m/0z5n&date=today+12-m&geo=BR,/m/0z5n,Interface de programação de aplicações,Assunto,Azure
 13,13,2,2,True,/trends/explore?q=/m/0qt178q&date=today+12-m&geo=BR,/m/0qt178q,Microsoft,Assunto,Azure
 14,14,2,2,True,/trends/explore?q=/m/02v_93z&date=today+12-m&geo=BR,/m/02v_93z,Função,Matemática,Azure
 15,15,2,2,True,/trends/explore?q=/m/03wbldj&date=today+12-m&geo=BR,/m/03wbldj,Microsoft Azure SQL Database,Software,Azure
 16,16,2,2,True,/trends/explore?q=/m/02bc6&date=today+12-m&geo=BR,/m/02bc6,Banco de dados,Gênero do formato do arquivo,Azure
-17,17,2,2,True,/trends/explore?q=/g/120x72xh&date=today+12-m&geo=BR,/g/120x72xh,Servidor,Natureza de software,Azure
-18,18,2,2,True,/trends/explore?q=/m/04r_8&date=today+12-m&geo=BR,/m/04r_8,Microsoft Windows,Software,Azure
-19,19,2,2,True,/trends/explore?q=/m/011b7yqg&date=today+12-m&geo=BR,/m/011b7yqg,Certificação,Assunto,Azure
-20,20,2,2,True,/trends/explore?q=/m/020s1&date=today+12-m&geo=BR,/m/020s1,Arquivo de computador,Assunto,Azure
-21,21,1,1,True,/trends/explore?q=/m/01tkc2&date=today+12-m&geo=BR,/m/01tkc2,BLOB,Assunto,Azure
-22,22,1,1,True,/trends/explore?q=/m/05z1_&date=today+12-m&geo=BR,/m/05z1_,Python,Linguagem de programação,Azure
-23,23,1,1,True,/trends/explore?q=/m/03qn84b&date=today+12-m&geo=BR,/m/03qn84b,Usuário,Computação,Azure
-24,24,1,1,True,/trends/explore?q=/m/0120vr&date=today+12-m&geo=BR,/m/0120vr,Microsoft SQL Server,Software,Azure
+17,17,2,2,True,/trends/explore?q=/m/011b7yqg&date=today+12-m&geo=BR,/m/011b7yqg,Certificação,Assunto,Azure
+18,18,2,2,True,/trends/explore?q=/m/020s1&date=today+12-m&geo=BR,/m/020s1,Arquivo de computador,Assunto,Azure
+19,19,1,1,True,/trends/explore?q=/m/01tkc2&date=today+12-m&geo=BR,/m/01tkc2,BLOB,Assunto,Azure
+20,20,1,1,True,/trends/explore?q=/m/05z1_&date=today+12-m&geo=BR,/m/05z1_,Python,Linguagem de programação,Azure
+21,21,1,1,True,/trends/explore?q=/m/03qn84b&date=today+12-m&geo=BR,/m/03qn84b,Usuário,Computação,Azure
+22,22,1,1,True,/trends/explore?q=/m/0120vr&date=today+12-m&geo=BR,/m/0120vr,Microsoft SQL Server,Software,Azure
+23,23,1,1,True,/trends/explore?q=/m/05ynw&date=today+12-m&geo=BR,/m/05ynw,PostgreSQL,Software,Azure
+24,24,1,1,True,/trends/explore?q=/m/06x16&date=today+12-m&geo=BR,/m/06x16,Cadeia de caracteres,Assunto,Azure
 0,0,100,100,True,/trends/explore?q=/m/07btr5&date=today+12-m&geo=BR,/m/07btr5,Salesforce,Empresa,Salesforce
 1,1,3,3,True,/trends/explore?q=/m/02y_9m3&date=today+12-m&geo=BR,/m/02y_9m3,Computação em nuvem,Assunto,Salesforce
 2,2,2,2,True,/trends/explore?q=/m/018j6p&date=today+12-m&geo=BR,/m/018j6p,Programador,Emprego,Salesforce
@@ -355,33 +354,33 @@
 9,9,1,1,True,/trends/explore?q=/m/016r48&date=today+12-m&geo=BR,/m/016r48,Objeto,Assunto,Salesforce
 10,10,1,1,True,/trends/explore?q=/m/03qn84b&date=today+12-m&geo=BR,/m/03qn84b,Usuário,Computação,Salesforce
 11,11,1,1,True,/trends/explore?q=/m/011b7yqg&date=today+12-m&geo=BR,/m/011b7yqg,Certificação,Assunto,Salesforce
-12,12,1,1,True,/trends/explore?q=/m/0chln1&date=today+12-m&geo=BR,/m/0chln1,Relatório,Assunto,Salesforce
+12,12,1,1,True,/trends/explore?q=/m/022x0&date=today+12-m&geo=BR,/m/022x0,Classe,Programação,Salesforce
 13,13,1,1,True,/trends/explore?q=/m/0gms8&date=today+12-m&geo=BR,/m/0gms8,Raio,Meteorologia,Salesforce
-14,14,1,1,True,/trends/explore?q=/m/022x0&date=today+12-m&geo=BR,/m/022x0,Classe,Programação,Salesforce
+14,14,1,1,True,/trends/explore?q=/m/0chln1&date=today+12-m&geo=BR,/m/0chln1,Relatório,Assunto,Salesforce
 15,15,1,1,True,/trends/explore?q=/m/015tl8&date=today+12-m&geo=BR,/m/015tl8,Fórmula,Assunto,Salesforce
-16,16,1,1,True,/trends/explore?q=/m/0b25v&date=today+12-m&geo=BR,/m/0b25v,Licença,Assunto,Salesforce
+16,16,0,<1,True,/trends/explore?q=/m/0b25v&date=today+12-m&geo=BR,/m/0b25v,Licença,Assunto,Salesforce
 17,17,0,<1,True,/trends/explore?q=/m/0ky_d&date=today+12-m&geo=BR,/m/0ky_d,Plataforma,Computação,Salesforce
-18,18,0,<1,True,/trends/explore?q=/m/04y91_&date=today+12-m&geo=BR,/m/04y91_,Gatilho,Banco de dados,Salesforce
-19,19,0,<1,True,/trends/explore?q=/m/08745&date=today+12-m&geo=BR,/m/08745,XML,Protocolo de internet,Salesforce
-20,20,0,<1,True,/trends/explore?q=/g/11dxq18_85&date=today+12-m&geo=BR,/g/11dxq18_85,"Vlocity, Inc.",Desenvolvedor do software,Salesforce
-21,21,0,<1,True,/trends/explore?q=/m/02wxnq&date=today+12-m&geo=BR,/m/02wxnq,Arquivo batch,Formato de arquivo,Salesforce
-22,22,0,<1,True,/trends/explore?q=/m/05q4tvx&date=today+12-m&geo=BR,/m/05q4tvx,Variável,Programação,Salesforce
-23,23,0,<1,True,/trends/explore?q=/m/0ryppmg&date=today+12-m&geo=BR,/m/0ryppmg,GitHub,Desenvolvedor do software,Salesforce
-24,24,0,<1,True,/trends/explore?q=/g/11byylh20g&date=today+12-m&geo=BR,/g/11byylh20g,Google Chrome extension,Assunto,Salesforce
+18,18,0,<1,True,/trends/explore?q=/g/11dxq18_85&date=today+12-m&geo=BR,/g/11dxq18_85,"Vlocity, Inc.",Desenvolvedor do software,Salesforce
+19,19,0,<1,True,/trends/explore?q=/m/06c0sm&date=today+12-m&geo=BR,/m/06c0sm,Milestone,Assunto,Salesforce
+20,20,0,<1,True,/trends/explore?q=/m/05q4tvx&date=today+12-m&geo=BR,/m/05q4tvx,Variável,Programação,Salesforce
+21,21,0,<1,True,/trends/explore?q=/g/11fjwxh5j6&date=today+12-m&geo=BR,/g/11fjwxh5j6,Apex Legends,Jogo eletrônico,Salesforce
+22,22,0,<1,True,/trends/explore?q=/g/11byylh20g&date=today+12-m&geo=BR,/g/11byylh20g,Google Chrome extension,Assunto,Salesforce
+23,23,0,<1,True,/trends/explore?q=/m/02wxnq&date=today+12-m&geo=BR,/m/02wxnq,Arquivo batch,Formato de arquivo,Salesforce
+24,24,0,<1,True,/trends/explore?q=/g/121v83_j&date=today+12-m&geo=BR,/g/121v83_j,insumo,Assunto,Salesforce
 0,0,100,100,True,/trends/explore?q=/m/0fpzzp&date=today+12-m&geo=BR,/m/0fpzzp,Linux,Sistema operacional,Linux
-1,1,9,9,True,/trends/explore?q=/m/03x5qm&date=today+12-m&geo=BR,/m/03x5qm,Ubuntu,Sistema operacional,Linux
-2,2,7,7,True,/trends/explore?q=/m/02y_sk&date=today+12-m&geo=BR,/m/02y_sk,Instalação,Computação,Linux
+1,1,8,8,True,/trends/explore?q=/m/03x5qm&date=today+12-m&geo=BR,/m/03x5qm,Ubuntu,Sistema operacional,Linux
+2,2,7,7,True,/trends/explore?q=/m/04r_8&date=today+12-m&geo=BR,/m/04r_8,Microsoft Windows,Software,Linux
 3,3,7,7,True,/trends/explore?q=/m/0bm3b&date=today+12-m&geo=BR,/m/0bm3b,Download,Assunto,Linux
-4,4,7,7,True,/trends/explore?q=/m/04r_8&date=today+12-m&geo=BR,/m/04r_8,Microsoft Windows,Software,Linux
+4,4,7,7,True,/trends/explore?q=/m/02y_sk&date=today+12-m&geo=BR,/m/02y_sk,Instalação,Computação,Linux
 5,5,6,6,True,/trends/explore?q=/m/0278lsn&date=today+12-m&geo=BR,/m/0278lsn,Linux Mint,Sistema operacional,Linux
 6,6,6,6,True,/trends/explore?q=/m/01fk53&date=today+12-m&geo=BR,/m/01fk53,Comando,Assunto,Linux
 7,7,5,5,True,/trends/explore?q=/m/03l34&date=today+12-m&geo=BR,/m/03l34,Unidade de disco rígido,Periférico do computador,Linux
 8,8,5,5,True,/trends/explore?q=/m/07wcf&date=today+12-m&geo=BR,/m/07wcf,USB,Assunto,Linux
-9,9,4,4,True,/trends/explore?q=/m/01l0h6&date=today+12-m&geo=BR,/m/01l0h6,Terminal,Periférico do computador,Linux
+9,9,5,5,True,/trends/explore?q=/m/01l0h6&date=today+12-m&geo=BR,/m/01l0h6,Terminal,Periférico do computador,Linux
 10,10,4,4,True,/trends/explore?q=/m/01tygv&date=today+12-m&geo=BR,/m/01tygv,Arquivo,Tipo de organização,Linux
 11,11,4,4,True,/trends/explore?q=/m/0dqcdz&date=today+12-m&geo=BR,/m/0dqcdz,Diretório,Computação,Linux
-12,12,3,3,True,/trends/explore?q=/m/0rpjb5q&date=today+12-m&geo=BR,/m/0rpjb5q,Kali Linux,Sistema operacional,Linux
-13,13,3,3,True,/trends/explore?q=/m/020s1&date=today+12-m&geo=BR,/m/020s1,Arquivo de computador,Assunto,Linux
+12,12,4,4,True,/trends/explore?q=/m/020s1&date=today+12-m&geo=BR,/m/020s1,Arquivo de computador,Assunto,Linux
+13,13,4,4,True,/trends/explore?q=/m/0rpjb5q&date=today+12-m&geo=BR,/m/0rpjb5q,Kali Linux,Sistema operacional,Linux
 14,14,3,3,True,/trends/explore?q=/g/120x72xh&date=today+12-m&geo=BR,/g/120x72xh,Servidor,Natureza de software,Linux
 15,15,3,3,True,/trends/explore?q=/m/05khh&date=today+12-m&geo=BR,/m/05khh,Sistema operativo,Assunto,Linux
 16,16,2,2,True,/trends/explore?q=/m/031y74&date=today+12-m&geo=BR,/m/031y74,Arch Linux,Sistema operacional,Linux
@@ -390,6 +389,6 @@
 19,19,2,2,True,/trends/explore?q=/m/02996&date=today+12-m&geo=BR,/m/02996,Debian,Sistema operacional,Linux
 20,20,2,2,True,/trends/explore?q=/m/04mj2&date=today+12-m&geo=BR,/m/04mj2,Distribuição Linux,Assunto,Linux
 21,21,2,2,True,/trends/explore?q=/g/11b77b4nf8&date=today+12-m&geo=BR,/g/11b77b4nf8,2018,Assunto,Linux
-22,22,2,2,True,/trends/explore?q=/m/01yr3k&date=today+12-m&geo=BR,/m/01yr3k,Imagem ISO,Formato de arquivo,Linux
-23,23,2,2,True,/trends/explore?q=/m/0b6cy&date=today+12-m&geo=BR,/m/0b6cy,Boot,Assunto,Linux
+22,22,2,2,True,/trends/explore?q=/m/0b6cy&date=today+12-m&geo=BR,/m/0b6cy,Boot,Assunto,Linux
+23,23,2,2,True,/trends/explore?q=/m/01yr3k&date=today+12-m&geo=BR,/m/01yr3k,Imagem ISO,Formato de arquivo,Linux
 24,24,2,2,True,/trends/explore?q=/m/04pm6&date=today+12-m&geo=BR,/m/04pm6,Linux,Núcleo,Linux

@@ -1,60 +1,60 @@
 ,date,quantidade,isPartial,ferramenta
-0,2021-12-12,0,False,Excel
-1,2021-12-19,0,False,Excel
-2,2021-12-26,0,False,Excel
-3,2022-01-02,0,False,Excel
-4,2022-01-09,95,False,Excel
-5,2022-01-16,0,False,Excel
-6,2022-01-23,0,False,Excel
-7,2022-01-30,0,False,Excel
-8,2022-02-06,0,False,Excel
-9,2022-02-13,0,False,Excel
-10,2022-02-20,0,False,Excel
-11,2022-02-27,0,False,Excel
-12,2022-03-06,92,False,Excel
-13,2022-03-13,0,False,Excel
-14,2022-03-20,0,False,Excel
-15,2022-03-27,100,False,Excel
-16,2022-04-03,0,False,Excel
-17,2022-04-10,0,False,Excel
-18,2022-04-17,0,False,Excel
-19,2022-04-24,0,False,Excel
-20,2022-05-01,0,False,Excel
-21,2022-05-08,0,False,Excel
-22,2022-05-15,0,False,Excel
-23,2022-05-22,0,False,Excel
-24,2022-05-29,97,False,Excel
-25,2022-06-05,0,False,Excel
-26,2022-06-12,0,False,Excel
-27,2022-06-19,0,False,Excel
-28,2022-06-26,0,False,Excel
-29,2022-07-03,0,False,Excel
-30,2022-07-10,0,False,Excel
-31,2022-07-17,0,False,Excel
-32,2022-07-24,0,False,Excel
-33,2022-07-31,0,False,Excel
-34,2022-08-07,0,False,Excel
-35,2022-08-14,0,False,Excel
-36,2022-08-21,0,False,Excel
-37,2022-08-28,0,False,Excel
-38,2022-09-04,0,False,Excel
-39,2022-09-11,0,False,Excel
-40,2022-09-18,0,False,Excel
-41,2022-09-25,0,False,Excel
-42,2022-10-02,86,False,Excel
-43,2022-10-09,0,False,Excel
-44,2022-10-16,0,False,Excel
-45,2022-10-23,0,False,Excel
-46,2022-10-30,0,False,Excel
-47,2022-11-06,0,False,Excel
-48,2022-11-13,0,False,Excel
-49,2022-11-20,0,False,Excel
-50,2022-11-27,88,False,Excel
+0,2021-12-12,65,False,Excel
+1,2021-12-19,50,False,Excel
+2,2021-12-26,50,False,Excel
+3,2022-01-02,87,False,Excel
+4,2022-01-09,86,False,Excel
+5,2022-01-16,80,False,Excel
+6,2022-01-23,81,False,Excel
+7,2022-01-30,100,False,Excel
+8,2022-02-06,93,False,Excel
+9,2022-02-13,90,False,Excel
+10,2022-02-20,87,False,Excel
+11,2022-02-27,74,False,Excel
+12,2022-03-06,84,False,Excel
+13,2022-03-13,88,False,Excel
+14,2022-03-20,89,False,Excel
+15,2022-03-27,92,False,Excel
+16,2022-04-03,92,False,Excel
+17,2022-04-10,76,False,Excel
+18,2022-04-17,74,False,Excel
+19,2022-04-24,91,False,Excel
+20,2022-05-01,93,False,Excel
+21,2022-05-08,90,False,Excel
+22,2022-05-15,86,False,Excel
+23,2022-05-22,86,False,Excel
+24,2022-05-29,88,False,Excel
+25,2022-06-05,87,False,Excel
+26,2022-06-12,75,False,Excel
+27,2022-06-19,88,False,Excel
+28,2022-06-26,89,False,Excel
+29,2022-07-03,93,False,Excel
+30,2022-07-10,88,False,Excel
+31,2022-07-17,88,False,Excel
+32,2022-07-24,89,False,Excel
+33,2022-07-31,90,False,Excel
+34,2022-08-07,86,False,Excel
+35,2022-08-14,89,False,Excel
+36,2022-08-21,90,False,Excel
+37,2022-08-28,97,False,Excel
+38,2022-09-04,78,False,Excel
+39,2022-09-11,89,False,Excel
+40,2022-09-18,89,False,Excel
+41,2022-09-25,87,False,Excel
+42,2022-10-02,79,False,Excel
+43,2022-10-09,76,False,Excel
+44,2022-10-16,87,False,Excel
+45,2022-10-23,85,False,Excel
+46,2022-10-30,73,False,Excel
+47,2022-11-06,82,False,Excel
+48,2022-11-13,77,False,Excel
+49,2022-11-20,83,False,Excel
+50,2022-11-27,79,False,Excel
 0,2021-12-12,56,False,Power BI
-1,2021-12-19,43,False,Power BI
+1,2021-12-19,42,False,Power BI
 2,2021-12-26,43,False,Power BI
 3,2022-01-02,68,False,Power BI
-4,2022-01-09,0,False,Power BI
+4,2022-01-09,71,False,Power BI
 5,2022-01-16,64,False,Power BI
 6,2022-01-23,67,False,Power BI
 7,2022-01-30,82,False,Power BI
@@ -64,152 +64,152 @@
 11,2022-02-27,62,False,Power BI
 12,2022-03-06,76,False,Power BI
 13,2022-03-13,80,False,Power BI
-14,2022-03-20,88,False,Power BI
+14,2022-03-20,86,False,Power BI
 15,2022-03-27,79,False,Power BI
-16,2022-04-03,84,False,Power BI
+16,2022-04-03,85,False,Power BI
 17,2022-04-10,80,False,Power BI
 18,2022-04-17,72,False,Power BI
 19,2022-04-24,89,False,Power BI
 20,2022-05-01,86,False,Power BI
 21,2022-05-08,86,False,Power BI
-22,2022-05-15,0,False,Power BI
+22,2022-05-15,94,False,Power BI
 23,2022-05-22,100,False,Power BI
 24,2022-05-29,95,False,Power BI
-25,2022-06-05,0,False,Power BI
+25,2022-06-05,80,False,Power BI
 26,2022-06-12,80,False,Power BI
-27,2022-06-19,94,False,Power BI
+27,2022-06-19,96,False,Power BI
 28,2022-06-26,98,False,Power BI
-29,2022-07-03,0,False,Power BI
-30,2022-07-10,0,False,Power BI
+29,2022-07-03,98,False,Power BI
+30,2022-07-10,92,False,Power BI
 31,2022-07-17,95,False,Power BI
 32,2022-07-24,93,False,Power BI
-33,2022-07-31,92,False,Power BI
+33,2022-07-31,93,False,Power BI
 34,2022-08-07,97,False,Power BI
 35,2022-08-14,99,False,Power BI
 36,2022-08-21,100,False,Power BI
-37,2022-08-28,95,False,Power BI
+37,2022-08-28,97,False,Power BI
 38,2022-09-04,81,False,Power BI
 39,2022-09-11,99,False,Power BI
-40,2022-09-18,0,False,Power BI
-41,2022-09-25,91,False,Power BI
+40,2022-09-18,97,False,Power BI
+41,2022-09-25,90,False,Power BI
 42,2022-10-02,76,False,Power BI
-43,2022-10-09,78,False,Power BI
+43,2022-10-09,79,False,Power BI
 44,2022-10-16,89,False,Power BI
 45,2022-10-23,87,False,Power BI
-46,2022-10-30,0,False,Power BI
-47,2022-11-06,82,False,Power BI
+46,2022-10-30,70,False,Power BI
+47,2022-11-06,83,False,Power BI
 48,2022-11-13,75,False,Power BI
 49,2022-11-20,73,False,Power BI
-50,2022-11-27,73,False,Power BI
+50,2022-11-27,72,False,Power BI
 0,2021-12-12,49,False,Banco de Dados
 1,2021-12-19,34,False,Banco de Dados
 2,2021-12-26,42,False,Banco de Dados
-3,2022-01-02,50,False,Banco de Dados
+3,2022-01-02,51,False,Banco de Dados
 4,2022-01-09,65,False,Banco de Dados
 5,2022-01-16,60,False,Banco de Dados
 6,2022-01-23,58,False,Banco de Dados
-7,2022-01-30,67,False,Banco de Dados
-8,2022-02-06,75,False,Banco de Dados
+7,2022-01-30,68,False,Banco de Dados
+8,2022-02-06,76,False,Banco de Dados
 9,2022-02-13,88,False,Banco de Dados
 10,2022-02-20,83,False,Banco de Dados
-11,2022-02-27,65,False,Banco de Dados
+11,2022-02-27,66,False,Banco de Dados
 12,2022-03-06,83,False,Banco de Dados
 13,2022-03-13,82,False,Banco de Dados
-14,2022-03-20,83,False,Banco de Dados
+14,2022-03-20,82,False,Banco de Dados
 15,2022-03-27,93,False,Banco de Dados
-16,2022-04-03,99,False,Banco de Dados
+16,2022-04-03,100,False,Banco de Dados
 17,2022-04-10,75,False,Banco de Dados
 18,2022-04-17,84,False,Banco de Dados
 19,2022-04-24,100,False,Banco de Dados
 20,2022-05-01,86,False,Banco de Dados
 21,2022-05-08,89,False,Banco de Dados
 22,2022-05-15,85,False,Banco de Dados
-23,2022-05-22,89,False,Banco de Dados
+23,2022-05-22,90,False,Banco de Dados
 24,2022-05-29,90,False,Banco de Dados
-25,2022-06-05,79,False,Banco de Dados
+25,2022-06-05,80,False,Banco de Dados
 26,2022-06-12,79,False,Banco de Dados
-27,2022-06-19,77,False,Banco de Dados
-28,2022-06-26,77,False,Banco de Dados
-29,2022-07-03,66,False,Banco de Dados
-30,2022-07-10,68,False,Banco de Dados
-31,2022-07-17,69,False,Banco de Dados
-32,2022-07-24,69,False,Banco de Dados
-33,2022-07-31,72,False,Banco de Dados
+27,2022-06-19,79,False,Banco de Dados
+28,2022-06-26,78,False,Banco de Dados
+29,2022-07-03,67,False,Banco de Dados
+30,2022-07-10,69,False,Banco de Dados
+31,2022-07-17,70,False,Banco de Dados
+32,2022-07-24,70,False,Banco de Dados
+33,2022-07-31,73,False,Banco de Dados
 34,2022-08-07,68,False,Banco de Dados
-35,2022-08-14,78,False,Banco de Dados
+35,2022-08-14,77,False,Banco de Dados
 36,2022-08-21,73,False,Banco de Dados
-37,2022-08-28,80,False,Banco de Dados
-38,2022-09-04,73,False,Banco de Dados
+37,2022-08-28,82,False,Banco de Dados
+38,2022-09-04,74,False,Banco de Dados
 39,2022-09-11,83,False,Banco de Dados
 40,2022-09-18,83,False,Banco de Dados
 41,2022-09-25,83,False,Banco de Dados
-42,2022-10-02,71,False,Banco de Dados
-43,2022-10-09,75,False,Banco de Dados
+42,2022-10-02,70,False,Banco de Dados
+43,2022-10-09,76,False,Banco de Dados
 44,2022-10-16,76,False,Banco de Dados
 45,2022-10-23,85,False,Banco de Dados
-46,2022-10-30,68,False,Banco de Dados
-47,2022-11-06,90,False,Banco de Dados
-48,2022-11-13,87,False,Banco de Dados
-49,2022-11-20,77,False,Banco de Dados
-50,2022-11-27,86,False,Banco de Dados
+46,2022-10-30,69,False,Banco de Dados
+47,2022-11-06,91,False,Banco de Dados
+48,2022-11-13,88,False,Banco de Dados
+49,2022-11-20,78,False,Banco de Dados
+50,2022-11-27,85,False,Banco de Dados
 0,2021-12-12,45,False,Pacote Office
 1,2021-12-19,27,False,Pacote Office
 2,2021-12-26,35,False,Pacote Office
 3,2022-01-02,76,False,Pacote Office
-4,2022-01-09,92,False,Pacote Office
+4,2022-01-09,91,False,Pacote Office
 5,2022-01-16,78,False,Pacote Office
 6,2022-01-23,89,False,Pacote Office
-7,2022-01-30,86,False,Pacote Office
-8,2022-02-06,94,False,Pacote Office
+7,2022-01-30,87,False,Pacote Office
+8,2022-02-06,95,False,Pacote Office
 9,2022-02-13,100,False,Pacote Office
-10,2022-02-20,94,False,Pacote Office
+10,2022-02-20,95,False,Pacote Office
 11,2022-02-27,80,False,Pacote Office
-12,2022-03-06,88,False,Pacote Office
-13,2022-03-13,96,False,Pacote Office
-14,2022-03-20,93,False,Pacote Office
+12,2022-03-06,87,False,Pacote Office
+13,2022-03-13,95,False,Pacote Office
+14,2022-03-20,91,False,Pacote Office
 15,2022-03-27,86,False,Pacote Office
 16,2022-04-03,77,False,Pacote Office
 17,2022-04-10,69,False,Pacote Office
 18,2022-04-17,73,False,Pacote Office
-19,2022-04-24,85,False,Pacote Office
+19,2022-04-24,84,False,Pacote Office
 20,2022-05-01,80,False,Pacote Office
 21,2022-05-08,81,False,Pacote Office
 22,2022-05-15,79,False,Pacote Office
 23,2022-05-22,76,False,Pacote Office
 24,2022-05-29,79,False,Pacote Office
-25,2022-06-05,70,False,Pacote Office
+25,2022-06-05,71,False,Pacote Office
 26,2022-06-12,68,False,Pacote Office
-27,2022-06-19,72,False,Pacote Office
+27,2022-06-19,73,False,Pacote Office
 28,2022-06-26,69,False,Pacote Office
-29,2022-07-03,73,False,Pacote Office
-30,2022-07-10,74,False,Pacote Office
+29,2022-07-03,74,False,Pacote Office
+30,2022-07-10,75,False,Pacote Office
 31,2022-07-17,70,False,Pacote Office
 32,2022-07-24,66,False,Pacote Office
 33,2022-07-31,81,False,Pacote Office
-34,2022-08-07,77,False,Pacote Office
-35,2022-08-14,76,False,Pacote Office
+34,2022-08-07,76,False,Pacote Office
+35,2022-08-14,75,False,Pacote Office
 36,2022-08-21,73,False,Pacote Office
-37,2022-08-28,74,False,Pacote Office
+37,2022-08-28,75,False,Pacote Office
 38,2022-09-04,71,False,Pacote Office
 39,2022-09-11,70,False,Pacote Office
 40,2022-09-18,66,False,Pacote Office
 41,2022-09-25,75,False,Pacote Office
 42,2022-10-02,55,False,Pacote Office
-43,2022-10-09,62,False,Pacote Office
+43,2022-10-09,63,False,Pacote Office
 44,2022-10-16,57,False,Pacote Office
 45,2022-10-23,65,False,Pacote Office
 46,2022-10-30,52,False,Pacote Office
-47,2022-11-06,63,False,Pacote Office
+47,2022-11-06,64,False,Pacote Office
 48,2022-11-13,61,False,Pacote Office
 49,2022-11-20,69,False,Pacote Office
-50,2022-11-27,61,False,Pacote Office
-0,2021-12-12,63,False,SQL
-1,2021-12-19,46,False,SQL
+50,2022-11-27,63,False,Pacote Office
+0,2021-12-12,62,False,SQL
+1,2021-12-19,45,False,SQL
 2,2021-12-26,48,False,SQL
-3,2022-01-02,60,False,SQL
-4,2022-01-09,83,False,SQL
-5,2022-01-16,75,False,SQL
-6,2022-01-23,79,False,SQL
+3,2022-01-02,59,False,SQL
+4,2022-01-09,82,False,SQL
+5,2022-01-16,74,False,SQL
+6,2022-01-23,78,False,SQL
 7,2022-01-30,85,False,SQL
 8,2022-02-06,88,False,SQL
 9,2022-02-13,94,False,SQL
@@ -217,50 +217,50 @@
 11,2022-02-27,69,False,SQL
 12,2022-03-06,83,False,SQL
 13,2022-03-13,91,False,SQL
-14,2022-03-20,92,False,SQL
+14,2022-03-20,90,False,SQL
 15,2022-03-27,100,False,SQL
 16,2022-04-03,98,False,SQL
 17,2022-04-10,86,False,SQL
-18,2022-04-17,83,False,SQL
-19,2022-04-24,100,False,SQL
-20,2022-05-01,99,False,SQL
+18,2022-04-17,82,False,SQL
+19,2022-04-24,99,False,SQL
+20,2022-05-01,98,False,SQL
 21,2022-05-08,100,False,SQL
 22,2022-05-15,92,False,SQL
 23,2022-05-22,94,False,SQL
 24,2022-05-29,95,False,SQL
 25,2022-06-05,95,False,SQL
-26,2022-06-12,79,False,SQL
-27,2022-06-19,93,False,SQL
+26,2022-06-12,78,False,SQL
+27,2022-06-19,94,False,SQL
 28,2022-06-26,94,False,SQL
-29,2022-07-03,93,False,SQL
+29,2022-07-03,94,False,SQL
 30,2022-07-10,94,False,SQL
 31,2022-07-17,91,False,SQL
-32,2022-07-24,92,False,SQL
+32,2022-07-24,91,False,SQL
 33,2022-07-31,91,False,SQL
-34,2022-08-07,95,False,SQL
-35,2022-08-14,94,False,SQL
+34,2022-08-07,94,False,SQL
+35,2022-08-14,93,False,SQL
 36,2022-08-21,94,False,SQL
-37,2022-08-28,95,False,SQL
+37,2022-08-28,97,False,SQL
 38,2022-09-04,76,False,SQL
 39,2022-09-11,97,False,SQL
-40,2022-09-18,99,False,SQL
+40,2022-09-18,98,False,SQL
 41,2022-09-25,92,False,SQL
-42,2022-10-02,80,False,SQL
-43,2022-10-09,78,False,SQL
-44,2022-10-16,92,False,SQL
-45,2022-10-23,91,False,SQL
-46,2022-10-30,76,False,SQL
-47,2022-11-06,91,False,SQL
+42,2022-10-02,79,False,SQL
+43,2022-10-09,79,False,SQL
+44,2022-10-16,91,False,SQL
+45,2022-10-23,90,False,SQL
+46,2022-10-30,75,False,SQL
+47,2022-11-06,93,False,SQL
 48,2022-11-13,88,False,SQL
 49,2022-11-20,87,False,SQL
-50,2022-11-27,87,False,SQL
+50,2022-11-27,86,False,SQL
 0,2021-12-12,77,False,SAP
-1,2021-12-19,67,False,SAP
+1,2021-12-19,66,False,SAP
 2,2021-12-26,64,False,SAP
 3,2022-01-02,71,False,SAP
 4,2022-01-09,79,False,SAP
 5,2022-01-16,72,False,SAP
-6,2022-01-23,74,False,SAP
+6,2022-01-23,73,False,SAP
 7,2022-01-30,84,False,SAP
 8,2022-02-06,74,False,SAP
 9,2022-02-13,86,False,SAP
@@ -268,162 +268,162 @@
 11,2022-02-27,66,False,SAP
 12,2022-03-06,73,False,SAP
 13,2022-03-13,76,False,SAP
-14,2022-03-20,82,False,SAP
+14,2022-03-20,80,False,SAP
 15,2022-03-27,79,False,SAP
 16,2022-04-03,77,False,SAP
 17,2022-04-10,72,False,SAP
-18,2022-04-17,68,False,SAP
+18,2022-04-17,67,False,SAP
 19,2022-04-24,81,False,SAP
 20,2022-05-01,82,False,SAP
 21,2022-05-08,82,False,SAP
 22,2022-05-15,74,False,SAP
 23,2022-05-22,84,False,SAP
 24,2022-05-29,80,False,SAP
-25,2022-06-05,79,False,SAP
-26,2022-06-12,78,False,SAP
-27,2022-06-19,77,False,SAP
+25,2022-06-05,80,False,SAP
+26,2022-06-12,77,False,SAP
+27,2022-06-19,78,False,SAP
 28,2022-06-26,81,False,SAP
-29,2022-07-03,77,False,SAP
-30,2022-07-10,78,False,SAP
+29,2022-07-03,78,False,SAP
+30,2022-07-10,79,False,SAP
 31,2022-07-17,82,False,SAP
 32,2022-07-24,80,False,SAP
 33,2022-07-31,75,False,SAP
 34,2022-08-07,77,False,SAP
 35,2022-08-14,77,False,SAP
 36,2022-08-21,100,False,SAP
-37,2022-08-28,85,False,SAP
+37,2022-08-28,86,False,SAP
 38,2022-09-04,77,False,SAP
 39,2022-09-11,73,False,SAP
 40,2022-09-18,80,False,SAP
-41,2022-09-25,79,False,SAP
+41,2022-09-25,78,False,SAP
 42,2022-10-02,72,False,SAP
-43,2022-10-09,73,False,SAP
+43,2022-10-09,74,False,SAP
 44,2022-10-16,91,False,SAP
-45,2022-10-23,79,False,SAP
+45,2022-10-23,78,False,SAP
 46,2022-10-30,74,False,SAP
-47,2022-11-06,85,False,SAP
+47,2022-11-06,87,False,SAP
 48,2022-11-13,75,False,SAP
 49,2022-11-20,70,False,SAP
-50,2022-11-27,76,False,SAP
+50,2022-11-27,75,False,SAP
 0,2021-12-12,50,False,Python
-1,2021-12-19,45,False,Python
-2,2021-12-26,49,False,Python
+1,2021-12-19,44,False,Python
+2,2021-12-26,48,False,Python
 3,2022-01-02,72,False,Python
 4,2022-01-09,83,False,Python
 5,2022-01-16,75,False,Python
-6,2022-01-23,77,False,Python
-7,2022-01-30,77,False,Python
-8,2022-02-06,85,False,Python
-9,2022-02-13,95,False,Python
-10,2022-02-20,85,False,Python
-11,2022-02-27,80,False,Python
-12,2022-03-06,94,False,Python
+6,2022-01-23,86,False,Python
+7,2022-01-30,78,False,Python
+8,2022-02-06,86,False,Python
+9,2022-02-13,88,False,Python
+10,2022-02-20,87,False,Python
+11,2022-02-27,81,False,Python
+12,2022-03-06,84,False,Python
 13,2022-03-13,91,False,Python
-14,2022-03-20,93,False,Python
-15,2022-03-27,98,False,Python
+14,2022-03-20,90,False,Python
+15,2022-03-27,95,False,Python
 16,2022-04-03,98,False,Python
 17,2022-04-10,94,False,Python
 18,2022-04-17,96,False,Python
-19,2022-04-24,100,False,Python
+19,2022-04-24,99,False,Python
 20,2022-05-01,99,False,Python
-21,2022-05-08,98,False,Python
-22,2022-05-15,93,False,Python
-23,2022-05-22,88,False,Python
-24,2022-05-29,86,False,Python
-25,2022-06-05,89,False,Python
-26,2022-06-12,81,False,Python
-27,2022-06-19,87,False,Python
-28,2022-06-26,87,False,Python
-29,2022-07-03,82,False,Python
-30,2022-07-10,83,False,Python
-31,2022-07-17,85,False,Python
-32,2022-07-24,88,False,Python
-33,2022-07-31,81,False,Python
-34,2022-08-07,86,False,Python
+21,2022-05-08,100,False,Python
+22,2022-05-15,94,False,Python
+23,2022-05-22,85,False,Python
+24,2022-05-29,90,False,Python
+25,2022-06-05,91,False,Python
+26,2022-06-12,83,False,Python
+27,2022-06-19,84,False,Python
+28,2022-06-26,89,False,Python
+29,2022-07-03,86,False,Python
+30,2022-07-10,90,False,Python
+31,2022-07-17,86,False,Python
+32,2022-07-24,99,False,Python
+33,2022-07-31,83,False,Python
+34,2022-08-07,89,False,Python
 35,2022-08-14,90,False,Python
-36,2022-08-21,97,False,Python
-37,2022-08-28,91,False,Python
-38,2022-09-04,85,False,Python
-39,2022-09-11,88,False,Python
-40,2022-09-18,98,False,Python
-41,2022-09-25,100,False,Python
-42,2022-10-02,82,False,Python
-43,2022-10-09,87,False,Python
-44,2022-10-16,86,False,Python
+36,2022-08-21,90,False,Python
+37,2022-08-28,94,False,Python
+38,2022-09-04,83,False,Python
+39,2022-09-11,93,False,Python
+40,2022-09-18,94,False,Python
+41,2022-09-25,98,False,Python
+42,2022-10-02,77,False,Python
+43,2022-10-09,82,False,Python
+44,2022-10-16,80,False,Python
 45,2022-10-23,93,False,Python
-46,2022-10-30,86,False,Python
-47,2022-11-06,86,False,Python
+46,2022-10-30,81,False,Python
+47,2022-11-06,83,False,Python
 48,2022-11-13,90,False,Python
-49,2022-11-20,82,False,Python
-50,2022-11-27,84,False,Python
+49,2022-11-20,78,False,Python
+50,2022-11-27,79,False,Python
 0,2021-12-12,45,False,Cloud
-1,2021-12-19,41,False,Cloud
-2,2021-12-26,39,False,Cloud
+1,2021-12-19,40,False,Cloud
+2,2021-12-26,38,False,Cloud
 3,2022-01-02,47,False,Cloud
-4,2022-01-09,53,False,Cloud
+4,2022-01-09,52,False,Cloud
 5,2022-01-16,53,False,Cloud
 6,2022-01-23,50,False,Cloud
 7,2022-01-30,54,False,Cloud
-8,2022-02-06,55,False,Cloud
+8,2022-02-06,54,False,Cloud
 9,2022-02-13,57,False,Cloud
 10,2022-02-20,53,False,Cloud
-11,2022-02-27,55,False,Cloud
-12,2022-03-06,53,False,Cloud
-13,2022-03-13,54,False,Cloud
-14,2022-03-20,63,False,Cloud
+11,2022-02-27,54,False,Cloud
+12,2022-03-06,52,False,Cloud
+13,2022-03-13,53,False,Cloud
+14,2022-03-20,61,False,Cloud
 15,2022-03-27,54,False,Cloud
 16,2022-04-03,52,False,Cloud
-17,2022-04-10,52,False,Cloud
+17,2022-04-10,51,False,Cloud
 18,2022-04-17,56,False,Cloud
-19,2022-04-24,54,False,Cloud
-20,2022-05-01,72,False,Cloud
-21,2022-05-08,86,False,Cloud
-22,2022-05-15,71,False,Cloud
+19,2022-04-24,53,False,Cloud
+20,2022-05-01,71,False,Cloud
+21,2022-05-08,85,False,Cloud
+22,2022-05-15,70,False,Cloud
 23,2022-05-22,70,False,Cloud
 24,2022-05-29,65,False,Cloud
 25,2022-06-05,100,False,Cloud
-26,2022-06-12,90,False,Cloud
-27,2022-06-19,79,False,Cloud
+26,2022-06-12,89,False,Cloud
+27,2022-06-19,80,False,Cloud
 28,2022-06-26,80,False,Cloud
 29,2022-07-03,79,False,Cloud
 30,2022-07-10,77,False,Cloud
 31,2022-07-17,84,False,Cloud
-32,2022-07-24,74,False,Cloud
+32,2022-07-24,73,False,Cloud
 33,2022-07-31,74,False,Cloud
-34,2022-08-07,69,False,Cloud
-35,2022-08-14,79,False,Cloud
-36,2022-08-21,75,False,Cloud
-37,2022-08-28,74,False,Cloud
-38,2022-09-04,73,False,Cloud
-39,2022-09-11,70,False,Cloud
+34,2022-08-07,68,False,Cloud
+35,2022-08-14,78,False,Cloud
+36,2022-08-21,74,False,Cloud
+37,2022-08-28,75,False,Cloud
+38,2022-09-04,72,False,Cloud
+39,2022-09-11,69,False,Cloud
 40,2022-09-18,86,False,Cloud
 41,2022-09-25,67,False,Cloud
-42,2022-10-02,66,False,Cloud
-43,2022-10-09,74,False,Cloud
-44,2022-10-16,70,False,Cloud
-45,2022-10-23,67,False,Cloud
+42,2022-10-02,65,False,Cloud
+43,2022-10-09,75,False,Cloud
+44,2022-10-16,69,False,Cloud
+45,2022-10-23,66,False,Cloud
 46,2022-10-30,64,False,Cloud
-47,2022-11-06,69,False,Cloud
-48,2022-11-13,73,False,Cloud
+47,2022-11-06,70,False,Cloud
+48,2022-11-13,72,False,Cloud
 49,2022-11-20,65,False,Cloud
-50,2022-11-27,69,False,Cloud
+50,2022-11-27,64,False,Cloud
 0,2021-12-12,76,False,CRM
-1,2021-12-19,63,False,CRM
-2,2021-12-26,59,False,CRM
+1,2021-12-19,62,False,CRM
+2,2021-12-26,58,False,CRM
 3,2022-01-02,83,False,CRM
 4,2022-01-09,90,False,CRM
 5,2022-01-16,86,False,CRM
 6,2022-01-23,84,False,CRM
-7,2022-01-30,85,False,CRM
-8,2022-02-06,81,False,CRM
+7,2022-01-30,86,False,CRM
+8,2022-02-06,82,False,CRM
 9,2022-02-13,82,False,CRM
 10,2022-02-20,79,False,CRM
 11,2022-02-27,64,False,CRM
 12,2022-03-06,77,False,CRM
-13,2022-03-13,82,False,CRM
-14,2022-03-20,83,False,CRM
+13,2022-03-13,81,False,CRM
+14,2022-03-20,81,False,CRM
 15,2022-03-27,77,False,CRM
-16,2022-04-03,80,False,CRM
+16,2022-04-03,81,False,CRM
 17,2022-04-10,69,False,CRM
 18,2022-04-17,71,False,CRM
 19,2022-04-24,79,False,CRM
@@ -432,302 +432,302 @@
 22,2022-05-15,80,False,CRM
 23,2022-05-22,84,False,CRM
 24,2022-05-29,84,False,CRM
-25,2022-06-05,82,False,CRM
+25,2022-06-05,83,False,CRM
 26,2022-06-12,71,False,CRM
-27,2022-06-19,78,False,CRM
+27,2022-06-19,79,False,CRM
 28,2022-06-26,83,False,CRM
-29,2022-07-03,81,False,CRM
-30,2022-07-10,81,False,CRM
+29,2022-07-03,82,False,CRM
+30,2022-07-10,82,False,CRM
 31,2022-07-17,81,False,CRM
 32,2022-07-24,83,False,CRM
-33,2022-07-31,73,False,CRM
+33,2022-07-31,74,False,CRM
 34,2022-08-07,100,False,CRM
 35,2022-08-14,83,False,CRM
-36,2022-08-21,77,False,CRM
-37,2022-08-28,77,False,CRM
+36,2022-08-21,78,False,CRM
+37,2022-08-28,79,False,CRM
 38,2022-09-04,65,False,CRM
 39,2022-09-11,73,False,CRM
 40,2022-09-18,74,False,CRM
 41,2022-09-25,72,False,CRM
 42,2022-10-02,65,False,CRM
-43,2022-10-09,68,False,CRM
-44,2022-10-16,75,False,CRM
+43,2022-10-09,69,False,CRM
+44,2022-10-16,76,False,CRM
 45,2022-10-23,76,False,CRM
 46,2022-10-30,64,False,CRM
-47,2022-11-06,70,False,CRM
-48,2022-11-13,71,False,CRM
+47,2022-11-06,71,False,CRM
+48,2022-11-13,72,False,CRM
 49,2022-11-20,76,False,CRM
-50,2022-11-27,70,False,CRM
+50,2022-11-27,69,False,CRM
 0,2021-12-12,77,False,Protheus
-1,2021-12-19,68,False,Protheus
+1,2021-12-19,66,False,Protheus
 2,2021-12-26,60,False,Protheus
-3,2022-01-02,77,False,Protheus
-4,2022-01-09,86,False,Protheus
-5,2022-01-16,80,False,Protheus
-6,2022-01-23,83,False,Protheus
-7,2022-01-30,93,False,Protheus
+3,2022-01-02,76,False,Protheus
+4,2022-01-09,85,False,Protheus
+5,2022-01-16,79,False,Protheus
+6,2022-01-23,82,False,Protheus
+7,2022-01-30,94,False,Protheus
 8,2022-02-06,85,False,Protheus
 9,2022-02-13,88,False,Protheus
 10,2022-02-20,83,False,Protheus
 11,2022-02-27,69,False,Protheus
-12,2022-03-06,81,False,Protheus
-13,2022-03-13,81,False,Protheus
-14,2022-03-20,80,False,Protheus
+12,2022-03-06,80,False,Protheus
+13,2022-03-13,80,False,Protheus
+14,2022-03-20,78,False,Protheus
 15,2022-03-27,92,False,Protheus
 16,2022-04-03,94,False,Protheus
 17,2022-04-10,70,False,Protheus
 18,2022-04-17,64,False,Protheus
-19,2022-04-24,89,False,Protheus
+19,2022-04-24,88,False,Protheus
 20,2022-05-01,83,False,Protheus
 21,2022-05-08,94,False,Protheus
 22,2022-05-15,85,False,Protheus
-23,2022-05-22,88,False,Protheus
+23,2022-05-22,87,False,Protheus
 24,2022-05-29,95,False,Protheus
 25,2022-06-05,82,False,Protheus
 26,2022-06-12,74,False,Protheus
-27,2022-06-19,91,False,Protheus
+27,2022-06-19,92,False,Protheus
 28,2022-06-26,100,False,Protheus
 29,2022-07-03,97,False,Protheus
 30,2022-07-10,91,False,Protheus
 31,2022-07-17,81,False,Protheus
 32,2022-07-24,84,False,Protheus
-33,2022-07-31,95,False,Protheus
+33,2022-07-31,96,False,Protheus
 34,2022-08-07,87,False,Protheus
 35,2022-08-14,84,False,Protheus
 36,2022-08-21,95,False,Protheus
-37,2022-08-28,90,False,Protheus
+37,2022-08-28,92,False,Protheus
 38,2022-09-04,70,False,Protheus
 39,2022-09-11,90,False,Protheus
-40,2022-09-18,86,False,Protheus
+40,2022-09-18,85,False,Protheus
 41,2022-09-25,84,False,Protheus
-42,2022-10-02,78,False,Protheus
-43,2022-10-09,75,False,Protheus
+42,2022-10-02,77,False,Protheus
+43,2022-10-09,76,False,Protheus
 44,2022-10-16,81,False,Protheus
 45,2022-10-23,84,False,Protheus
 46,2022-10-30,71,False,Protheus
-47,2022-11-06,81,False,Protheus
+47,2022-11-06,82,False,Protheus
 48,2022-11-13,71,False,Protheus
 49,2022-11-20,81,False,Protheus
-50,2022-11-27,77,False,Protheus
-0,2021-12-12,67,False,Analytics
-1,2021-12-19,48,False,Analytics
-2,2021-12-26,47,False,Analytics
-3,2022-01-02,79,False,Analytics
-4,2022-01-09,88,False,Analytics
+50,2022-11-27,78,False,Protheus
+0,2021-12-12,65,False,Analytics
+1,2021-12-19,46,False,Analytics
+2,2021-12-26,46,False,Analytics
+3,2022-01-02,81,False,Analytics
+4,2022-01-09,86,False,Analytics
 5,2022-01-16,78,False,Analytics
 6,2022-01-23,87,False,Analytics
-7,2022-01-30,85,False,Analytics
+7,2022-01-30,86,False,Analytics
 8,2022-02-06,95,False,Analytics
 9,2022-02-13,93,False,Analytics
-10,2022-02-20,88,False,Analytics
-11,2022-02-27,81,False,Analytics
-12,2022-03-06,83,False,Analytics
-13,2022-03-13,91,False,Analytics
-14,2022-03-20,88,False,Analytics
-15,2022-03-27,99,False,Analytics
-16,2022-04-03,91,False,Analytics
-17,2022-04-10,94,False,Analytics
-18,2022-04-17,86,False,Analytics
+10,2022-02-20,91,False,Analytics
+11,2022-02-27,82,False,Analytics
+12,2022-03-06,81,False,Analytics
+13,2022-03-13,90,False,Analytics
+14,2022-03-20,87,False,Analytics
+15,2022-03-27,98,False,Analytics
+16,2022-04-03,92,False,Analytics
+17,2022-04-10,93,False,Analytics
+18,2022-04-17,87,False,Analytics
 19,2022-04-24,100,False,Analytics
-20,2022-05-01,94,False,Analytics
-21,2022-05-08,94,False,Analytics
+20,2022-05-01,95,False,Analytics
+21,2022-05-08,96,False,Analytics
 22,2022-05-15,84,False,Analytics
-23,2022-05-22,88,False,Analytics
-24,2022-05-29,94,False,Analytics
-25,2022-06-05,93,False,Analytics
-26,2022-06-12,81,False,Analytics
-27,2022-06-19,98,False,Analytics
+23,2022-05-22,86,False,Analytics
+24,2022-05-29,95,False,Analytics
+25,2022-06-05,94,False,Analytics
+26,2022-06-12,80,False,Analytics
+27,2022-06-19,99,False,Analytics
 28,2022-06-26,94,False,Analytics
-29,2022-07-03,93,False,Analytics
-30,2022-07-10,90,False,Analytics
+29,2022-07-03,94,False,Analytics
+30,2022-07-10,93,False,Analytics
 31,2022-07-17,91,False,Analytics
-32,2022-07-24,88,False,Analytics
-33,2022-07-31,84,False,Analytics
-34,2022-08-07,86,False,Analytics
-35,2022-08-14,91,False,Analytics
+32,2022-07-24,87,False,Analytics
+33,2022-07-31,85,False,Analytics
+34,2022-08-07,87,False,Analytics
+35,2022-08-14,92,False,Analytics
 36,2022-08-21,78,False,Analytics
-37,2022-08-28,90,False,Analytics
+37,2022-08-28,92,False,Analytics
 38,2022-09-04,75,False,Analytics
-39,2022-09-11,90,False,Analytics
-40,2022-09-18,87,False,Analytics
-41,2022-09-25,83,False,Analytics
+39,2022-09-11,92,False,Analytics
+40,2022-09-18,88,False,Analytics
+41,2022-09-25,84,False,Analytics
 42,2022-10-02,81,False,Analytics
-43,2022-10-09,78,False,Analytics
-44,2022-10-16,86,False,Analytics
-45,2022-10-23,84,False,Analytics
+43,2022-10-09,79,False,Analytics
+44,2022-10-16,87,False,Analytics
+45,2022-10-23,85,False,Analytics
 46,2022-10-30,68,False,Analytics
-47,2022-11-06,84,False,Analytics
-48,2022-11-13,81,False,Analytics
+47,2022-11-06,85,False,Analytics
+48,2022-11-13,82,False,Analytics
 49,2022-11-20,77,False,Analytics
-50,2022-11-27,77,False,Analytics
-0,2021-12-12,55,False,Oracle
+50,2022-11-27,76,False,Analytics
+0,2021-12-12,56,False,Oracle
 1,2021-12-19,55,False,Oracle
 2,2021-12-26,55,False,Oracle
-3,2022-01-02,73,False,Oracle
-4,2022-01-09,82,False,Oracle
-5,2022-01-16,78,False,Oracle
-6,2022-01-23,79,False,Oracle
-7,2022-01-30,80,False,Oracle
-8,2022-02-06,95,False,Oracle
-9,2022-02-13,96,False,Oracle
-10,2022-02-20,97,False,Oracle
-11,2022-02-27,74,False,Oracle
-12,2022-03-06,92,False,Oracle
-13,2022-03-13,98,False,Oracle
+3,2022-01-02,74,False,Oracle
+4,2022-01-09,83,False,Oracle
+5,2022-01-16,79,False,Oracle
+6,2022-01-23,80,False,Oracle
+7,2022-01-30,82,False,Oracle
+8,2022-02-06,97,False,Oracle
+9,2022-02-13,98,False,Oracle
+10,2022-02-20,99,False,Oracle
+11,2022-02-27,75,False,Oracle
+12,2022-03-06,93,False,Oracle
+13,2022-03-13,99,False,Oracle
 14,2022-03-20,100,False,Oracle
-15,2022-03-27,97,False,Oracle
-16,2022-04-03,89,False,Oracle
-17,2022-04-10,79,False,Oracle
-18,2022-04-17,80,False,Oracle
-19,2022-04-24,92,False,Oracle
-20,2022-05-01,93,False,Oracle
-21,2022-05-08,94,False,Oracle
-22,2022-05-15,94,False,Oracle
-23,2022-05-22,98,False,Oracle
-24,2022-05-29,86,False,Oracle
-25,2022-06-05,81,False,Oracle
-26,2022-06-12,75,False,Oracle
-27,2022-06-19,80,False,Oracle
-28,2022-06-26,88,False,Oracle
-29,2022-07-03,90,False,Oracle
-30,2022-07-10,88,False,Oracle
-31,2022-07-17,86,False,Oracle
-32,2022-07-24,89,False,Oracle
-33,2022-07-31,78,False,Oracle
-34,2022-08-07,84,False,Oracle
-35,2022-08-14,88,False,Oracle
-36,2022-08-21,98,False,Oracle
-37,2022-08-28,87,False,Oracle
-38,2022-09-04,75,False,Oracle
-39,2022-09-11,84,False,Oracle
-40,2022-09-18,91,False,Oracle
-41,2022-09-25,83,False,Oracle
-42,2022-10-02,73,False,Oracle
-43,2022-10-09,79,False,Oracle
-44,2022-10-16,82,False,Oracle
-45,2022-10-23,80,False,Oracle
-46,2022-10-30,70,False,Oracle
-47,2022-11-06,92,False,Oracle
-48,2022-11-13,76,False,Oracle
-49,2022-11-20,77,False,Oracle
+15,2022-03-27,99,False,Oracle
+16,2022-04-03,91,False,Oracle
+17,2022-04-10,81,False,Oracle
+18,2022-04-17,82,False,Oracle
+19,2022-04-24,93,False,Oracle
+20,2022-05-01,94,False,Oracle
+21,2022-05-08,96,False,Oracle
+22,2022-05-15,96,False,Oracle
+23,2022-05-22,100,False,Oracle
+24,2022-05-29,87,False,Oracle
+25,2022-06-05,83,False,Oracle
+26,2022-06-12,76,False,Oracle
+27,2022-06-19,83,False,Oracle
+28,2022-06-26,90,False,Oracle
+29,2022-07-03,93,False,Oracle
+30,2022-07-10,90,False,Oracle
+31,2022-07-17,87,False,Oracle
+32,2022-07-24,91,False,Oracle
+33,2022-07-31,80,False,Oracle
+34,2022-08-07,85,False,Oracle
+35,2022-08-14,89,False,Oracle
+36,2022-08-21,100,False,Oracle
+37,2022-08-28,90,False,Oracle
+38,2022-09-04,77,False,Oracle
+39,2022-09-11,85,False,Oracle
+40,2022-09-18,93,False,Oracle
+41,2022-09-25,85,False,Oracle
+42,2022-10-02,74,False,Oracle
+43,2022-10-09,82,False,Oracle
+44,2022-10-16,84,False,Oracle
+45,2022-10-23,81,False,Oracle
+46,2022-10-30,72,False,Oracle
+47,2022-11-06,95,False,Oracle
+48,2022-11-13,77,False,Oracle
+49,2022-11-20,78,False,Oracle
 50,2022-11-27,76,False,Oracle
 0,2021-12-12,77,False,R
-1,2021-12-19,70,False,R
+1,2021-12-19,69,False,R
 2,2021-12-26,64,False,R
 3,2022-01-02,71,False,R
 4,2022-01-09,78,False,R
 5,2022-01-16,73,False,R
 6,2022-01-23,78,False,R
-7,2022-01-30,85,False,R
+7,2022-01-30,86,False,R
 8,2022-02-06,88,False,R
 9,2022-02-13,94,False,R
 10,2022-02-20,93,False,R
-11,2022-02-27,82,False,R
+11,2022-02-27,83,False,R
 12,2022-03-06,94,False,R
 13,2022-03-13,97,False,R
-14,2022-03-20,98,False,R
-15,2022-03-27,97,False,R
+14,2022-03-20,96,False,R
+15,2022-03-27,98,False,R
 16,2022-04-03,94,False,R
-17,2022-04-10,89,False,R
+17,2022-04-10,90,False,R
 18,2022-04-17,93,False,R
 19,2022-04-24,92,False,R
 20,2022-05-01,99,False,R
-21,2022-05-08,97,False,R
+21,2022-05-08,98,False,R
 22,2022-05-15,88,False,R
 23,2022-05-22,99,False,R
 24,2022-05-29,94,False,R
-25,2022-06-05,94,False,R
+25,2022-06-05,95,False,R
 26,2022-06-12,87,False,R
-27,2022-06-19,92,False,R
-28,2022-06-26,95,False,R
-29,2022-07-03,90,False,R
+27,2022-06-19,93,False,R
+28,2022-06-26,96,False,R
+29,2022-07-03,91,False,R
 30,2022-07-10,87,False,R
-31,2022-07-17,88,False,R
+31,2022-07-17,89,False,R
 32,2022-07-24,89,False,R
-33,2022-07-31,90,False,R
-34,2022-08-07,92,False,R
+33,2022-07-31,91,False,R
+34,2022-08-07,93,False,R
 35,2022-08-14,89,False,R
 36,2022-08-21,93,False,R
-37,2022-08-28,97,False,R
+37,2022-08-28,99,False,R
 38,2022-09-04,89,False,R
 39,2022-09-11,91,False,R
 40,2022-09-18,95,False,R
 41,2022-09-25,100,False,R
 42,2022-10-02,85,False,R
-43,2022-10-09,84,False,R
+43,2022-10-09,85,False,R
 44,2022-10-16,89,False,R
 45,2022-10-23,90,False,R
 46,2022-10-30,84,False,R
-47,2022-11-06,95,False,R
-48,2022-11-13,89,False,R
+47,2022-11-06,97,False,R
+48,2022-11-13,90,False,R
 49,2022-11-20,91,False,R
 50,2022-11-27,89,False,R
-0,2021-12-12,50,False,Azure
-1,2021-12-19,49,False,Azure
+0,2021-12-12,49,False,Azure
+1,2021-12-19,48,False,Azure
 2,2021-12-26,38,False,Azure
 3,2022-01-02,68,False,Azure
-4,2022-01-09,81,False,Azure
-5,2022-01-16,73,False,Azure
-6,2022-01-23,71,False,Azure
-7,2022-01-30,80,False,Azure
-8,2022-02-06,83,False,Azure
+4,2022-01-09,79,False,Azure
+5,2022-01-16,72,False,Azure
+6,2022-01-23,68,False,Azure
+7,2022-01-30,76,False,Azure
+8,2022-02-06,82,False,Azure
 9,2022-02-13,91,False,Azure
 10,2022-02-20,84,False,Azure
 11,2022-02-27,75,False,Azure
-12,2022-03-06,83,False,Azure
+12,2022-03-06,81,False,Azure
 13,2022-03-13,80,False,Azure
-14,2022-03-20,91,False,Azure
+14,2022-03-20,88,False,Azure
 15,2022-03-27,94,False,Azure
-16,2022-04-03,85,False,Azure
+16,2022-04-03,83,False,Azure
 17,2022-04-10,81,False,Azure
-18,2022-04-17,81,False,Azure
-19,2022-04-24,87,False,Azure
-20,2022-05-01,89,False,Azure
-21,2022-05-08,83,False,Azure
-22,2022-05-15,82,False,Azure
-23,2022-05-22,84,False,Azure
-24,2022-05-29,81,False,Azure
-25,2022-06-05,80,False,Azure
+18,2022-04-17,77,False,Azure
+19,2022-04-24,85,False,Azure
+20,2022-05-01,88,False,Azure
+21,2022-05-08,82,False,Azure
+22,2022-05-15,83,False,Azure
+23,2022-05-22,83,False,Azure
+24,2022-05-29,78,False,Azure
+25,2022-06-05,81,False,Azure
 26,2022-06-12,79,False,Azure
-27,2022-06-19,91,False,Azure
+27,2022-06-19,93,False,Azure
 28,2022-06-26,81,False,Azure
 29,2022-07-03,89,False,Azure
 30,2022-07-10,90,False,Azure
 31,2022-07-17,91,False,Azure
 32,2022-07-24,100,False,Azure
-33,2022-07-31,93,False,Azure
+33,2022-07-31,92,False,Azure
 34,2022-08-07,85,False,Azure
-35,2022-08-14,87,False,Azure
-36,2022-08-21,90,False,Azure
-37,2022-08-28,90,False,Azure
+35,2022-08-14,86,False,Azure
+36,2022-08-21,88,False,Azure
+37,2022-08-28,92,False,Azure
 38,2022-09-04,75,False,Azure
 39,2022-09-11,86,False,Azure
-40,2022-09-18,85,False,Azure
-41,2022-09-25,89,False,Azure
-42,2022-10-02,80,False,Azure
+40,2022-09-18,86,False,Azure
+41,2022-09-25,87,False,Azure
+42,2022-10-02,79,False,Azure
 43,2022-10-09,78,False,Azure
-44,2022-10-16,88,False,Azure
+44,2022-10-16,86,False,Azure
 45,2022-10-23,85,False,Azure
 46,2022-10-30,70,False,Azure
-47,2022-11-06,87,False,Azure
-48,2022-11-13,82,False,Azure
+47,2022-11-06,86,False,Azure
+48,2022-11-13,80,False,Azure
 49,2022-11-20,79,False,Azure
-50,2022-11-27,77,False,Azure
+50,2022-11-27,76,False,Azure
 0,2021-12-12,66,False,Salesforce
-1,2021-12-19,58,False,Salesforce
+1,2021-12-19,57,False,Salesforce
 2,2021-12-26,54,False,Salesforce
 3,2022-01-02,73,False,Salesforce
-4,2022-01-09,83,False,Salesforce
-5,2022-01-16,80,False,Salesforce
+4,2022-01-09,82,False,Salesforce
+5,2022-01-16,79,False,Salesforce
 6,2022-01-23,78,False,Salesforce
-7,2022-01-30,83,False,Salesforce
+7,2022-01-30,84,False,Salesforce
 8,2022-02-06,84,False,Salesforce
 9,2022-02-13,81,False,Salesforce
 10,2022-02-20,80,False,Salesforce
 11,2022-02-27,56,False,Salesforce
-12,2022-03-06,78,False,Salesforce
+12,2022-03-06,77,False,Salesforce
 13,2022-03-13,82,False,Salesforce
-14,2022-03-20,82,False,Salesforce
+14,2022-03-20,80,False,Salesforce
 15,2022-03-27,82,False,Salesforce
 16,2022-04-03,100,False,Salesforce
 17,2022-04-10,82,False,Salesforce
@@ -738,47 +738,47 @@
 22,2022-05-15,88,False,Salesforce
 23,2022-05-22,95,False,Salesforce
 24,2022-05-29,95,False,Salesforce
-25,2022-06-05,85,False,Salesforce
-26,2022-06-12,78,False,Salesforce
-27,2022-06-19,98,False,Salesforce
+25,2022-06-05,86,False,Salesforce
+26,2022-06-12,77,False,Salesforce
+27,2022-06-19,99,False,Salesforce
 28,2022-06-26,91,False,Salesforce
-29,2022-07-03,83,False,Salesforce
+29,2022-07-03,84,False,Salesforce
 30,2022-07-10,87,False,Salesforce
 31,2022-07-17,95,False,Salesforce
 32,2022-07-24,88,False,Salesforce
-33,2022-07-31,95,False,Salesforce
-34,2022-08-07,98,False,Salesforce
-35,2022-08-14,87,False,Salesforce
+33,2022-07-31,96,False,Salesforce
+34,2022-08-07,97,False,Salesforce
+35,2022-08-14,86,False,Salesforce
 36,2022-08-21,80,False,Salesforce
-37,2022-08-28,91,False,Salesforce
+37,2022-08-28,93,False,Salesforce
 38,2022-09-04,77,False,Salesforce
 39,2022-09-11,86,False,Salesforce
 40,2022-09-18,94,False,Salesforce
 41,2022-09-25,85,False,Salesforce
 42,2022-10-02,78,False,Salesforce
-43,2022-10-09,76,False,Salesforce
+43,2022-10-09,77,False,Salesforce
 44,2022-10-16,90,False,Salesforce
-45,2022-10-23,99,False,Salesforce
+45,2022-10-23,98,False,Salesforce
 46,2022-10-30,73,False,Salesforce
-47,2022-11-06,89,False,Salesforce
+47,2022-11-06,90,False,Salesforce
 48,2022-11-13,74,False,Salesforce
 49,2022-11-20,79,False,Salesforce
-50,2022-11-27,78,False,Salesforce
+50,2022-11-27,79,False,Salesforce
 0,2021-12-12,85,False,Linux
-1,2021-12-19,88,False,Linux
-2,2021-12-26,83,False,Linux
+1,2021-12-19,87,False,Linux
+2,2021-12-26,82,False,Linux
 3,2022-01-02,95,False,Linux
-4,2022-01-09,92,False,Linux
+4,2022-01-09,91,False,Linux
 5,2022-01-16,90,False,Linux
-6,2022-01-23,88,False,Linux
+6,2022-01-23,87,False,Linux
 7,2022-01-30,81,False,Linux
 8,2022-02-06,90,False,Linux
 9,2022-02-13,93,False,Linux
 10,2022-02-20,94,False,Linux
 11,2022-02-27,91,False,Linux
-12,2022-03-06,90,False,Linux
-13,2022-03-13,96,False,Linux
-14,2022-03-20,88,False,Linux
+12,2022-03-06,89,False,Linux
+13,2022-03-13,95,False,Linux
+14,2022-03-20,87,False,Linux
 15,2022-03-27,95,False,Linux
 16,2022-04-03,89,False,Linux
 17,2022-04-10,100,False,Linux
@@ -788,10 +788,10 @@
 21,2022-05-08,89,False,Linux
 22,2022-05-15,86,False,Linux
 23,2022-05-22,89,False,Linux
-24,2022-05-29,80,False,Linux
+24,2022-05-29,79,False,Linux
 25,2022-06-05,81,False,Linux
 26,2022-06-12,79,False,Linux
-27,2022-06-19,80,False,Linux
+27,2022-06-19,82,False,Linux
 28,2022-06-26,80,False,Linux
 29,2022-07-03,79,False,Linux
 30,2022-07-10,77,False,Linux
@@ -801,17 +801,17 @@
 34,2022-08-07,78,False,Linux
 35,2022-08-14,80,False,Linux
 36,2022-08-21,86,False,Linux
-37,2022-08-28,83,False,Linux
+37,2022-08-28,84,False,Linux
 38,2022-09-04,77,False,Linux
 39,2022-09-11,79,False,Linux
 40,2022-09-18,77,False,Linux
 41,2022-09-25,80,False,Linux
 42,2022-10-02,67,False,Linux
-43,2022-10-09,75,False,Linux
+43,2022-10-09,76,False,Linux
 44,2022-10-16,78,False,Linux
 45,2022-10-23,75,False,Linux
 46,2022-10-30,67,False,Linux
-47,2022-11-06,78,False,Linux
-48,2022-11-13,77,False,Linux
+47,2022-11-06,79,False,Linux
+48,2022-11-13,78,False,Linux
 49,2022-11-20,74,False,Linux
-50,2022-11-27,74,False,Linux
+50,2022-11-27,73,False,Linux

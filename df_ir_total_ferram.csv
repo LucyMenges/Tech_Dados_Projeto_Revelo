@@ -1,433 +1,433 @@
 ,geoname,geocode,quantidade,ferramenta
 0,Acre,BR-AC,52,Excel
 1,Alagoas,BR-AL,45,Excel
-2,Amapá,BR-AP,45,Excel
-3,Amazonas,BR-AM,72,Excel
-4,Bahia,BR-BA,54,Excel
-5,Ceará,BR-CE,61,Excel
+2,Amapá,BR-AP,46,Excel
+3,Amazonas,BR-AM,70,Excel
+4,Bahia,BR-BA,53,Excel
+5,Ceará,BR-CE,60,Excel
 6,Distrito Federal,BR-DF,94,Excel
-7,Espírito Santo,BR-ES,68,Excel
-8,Goiás,BR-GO,67,Excel
+7,Espírito Santo,BR-ES,63,Excel
+8,Goiás,BR-GO,66,Excel
 9,Maranhão,BR-MA,48,Excel
-10,Mato Grosso,BR-MT,64,Excel
-11,Mato Grosso do Sul,BR-MS,61,Excel
-12,Minas Gerais,BR-MG,78,Excel
-13,Paraná,BR-PR,80,Excel
-14,Paraíba,BR-PB,50,Excel
-15,Pará,BR-PA,55,Excel
-16,Pernambuco,BR-PE,55,Excel
+10,Mato Grosso,BR-MT,67,Excel
+11,Mato Grosso do Sul,BR-MS,60,Excel
+12,Minas Gerais,BR-MG,81,Excel
+13,Paraná,BR-PR,78,Excel
+14,Paraíba,BR-PB,52,Excel
+15,Pará,BR-PA,53,Excel
+16,Pernambuco,BR-PE,58,Excel
 17,Piauí,BR-PI,38,Excel
-18,Rio Grande do Norte,BR-RN,46,Excel
-19,Rio Grande do Sul,BR-RS,70,Excel
-20,Rio de Janeiro,BR-RJ,71,Excel
+18,Rio Grande do Norte,BR-RN,51,Excel
+19,Rio Grande do Sul,BR-RS,69,Excel
+20,Rio de Janeiro,BR-RJ,74,Excel
 21,Rondônia,BR-RO,50,Excel
 22,Roraima,BR-RR,54,Excel
-23,Santa Catarina,BR-SC,79,Excel
+23,Santa Catarina,BR-SC,76,Excel
 24,Sergipe,BR-SE,44,Excel
 25,São Paulo,BR-SP,100,Excel
 26,Tocantins,BR-TO,53,Excel
 0,Acre,BR-AC,28,Power BI
-1,Alagoas,BR-AL,31,Power BI
-2,Amapá,BR-AP,21,Power BI
-3,Amazonas,BR-AM,50,Power BI
+1,Alagoas,BR-AL,32,Power BI
+2,Amapá,BR-AP,16,Power BI
+3,Amazonas,BR-AM,51,Power BI
 4,Bahia,BR-BA,31,Power BI
 5,Ceará,BR-CE,58,Power BI
 6,Distrito Federal,BR-DF,100,Power BI
 7,Espírito Santo,BR-ES,75,Power BI
 8,Goiás,BR-GO,50,Power BI
-9,Maranhão,BR-MA,42,Power BI
+9,Maranhão,BR-MA,43,Power BI
 10,Mato Grosso,BR-MT,46,Power BI
 11,Mato Grosso do Sul,BR-MS,39,Power BI
 12,Minas Gerais,BR-MG,71,Power BI
 13,Paraná,BR-PR,82,Power BI
-14,Paraíba,BR-PB,37,Power BI
+14,Paraíba,BR-PB,38,Power BI
 15,Pará,BR-PA,37,Power BI
 16,Pernambuco,BR-PE,43,Power BI
-17,Piauí,BR-PI,29,Power BI
-18,Rio Grande do Norte,BR-RN,40,Power BI
+17,Piauí,BR-PI,28,Power BI
+18,Rio Grande do Norte,BR-RN,39,Power BI
 19,Rio Grande do Sul,BR-RS,45,Power BI
-20,Rio de Janeiro,BR-RJ,67,Power BI
+20,Rio de Janeiro,BR-RJ,66,Power BI
 21,Rondônia,BR-RO,35,Power BI
 22,Roraima,BR-RR,0,Power BI
 23,Santa Catarina,BR-SC,50,Power BI
 24,Sergipe,BR-SE,36,Power BI
-25,São Paulo,BR-SP,96,Power BI
-26,Tocantins,BR-TO,33,Power BI
-0,Acre,BR-AC,49,Banco de Dados
-1,Alagoas,BR-AL,41,Banco de Dados
-2,Amapá,BR-AP,54,Banco de Dados
-3,Amazonas,BR-AM,66,Banco de Dados
+25,São Paulo,BR-SP,98,Power BI
+26,Tocantins,BR-TO,34,Power BI
+0,Acre,BR-AC,59,Banco de Dados
+1,Alagoas,BR-AL,38,Banco de Dados
+2,Amapá,BR-AP,58,Banco de Dados
+3,Amazonas,BR-AM,67,Banco de Dados
 4,Bahia,BR-BA,48,Banco de Dados
 5,Ceará,BR-CE,59,Banco de Dados
 6,Distrito Federal,BR-DF,100,Banco de Dados
-7,Espírito Santo,BR-ES,49,Banco de Dados
-8,Goiás,BR-GO,57,Banco de Dados
-9,Maranhão,BR-MA,51,Banco de Dados
+7,Espírito Santo,BR-ES,50,Banco de Dados
+8,Goiás,BR-GO,56,Banco de Dados
+9,Maranhão,BR-MA,52,Banco de Dados
 10,Mato Grosso,BR-MT,51,Banco de Dados
-11,Mato Grosso do Sul,BR-MS,52,Banco de Dados
-12,Minas Gerais,BR-MG,54,Banco de Dados
+11,Mato Grosso do Sul,BR-MS,51,Banco de Dados
+12,Minas Gerais,BR-MG,52,Banco de Dados
 13,Paraná,BR-PR,54,Banco de Dados
-14,Paraíba,BR-PB,63,Banco de Dados
+14,Paraíba,BR-PB,66,Banco de Dados
 15,Pará,BR-PA,55,Banco de Dados
 16,Pernambuco,BR-PE,63,Banco de Dados
-17,Piauí,BR-PI,61,Banco de Dados
+17,Piauí,BR-PI,59,Banco de Dados
 18,Rio Grande do Norte,BR-RN,56,Banco de Dados
-19,Rio Grande do Sul,BR-RS,50,Banco de Dados
-20,Rio de Janeiro,BR-RJ,44,Banco de Dados
-21,Rondônia,BR-RO,55,Banco de Dados
-22,Roraima,BR-RR,49,Banco de Dados
-23,Santa Catarina,BR-SC,61,Banco de Dados
-24,Sergipe,BR-SE,54,Banco de Dados
-25,São Paulo,BR-SP,74,Banco de Dados
-26,Tocantins,BR-TO,58,Banco de Dados
-0,Acre,BR-AC,81,Pacote Office
+19,Rio Grande do Sul,BR-RS,49,Banco de Dados
+20,Rio de Janeiro,BR-RJ,45,Banco de Dados
+21,Rondônia,BR-RO,53,Banco de Dados
+22,Roraima,BR-RR,45,Banco de Dados
+23,Santa Catarina,BR-SC,60,Banco de Dados
+24,Sergipe,BR-SE,53,Banco de Dados
+25,São Paulo,BR-SP,68,Banco de Dados
+26,Tocantins,BR-TO,59,Banco de Dados
+0,Acre,BR-AC,84,Pacote Office
 1,Alagoas,BR-AL,53,Pacote Office
-2,Amapá,BR-AP,89,Pacote Office
-3,Amazonas,BR-AM,97,Pacote Office
-4,Bahia,BR-BA,74,Pacote Office
-5,Ceará,BR-CE,77,Pacote Office
-6,Distrito Federal,BR-DF,98,Pacote Office
-7,Espírito Santo,BR-ES,71,Pacote Office
-8,Goiás,BR-GO,81,Pacote Office
-9,Maranhão,BR-MA,69,Pacote Office
-10,Mato Grosso,BR-MT,74,Pacote Office
-11,Mato Grosso do Sul,BR-MS,71,Pacote Office
-12,Minas Gerais,BR-MG,70,Pacote Office
-13,Paraná,BR-PR,71,Pacote Office
-14,Paraíba,BR-PB,76,Pacote Office
-15,Pará,BR-PA,80,Pacote Office
-16,Pernambuco,BR-PE,75,Pacote Office
-17,Piauí,BR-PI,78,Pacote Office
-18,Rio Grande do Norte,BR-RN,61,Pacote Office
-19,Rio Grande do Sul,BR-RS,67,Pacote Office
-20,Rio de Janeiro,BR-RJ,78,Pacote Office
-21,Rondônia,BR-RO,71,Pacote Office
-22,Roraima,BR-RR,87,Pacote Office
-23,Santa Catarina,BR-SC,76,Pacote Office
+2,Amapá,BR-AP,81,Pacote Office
+3,Amazonas,BR-AM,93,Pacote Office
+4,Bahia,BR-BA,69,Pacote Office
+5,Ceará,BR-CE,73,Pacote Office
+6,Distrito Federal,BR-DF,89,Pacote Office
+7,Espírito Santo,BR-ES,70,Pacote Office
+8,Goiás,BR-GO,77,Pacote Office
+9,Maranhão,BR-MA,66,Pacote Office
+10,Mato Grosso,BR-MT,73,Pacote Office
+11,Mato Grosso do Sul,BR-MS,69,Pacote Office
+12,Minas Gerais,BR-MG,65,Pacote Office
+13,Paraná,BR-PR,67,Pacote Office
+14,Paraíba,BR-PB,74,Pacote Office
+15,Pará,BR-PA,74,Pacote Office
+16,Pernambuco,BR-PE,71,Pacote Office
+17,Piauí,BR-PI,72,Pacote Office
+18,Rio Grande do Norte,BR-RN,56,Pacote Office
+19,Rio Grande do Sul,BR-RS,63,Pacote Office
+20,Rio de Janeiro,BR-RJ,74,Pacote Office
+21,Rondônia,BR-RO,67,Pacote Office
+22,Roraima,BR-RR,92,Pacote Office
+23,Santa Catarina,BR-SC,72,Pacote Office
 24,Sergipe,BR-SE,55,Pacote Office
 25,São Paulo,BR-SP,100,Pacote Office
-26,Tocantins,BR-TO,86,Pacote Office
-0,Acre,BR-AC,18,SQL
-1,Alagoas,BR-AL,33,SQL
-2,Amapá,BR-AP,14,SQL
+26,Tocantins,BR-TO,80,Pacote Office
+0,Acre,BR-AC,20,SQL
+1,Alagoas,BR-AL,34,SQL
+2,Amapá,BR-AP,16,SQL
 3,Amazonas,BR-AM,33,SQL
-4,Bahia,BR-BA,24,SQL
+4,Bahia,BR-BA,25,SQL
 5,Ceará,BR-CE,42,SQL
 6,Distrito Federal,BR-DF,100,SQL
 7,Espírito Santo,BR-ES,55,SQL
-8,Goiás,BR-GO,36,SQL
+8,Goiás,BR-GO,37,SQL
 9,Maranhão,BR-MA,22,SQL
-10,Mato Grosso,BR-MT,31,SQL
-11,Mato Grosso do Sul,BR-MS,35,SQL
+10,Mato Grosso,BR-MT,32,SQL
+11,Mato Grosso do Sul,BR-MS,36,SQL
 12,Minas Gerais,BR-MG,56,SQL
 13,Paraná,BR-PR,60,SQL
-14,Paraíba,BR-PB,41,SQL
+14,Paraíba,BR-PB,44,SQL
 15,Pará,BR-PA,23,SQL
-16,Pernambuco,BR-PE,39,SQL
-17,Piauí,BR-PI,21,SQL
+16,Pernambuco,BR-PE,40,SQL
+17,Piauí,BR-PI,22,SQL
 18,Rio Grande do Norte,BR-RN,36,SQL
-19,Rio Grande do Sul,BR-RS,55,SQL
-20,Rio de Janeiro,BR-RJ,54,SQL
+19,Rio Grande do Sul,BR-RS,56,SQL
+20,Rio de Janeiro,BR-RJ,51,SQL
 21,Rondônia,BR-RO,30,SQL
-22,Roraima,BR-RR,20,SQL
+22,Roraima,BR-RR,16,SQL
 23,Santa Catarina,BR-SC,74,SQL
 24,Sergipe,BR-SE,37,SQL
-25,São Paulo,BR-SP,90,SQL
-26,Tocantins,BR-TO,42,SQL
-0,Acre,BR-AC,5,SAP
+25,São Paulo,BR-SP,91,SQL
+26,Tocantins,BR-TO,44,SQL
+0,Acre,BR-AC,7,SAP
 1,Alagoas,BR-AL,10,SAP
 2,Amapá,BR-AP,5,SAP
 3,Amazonas,BR-AM,16,SAP
 4,Bahia,BR-BA,12,SAP
 5,Ceará,BR-CE,100,SAP
-6,Distrito Federal,BR-DF,16,SAP
+6,Distrito Federal,BR-DF,15,SAP
 7,Espírito Santo,BR-ES,26,SAP
 8,Goiás,BR-GO,17,SAP
 9,Maranhão,BR-MA,14,SAP
 10,Mato Grosso,BR-MT,16,SAP
 11,Mato Grosso do Sul,BR-MS,13,SAP
-12,Minas Gerais,BR-MG,25,SAP
+12,Minas Gerais,BR-MG,24,SAP
 13,Paraná,BR-PR,32,SAP
 14,Paraíba,BR-PB,16,SAP
 15,Pará,BR-PA,13,SAP
 16,Pernambuco,BR-PE,21,SAP
-17,Piauí,BR-PI,9,SAP
-18,Rio Grande do Norte,BR-RN,12,SAP
-19,Rio Grande do Sul,BR-RS,29,SAP
-20,Rio de Janeiro,BR-RJ,23,SAP
+17,Piauí,BR-PI,10,SAP
+18,Rio Grande do Norte,BR-RN,13,SAP
+19,Rio Grande do Sul,BR-RS,30,SAP
+20,Rio de Janeiro,BR-RJ,24,SAP
 21,Rondônia,BR-RO,12,SAP
-22,Roraima,BR-RR,7,SAP
-23,Santa Catarina,BR-SC,34,SAP
+22,Roraima,BR-RR,8,SAP
+23,Santa Catarina,BR-SC,35,SAP
 24,Sergipe,BR-SE,14,SAP
-25,São Paulo,BR-SP,59,SAP
+25,São Paulo,BR-SP,60,SAP
 26,Tocantins,BR-TO,13,SAP
-0,Acre,BR-AC,22,Python
-1,Alagoas,BR-AL,43,Python
-2,Amapá,BR-AP,23,Python
-3,Amazonas,BR-AM,49,Python
-4,Bahia,BR-BA,33,Python
-5,Ceará,BR-CE,56,Python
+0,Acre,BR-AC,20,Python
+1,Alagoas,BR-AL,40,Python
+2,Amapá,BR-AP,21,Python
+3,Amazonas,BR-AM,46,Python
+4,Bahia,BR-BA,32,Python
+5,Ceará,BR-CE,54,Python
 6,Distrito Federal,BR-DF,100,Python
-7,Espírito Santo,BR-ES,47,Python
-8,Goiás,BR-GO,32,Python
-9,Maranhão,BR-MA,30,Python
-10,Mato Grosso,BR-MT,26,Python
-11,Mato Grosso do Sul,BR-MS,34,Python
-12,Minas Gerais,BR-MG,50,Python
-13,Paraná,BR-PR,58,Python
-14,Paraíba,BR-PB,71,Python
-15,Pará,BR-PA,30,Python
-16,Pernambuco,BR-PE,58,Python
-17,Piauí,BR-PI,46,Python
-18,Rio Grande do Norte,BR-RN,56,Python
-19,Rio Grande do Sul,BR-RS,52,Python
-20,Rio de Janeiro,BR-RJ,62,Python
-21,Rondônia,BR-RO,30,Python
-22,Roraima,BR-RR,27,Python
-23,Santa Catarina,BR-SC,66,Python
-24,Sergipe,BR-SE,48,Python
-25,São Paulo,BR-SP,77,Python
-26,Tocantins,BR-TO,32,Python
+7,Espírito Santo,BR-ES,44,Python
+8,Goiás,BR-GO,35,Python
+9,Maranhão,BR-MA,27,Python
+10,Mato Grosso,BR-MT,24,Python
+11,Mato Grosso do Sul,BR-MS,32,Python
+12,Minas Gerais,BR-MG,46,Python
+13,Paraná,BR-PR,55,Python
+14,Paraíba,BR-PB,69,Python
+15,Pará,BR-PA,28,Python
+16,Pernambuco,BR-PE,54,Python
+17,Piauí,BR-PI,43,Python
+18,Rio Grande do Norte,BR-RN,52,Python
+19,Rio Grande do Sul,BR-RS,46,Python
+20,Rio de Janeiro,BR-RJ,56,Python
+21,Rondônia,BR-RO,27,Python
+22,Roraima,BR-RR,24,Python
+23,Santa Catarina,BR-SC,60,Python
+24,Sergipe,BR-SE,45,Python
+25,São Paulo,BR-SP,70,Python
+26,Tocantins,BR-TO,30,Python
 0,Acre,BR-AC,53,Cloud
-1,Alagoas,BR-AL,53,Cloud
-2,Amapá,BR-AP,60,Cloud
-3,Amazonas,BR-AM,56,Cloud
-4,Bahia,BR-BA,56,Cloud
-5,Ceará,BR-CE,66,Cloud
-6,Distrito Federal,BR-DF,71,Cloud
-7,Espírito Santo,BR-ES,56,Cloud
-8,Goiás,BR-GO,70,Cloud
-9,Maranhão,BR-MA,53,Cloud
-10,Mato Grosso,BR-MT,53,Cloud
-11,Mato Grosso do Sul,BR-MS,56,Cloud
-12,Minas Gerais,BR-MG,65,Cloud
-13,Paraná,BR-PR,74,Cloud
-14,Paraíba,BR-PB,59,Cloud
-15,Pará,BR-PA,54,Cloud
-16,Pernambuco,BR-PE,57,Cloud
-17,Piauí,BR-PI,57,Cloud
-18,Rio Grande do Norte,BR-RN,55,Cloud
-19,Rio Grande do Sul,BR-RS,65,Cloud
-20,Rio de Janeiro,BR-RJ,72,Cloud
-21,Rondônia,BR-RO,46,Cloud
-22,Roraima,BR-RR,58,Cloud
+1,Alagoas,BR-AL,55,Cloud
+2,Amapá,BR-AP,62,Cloud
+3,Amazonas,BR-AM,58,Cloud
+4,Bahia,BR-BA,57,Cloud
+5,Ceará,BR-CE,68,Cloud
+6,Distrito Federal,BR-DF,79,Cloud
+7,Espírito Santo,BR-ES,58,Cloud
+8,Goiás,BR-GO,68,Cloud
+9,Maranhão,BR-MA,54,Cloud
+10,Mato Grosso,BR-MT,55,Cloud
+11,Mato Grosso do Sul,BR-MS,58,Cloud
+12,Minas Gerais,BR-MG,64,Cloud
+13,Paraná,BR-PR,79,Cloud
+14,Paraíba,BR-PB,61,Cloud
+15,Pará,BR-PA,55,Cloud
+16,Pernambuco,BR-PE,61,Cloud
+17,Piauí,BR-PI,58,Cloud
+18,Rio Grande do Norte,BR-RN,56,Cloud
+19,Rio Grande do Sul,BR-RS,61,Cloud
+20,Rio de Janeiro,BR-RJ,71,Cloud
+21,Rondônia,BR-RO,47,Cloud
+22,Roraima,BR-RR,60,Cloud
 23,Santa Catarina,BR-SC,100,Cloud
-24,Sergipe,BR-SE,63,Cloud
-25,São Paulo,BR-SP,87,Cloud
-26,Tocantins,BR-TO,50,Cloud
+24,Sergipe,BR-SE,64,Cloud
+25,São Paulo,BR-SP,85,Cloud
+26,Tocantins,BR-TO,53,Cloud
 0,Acre,BR-AC,49,CRM
-1,Alagoas,BR-AL,39,CRM
-2,Amapá,BR-AP,47,CRM
-3,Amazonas,BR-AM,43,CRM
-4,Bahia,BR-BA,38,CRM
-5,Ceará,BR-CE,37,CRM
-6,Distrito Federal,BR-DF,85,CRM
+1,Alagoas,BR-AL,37,CRM
+2,Amapá,BR-AP,46,CRM
+3,Amazonas,BR-AM,41,CRM
+4,Bahia,BR-BA,37,CRM
+5,Ceará,BR-CE,36,CRM
+6,Distrito Federal,BR-DF,77,CRM
 7,Espírito Santo,BR-ES,54,CRM
-8,Goiás,BR-GO,58,CRM
+8,Goiás,BR-GO,57,CRM
 9,Maranhão,BR-MA,34,CRM
-10,Mato Grosso,BR-MT,59,CRM
-11,Mato Grosso do Sul,BR-MS,61,CRM
-12,Minas Gerais,BR-MG,65,CRM
-13,Paraná,BR-PR,81,CRM
-14,Paraíba,BR-PB,57,CRM
-15,Pará,BR-PA,39,CRM
-16,Pernambuco,BR-PE,38,CRM
-17,Piauí,BR-PI,45,CRM
-18,Rio Grande do Norte,BR-RN,49,CRM
-19,Rio Grande do Sul,BR-RS,58,CRM
-20,Rio de Janeiro,BR-RJ,58,CRM
+10,Mato Grosso,BR-MT,58,CRM
+11,Mato Grosso do Sul,BR-MS,60,CRM
+12,Minas Gerais,BR-MG,64,CRM
+13,Paraná,BR-PR,82,CRM
+14,Paraíba,BR-PB,56,CRM
+15,Pará,BR-PA,38,CRM
+16,Pernambuco,BR-PE,37,CRM
+17,Piauí,BR-PI,44,CRM
+18,Rio Grande do Norte,BR-RN,48,CRM
+19,Rio Grande do Sul,BR-RS,54,CRM
+20,Rio de Janeiro,BR-RJ,57,CRM
 21,Rondônia,BR-RO,45,CRM
 22,Roraima,BR-RR,100,CRM
-23,Santa Catarina,BR-SC,80,CRM
-24,Sergipe,BR-SE,48,CRM
-25,São Paulo,BR-SP,76,CRM
-26,Tocantins,BR-TO,54,CRM
+23,Santa Catarina,BR-SC,84,CRM
+24,Sergipe,BR-SE,46,CRM
+25,São Paulo,BR-SP,75,CRM
+26,Tocantins,BR-TO,52,CRM
 0,Acre,BR-AC,0,Protheus
-1,Alagoas,BR-AL,31,Protheus
+1,Alagoas,BR-AL,30,Protheus
 2,Amapá,BR-AP,0,Protheus
-3,Amazonas,BR-AM,74,Protheus
-4,Bahia,BR-BA,20,Protheus
-5,Ceará,BR-CE,26,Protheus
-6,Distrito Federal,BR-DF,38,Protheus
-7,Espírito Santo,BR-ES,56,Protheus
-8,Goiás,BR-GO,55,Protheus
-9,Maranhão,BR-MA,11,Protheus
-10,Mato Grosso,BR-MT,66,Protheus
+3,Amazonas,BR-AM,78,Protheus
+4,Bahia,BR-BA,21,Protheus
+5,Ceará,BR-CE,27,Protheus
+6,Distrito Federal,BR-DF,39,Protheus
+7,Espírito Santo,BR-ES,62,Protheus
+8,Goiás,BR-GO,58,Protheus
+9,Maranhão,BR-MA,9,Protheus
+10,Mato Grosso,BR-MT,67,Protheus
 11,Mato Grosso do Sul,BR-MS,18,Protheus
-12,Minas Gerais,BR-MG,48,Protheus
-13,Paraná,BR-PR,58,Protheus
-14,Paraíba,BR-PB,39,Protheus
-15,Pará,BR-PA,21,Protheus
-16,Pernambuco,BR-PE,34,Protheus
-17,Piauí,BR-PI,10,Protheus
-18,Rio Grande do Norte,BR-RN,23,Protheus
-19,Rio Grande do Sul,BR-RS,34,Protheus
-20,Rio de Janeiro,BR-RJ,31,Protheus
-21,Rondônia,BR-RO,19,Protheus
+12,Minas Gerais,BR-MG,51,Protheus
+13,Paraná,BR-PR,60,Protheus
+14,Paraíba,BR-PB,42,Protheus
+15,Pará,BR-PA,22,Protheus
+16,Pernambuco,BR-PE,36,Protheus
+17,Piauí,BR-PI,8,Protheus
+18,Rio Grande do Norte,BR-RN,24,Protheus
+19,Rio Grande do Sul,BR-RS,35,Protheus
+20,Rio de Janeiro,BR-RJ,32,Protheus
+21,Rondônia,BR-RO,20,Protheus
 22,Roraima,BR-RR,0,Protheus
-23,Santa Catarina,BR-SC,65,Protheus
-24,Sergipe,BR-SE,18,Protheus
+23,Santa Catarina,BR-SC,66,Protheus
+24,Sergipe,BR-SE,20,Protheus
 25,São Paulo,BR-SP,100,Protheus
 26,Tocantins,BR-TO,0,Protheus
-0,Acre,BR-AC,17,Analytics
+0,Acre,BR-AC,32,Analytics
 1,Alagoas,BR-AL,38,Analytics
-2,Amapá,BR-AP,21,Analytics
-3,Amazonas,BR-AM,36,Analytics
-4,Bahia,BR-BA,32,Analytics
-5,Ceará,BR-CE,43,Analytics
-6,Distrito Federal,BR-DF,88,Analytics
+2,Amapá,BR-AP,19,Analytics
+3,Amazonas,BR-AM,37,Analytics
+4,Bahia,BR-BA,33,Analytics
+5,Ceará,BR-CE,44,Analytics
+6,Distrito Federal,BR-DF,90,Analytics
 7,Espírito Santo,BR-ES,51,Analytics
-8,Goiás,BR-GO,47,Analytics
-9,Maranhão,BR-MA,37,Analytics
-10,Mato Grosso,BR-MT,41,Analytics
-11,Mato Grosso do Sul,BR-MS,43,Analytics
-12,Minas Gerais,BR-MG,48,Analytics
-13,Paraná,BR-PR,62,Analytics
-14,Paraíba,BR-PB,52,Analytics
-15,Pará,BR-PA,29,Analytics
+8,Goiás,BR-GO,48,Analytics
+9,Maranhão,BR-MA,39,Analytics
+10,Mato Grosso,BR-MT,43,Analytics
+11,Mato Grosso do Sul,BR-MS,42,Analytics
+12,Minas Gerais,BR-MG,49,Analytics
+13,Paraná,BR-PR,64,Analytics
+14,Paraíba,BR-PB,53,Analytics
+15,Pará,BR-PA,30,Analytics
 16,Pernambuco,BR-PE,39,Analytics
-17,Piauí,BR-PI,37,Analytics
-18,Rio Grande do Norte,BR-RN,41,Analytics
-19,Rio Grande do Sul,BR-RS,62,Analytics
-20,Rio de Janeiro,BR-RJ,58,Analytics
-21,Rondônia,BR-RO,32,Analytics
-22,Roraima,BR-RR,20,Analytics
-23,Santa Catarina,BR-SC,80,Analytics
+17,Piauí,BR-PI,40,Analytics
+18,Rio Grande do Norte,BR-RN,40,Analytics
+19,Rio Grande do Sul,BR-RS,64,Analytics
+20,Rio de Janeiro,BR-RJ,59,Analytics
+21,Rondônia,BR-RO,35,Analytics
+22,Roraima,BR-RR,25,Analytics
+23,Santa Catarina,BR-SC,82,Analytics
 24,Sergipe,BR-SE,44,Analytics
 25,São Paulo,BR-SP,100,Analytics
-26,Tocantins,BR-TO,37,Analytics
-0,Acre,BR-AC,16,Oracle
-1,Alagoas,BR-AL,33,Oracle
-2,Amapá,BR-AP,19,Oracle
-3,Amazonas,BR-AM,33,Oracle
+26,Tocantins,BR-TO,42,Analytics
+0,Acre,BR-AC,14,Oracle
+1,Alagoas,BR-AL,31,Oracle
+2,Amapá,BR-AP,14,Oracle
+3,Amazonas,BR-AM,35,Oracle
 4,Bahia,BR-BA,20,Oracle
 5,Ceará,BR-CE,40,Oracle
 6,Distrito Federal,BR-DF,100,Oracle
-7,Espírito Santo,BR-ES,45,Oracle
-8,Goiás,BR-GO,41,Oracle
+7,Espírito Santo,BR-ES,46,Oracle
+8,Goiás,BR-GO,42,Oracle
 9,Maranhão,BR-MA,20,Oracle
-10,Mato Grosso,BR-MT,33,Oracle
-11,Mato Grosso do Sul,BR-MS,29,Oracle
-12,Minas Gerais,BR-MG,39,Oracle
-13,Paraná,BR-PR,47,Oracle
-14,Paraíba,BR-PB,39,Oracle
-15,Pará,BR-PA,23,Oracle
-16,Pernambuco,BR-PE,35,Oracle
-17,Piauí,BR-PI,24,Oracle
+10,Mato Grosso,BR-MT,32,Oracle
+11,Mato Grosso do Sul,BR-MS,30,Oracle
+12,Minas Gerais,BR-MG,40,Oracle
+13,Paraná,BR-PR,48,Oracle
+14,Paraíba,BR-PB,41,Oracle
+15,Pará,BR-PA,24,Oracle
+16,Pernambuco,BR-PE,36,Oracle
+17,Piauí,BR-PI,25,Oracle
 18,Rio Grande do Norte,BR-RN,26,Oracle
-19,Rio Grande do Sul,BR-RS,53,Oracle
-20,Rio de Janeiro,BR-RJ,49,Oracle
-21,Rondônia,BR-RO,26,Oracle
-22,Roraima,BR-RR,30,Oracle
-23,Santa Catarina,BR-SC,64,Oracle
-24,Sergipe,BR-SE,28,Oracle
-25,São Paulo,BR-SP,77,Oracle
-26,Tocantins,BR-TO,22,Oracle
+19,Rio Grande do Sul,BR-RS,54,Oracle
+20,Rio de Janeiro,BR-RJ,50,Oracle
+21,Rondônia,BR-RO,27,Oracle
+22,Roraima,BR-RR,25,Oracle
+23,Santa Catarina,BR-SC,65,Oracle
+24,Sergipe,BR-SE,31,Oracle
+25,São Paulo,BR-SP,79,Oracle
+26,Tocantins,BR-TO,23,Oracle
 0,Acre,BR-AC,73,R
 1,Alagoas,BR-AL,77,R
 2,Amapá,BR-AP,85,R
-3,Amazonas,BR-AM,81,R
-4,Bahia,BR-BA,78,R
-5,Ceará,BR-CE,82,R
-6,Distrito Federal,BR-DF,91,R
-7,Espírito Santo,BR-ES,77,R
-8,Goiás,BR-GO,79,R
+3,Amazonas,BR-AM,91,R
+4,Bahia,BR-BA,83,R
+5,Ceará,BR-CE,85,R
+6,Distrito Federal,BR-DF,88,R
+7,Espírito Santo,BR-ES,80,R
+8,Goiás,BR-GO,81,R
 9,Maranhão,BR-MA,88,R
-10,Mato Grosso,BR-MT,77,R
-11,Mato Grosso do Sul,BR-MS,76,R
-12,Minas Gerais,BR-MG,87,R
+10,Mato Grosso,BR-MT,78,R
+11,Mato Grosso do Sul,BR-MS,81,R
+12,Minas Gerais,BR-MG,89,R
 13,Paraná,BR-PR,98,R
-14,Paraíba,BR-PB,83,R
-15,Pará,BR-PA,75,R
-16,Pernambuco,BR-PE,83,R
+14,Paraíba,BR-PB,89,R
+15,Pará,BR-PA,79,R
+16,Pernambuco,BR-PE,85,R
 17,Piauí,BR-PI,100,R
-18,Rio Grande do Norte,BR-RN,85,R
+18,Rio Grande do Norte,BR-RN,94,R
 19,Rio Grande do Sul,BR-RS,87,R
-20,Rio de Janeiro,BR-RJ,80,R
+20,Rio de Janeiro,BR-RJ,82,R
 21,Rondônia,BR-RO,72,R
-22,Roraima,BR-RR,89,R
-23,Santa Catarina,BR-SC,82,R
-24,Sergipe,BR-SE,76,R
+22,Roraima,BR-RR,91,R
+23,Santa Catarina,BR-SC,85,R
+24,Sergipe,BR-SE,77,R
 25,São Paulo,BR-SP,100,R
-26,Tocantins,BR-TO,69,R
+26,Tocantins,BR-TO,70,R
 0,Acre,BR-AC,0,Azure
 1,Alagoas,BR-AL,30,Azure
 2,Amapá,BR-AP,0,Azure
-3,Amazonas,BR-AM,26,Azure
+3,Amazonas,BR-AM,27,Azure
 4,Bahia,BR-BA,34,Azure
-5,Ceará,BR-CE,47,Azure
-6,Distrito Federal,BR-DF,97,Azure
+5,Ceará,BR-CE,46,Azure
+6,Distrito Federal,BR-DF,96,Azure
 7,Espírito Santo,BR-ES,57,Azure
 8,Goiás,BR-GO,59,Azure
 9,Maranhão,BR-MA,33,Azure
-10,Mato Grosso,BR-MT,34,Azure
-11,Mato Grosso do Sul,BR-MS,39,Azure
-12,Minas Gerais,BR-MG,53,Azure
+10,Mato Grosso,BR-MT,33,Azure
+11,Mato Grosso do Sul,BR-MS,37,Azure
+12,Minas Gerais,BR-MG,57,Azure
 13,Paraná,BR-PR,54,Azure
-14,Paraíba,BR-PB,37,Azure
+14,Paraíba,BR-PB,39,Azure
 15,Pará,BR-PA,26,Azure
-16,Pernambuco,BR-PE,43,Azure
-17,Piauí,BR-PI,28,Azure
-18,Rio Grande do Norte,BR-RN,33,Azure
+16,Pernambuco,BR-PE,42,Azure
+17,Piauí,BR-PI,25,Azure
+18,Rio Grande do Norte,BR-RN,34,Azure
 19,Rio Grande do Sul,BR-RS,54,Azure
-20,Rio de Janeiro,BR-RJ,63,Azure
-21,Rondônia,BR-RO,33,Azure
-22,Roraima,BR-RR,12,Azure
-23,Santa Catarina,BR-SC,64,Azure
-24,Sergipe,BR-SE,48,Azure
+20,Rio de Janeiro,BR-RJ,60,Azure
+21,Rondônia,BR-RO,35,Azure
+22,Roraima,BR-RR,13,Azure
+23,Santa Catarina,BR-SC,63,Azure
+24,Sergipe,BR-SE,51,Azure
 25,São Paulo,BR-SP,100,Azure
-26,Tocantins,BR-TO,35,Azure
+26,Tocantins,BR-TO,37,Azure
 0,Acre,BR-AC,0,Salesforce
-1,Alagoas,BR-AL,16,Salesforce
+1,Alagoas,BR-AL,17,Salesforce
 2,Amapá,BR-AP,0,Salesforce
-3,Amazonas,BR-AM,19,Salesforce
+3,Amazonas,BR-AM,18,Salesforce
 4,Bahia,BR-BA,19,Salesforce
-5,Ceará,BR-CE,44,Salesforce
+5,Ceará,BR-CE,45,Salesforce
 6,Distrito Federal,BR-DF,53,Salesforce
 7,Espírito Santo,BR-ES,24,Salesforce
-8,Goiás,BR-GO,22,Salesforce
+8,Goiás,BR-GO,23,Salesforce
 9,Maranhão,BR-MA,19,Salesforce
-10,Mato Grosso,BR-MT,25,Salesforce
+10,Mato Grosso,BR-MT,24,Salesforce
 11,Mato Grosso do Sul,BR-MS,16,Salesforce
-12,Minas Gerais,BR-MG,37,Salesforce
+12,Minas Gerais,BR-MG,38,Salesforce
 13,Paraná,BR-PR,50,Salesforce
-14,Paraíba,BR-PB,29,Salesforce
-15,Pará,BR-PA,14,Salesforce
+14,Paraíba,BR-PB,30,Salesforce
+15,Pará,BR-PA,15,Salesforce
 16,Pernambuco,BR-PE,45,Salesforce
 17,Piauí,BR-PI,14,Salesforce
 18,Rio Grande do Norte,BR-RN,15,Salesforce
 19,Rio Grande do Sul,BR-RS,34,Salesforce
-20,Rio de Janeiro,BR-RJ,41,Salesforce
-21,Rondônia,BR-RO,20,Salesforce
+20,Rio de Janeiro,BR-RJ,42,Salesforce
+21,Rondônia,BR-RO,21,Salesforce
 22,Roraima,BR-RR,0,Salesforce
 23,Santa Catarina,BR-SC,36,Salesforce
-24,Sergipe,BR-SE,28,Salesforce
+24,Sergipe,BR-SE,29,Salesforce
 25,São Paulo,BR-SP,100,Salesforce
-26,Tocantins,BR-TO,9,Salesforce
-0,Acre,BR-AC,38,Linux
+26,Tocantins,BR-TO,13,Salesforce
+0,Acre,BR-AC,39,Linux
 1,Alagoas,BR-AL,46,Linux
-2,Amapá,BR-AP,51,Linux
-3,Amazonas,BR-AM,50,Linux
+2,Amapá,BR-AP,50,Linux
+3,Amazonas,BR-AM,49,Linux
 4,Bahia,BR-BA,40,Linux
-5,Ceará,BR-CE,67,Linux
+5,Ceará,BR-CE,62,Linux
 6,Distrito Federal,BR-DF,100,Linux
 7,Espírito Santo,BR-ES,42,Linux
-8,Goiás,BR-GO,48,Linux
-9,Maranhão,BR-MA,37,Linux
+8,Goiás,BR-GO,47,Linux
+9,Maranhão,BR-MA,36,Linux
 10,Mato Grosso,BR-MT,35,Linux
-11,Mato Grosso do Sul,BR-MS,43,Linux
-12,Minas Gerais,BR-MG,55,Linux
+11,Mato Grosso do Sul,BR-MS,42,Linux
+12,Minas Gerais,BR-MG,54,Linux
 13,Paraná,BR-PR,62,Linux
 14,Paraíba,BR-PB,57,Linux
 15,Pará,BR-PA,41,Linux
-16,Pernambuco,BR-PE,55,Linux
-17,Piauí,BR-PI,48,Linux
-18,Rio Grande do Norte,BR-RN,59,Linux
-19,Rio Grande do Sul,BR-RS,62,Linux
+16,Pernambuco,BR-PE,54,Linux
+17,Piauí,BR-PI,47,Linux
+18,Rio Grande do Norte,BR-RN,58,Linux
+19,Rio Grande do Sul,BR-RS,60,Linux
 20,Rio de Janeiro,BR-RJ,54,Linux
-21,Rondônia,BR-RO,49,Linux
-22,Roraima,BR-RR,45,Linux
-23,Santa Catarina,BR-SC,68,Linux
-24,Sergipe,BR-SE,51,Linux
-25,São Paulo,BR-SP,65,Linux
-26,Tocantins,BR-TO,47,Linux
+21,Rondônia,BR-RO,48,Linux
+22,Roraima,BR-RR,41,Linux
+23,Santa Catarina,BR-SC,69,Linux
+24,Sergipe,BR-SE,50,Linux
+25,São Paulo,BR-SP,64,Linux
+26,Tocantins,BR-TO,46,Linux
