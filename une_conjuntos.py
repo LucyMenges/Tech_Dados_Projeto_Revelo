@@ -9,10 +9,21 @@ import numpy as np
 
 diretorio = 'C:/_dev/residencia_harve/Tech_Dados_Projeto_Revelo/data_Habilidades/'
 
-keywords_list = ['Inglês', 'Equipe', 'Responsável', 'Comunicação', 'Planejamento', 'Modelagem', 'Foco',
+"""
+keywords_list =
+
+['Inglês', 'Equipe', 'Responsável', 'Comunicação', 'Planejamento', 'Modelagem', 'Foco',
  'Estatística', 'Documentação', 'Inovação', 'Metodologias Ágeis', 'Decisão', 'Prazos', 'Extração de Dados', 
  'Machine Learning','Indicadores', 'Dashboards', 'Logística', 'Marketing', 'Implementação',  
- 'ETL', 'Visão', 'Inteligência Artificial', 'Inteligência de Negócio', 'TI', 'Coleta de Dados', 'Fluxos']  
+ 'ETL', 'Visão', 'Inteligência Artificial', 'Inteligência de Negócio', 'TI', 'Coleta de Dados', 'Fluxos'] 
+
+['Excel', 'Power BI',  'Banco de Dados', 'Pacote Office',
+ 'SQL', 'SAP', 'Python', 'Cloud', 'CRM', 'Protheus', 'Analytics',
+ 'Oracle', 'R', 'Azure', 'Salesforce', 'Linux']  
+
+"""
+
+keywords_list = []  
 
 lista_data_ir = []
 lista_data_it = []
