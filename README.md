@@ -12,6 +12,8 @@ A Revelo é uma referência em recrutamento de profissionais na área de tecnolo
 Para continuar sendo destaque na área, ela precisa estar atenta aos movimentos do mercado de vagas e ferramentas. 
 Aqui, você irá atuar em time, criar robôs em web scrapping para ler esses dados e criar associações com dados de apis e gerar apontamentos para onde a empresa precisa caminhar.
 
+![image](https://user-images.githubusercontent.com/78648122/217348263-54218f42-c990-46c9-a10f-82fb628b56bc.png)
+
 
 Descrição do Github:
 
