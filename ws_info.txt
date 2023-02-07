@@ -18,17 +18,17 @@ https://www.doxygen.nl/index.html
 https://pypi.org/project/oxygen/
 
 # sites para busca
-- https://www.vagas.com.br/
-- https://br.indeed.com/
+-- https://www.vagas.com.br/
+-- https://br.indeed.com/ (Segunda alternativa)
 
 # demandas primeiro web scraping 
-- cargo: Analista de dados
-- cidade
-- uf
-- empresa
-- salÃ¡rio
-- habilidades
-- ferramentas
+-- cargo: Analista de dados
+-- cidade
+-- uf
+-- empresa
+-- salário
+-- habilidades
+-- ferramentas
 -- data de publicação do anúncio
 
 
