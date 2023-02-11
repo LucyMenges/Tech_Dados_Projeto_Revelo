@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
+# @author: Residencia Tech Analista Dados - Luciana Lanzoni Menges
 
 ## @package ws_script 
 
 # PROJETO 3 RESIDENCIA TECH - REVELO
 
 # Created on Tue Nov 15 17:57:48 2022
-# @authors: Residencia Tech Analista Dados - Luciana Lanzoni Menges
 
 # Referências :
 # https://selenium-python.readthedocs.io/index.html
@@ -156,7 +156,7 @@ def busca_descr_link (url):
     
     return lista2
 
-# PRIMEIRO vai ter salvo o df relacionado ao link das vagas
+# PRIMEIRO vai ser salvo o df relacionado ao link das vagas
 
 # Link da página a ser aberta pelo navegador
 pag1 = "https://www.vagas.com.br/"

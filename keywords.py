@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+# @author: Wilsner Sakimoto
+
 # IMPORTAÇÃO DE BIBLIOTECAS
 import pandas as pd
 import nltk

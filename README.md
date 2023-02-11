@@ -30,8 +30,14 @@ Descrição do Github:
 -- Arquivos:
 * 00_Sprint Planing 3.pdf: backlog´s demandados pelo Product Owner e descrição dos sprints semanais.
 * ws_info.txt: Informações e estrutura geral do projeto.
-* ws_script.py: Script final
 * df_total_descr_Apresentacao.pbix: Visualização dos dados resultantes após o Web scrapping e busca no Google Trends.
+* Slides Apresentação Scrum Review 3.pdf: Slides da apresentação das conclusões do projeto.
+
+* ws_script.py: Script com as duas funções criadas para o web scrapping no site de anúncio de vagas (Fase 1)
+* keywords.py: Script para filtrar e coletar as palavras-chave mais utilizadas nas descrições de vagas (Fase 2)
+* gt_script.py: Modulo para utilizar a lib PyTrends e agrupar metodos para analisar palavras-chave no Google Trends (Fase 3)
+* gt_app.py: Aplicação do módulo "gt_script.py" para as palavras selecionadas como Ferramentas e Habilidades (Fase 3)
+* une_conjuntos.py: Modulo para unir as listas das pastas "data_Habilidades" e "data_Ferramentas".
 
 * df_total_descr2.csv: Lista única com todas as informações das vagas salvas na pasta "Arquivos csv Detalhes Vaga"
 * rslt1.csv: Resultado da aplicação do código "keywords.py", lista com as palavras-chave mais utilizadas nas vagas salvas.
@@ -50,4 +56,4 @@ Descrição do Github:
 * data_Habilidades: Arquivos gerados na terceira parte do projeto, através da aplicação do código "gt_app.py"
 * data_Ferramentas: Arquivos gerados na terceira parte do projeto, através da aplicação do código "gt_app.py"
 
-* Documentação: Documentação do projeto.
+* Documentation: Documentação do projeto gerada utilizando Doxygen.
