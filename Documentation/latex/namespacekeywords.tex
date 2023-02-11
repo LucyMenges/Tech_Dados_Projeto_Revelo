@@ -41,39 +41,39 @@ list \mbox{\hyperlink{namespacekeywords_ad72c353f016874acebcc77e64317278a}{remov
 
 
 \begin{DoxyCode}{0}
-\DoxyCodeLine{32 \textcolor{keyword}{def }cleaning(text):   }
-\DoxyCodeLine{33     \textcolor{comment}{\# Converter para letra minúscula, Remover links URL, caracteres especiais, pontuações...}}
-\DoxyCodeLine{34     text = text.lower()}
-\DoxyCodeLine{35     text = re.sub(\textcolor{stringliteral}{'https?://S+|www.S+'}, \textcolor{stringliteral}{''}, text)}
-\DoxyCodeLine{36     text = re.sub(\textcolor{stringliteral}{'<.*?>+'}, \textcolor{stringliteral}{''}, text)}
-\DoxyCodeLine{37     text = re.sub(\textcolor{stringliteral}{'[\%s]'} \% re.escape(string.punctuation), \textcolor{stringliteral}{''}, text)}
-\DoxyCodeLine{38     text = re.sub(\textcolor{stringliteral}{'/n'},\textcolor{stringliteral}{''}, text)}
-\DoxyCodeLine{39     text = re.sub(\textcolor{stringliteral}{'[’“”…]'}, \textcolor{stringliteral}{''}, text)}
-\DoxyCodeLine{40     text = re.sub(\textcolor{stringliteral}{'•'},\textcolor{stringliteral}{''}, text)}
-\DoxyCodeLine{41 }
-\DoxyCodeLine{42     \textcolor{keywordflow}{for} word \textcolor{keywordflow}{in} removal\_words:}
-\DoxyCodeLine{43      text = re.sub(word,\textcolor{stringliteral}{''}, text) }
+\DoxyCodeLine{35 \textcolor{keyword}{def }cleaning(text):   }
+\DoxyCodeLine{36     \textcolor{comment}{\# Converter para letra minúscula, Remover links URL, caracteres especiais, pontuações...}}
+\DoxyCodeLine{37     text = text.lower()}
+\DoxyCodeLine{38     text = re.sub(\textcolor{stringliteral}{'https?://S+|www.S+'}, \textcolor{stringliteral}{''}, text)}
+\DoxyCodeLine{39     text = re.sub(\textcolor{stringliteral}{'<.*?>+'}, \textcolor{stringliteral}{''}, text)}
+\DoxyCodeLine{40     text = re.sub(\textcolor{stringliteral}{'[\%s]'} \% re.escape(string.punctuation), \textcolor{stringliteral}{''}, text)}
+\DoxyCodeLine{41     text = re.sub(\textcolor{stringliteral}{'/n'},\textcolor{stringliteral}{''}, text)}
+\DoxyCodeLine{42     text = re.sub(\textcolor{stringliteral}{'[’“”…]'}, \textcolor{stringliteral}{''}, text)}
+\DoxyCodeLine{43     text = re.sub(\textcolor{stringliteral}{'•'},\textcolor{stringliteral}{''}, text)}
 \DoxyCodeLine{44 }
-\DoxyCodeLine{45     \textcolor{comment}{\# \# Remover emojis (não será necessário) }}
-\DoxyCodeLine{46     \textcolor{comment}{\# emoji\_pattern = re.compile("{}["{}}}
-\DoxyCodeLine{47     \textcolor{comment}{\#                        u"{}U0001F600-\/U0001F64F"{}  \# emoticons}}
-\DoxyCodeLine{48     \textcolor{comment}{\#                        u"{}U0001F300-\/U0001F5FF"{}  \# symbols \& pictographs}}
-\DoxyCodeLine{49     \textcolor{comment}{\#                        u"{}U0001F680-\/U0001F6FF"{}  \# transport \& map symbols}}
-\DoxyCodeLine{50     \textcolor{comment}{\#                        u"{}U0001F1E0-\/U0001F1FF"{}  \# flags (iOS)}}
-\DoxyCodeLine{51     \textcolor{comment}{\#                        u"{}U00002702-\/U000027B0"{}}}
-\DoxyCodeLine{52     \textcolor{comment}{\#                        u"{}U000024C2-\/U0001F251"{}}}
-\DoxyCodeLine{53     \textcolor{comment}{\#                        "{}]+"{}, flags=re.UNICODE)}}
-\DoxyCodeLine{54     \textcolor{comment}{\# text = emoji\_pattern.sub(r'', text)   }}
-\DoxyCodeLine{55     }
-\DoxyCodeLine{56     \textcolor{comment}{\# Remover stop-\/words         }}
-\DoxyCodeLine{57     text\_tokens = word\_tokenize(text)}
-\DoxyCodeLine{58     tokens\_without\_sw = [word \textcolor{keywordflow}{for} word \textcolor{keywordflow}{in} text\_tokens \textcolor{keywordflow}{if} \textcolor{keywordflow}{not} word \textcolor{keywordflow}{in} stop\_words]}
-\DoxyCodeLine{59     filtered\_sentence = (\textcolor{stringliteral}{"{} "{}}).join(tokens\_without\_sw)}
-\DoxyCodeLine{60     text = filtered\_sentence}
-\DoxyCodeLine{61     }
-\DoxyCodeLine{62     \textcolor{keywordflow}{return} text}
-\DoxyCodeLine{63 }
-\DoxyCodeLine{64 \textcolor{comment}{\# FILTRAR AS LINHAS QUE CONTÉM A STRING 'DESCRIÇÃO:' E ADICIONANDO EM UMA TERCEIRA COLUNA }}
+\DoxyCodeLine{45     \textcolor{keywordflow}{for} word \textcolor{keywordflow}{in} removal\_words:}
+\DoxyCodeLine{46      text = re.sub(word,\textcolor{stringliteral}{''}, text) }
+\DoxyCodeLine{47 }
+\DoxyCodeLine{48     \textcolor{comment}{\# \# Remover emojis (não será necessário) }}
+\DoxyCodeLine{49     \textcolor{comment}{\# emoji\_pattern = re.compile("{}["{}}}
+\DoxyCodeLine{50     \textcolor{comment}{\#                        u"{}U0001F600-\/U0001F64F"{}  \# emoticons}}
+\DoxyCodeLine{51     \textcolor{comment}{\#                        u"{}U0001F300-\/U0001F5FF"{}  \# symbols \& pictographs}}
+\DoxyCodeLine{52     \textcolor{comment}{\#                        u"{}U0001F680-\/U0001F6FF"{}  \# transport \& map symbols}}
+\DoxyCodeLine{53     \textcolor{comment}{\#                        u"{}U0001F1E0-\/U0001F1FF"{}  \# flags (iOS)}}
+\DoxyCodeLine{54     \textcolor{comment}{\#                        u"{}U00002702-\/U000027B0"{}}}
+\DoxyCodeLine{55     \textcolor{comment}{\#                        u"{}U000024C2-\/U0001F251"{}}}
+\DoxyCodeLine{56     \textcolor{comment}{\#                        "{}]+"{}, flags=re.UNICODE)}}
+\DoxyCodeLine{57     \textcolor{comment}{\# text = emoji\_pattern.sub(r'', text)   }}
+\DoxyCodeLine{58     }
+\DoxyCodeLine{59     \textcolor{comment}{\# Remover stop-\/words         }}
+\DoxyCodeLine{60     text\_tokens = word\_tokenize(text)}
+\DoxyCodeLine{61     tokens\_without\_sw = [word \textcolor{keywordflow}{for} word \textcolor{keywordflow}{in} text\_tokens \textcolor{keywordflow}{if} \textcolor{keywordflow}{not} word \textcolor{keywordflow}{in} stop\_words]}
+\DoxyCodeLine{62     filtered\_sentence = (\textcolor{stringliteral}{"{} "{}}).join(tokens\_without\_sw)}
+\DoxyCodeLine{63     text = filtered\_sentence}
+\DoxyCodeLine{64     }
+\DoxyCodeLine{65     \textcolor{keywordflow}{return} text}
+\DoxyCodeLine{66 }
+\DoxyCodeLine{67 \textcolor{comment}{\# FILTRAR AS LINHAS QUE CONTÉM A STRING 'DESCRIÇÃO:' E ADICIONANDO EM UMA TERCEIRA COLUNA }}
 
 \end{DoxyCode}
 
