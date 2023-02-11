@@ -1,0 +1,147 @@
+\hypertarget{namespacekeywords}{}\doxysection{Refência do Namespace keywords}
+\label{namespacekeywords}\index{keywords@{keywords}}
+\doxysubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespacekeywords_ae6c1cb41f9056c15d250b0e32841e4b6}{cleaning}} (text)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variáveis}
+\begin{DoxyCompactItemize}
+\item 
+list \mbox{\hyperlink{namespacekeywords_af0ba997fbbf885b567953004b1f5d6a5}{lista\+\_\+df}} = \mbox{[}$\,$\mbox{]}
+\item 
+\mbox{\hyperlink{namespacekeywords_add0e8f1d57df6ce847fa4590c7d02d3d}{df}} = pd.\+read\+\_\+csv(\textquotesingle{}Informacoes\+\_\+\textquotesingle{} + str(i) + \textquotesingle{}.csv\textquotesingle{})
+\item 
+\mbox{\hyperlink{namespacekeywords_ab687112b091be66dad521473a9f3a3ff}{df\+\_\+total}} = pd.\+concat(\mbox{\hyperlink{namespacekeywords_af0ba997fbbf885b567953004b1f5d6a5}{lista\+\_\+df}})
+\item 
+\mbox{\hyperlink{namespacekeywords_a5f8d0fa88ec82a7a73226d37d1851ccf}{stop\+\_\+words}} = stopwords.\+words(\textquotesingle{}portuguese\textquotesingle{})
+\item 
+list \mbox{\hyperlink{namespacekeywords_ad72c353f016874acebcc77e64317278a}{removal\+\_\+words}} = \mbox{[}\textquotesingle{}descrição\textquotesingle{}, \textquotesingle{}conhecimento\textquotesingle{}, \textquotesingle{}experiência\textquotesingle{}, \textquotesingle{}requisitos\textquotesingle{}, \textquotesingle{}área\textquotesingle{}, \textquotesingle{}outros\textquotesingle{}, \textquotesingle{}atividades\textquotesingle{}, \textquotesingle{}nível\textquotesingle{}, \textquotesingle{}áreas\textquotesingle{}, \textquotesingle{}desejável\textquotesingle{}, \textquotesingle{}informações\textquotesingle{}, \textquotesingle{}realizar\textquotesingle{}, \textquotesingle{}completo\textquotesingle{}, \textquotesingle{}empresa\textquotesingle{},\textquotesingle{}através\textquotesingle{},\textquotesingle{}fazer\textquotesingle{},\textquotesingle{}principais\textquotesingle{},\textquotesingle{}·\textquotesingle{},\textquotesingle{}vida\textquotesingle{}, \textquotesingle{}–\textquotesingle{},\textquotesingle{}bem\textquotesingle{},\textquotesingle{}novos\textquotesingle{},\textquotesingle{}aqui\textquotesingle{},\textquotesingle{}eou\textquotesingle{},\textquotesingle{}time\textquotesingle{},\mbox{]}
+\item 
+\mbox{\hyperlink{namespacekeywords_ac48a65d26e0f9ded11369e7924785358}{case}}
+\item 
+\mbox{\hyperlink{namespacekeywords_a83539c481442750f6841e7aa03051b45}{False}}
+\item 
+\mbox{\hyperlink{namespacekeywords_ad7c4ccf6ff669a3117c2fffa4d4de362}{na}}
+\item 
+\mbox{\hyperlink{namespacekeywords_af04e081d4de19901cacdf184a55edc28}{dt1}} = \mbox{\hyperlink{namespacekeywords_ab687112b091be66dad521473a9f3a3ff}{df\+\_\+total}}\mbox{[}\textquotesingle{}descrição\+\_\+final\textquotesingle{}\mbox{]}.apply(\mbox{\hyperlink{namespacekeywords_ae6c1cb41f9056c15d250b0e32841e4b6}{cleaning}})
+\item 
+\mbox{\hyperlink{namespacekeywords_a149c73597629668e311e2ba0ed98733a}{p1}} = Counter(\char`\"{} \char`\"{}.join(\mbox{\hyperlink{namespacekeywords_af04e081d4de19901cacdf184a55edc28}{dt1}}).split()).most\+\_\+common(500)
+\item 
+\mbox{\hyperlink{namespacekeywords_abbec9ffe3b53ad7e95425c4eddc8960a}{rslt}} = pd.\+Data\+Frame(\mbox{\hyperlink{namespacekeywords_a149c73597629668e311e2ba0ed98733a}{p1}}, columns=\mbox{[}\textquotesingle{}Word\textquotesingle{}, \textquotesingle{}Frequency\textquotesingle{}\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Funções}
+\mbox{\Hypertarget{namespacekeywords_ae6c1cb41f9056c15d250b0e32841e4b6}\label{namespacekeywords_ae6c1cb41f9056c15d250b0e32841e4b6}} 
+\index{keywords@{keywords}!cleaning@{cleaning}}
+\index{cleaning@{cleaning}!keywords@{keywords}}
+\doxysubsubsection{\texorpdfstring{cleaning()}{cleaning()}}
+{\footnotesize\ttfamily def keywords.\+cleaning (\begin{DoxyParamCaption}\item[{}]{text }\end{DoxyParamCaption})}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{32 \textcolor{keyword}{def }cleaning(text):   }
+\DoxyCodeLine{33     \textcolor{comment}{\# Converter para letra minúscula, Remover links URL, caracteres especiais, pontuações...}}
+\DoxyCodeLine{34     text = text.lower()}
+\DoxyCodeLine{35     text = re.sub(\textcolor{stringliteral}{'https?://S+|www.S+'}, \textcolor{stringliteral}{''}, text)}
+\DoxyCodeLine{36     text = re.sub(\textcolor{stringliteral}{'<.*?>+'}, \textcolor{stringliteral}{''}, text)}
+\DoxyCodeLine{37     text = re.sub(\textcolor{stringliteral}{'[\%s]'} \% re.escape(string.punctuation), \textcolor{stringliteral}{''}, text)}
+\DoxyCodeLine{38     text = re.sub(\textcolor{stringliteral}{'/n'},\textcolor{stringliteral}{''}, text)}
+\DoxyCodeLine{39     text = re.sub(\textcolor{stringliteral}{'[’“”…]'}, \textcolor{stringliteral}{''}, text)}
+\DoxyCodeLine{40     text = re.sub(\textcolor{stringliteral}{'•'},\textcolor{stringliteral}{''}, text)}
+\DoxyCodeLine{41 }
+\DoxyCodeLine{42     \textcolor{keywordflow}{for} word \textcolor{keywordflow}{in} removal\_words:}
+\DoxyCodeLine{43      text = re.sub(word,\textcolor{stringliteral}{''}, text) }
+\DoxyCodeLine{44 }
+\DoxyCodeLine{45     \textcolor{comment}{\# \# Remover emojis (não será necessário) }}
+\DoxyCodeLine{46     \textcolor{comment}{\# emoji\_pattern = re.compile("{}["{}}}
+\DoxyCodeLine{47     \textcolor{comment}{\#                        u"{}U0001F600-\/U0001F64F"{}  \# emoticons}}
+\DoxyCodeLine{48     \textcolor{comment}{\#                        u"{}U0001F300-\/U0001F5FF"{}  \# symbols \& pictographs}}
+\DoxyCodeLine{49     \textcolor{comment}{\#                        u"{}U0001F680-\/U0001F6FF"{}  \# transport \& map symbols}}
+\DoxyCodeLine{50     \textcolor{comment}{\#                        u"{}U0001F1E0-\/U0001F1FF"{}  \# flags (iOS)}}
+\DoxyCodeLine{51     \textcolor{comment}{\#                        u"{}U00002702-\/U000027B0"{}}}
+\DoxyCodeLine{52     \textcolor{comment}{\#                        u"{}U000024C2-\/U0001F251"{}}}
+\DoxyCodeLine{53     \textcolor{comment}{\#                        "{}]+"{}, flags=re.UNICODE)}}
+\DoxyCodeLine{54     \textcolor{comment}{\# text = emoji\_pattern.sub(r'', text)   }}
+\DoxyCodeLine{55     }
+\DoxyCodeLine{56     \textcolor{comment}{\# Remover stop-\/words         }}
+\DoxyCodeLine{57     text\_tokens = word\_tokenize(text)}
+\DoxyCodeLine{58     tokens\_without\_sw = [word \textcolor{keywordflow}{for} word \textcolor{keywordflow}{in} text\_tokens \textcolor{keywordflow}{if} \textcolor{keywordflow}{not} word \textcolor{keywordflow}{in} stop\_words]}
+\DoxyCodeLine{59     filtered\_sentence = (\textcolor{stringliteral}{"{} "{}}).join(tokens\_without\_sw)}
+\DoxyCodeLine{60     text = filtered\_sentence}
+\DoxyCodeLine{61     }
+\DoxyCodeLine{62     \textcolor{keywordflow}{return} text}
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64 \textcolor{comment}{\# FILTRAR AS LINHAS QUE CONTÉM A STRING 'DESCRIÇÃO:' E ADICIONANDO EM UMA TERCEIRA COLUNA }}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Variáveis}
+\mbox{\Hypertarget{namespacekeywords_ac48a65d26e0f9ded11369e7924785358}\label{namespacekeywords_ac48a65d26e0f9ded11369e7924785358}} 
+\index{keywords@{keywords}!case@{case}}
+\index{case@{case}!keywords@{keywords}}
+\doxysubsubsection{\texorpdfstring{case}{case}}
+{\footnotesize\ttfamily keywords.\+case}
+
+\mbox{\Hypertarget{namespacekeywords_add0e8f1d57df6ce847fa4590c7d02d3d}\label{namespacekeywords_add0e8f1d57df6ce847fa4590c7d02d3d}} 
+\index{keywords@{keywords}!df@{df}}
+\index{df@{df}!keywords@{keywords}}
+\doxysubsubsection{\texorpdfstring{df}{df}}
+{\footnotesize\ttfamily keywords.\+df = pd.\+read\+\_\+csv(\textquotesingle{}Informacoes\+\_\+\textquotesingle{} + str(i) + \textquotesingle{}.csv\textquotesingle{})}
+
+\mbox{\Hypertarget{namespacekeywords_ab687112b091be66dad521473a9f3a3ff}\label{namespacekeywords_ab687112b091be66dad521473a9f3a3ff}} 
+\index{keywords@{keywords}!df\_total@{df\_total}}
+\index{df\_total@{df\_total}!keywords@{keywords}}
+\doxysubsubsection{\texorpdfstring{df\_total}{df\_total}}
+{\footnotesize\ttfamily keywords.\+df\+\_\+total = pd.\+concat(\mbox{\hyperlink{namespacekeywords_af0ba997fbbf885b567953004b1f5d6a5}{lista\+\_\+df}})}
+
+\mbox{\Hypertarget{namespacekeywords_af04e081d4de19901cacdf184a55edc28}\label{namespacekeywords_af04e081d4de19901cacdf184a55edc28}} 
+\index{keywords@{keywords}!dt1@{dt1}}
+\index{dt1@{dt1}!keywords@{keywords}}
+\doxysubsubsection{\texorpdfstring{dt1}{dt1}}
+{\footnotesize\ttfamily keywords.\+dt1 = \mbox{\hyperlink{namespacekeywords_ab687112b091be66dad521473a9f3a3ff}{df\+\_\+total}}\mbox{[}\textquotesingle{}descrição\+\_\+final\textquotesingle{}\mbox{]}.apply(\mbox{\hyperlink{namespacekeywords_ae6c1cb41f9056c15d250b0e32841e4b6}{cleaning}})}
+
+\mbox{\Hypertarget{namespacekeywords_a83539c481442750f6841e7aa03051b45}\label{namespacekeywords_a83539c481442750f6841e7aa03051b45}} 
+\index{keywords@{keywords}!False@{False}}
+\index{False@{False}!keywords@{keywords}}
+\doxysubsubsection{\texorpdfstring{False}{False}}
+{\footnotesize\ttfamily keywords.\+False}
+
+\mbox{\Hypertarget{namespacekeywords_af0ba997fbbf885b567953004b1f5d6a5}\label{namespacekeywords_af0ba997fbbf885b567953004b1f5d6a5}} 
+\index{keywords@{keywords}!lista\_df@{lista\_df}}
+\index{lista\_df@{lista\_df}!keywords@{keywords}}
+\doxysubsubsection{\texorpdfstring{lista\_df}{lista\_df}}
+{\footnotesize\ttfamily list keywords.\+lista\+\_\+df = \mbox{[}$\,$\mbox{]}}
+
+\mbox{\Hypertarget{namespacekeywords_ad7c4ccf6ff669a3117c2fffa4d4de362}\label{namespacekeywords_ad7c4ccf6ff669a3117c2fffa4d4de362}} 
+\index{keywords@{keywords}!na@{na}}
+\index{na@{na}!keywords@{keywords}}
+\doxysubsubsection{\texorpdfstring{na}{na}}
+{\footnotesize\ttfamily keywords.\+na}
+
+\mbox{\Hypertarget{namespacekeywords_a149c73597629668e311e2ba0ed98733a}\label{namespacekeywords_a149c73597629668e311e2ba0ed98733a}} 
+\index{keywords@{keywords}!p1@{p1}}
+\index{p1@{p1}!keywords@{keywords}}
+\doxysubsubsection{\texorpdfstring{p1}{p1}}
+{\footnotesize\ttfamily keywords.\+p1 = Counter(\char`\"{} \char`\"{}.join(\mbox{\hyperlink{namespacekeywords_af04e081d4de19901cacdf184a55edc28}{dt1}}).split()).most\+\_\+common(500)}
+
+\mbox{\Hypertarget{namespacekeywords_ad72c353f016874acebcc77e64317278a}\label{namespacekeywords_ad72c353f016874acebcc77e64317278a}} 
+\index{keywords@{keywords}!removal\_words@{removal\_words}}
+\index{removal\_words@{removal\_words}!keywords@{keywords}}
+\doxysubsubsection{\texorpdfstring{removal\_words}{removal\_words}}
+{\footnotesize\ttfamily list keywords.\+removal\+\_\+words = \mbox{[}\textquotesingle{}descrição\textquotesingle{}, \textquotesingle{}conhecimento\textquotesingle{}, \textquotesingle{}experiência\textquotesingle{}, \textquotesingle{}requisitos\textquotesingle{}, \textquotesingle{}área\textquotesingle{}, \textquotesingle{}outros\textquotesingle{}, \textquotesingle{}atividades\textquotesingle{}, \textquotesingle{}nível\textquotesingle{}, \textquotesingle{}áreas\textquotesingle{}, \textquotesingle{}desejável\textquotesingle{}, \textquotesingle{}informações\textquotesingle{}, \textquotesingle{}realizar\textquotesingle{}, \textquotesingle{}completo\textquotesingle{}, \textquotesingle{}empresa\textquotesingle{},\textquotesingle{}através\textquotesingle{},\textquotesingle{}fazer\textquotesingle{},\textquotesingle{}principais\textquotesingle{},\textquotesingle{}·\textquotesingle{},\textquotesingle{}vida\textquotesingle{}, \textquotesingle{}–\textquotesingle{},\textquotesingle{}bem\textquotesingle{},\textquotesingle{}novos\textquotesingle{},\textquotesingle{}aqui\textquotesingle{},\textquotesingle{}eou\textquotesingle{},\textquotesingle{}time\textquotesingle{},\mbox{]}}
+
+\mbox{\Hypertarget{namespacekeywords_abbec9ffe3b53ad7e95425c4eddc8960a}\label{namespacekeywords_abbec9ffe3b53ad7e95425c4eddc8960a}} 
+\index{keywords@{keywords}!rslt@{rslt}}
+\index{rslt@{rslt}!keywords@{keywords}}
+\doxysubsubsection{\texorpdfstring{rslt}{rslt}}
+{\footnotesize\ttfamily keywords.\+rslt = pd.\+Data\+Frame(\mbox{\hyperlink{namespacekeywords_a149c73597629668e311e2ba0ed98733a}{p1}}, columns=\mbox{[}\textquotesingle{}Word\textquotesingle{}, \textquotesingle{}Frequency\textquotesingle{}\mbox{]})}
+
+\mbox{\Hypertarget{namespacekeywords_a5f8d0fa88ec82a7a73226d37d1851ccf}\label{namespacekeywords_a5f8d0fa88ec82a7a73226d37d1851ccf}} 
+\index{keywords@{keywords}!stop\_words@{stop\_words}}
+\index{stop\_words@{stop\_words}!keywords@{keywords}}
+\doxysubsubsection{\texorpdfstring{stop\_words}{stop\_words}}
+{\footnotesize\ttfamily keywords.\+stop\+\_\+words = stopwords.\+words(\textquotesingle{}portuguese\textquotesingle{})}
+

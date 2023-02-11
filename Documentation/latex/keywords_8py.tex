@@ -1,0 +1,37 @@
+\hypertarget{keywords_8py}{}\doxysection{Referência do Arquivo keywords.\+py}
+\label{keywords_8py}\index{keywords.py@{keywords.py}}
+\doxysubsection*{\texorpdfstring{$<$}{<}em\texorpdfstring{$>$}{>}Namespaces\texorpdfstring{$<$}{<}/em\texorpdfstring{$>$}{>}}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespacekeywords}{keywords}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespacekeywords_ae6c1cb41f9056c15d250b0e32841e4b6}{keywords.\+cleaning}} (text)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variáveis}
+\begin{DoxyCompactItemize}
+\item 
+list \mbox{\hyperlink{namespacekeywords_af0ba997fbbf885b567953004b1f5d6a5}{keywords.\+lista\+\_\+df}} = \mbox{[}$\,$\mbox{]}
+\item 
+\mbox{\hyperlink{namespacekeywords_add0e8f1d57df6ce847fa4590c7d02d3d}{keywords.\+df}} = pd.\+read\+\_\+csv(\textquotesingle{}Informacoes\+\_\+\textquotesingle{} + str(i) + \textquotesingle{}.csv\textquotesingle{})
+\item 
+\mbox{\hyperlink{namespacekeywords_ab687112b091be66dad521473a9f3a3ff}{keywords.\+df\+\_\+total}} = pd.\+concat(lista\+\_\+df)
+\item 
+\mbox{\hyperlink{namespacekeywords_a5f8d0fa88ec82a7a73226d37d1851ccf}{keywords.\+stop\+\_\+words}} = stopwords.\+words(\textquotesingle{}portuguese\textquotesingle{})
+\item 
+list \mbox{\hyperlink{namespacekeywords_ad72c353f016874acebcc77e64317278a}{keywords.\+removal\+\_\+words}} = \mbox{[}\textquotesingle{}descrição\textquotesingle{}, \textquotesingle{}conhecimento\textquotesingle{}, \textquotesingle{}experiência\textquotesingle{}, \textquotesingle{}requisitos\textquotesingle{}, \textquotesingle{}área\textquotesingle{}, \textquotesingle{}outros\textquotesingle{}, \textquotesingle{}atividades\textquotesingle{}, \textquotesingle{}nível\textquotesingle{}, \textquotesingle{}áreas\textquotesingle{}, \textquotesingle{}desejável\textquotesingle{}, \textquotesingle{}informações\textquotesingle{}, \textquotesingle{}realizar\textquotesingle{}, \textquotesingle{}completo\textquotesingle{}, \textquotesingle{}empresa\textquotesingle{},\textquotesingle{}através\textquotesingle{},\textquotesingle{}fazer\textquotesingle{},\textquotesingle{}principais\textquotesingle{},\textquotesingle{}·\textquotesingle{},\textquotesingle{}vida\textquotesingle{}, \textquotesingle{}–\textquotesingle{},\textquotesingle{}bem\textquotesingle{},\textquotesingle{}novos\textquotesingle{},\textquotesingle{}aqui\textquotesingle{},\textquotesingle{}eou\textquotesingle{},\textquotesingle{}time\textquotesingle{},\mbox{]}
+\item 
+\mbox{\hyperlink{namespacekeywords_ac48a65d26e0f9ded11369e7924785358}{keywords.\+case}}
+\item 
+\mbox{\hyperlink{namespacekeywords_a83539c481442750f6841e7aa03051b45}{keywords.\+False}}
+\item 
+\mbox{\hyperlink{namespacekeywords_ad7c4ccf6ff669a3117c2fffa4d4de362}{keywords.\+na}}
+\item 
+\mbox{\hyperlink{namespacekeywords_af04e081d4de19901cacdf184a55edc28}{keywords.\+dt1}} = df\+\_\+total\mbox{[}\textquotesingle{}descrição\+\_\+final\textquotesingle{}\mbox{]}.apply(cleaning)
+\item 
+\mbox{\hyperlink{namespacekeywords_a149c73597629668e311e2ba0ed98733a}{keywords.\+p1}} = Counter(\char`\"{} \char`\"{}.join(dt1).split()).most\+\_\+common(500)
+\item 
+\mbox{\hyperlink{namespacekeywords_abbec9ffe3b53ad7e95425c4eddc8960a}{keywords.\+rslt}} = pd.\+Data\+Frame(p1, columns=\mbox{[}\textquotesingle{}Word\textquotesingle{}, \textquotesingle{}Frequency\textquotesingle{}\mbox{]})
+\end{DoxyCompactItemize}

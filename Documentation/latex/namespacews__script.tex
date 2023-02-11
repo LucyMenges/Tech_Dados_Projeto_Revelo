@@ -1,0 +1,213 @@
+\hypertarget{namespacews__script}{}\doxysection{Refência do Namespace ws\+\_\+script}
+\label{namespacews__script}\index{ws\_script@{ws\_script}}
+\doxysubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespacews__script_a930d2760e8c0764d588bbbad83a5490f}{busca\+\_\+site\+\_\+vagas}} (\mbox{\hyperlink{namespacews__script_ad7bceaf66f0c5f5be3e06811f3c2dd12}{pag1}}, \mbox{\hyperlink{namespacews__script_aa7b8c45b85d38f447bf77e665731ef3e}{cargos}}, \mbox{\hyperlink{namespacews__script_a1230571f616e3b30a72cfdc652f9e9f7}{nr\+\_\+pag}}=2)
+\begin{DoxyCompactList}\small\item\em busca\+\_\+site\+\_\+vagas Função que fará a coleta dos anúncios de vagas resultantes da pesquisa ao cargo indicado. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespacews__script_a6167f6950a17d253d7ef1afd114faa98}{busca\+\_\+descr\+\_\+link}} (url)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variáveis}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{namespacews__script_ad7bceaf66f0c5f5be3e06811f3c2dd12}{pag1}} = \char`\"{}https\+://www.\+vagas.\+com.\+br/\char`\"{}
+\item 
+list \mbox{\hyperlink{namespacews__script_aa7b8c45b85d38f447bf77e665731ef3e}{cargos}} = \mbox{[}\textquotesingle{}Analista de Dados\textquotesingle{}\mbox{]}
+\item 
+int \mbox{\hyperlink{namespacews__script_a1230571f616e3b30a72cfdc652f9e9f7}{nr\+\_\+pag}} = 2
+\item 
+def \mbox{\hyperlink{namespacews__script_a344be791b30866bc1e43d0f8ccd841a9}{df3}} = \mbox{\hyperlink{namespacews__script_a930d2760e8c0764d588bbbad83a5490f}{busca\+\_\+site\+\_\+vagas}}(\mbox{\hyperlink{namespacews__script_ad7bceaf66f0c5f5be3e06811f3c2dd12}{pag1}}, \mbox{\hyperlink{namespacews__script_aa7b8c45b85d38f447bf77e665731ef3e}{cargos}}, \mbox{\hyperlink{namespacews__script_a1230571f616e3b30a72cfdc652f9e9f7}{nr\+\_\+pag}}=2)
+\item 
+def \mbox{\hyperlink{namespacews__script_a7e9a241cdc27cebb66a31634149c4337}{df\+\_\+desc}} = \mbox{\hyperlink{namespacews__script_a6167f6950a17d253d7ef1afd114faa98}{busca\+\_\+descr\+\_\+link}}(url)
+\item 
+\mbox{\hyperlink{namespacews__script_aa37ff7caac2757b881230d83532ae592}{df1}} = pd.\+Data\+Frame(np.\+reshape(list(df3.\+iloc\mbox{[}i,\+:\mbox{]}), (1, 6)), columns = \mbox{[}\textquotesingle{}index\textquotesingle{}, \textquotesingle{}id\textquotesingle{}, \textquotesingle{}titulo\textquotesingle{}, \textquotesingle{}empresa\textquotesingle{}, \textquotesingle{}nivel\+\_\+da\+\_\+vaga\textquotesingle{}, \textquotesingle{}link\textquotesingle{}\mbox{]})
+\item 
+\mbox{\hyperlink{namespacews__script_ae13476036da8a6209b28c7190b88d7d9}{df\+\_\+total}} = pd.\+concat(\mbox{[}\mbox{\hyperlink{namespacews__script_aa37ff7caac2757b881230d83532ae592}{df1}}, \mbox{\hyperlink{namespacews__script_a7e9a241cdc27cebb66a31634149c4337}{df\+\_\+desc}}\mbox{]}, axis= 1)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Funções}
+\mbox{\Hypertarget{namespacews__script_a6167f6950a17d253d7ef1afd114faa98}\label{namespacews__script_a6167f6950a17d253d7ef1afd114faa98}} 
+\index{ws\_script@{ws\_script}!busca\_descr\_link@{busca\_descr\_link}}
+\index{busca\_descr\_link@{busca\_descr\_link}!ws\_script@{ws\_script}}
+\doxysubsubsection{\texorpdfstring{busca\_descr\_link()}{busca\_descr\_link()}}
+{\footnotesize\ttfamily def ws\+\_\+script.\+busca\+\_\+descr\+\_\+link (\begin{DoxyParamCaption}\item[{}]{url }\end{DoxyParamCaption})}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{104 \textcolor{keyword}{def }busca\_descr\_link (url):}
+\DoxyCodeLine{105     }
+\DoxyCodeLine{106     lista2 = []}
+\DoxyCodeLine{107     }
+\DoxyCodeLine{108     \textcolor{comment}{\# Abre a página selecionada neste navegador}}
+\DoxyCodeLine{109     chrome\_options = Options()}
+\DoxyCodeLine{110     chrome\_options.add\_argument(\textcolor{stringliteral}{"{}enable-\/automation"{}})}
+\DoxyCodeLine{111     chrome\_options.add\_argument(\textcolor{stringliteral}{"{}start-\/maximized"{}})}
+\DoxyCodeLine{112     chrome\_options.add\_argument(\textcolor{stringliteral}{'-\/-\/headless'})}
+\DoxyCodeLine{113     chrome\_options.add\_argument(\textcolor{stringliteral}{"{}-\/-\/no-\/sandbox"{}})}
+\DoxyCodeLine{114     chrome\_options.add\_argument(\textcolor{stringliteral}{"{}-\/-\/disable-\/gpu"{}})}
+\DoxyCodeLine{115     \textcolor{comment}{\#chrome\_options.add\_argument("{}-\/-\/disable-\/dev-\/shm-\/usage"{})}}
+\DoxyCodeLine{116     \textcolor{comment}{\#chrome\_options.add\_argument("{}-\/-\/disable-\/browser-\/side-\/navigation"{})}}
+\DoxyCodeLine{117     \textcolor{comment}{\# chrome\_options.add\_argument("{}-\/-\/disable-\/cache"{})}}
+\DoxyCodeLine{118     \textcolor{comment}{\# chrome\_options.add\_argument("{}-\/-\/disable-\/application-\/cache"{}) }}
+\DoxyCodeLine{119     \textcolor{comment}{\# chrome\_options.add\_argument("{}-\/-\/disable-\/offline-\/load-\/stale-\/cache"{}) }}
+\DoxyCodeLine{120     \textcolor{comment}{\# chrome\_options.add\_argument("{}-\/-\/disk-\/cache-\/size=0"{})}}
+\DoxyCodeLine{121     \textcolor{comment}{\# chrome\_options.add\_argument("{}-\/-\/dns-\/prefetch-\/disable"{})}}
+\DoxyCodeLine{122     \textcolor{comment}{\# chrome\_options.add\_argument("{}-\/-\/no-\/proxy-\/server"{})}}
+\DoxyCodeLine{123     \textcolor{comment}{\# chrome\_options.add\_argument("{}-\/-\/log-\/level=3"{})}}
+\DoxyCodeLine{124     \textcolor{comment}{\# chrome\_options.add\_argument("{}-\/-\/silent"{})}}
+\DoxyCodeLine{125     \textcolor{comment}{\# chrome\_options.add\_argument("{}enable-\/features=NetworkServiceInProcess"{})}}
+\DoxyCodeLine{126      }
+\DoxyCodeLine{127     nav = webdriver.Chrome(options=chrome\_options)}
+\DoxyCodeLine{128     nav.set\_page\_load\_timeout(10)}
+\DoxyCodeLine{129     nav.get(url)}
+\DoxyCodeLine{130     }
+\DoxyCodeLine{131     \textcolor{comment}{\# Tempo de espera de 20 segundos para conclusão ou até mostrar todas classes de informações}}
+\DoxyCodeLine{132     wait = WebDriverWait (nav, 30)}
+\DoxyCodeLine{133     element = wait.until(EC.visibility\_of\_element\_located((By.XPATH, \textcolor{stringliteral}{'/html/body/div[1]/section[2]/main/article/div[3]'})))}
+\DoxyCodeLine{134     }
+\DoxyCodeLine{135     \textcolor{comment}{\# Informações a serem armazenadas:}}
+\DoxyCodeLine{136     \textcolor{comment}{\# data publicação}}
+\DoxyCodeLine{137     data\_publi = nav.find\_element(By.XPATH, \textcolor{stringliteral}{'//*[@id="{}wrapper-\/pesquisas"{}]/section[1]/div/div[1]/ul/li[1]'}).text}
+\DoxyCodeLine{138     }
+\DoxyCodeLine{139     \textcolor{comment}{\# salario}}
+\DoxyCodeLine{140     salario\_vg = nav.find\_element(By.XPATH, \textcolor{stringliteral}{'//*[@id="{}JobContent"{}]/article/header/div/ul/li[1]/div/span[2]'}).text}
+\DoxyCodeLine{141     }
+\DoxyCodeLine{142     \textcolor{comment}{\# localização}}
+\DoxyCodeLine{143     cidade\_vg = nav.find\_element(By.CLASS\_NAME, \textcolor{stringliteral}{'info-\/localizacao'}).text}
+\DoxyCodeLine{144     }
+\DoxyCodeLine{145     \textcolor{comment}{\# descrição}}
+\DoxyCodeLine{146     descr3\_vg = nav.find\_element(By.XPATH, \textcolor{stringliteral}{'//*[@id="{}JobContent"{}]/article/div[3]'}).text}
+\DoxyCodeLine{147     }
+\DoxyCodeLine{148     \textcolor{comment}{\# descrição da empresa}}
+\DoxyCodeLine{149     descr2\_vg = nav.find\_element(By.XPATH, \textcolor{stringliteral}{'//*[@id="{}JobContent"{}]/article/div[2]'}).text}
+\DoxyCodeLine{150     }
+\DoxyCodeLine{151     lista2.append((data\_publi, salario\_vg, cidade\_vg, descr3\_vg, descr2\_vg ))}
+\DoxyCodeLine{152     }
+\DoxyCodeLine{153     lista2 = pd.DataFrame(np.reshape(lista2, (1, 5)), columns = [\textcolor{stringliteral}{'data\_publi'}, \textcolor{stringliteral}{'salario\_vg'}, \textcolor{stringliteral}{'cidade\_vg'}, \textcolor{stringliteral}{'descr3\_vg'}, \textcolor{stringliteral}{'descr2\_vg'}])}
+\DoxyCodeLine{154     }
+\DoxyCodeLine{155     nav.close()}
+\DoxyCodeLine{156     }
+\DoxyCodeLine{157     \textcolor{keywordflow}{return} lista2}
+\DoxyCodeLine{158 }
+\DoxyCodeLine{159 \textcolor{comment}{\# PRIMEIRO vai ter salvo o df relacionado ao link das vagas}}
+\DoxyCodeLine{160 }
+\DoxyCodeLine{161 \textcolor{comment}{\# Link da página a ser aberta pelo navegador}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacews__script_a930d2760e8c0764d588bbbad83a5490f}\label{namespacews__script_a930d2760e8c0764d588bbbad83a5490f}} 
+\index{ws\_script@{ws\_script}!busca\_site\_vagas@{busca\_site\_vagas}}
+\index{busca\_site\_vagas@{busca\_site\_vagas}!ws\_script@{ws\_script}}
+\doxysubsubsection{\texorpdfstring{busca\_site\_vagas()}{busca\_site\_vagas()}}
+{\footnotesize\ttfamily def ws\+\_\+script.\+busca\+\_\+site\+\_\+vagas (\begin{DoxyParamCaption}\item[{}]{pag1,  }\item[{}]{cargos,  }\item[{}]{nr\+\_\+pag = {\ttfamily 2} }\end{DoxyParamCaption})}
+
+
+
+busca\+\_\+site\+\_\+vagas Função que fará a coleta dos anúncios de vagas resultantes da pesquisa ao cargo indicado. 
+
+
+\begin{DoxyEnumerate}
+\item Web Scraping site de vagas de emprego para busca\+: \href{https://www.vagas.com.br/}{\texttt{ https\+://www.\+vagas.\+com.\+br/}} 
+\end{DoxyEnumerate}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{50 \textcolor{keyword}{def }busca\_site\_vagas(pag1, cargos, nr\_pag=2):}
+\DoxyCodeLine{51 }
+\DoxyCodeLine{52     \textcolor{comment}{\# Abrindo a página selecionada no navegador.}}
+\DoxyCodeLine{53     chrome\_options = Options()}
+\DoxyCodeLine{54     chrome\_options.add\_argument(\textcolor{stringliteral}{'-\/-\/headless'})}
+\DoxyCodeLine{55     }
+\DoxyCodeLine{56     nav = webdriver.Chrome(options=chrome\_options)}
+\DoxyCodeLine{57     nav.set\_page\_load\_timeout(10)}
+\DoxyCodeLine{58     nav.get(pag1)}
+\DoxyCodeLine{59 }
+\DoxyCodeLine{60     \textcolor{comment}{\# preenche com o nome do cargo indicado, no campo para pesquisa.}}
+\DoxyCodeLine{61     nav.find\_element(By.XPATH,\textcolor{stringliteral}{'/html/body/header/section/div/form/input'}).send\_keys(cargos)}
+\DoxyCodeLine{62     nav.find\_element(By.XPATH,\textcolor{stringliteral}{'/html/body/header/section/div/form/input'}).send\_keys(Keys.ENTER)}
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64     \textcolor{comment}{\# Tempo de espera de 20 segundos para conclusão ou até mostrar todas classes 'cargo' do html.}}
+\DoxyCodeLine{65     wait = WebDriverWait (nav, 20)}
+\DoxyCodeLine{66     element = wait.until(EC.visibility\_of\_element\_located((By.CLASS\_NAME, \textcolor{stringliteral}{'cargo'})))}
+\DoxyCodeLine{67     }
+\DoxyCodeLine{68     \textcolor{comment}{\# Processo para mostrar mais vagas, clica o nr\_pag indicado, "{}abrir nova página"{}.}}
+\DoxyCodeLine{69     j=0}
+\DoxyCodeLine{70     \textcolor{keywordflow}{while} (j < nr\_pag):}
+\DoxyCodeLine{71         \textcolor{keywordflow}{try}:}
+\DoxyCodeLine{72             nav.find\_element(By.CSS\_SELECTOR, \textcolor{stringliteral}{'\#maisVagas'}).send\_keys(Keys.ENTER)}
+\DoxyCodeLine{73             time.sleep(2)  \textcolor{comment}{\# segundos}}
+\DoxyCodeLine{74             j = j+1}
+\DoxyCodeLine{75         \textcolor{keywordflow}{except}:}
+\DoxyCodeLine{76             \textcolor{keywordflow}{break}}
+\DoxyCodeLine{77     }
+\DoxyCodeLine{78     \textcolor{comment}{\# marca o cabeçalho de cada anuncio do resultado da busca.}}
+\DoxyCodeLine{79     lista\_geral = nav.find\_elements(By.CLASS\_NAME,\textcolor{stringliteral}{'informacoes-\/header'})}
+\DoxyCodeLine{80 }
+\DoxyCodeLine{81     lista\_vagas = []  \textcolor{comment}{\#lista que a função dará como resposta}}
+\DoxyCodeLine{82     }
+\DoxyCodeLine{83     \textcolor{comment}{\# para cada anúncio da página completa, pegará as seguintes informações:}}
+\DoxyCodeLine{84         \textcolor{comment}{\#  id, título, nome empresa, nível e link da vaga }}
+\DoxyCodeLine{85 }
+\DoxyCodeLine{86     \textcolor{keywordflow}{for} anuncio \textcolor{keywordflow}{in} lista\_geral:}
+\DoxyCodeLine{87         id\_vg = anuncio.find\_element(By.CLASS\_NAME, \textcolor{stringliteral}{'link-\/detalhes-\/vaga'}).get\_attribute(\textcolor{stringliteral}{'id'})}
+\DoxyCodeLine{88         tit\_vg = anuncio.find\_element(By.CLASS\_NAME, \textcolor{stringliteral}{'cargo'}).text}
+\DoxyCodeLine{89         empresa = anuncio.find\_element(By.CLASS\_NAME, \textcolor{stringliteral}{'emprVaga'}).text}
+\DoxyCodeLine{90         nivel\_vg = anuncio.find\_element(By.CLASS\_NAME, \textcolor{stringliteral}{'nivelVaga'}).text}
+\DoxyCodeLine{91         link\_vg = anuncio.find\_element(By.CLASS\_NAME, \textcolor{stringliteral}{'link-\/detalhes-\/vaga'}).get\_attribute(\textcolor{stringliteral}{'href'})}
+\DoxyCodeLine{92         lista\_vagas.append((id\_vg, tit\_vg, empresa, nivel\_vg, link\_vg))}
+\DoxyCodeLine{93         }
+\DoxyCodeLine{94     lista\_vagas\_vagas\_com = pd.DataFrame(lista\_vagas, columns=[\textcolor{stringliteral}{'id'}, \textcolor{stringliteral}{'titulo'},  \textcolor{stringliteral}{'empresa'}, \textcolor{stringliteral}{'nivel\_da\_vaga'}, \textcolor{stringliteral}{'link'}])}
+\DoxyCodeLine{95     \textcolor{keywordflow}{print} (len(lista\_vagas\_vagas\_com))}
+\DoxyCodeLine{96     lista\_vagas\_vagas\_com.to\_csv(\textcolor{stringliteral}{'Lista\_geral\_links.csv'})}
+\DoxyCodeLine{97     }
+\DoxyCodeLine{98     nav.close()}
+\DoxyCodeLine{99     }
+\DoxyCodeLine{100     \textcolor{keywordflow}{return} lista\_vagas\_vagas\_com}
+\DoxyCodeLine{101 }
+\DoxyCodeLine{102 \textcolor{comment}{\# SEGUNDA FUNÇAO}}
+\DoxyCodeLine{103 }
+
+\end{DoxyCode}
+
+
+\doxysubsection{Variáveis}
+\mbox{\Hypertarget{namespacews__script_aa7b8c45b85d38f447bf77e665731ef3e}\label{namespacews__script_aa7b8c45b85d38f447bf77e665731ef3e}} 
+\index{ws\_script@{ws\_script}!cargos@{cargos}}
+\index{cargos@{cargos}!ws\_script@{ws\_script}}
+\doxysubsubsection{\texorpdfstring{cargos}{cargos}}
+{\footnotesize\ttfamily list ws\+\_\+script.\+cargos = \mbox{[}\textquotesingle{}Analista de Dados\textquotesingle{}\mbox{]}}
+
+\mbox{\Hypertarget{namespacews__script_aa37ff7caac2757b881230d83532ae592}\label{namespacews__script_aa37ff7caac2757b881230d83532ae592}} 
+\index{ws\_script@{ws\_script}!df1@{df1}}
+\index{df1@{df1}!ws\_script@{ws\_script}}
+\doxysubsubsection{\texorpdfstring{df1}{df1}}
+{\footnotesize\ttfamily ws\+\_\+script.\+df1 = pd.\+Data\+Frame(np.\+reshape(list(df3.\+iloc\mbox{[}i,\+:\mbox{]}), (1, 6)), columns = \mbox{[}\textquotesingle{}index\textquotesingle{}, \textquotesingle{}id\textquotesingle{}, \textquotesingle{}titulo\textquotesingle{}, \textquotesingle{}empresa\textquotesingle{}, \textquotesingle{}nivel\+\_\+da\+\_\+vaga\textquotesingle{}, \textquotesingle{}link\textquotesingle{}\mbox{]})}
+
+\mbox{\Hypertarget{namespacews__script_a344be791b30866bc1e43d0f8ccd841a9}\label{namespacews__script_a344be791b30866bc1e43d0f8ccd841a9}} 
+\index{ws\_script@{ws\_script}!df3@{df3}}
+\index{df3@{df3}!ws\_script@{ws\_script}}
+\doxysubsubsection{\texorpdfstring{df3}{df3}}
+{\footnotesize\ttfamily ws\+\_\+script.\+df3 = \mbox{\hyperlink{namespacews__script_a930d2760e8c0764d588bbbad83a5490f}{busca\+\_\+site\+\_\+vagas}}(\mbox{\hyperlink{namespacews__script_ad7bceaf66f0c5f5be3e06811f3c2dd12}{pag1}}, \mbox{\hyperlink{namespacews__script_aa7b8c45b85d38f447bf77e665731ef3e}{cargos}}, \mbox{\hyperlink{namespacews__script_a1230571f616e3b30a72cfdc652f9e9f7}{nr\+\_\+pag}}=2)}
+
+\mbox{\Hypertarget{namespacews__script_a7e9a241cdc27cebb66a31634149c4337}\label{namespacews__script_a7e9a241cdc27cebb66a31634149c4337}} 
+\index{ws\_script@{ws\_script}!df\_desc@{df\_desc}}
+\index{df\_desc@{df\_desc}!ws\_script@{ws\_script}}
+\doxysubsubsection{\texorpdfstring{df\_desc}{df\_desc}}
+{\footnotesize\ttfamily def ws\+\_\+script.\+df\+\_\+desc = \mbox{\hyperlink{namespacews__script_a6167f6950a17d253d7ef1afd114faa98}{busca\+\_\+descr\+\_\+link}}(url)}
+
+\mbox{\Hypertarget{namespacews__script_ae13476036da8a6209b28c7190b88d7d9}\label{namespacews__script_ae13476036da8a6209b28c7190b88d7d9}} 
+\index{ws\_script@{ws\_script}!df\_total@{df\_total}}
+\index{df\_total@{df\_total}!ws\_script@{ws\_script}}
+\doxysubsubsection{\texorpdfstring{df\_total}{df\_total}}
+{\footnotesize\ttfamily ws\+\_\+script.\+df\+\_\+total = pd.\+concat(\mbox{[}\mbox{\hyperlink{namespacews__script_aa37ff7caac2757b881230d83532ae592}{df1}}, \mbox{\hyperlink{namespacews__script_a7e9a241cdc27cebb66a31634149c4337}{df\+\_\+desc}}\mbox{]}, axis= 1)}
+
+\mbox{\Hypertarget{namespacews__script_a1230571f616e3b30a72cfdc652f9e9f7}\label{namespacews__script_a1230571f616e3b30a72cfdc652f9e9f7}} 
+\index{ws\_script@{ws\_script}!nr\_pag@{nr\_pag}}
+\index{nr\_pag@{nr\_pag}!ws\_script@{ws\_script}}
+\doxysubsubsection{\texorpdfstring{nr\_pag}{nr\_pag}}
+{\footnotesize\ttfamily int ws\+\_\+script.\+nr\+\_\+pag = 2}
+
+\mbox{\Hypertarget{namespacews__script_ad7bceaf66f0c5f5be3e06811f3c2dd12}\label{namespacews__script_ad7bceaf66f0c5f5be3e06811f3c2dd12}} 
+\index{ws\_script@{ws\_script}!pag1@{pag1}}
+\index{pag1@{pag1}!ws\_script@{ws\_script}}
+\doxysubsubsection{\texorpdfstring{pag1}{pag1}}
+{\footnotesize\ttfamily string ws\+\_\+script.\+pag1 = \char`\"{}https\+://www.\+vagas.\+com.\+br/\char`\"{}}
+

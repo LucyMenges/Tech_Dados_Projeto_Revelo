@@ -1,0 +1,31 @@
+\hypertarget{ws__script_8py}{}\doxysection{Referência do Arquivo ws\+\_\+script.\+py}
+\label{ws__script_8py}\index{ws\_script.py@{ws\_script.py}}
+\doxysubsection*{\texorpdfstring{$<$}{<}em\texorpdfstring{$>$}{>}Namespaces\texorpdfstring{$<$}{<}/em\texorpdfstring{$>$}{>}}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespacews__script}{ws\+\_\+script}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespacews__script_a930d2760e8c0764d588bbbad83a5490f}{ws\+\_\+script.\+busca\+\_\+site\+\_\+vagas}} (pag1, cargos, nr\+\_\+pag=2)
+\begin{DoxyCompactList}\small\item\em busca\+\_\+site\+\_\+vagas Função que fará a coleta dos anúncios de vagas resultantes da pesquisa ao cargo indicado. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespacews__script_a6167f6950a17d253d7ef1afd114faa98}{ws\+\_\+script.\+busca\+\_\+descr\+\_\+link}} (url)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variáveis}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{namespacews__script_ad7bceaf66f0c5f5be3e06811f3c2dd12}{ws\+\_\+script.\+pag1}} = \char`\"{}https\+://www.\+vagas.\+com.\+br/\char`\"{}
+\item 
+list \mbox{\hyperlink{namespacews__script_aa7b8c45b85d38f447bf77e665731ef3e}{ws\+\_\+script.\+cargos}} = \mbox{[}\textquotesingle{}Analista de Dados\textquotesingle{}\mbox{]}
+\item 
+int \mbox{\hyperlink{namespacews__script_a1230571f616e3b30a72cfdc652f9e9f7}{ws\+\_\+script.\+nr\+\_\+pag}} = 2
+\item 
+def \mbox{\hyperlink{namespacews__script_a344be791b30866bc1e43d0f8ccd841a9}{ws\+\_\+script.\+df3}} = busca\+\_\+site\+\_\+vagas(pag1, cargos, nr\+\_\+pag=2)
+\item 
+def \mbox{\hyperlink{namespacews__script_a7e9a241cdc27cebb66a31634149c4337}{ws\+\_\+script.\+df\+\_\+desc}} = busca\+\_\+descr\+\_\+link(url)
+\item 
+\mbox{\hyperlink{namespacews__script_aa37ff7caac2757b881230d83532ae592}{ws\+\_\+script.\+df1}} = pd.\+Data\+Frame(np.\+reshape(list(df3.\+iloc\mbox{[}i,\+:\mbox{]}), (1, 6)), columns = \mbox{[}\textquotesingle{}index\textquotesingle{}, \textquotesingle{}id\textquotesingle{}, \textquotesingle{}titulo\textquotesingle{}, \textquotesingle{}empresa\textquotesingle{}, \textquotesingle{}nivel\+\_\+da\+\_\+vaga\textquotesingle{}, \textquotesingle{}link\textquotesingle{}\mbox{]})
+\item 
+\mbox{\hyperlink{namespacews__script_ae13476036da8a6209b28c7190b88d7d9}{ws\+\_\+script.\+df\+\_\+total}} = pd.\+concat(\mbox{[}df1, df\+\_\+desc\mbox{]}, axis= 1)
+\end{DoxyCompactItemize}

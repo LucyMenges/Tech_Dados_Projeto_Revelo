@@ -1,0 +1,41 @@
+\hypertarget{namespacegt__script}{}\doxysection{Refência do Namespace gt\+\_\+script}
+\label{namespacegt__script}\index{gt\_script@{gt\_script}}
+\doxysubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespacegt__script_a0951610271f77358bdb1071b6eb275ab}{check\+\_\+trends}} (kw, cat, timeframe, geo, gprop, resolution, inc\+\_\+low\+\_\+vol, inc\+\_\+geo\+\_\+code)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variáveis}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespacegt__script_a391bc5103bd677265da96a30172aeda1}{pytrends}} = Trend\+Req(hl=\textquotesingle{}pt-\/BR\textquotesingle{}, timeout=(15, 30), retries=2)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Funções}
+\mbox{\Hypertarget{namespacegt__script_a0951610271f77358bdb1071b6eb275ab}\label{namespacegt__script_a0951610271f77358bdb1071b6eb275ab}} 
+\index{gt\_script@{gt\_script}!check\_trends@{check\_trends}}
+\index{check\_trends@{check\_trends}!gt\_script@{gt\_script}}
+\doxysubsubsection{\texorpdfstring{check\_trends()}{check\_trends()}}
+{\footnotesize\ttfamily def gt\+\_\+script.\+check\+\_\+trends (\begin{DoxyParamCaption}\item[{}]{kw,  }\item[{}]{cat,  }\item[{}]{timeframe,  }\item[{}]{geo,  }\item[{}]{gprop,  }\item[{}]{resolution,  }\item[{}]{inc\+\_\+low\+\_\+vol,  }\item[{}]{inc\+\_\+geo\+\_\+code }\end{DoxyParamCaption})}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{38 \textcolor{keyword}{def }check\_trends(kw, cat, timeframe, geo, gprop, resolution, inc\_low\_vol, inc\_geo\_code):}
+\DoxyCodeLine{39     pytrends.build\_payload([kw], cat, timeframe, geo, gprop)}
+\DoxyCodeLine{40     data\_it = pytrends.interest\_over\_time()}
+\DoxyCodeLine{41     data\_ir = pytrends.interest\_by\_region(resolution, inc\_low\_vol, inc\_geo\_code)}
+\DoxyCodeLine{42     data\_rt = pytrends.related\_topics()}
+\DoxyCodeLine{43     }
+\DoxyCodeLine{44     \textcolor{keywordflow}{return} data\_it, data\_ir, data\_rt}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Variáveis}
+\mbox{\Hypertarget{namespacegt__script_a391bc5103bd677265da96a30172aeda1}\label{namespacegt__script_a391bc5103bd677265da96a30172aeda1}} 
+\index{gt\_script@{gt\_script}!pytrends@{pytrends}}
+\index{pytrends@{pytrends}!gt\_script@{gt\_script}}
+\doxysubsubsection{\texorpdfstring{pytrends}{pytrends}}
+{\footnotesize\ttfamily gt\+\_\+script.\+pytrends = Trend\+Req(hl=\textquotesingle{}pt-\/BR\textquotesingle{}, timeout=(15, 30), retries=2)}
+
