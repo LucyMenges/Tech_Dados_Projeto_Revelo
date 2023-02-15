@@ -33,10 +33,10 @@ Descrição do Github:
 * df_total_descr_Apresentacao.pbix: Visualização dos dados resultantes após o Web scrapping e busca no Google Trends.
 * Slides Apresentação Scrum Review 3.pdf: Slides da apresentação das conclusões do projeto. <br /><br />
 
-* ws_script.py: Script com as duas funções criadas para o web scrapping no site de anúncio de vagas (Fase 1)
-* keywords.py: Script para filtrar e coletar as palavras-chave mais utilizadas nas descrições de vagas (Fase 2)
-* gt_script.py: Modulo para utilizar a lib PyTrends e agrupar metodos para analisar palavras-chave no Google Trends (Fase 3)
-* gt_app.py: Aplicação do módulo "gt_script.py" para as palavras selecionadas como Ferramentas e Habilidades (Fase 3)
+* ws_script.py: Script com as duas funções criadas para o web scrapping no site de anúncio de vagas (Fase 1). Criado por Luciana Menges.
+* keywords.py: Script para filtrar e coletar as palavras-chave mais utilizadas nas descrições de vagas (Fase 2). Criado por Wilsner Sakimoto.
+* gt_script.py: Modulo para utilizar a lib PyTrends e agrupar metodos para analisar palavras-chave no Google Trends (Fase 3). Criado por Raphael Céspedes.
+* gt_app.py: Aplicação do módulo "gt_script.py" para as palavras selecionadas como Ferramentas e Habilidades (Fase 3). Criado por Raphael Céspedes.
 * une_conjuntos.py: Modulo para unir as listas das pastas "data_Habilidades" e "data_Ferramentas".<br /><br />
 
 * df_total_descr2.csv: Lista única com todas as informações das vagas salvas na pasta "Arquivos csv Detalhes Vaga"
